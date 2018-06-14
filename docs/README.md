@@ -2,4 +2,4 @@
 
 > An awesome project.
 
-<iframe url="http://CircuitVerse.org" width="600" height="400"></iframe>
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/731" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
