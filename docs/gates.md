@@ -2,6 +2,7 @@
 This guide will teach you how to use the standard gates in CircuitVerse. It will also explain the way the gates work. The guide will explain how to customize and gate in detail. Other gates have a similar customization.
 
 Contributing Authors: [@satu0king](https://github.com/satu0king/)
+                      [@brahmakulkarni](https://github.com/brahmakulkarni)
 
 ## And Gate
 This gate gives output HIGH only if all input values are HIGH.
@@ -56,3 +57,18 @@ Not Gate Truth Table
 
 Simple Not Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/738" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Xor Gate
+This gate gives a HIGH output only if both inputs aren't the same.
+
+Xor Gate Truth Table
+
+| Input 1 | Input 2 | Output |
+|---------|---------|--------|
+| 0       | 0       | 0      |
+| 0       | 1       | 1      |
+| 1       | 0       | 1      |
+| 1       | 1       | 0      |
+
+Simple Xor Gate
+<iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/740" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
