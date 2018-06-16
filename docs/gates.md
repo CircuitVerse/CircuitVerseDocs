@@ -5,7 +5,7 @@ Contributing Authors: [@satu0king](https://github.com/satu0king/)
                       [@brahmakulkarni](https://github.com/brahmakulkarni)
 
 ## And Gate
-This gate gives output HIGH only if all input values are HIGH.
+This gate gives a HIGH output only if all input values are HIGH.
 
 And Gate Truth Table
 
@@ -20,7 +20,7 @@ Simple And Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/734" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 Multi Input And Gate
-You can change the number if inputs in the Property Menu.
+You can change the number of inputs in the Property Menu.
 
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/735" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
@@ -30,7 +30,7 @@ You can change the bitwidth in the Property Menu.
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/736" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Or Gate
-This gate gives output HIGH only if any of the input values are HIGH.
+This gate gives a HIGH output only if any of the input values are HIGH.
 
 And Gate Truth Table
 
@@ -45,7 +45,7 @@ Simple Or Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/737" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Not Gate
-This gate gives Invert the input. It is also known as invertor.
+This gate simply inverts the input. It is also known as an inverter.
 
 Not Gate Truth Table
 
@@ -71,5 +71,19 @@ Xor Gate Truth Table
 | 1       | 1       | 0      |
 
 Simple Xor Gate
-<!-- <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/740" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe> -->
-<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/740" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+<iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/740" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Nand Gate
+This gate gives the inverted output of an And gate.
+
+Nand Gate Truth table
+
+| Input 1 | Input 2 | Output |
+|---------|---------|--------|
+| 0       | 0       | 1      |
+| 0       | 1       | 1      |
+| 1       | 0       | 1      |
+| 1       | 1       | 0      |
+
+Simple Nand Gate
+<iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/741" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
