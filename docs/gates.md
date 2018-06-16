@@ -1,5 +1,5 @@
 # Standard Gates
-This guide will teach you how to use the standard gates in CircuitVerse. It will also explain the way the gates work. The guide will explain how to customize and gate in detail. Other gates have a similar customization.
+This guide will teach you how to use the standard gates in CircuitVerse. It will also explain the way the gates work. The guide will explain how to customize And gate in detail. Other gates have a similar customization.
 
 Contributing Authors: [@satu0king](https://github.com/satu0king/)
                       [@brahmakulkarni](https://github.com/brahmakulkarni)
@@ -101,4 +101,19 @@ Two-input Nor Gate Truth Table
 | 1       | 1       | 0      |
 
 Simple two-input Nor Gate
-<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/742" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+<iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/742" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## XNor Gate
+This gate gives the inverted output of an Xor gate. In other words, it only gives a HIGH output if both the inputs are the same.
+
+Two-input XNor Gate Truth Table
+
+| Input 1 | Input 2 | Output |
+|---------|---------|--------|
+| 0       | 0       | 1      |
+| 0       | 1       | 0      |
+| 1       | 0       | 0      |
+| 1       | 1       | 1      |
+
+Simple two-input XNor Gate
+<iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/743" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe> 
