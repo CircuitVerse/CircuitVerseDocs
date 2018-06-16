@@ -71,4 +71,5 @@ Xor Gate Truth Table
 | 1       | 1       | 0      |
 
 Simple Xor Gate
-<iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/740" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+<!-- <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/740" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe> -->
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/740" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
