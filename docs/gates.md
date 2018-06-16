@@ -7,7 +7,7 @@ Contributing Authors: [@satu0king](https://github.com/satu0king/)
 ## And Gate
 This gate gives a HIGH output only if all input values are HIGH.
 
-And Gate Truth Table
+Two-input And Gate Truth Table
 
 | Input 1 | Input 2 | Output |
 |---------|---------|--------|
@@ -16,7 +16,7 @@ And Gate Truth Table
 | 1       | 0       | 0      |
 | 1       | 1       | 1      |
 
-Simple And Gate
+Simple two-input And Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/734" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 Multi Input And Gate
@@ -32,7 +32,7 @@ You can change the bitwidth in the Property Menu.
 ## Or Gate
 This gate gives a HIGH output only if any of the input values are HIGH.
 
-And Gate Truth Table
+Two-input Or Gate Truth Table
 
 | Input 1 | Input 2 | Output |
 |---------|---------|--------|
@@ -41,7 +41,7 @@ And Gate Truth Table
 | 1       | 0       | 1      |
 | 1       | 1       | 1      |
 
-Simple Or Gate
+Simple two-input Or Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/737" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Not Gate
@@ -61,7 +61,7 @@ Simple Not Gate
 ## Xor Gate
 This gate gives a HIGH output only if both inputs aren't the same.
 
-Xor Gate Truth Table
+Two-input Xor Gate Truth Table
 
 | Input 1 | Input 2 | Output |
 |---------|---------|--------|
@@ -70,13 +70,13 @@ Xor Gate Truth Table
 | 1       | 0       | 1      |
 | 1       | 1       | 0      |
 
-Simple Xor Gate
+Simple two-input Xor Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/740" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Nand Gate
-This gate gives the inverted output of an And gate.
+This gate gives the inverted output of an And gate. In other words, it only gives a LOW output when all inputs are HIGH.
 
-Nand Gate Truth table
+Two-input Nand Gate Truth table
 
 | Input 1 | Input 2 | Output |
 |---------|---------|--------|
@@ -85,5 +85,20 @@ Nand Gate Truth table
 | 1       | 0       | 1      |
 | 1       | 1       | 0      |
 
-Simple Nand Gate
+Simple two-input Nand Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/741" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Nor Gate
+This gate gives the inverted output of an Or gate. In other words, it only gives a HIGH output when all the inputs are LOW.
+
+Two-input Nor Gate Truth Table
+
+| Input 1 | Input 2 | Output |
+|---------|---------|--------|
+| 0       | 0       | 1      |
+| 0       | 1       | 0      |
+| 1       | 0       | 0      |
+| 1       | 1       | 0      |
+
+Simple two-input Nor Gate
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/742" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
