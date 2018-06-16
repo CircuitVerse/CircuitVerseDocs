@@ -21,6 +21,6 @@ Hold down shift key and drag to make a selection
 
 ## Property Menu
 
-[filename](/video/multiselectionDrag.mp4 ':include :type=video')
+[filename](/video/properties.mp4 ':include :type=video')
 
 Select the object to see and change its properties.
