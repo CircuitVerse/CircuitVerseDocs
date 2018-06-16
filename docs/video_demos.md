@@ -8,4 +8,4 @@
 
 ## 7 Segment Decoder on CircuitVerse by Ram S
 
-<p style="text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/EqxCBW0lMVQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
+<p style="text-align:center"><iframe width="600" height="400" src="https://www.youtube.com/embed/EqxCBW0lMVQ" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></p>
