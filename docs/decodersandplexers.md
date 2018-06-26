@@ -77,3 +77,17 @@ Consider a priority encoder with four single-bit inputs (T3, T2, T1 and T0 from 
 |    1    |    X    |    X    |    X    |    1    |    1    |
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/762" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Decoder
+The decoder with N input bits has 2^N output lines. Suppose the value of the input is X, the Xth output line is made high.
+
+Consider a decoder with a single two-bit input (T1 and T0 from most to least-significant bit) and four single-bit output lines (O4, O3, O2 and O1 from most to least-significant bit). The truth table is given below:
+
+|   T1    |   T0    |   O4    |   O3    |   O2    |   O1    |
+|---------|---------|---------|---------|---------|---------|
+|    0    |    0    |    0    |    0    |    0    |    1    |
+|    0    |    1    |    0    |    0    |    1    |    0    |
+|    1    |    0    |    0    |    1    |    0    |    0    |
+|    1    |    1    |    1    |    0    |    0    |    0    |
+
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/763" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
