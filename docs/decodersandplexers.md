@@ -5,7 +5,7 @@
 Contributing Authors: [@brahmakulkarni](https://github.com/brahmakulkarni)
 
 ## Multiplexer
-A multiplexer is used to selectively pass only one of the inputs provided to it. This is done using a control signal. The number of inputs are always a power of 2. If there are 'N' control bits, then there can be a maximum of 2^N inputs.
+A multiplexer is used to selectively pass only one of the inputs provided to it. This is done using a control signal. The number of inputs are always a power of 2. If there are N control bits, then there can be a maximum of 2^N inputs.
 
 Consider a simple multiplexer that takes two single-bit inputs (T1 and T2), a single-bit control signal (S) and has an output (Out). The truth table is given below:
 
@@ -22,7 +22,7 @@ Here is another example where there are 4 three-bit inputs and a two-bit control
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/747" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Demultiplexer
-A demultiplexer takes an input and passes it to only one of outputs. This is done using a control signal. The number of outputs is always a power of 2. If there are 'N' control bits, we can choose to pass the output to any one of the 2^N output lines.
+A demultiplexer takes an input and passes it to only one of outputs. This is done using a control signal. The number of outputs is always a power of 2. If there are N control bits, we can choose to pass the output to any one of the 2^N output lines.
 
 Consider a simple demultiplexer that takes a single-bit input (T), a single-bit control signal (S) and two single-bit outputs (O1 and O2). The truth table is given below:
 
@@ -63,3 +63,17 @@ The LSB delector gives as output the bit position of the least-significant-bit o
 
 Consider an LSB delector with a four-bit input. It's live circuit is embeded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/761" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Priority Encoder
+The priority encoder provided by Circuitverse works in a simmilar fashion to the MSB detector (in practise it can work like the LSB detector also). There is a specific output based on the bit position of the MSB, irrespective of the lesser significant bits. AN enable input is also provided to activate/deactivate the priority encoder. If there are N outputs, there will be 2^N inputs.
+
+Consider a priority encoder with four single-bit inputs (T3, T2, T1 and T0 from most to least-significant bit) and two single-bit outputs (O2 and O1 from most to least-significant bit). The truth table is given below:
+
+|   T3    |   T2    |   T1    |   T0    |   O2    |   O1    |
+|---------|---------|---------|---------|---------|---------|
+|    0    |    0    |    0    |    1    |    0    |    0    |     
+|    0    |    0    |    1    |    X    |    0    |    1    |
+|    0    |    1    |    X    |    X    |    1    |    0    |
+|    1    |    X    |    X    |    X    |    1    |    1    |
+
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/762" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
