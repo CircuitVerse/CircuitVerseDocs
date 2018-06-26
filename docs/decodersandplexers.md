@@ -39,7 +39,7 @@ Here is another example where a 3 bit input is taken and a two-bit control signa
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/757" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Bit-selector
-A bit-selector's function is self-explanatory. It takes a single or multi-bit input and gives the bit we desire to isolate as output. This is done using a single or multi-bit select line. The select line value indicates the specific bit we wish to isolate.
+A bit-selector's function is self-explanatory. It takes a single or multi-bit input and gives the bit we desire to isolate as output. This is done using a single or multi-bit select line. The select line value indicates the specific bit we wish to isolate. An added feature is the bit-selctor shows the bit we want to isolate (as chosen using the select line) within it's body in decimal form.
 
 Consider a bit selector with a four-bit input. Let each of it's bits be addressed separately as T3, T2, T1, T0 (from most significant to least significant). Let it have a two-bit select line (S1 and S0) and a single-bit output (Out). The truth table is given below:
 
@@ -51,3 +51,9 @@ Consider a bit selector with a four-bit input. Let each of it's bits be addresse
 |    1    |    1    |    T3   |
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/758" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Most Significant Bit (MSB) Selector
+The MSB selector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable input is also provided to activate/deactivate the MSB selector. The bit position of the MSB is also shown in decimal form within the body of the MSB selector
+
+Consider an MSB selector with a four-bit input. It's live circuit is embeded below.
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/759" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
