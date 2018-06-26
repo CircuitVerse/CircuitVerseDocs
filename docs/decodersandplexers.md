@@ -52,8 +52,14 @@ Consider a bit selector with a four-bit input. Let each of it's bits be addresse
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/758" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
-## Most Significant Bit (MSB) Selector
-The MSB selector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable input is also provided to activate/deactivate the MSB selector. The bit position of the MSB is also shown in decimal form within the body of the MSB selector
+## Most Significant Bit (MSB) Delector
+The MSB delector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable input is also provided to activate/deactivate the MSB delector. The bit position of the MSB is also shown in decimal form within the body of the MSB delector.
 
-Consider an MSB selector with a four-bit input. It's live circuit is embeded below.
+Consider an MSB delector with a four-bit input. It's live circuit is embeded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/759" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Least Significant Bit (LSB) Delector
+The LSB delector gives as output the bit position of the least-significant-bit of the input. In other words, it tells us at which bit position the left-most one is located. An enable input is also provided to activate/deactivate the LSB delector. The bit position of the LSB is also shown in decimal form within the body of the LSB delector.
+
+Consider an LSB delector with a four-bit input. It's live circuit is embeded below:
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/761" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
