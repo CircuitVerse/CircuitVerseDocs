@@ -37,3 +37,17 @@ Using the property menu (as shown in the getting started section) we can pass mu
 
 Here is another example where a 3 bit input is taken and a two-bit control signal:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/757" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Bit-selector
+A bit-selector's function is self-explanatory. It takes a single or multi-bit input and gives the bit we desire to isolate as output. This is done using a single or multi-bit select line. The select line value indicates the specific bit we wish to isolate.
+
+Consider a bit selector with a four-bit input. Let each of it's bits be addressed separately as T3, T2, T1, T0 (from most significant to least significant). Let it have a two-bit select line (S1 and S0) and a single-bit output (Out). The truth table is given below:
+
+|    S1   |    S0   |   Out   |   
+|---------|---------|---------|
+|    0    |    0    |    T0   |
+|    0    |    1    |    T1   |
+|    1    |    0    |    T2   |
+|    1    |    1    |    T3   |
+
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/758" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
