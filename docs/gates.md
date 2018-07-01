@@ -1,5 +1,6 @@
 # Standard Gates
-This guide will teach you how to use the standard gates in CircuitVerse. It will also explain the way the gates work. The guide will explain how to customize And gate in detail. Other gates have a similar customization.
+
+> This guide will teach you how to use the standard gates in CircuitVerse. It will also explain the way the gates work. The guide will explain how to customize an 'And' gate in detail. Other gates have a similar customization.
 
 Contributing Authors: [@satu0king](https://github.com/satu0king/)
                       [@brahmakulkarni](https://github.com/brahmakulkarni)
@@ -116,4 +117,4 @@ Two-input XNor Gate Truth Table
 | 1       | 1       | 1      |
 
 Simple two-input XNor Gate
-<iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/743" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe> 
+<iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/743" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
