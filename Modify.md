@@ -1,4 +1,4 @@
-# Modifcation and Configuration of Circuit Elements
+# Modification and Configuration of Circuit Elements
 
 > CircuitVerse tries to be as flexible as possible and allows the user to heavily customize their elements.
 
