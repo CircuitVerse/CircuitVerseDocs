@@ -2,12 +2,19 @@
 <html lang="en">
 
 <head>
-	<meta charset="UTF-8">
+	<!-- Defines the character encoding and language -->
+	<meta charset="UTF-8" lang="en">
 	<title>CircuitVerse Docs</title>
+	<!-- Provides HTTP header for the information/value of the content attribute -->
 	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-	<meta name="description" content="Description">
+	<!-- Define a description of the code -->
+	<meta name="description" content="CircuitVerse Documentation">
+	<!-- Defines keywords for search engines -->
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<!-- Viewport: Controls dimensions and scaling  -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-	<link rel="stylesheet" href="//unpkg.com/docsify/lib/themes/vue.css">
+	<!--  CSS Stylesheet -->
+	<link rel="stylesheet" type="text/css" href="//unpkg.com/docsify/lib/themes/vue.css">
 </head>
 
 <body>
@@ -16,10 +23,10 @@
 	<script>
 		window.$docsify = {
 			name: 'CircuitVerse Documentation',
-			repo: 'https://github.com/satu0king/CircuitVerseDocs/',
+			repo: 'https://github.com/CircuitVerse/CircuitVerseDocs/',
 
 			plugins: [
-				EditOnGithubPlugin.create('https://github.com/satu0king/CircuitVerseDocs/blob/master/'),
+				EditOnGithubPlugin.create('https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/'),
 			],
 			loadSidebar: true,
 			maxLevel: 4,
@@ -29,6 +36,7 @@
 			}
 		}
 	</script>
+	<!-- Docsify javascript plugins -->
 	<script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
@@ -41,5 +49,4 @@
 
   gtag('config', 'UA-112678513-2');
 </script>
-
 </html>
