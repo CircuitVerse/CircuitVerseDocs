@@ -6,6 +6,7 @@ Contributing Authors: [@satu0king](https://github.com/satu0king/)
                       [@brahmakulkarni](https://github.com/brahmakulkarni)
 
 ## And Gate
+
 This gate gives a HIGH output only if all input values are HIGH.
 
 Two-input And Gate Truth Table
@@ -31,6 +32,7 @@ You can change the bitwidth in the Property Menu.
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/736" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Or Gate
+
 This gate gives a HIGH output only if any of the input values are HIGH.
 
 Two-input Or Gate Truth Table
@@ -46,6 +48,7 @@ Simple two-input Or Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/737" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Not Gate
+
 This gate simply inverts the input. It is also known as an inverter.
 
 Not Gate Truth Table
@@ -55,11 +58,11 @@ Not Gate Truth Table
 | 0       | 1      |
 | 1       | 0      |
 
-
 Simple Not Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/738" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Xor Gate
+
 This gate gives a HIGH output only if both inputs aren't the same.
 
 Two-input Xor Gate Truth Table
@@ -75,6 +78,7 @@ Simple two-input Xor Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/740" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Nand Gate
+
 This gate gives the inverted output of an And gate. In other words, it only gives a LOW output when all inputs are HIGH.
 
 Two-input Nand Gate Truth table
@@ -90,6 +94,7 @@ Simple two-input Nand Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/741" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Nor Gate
+
 This gate gives the inverted output of an Or gate. In other words, it only gives a HIGH output when all the inputs are LOW.
 
 Two-input Nor Gate Truth Table
@@ -105,6 +110,7 @@ Simple two-input Nor Gate
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/742" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## XNor Gate
+
 This gate gives the inverted output of an Xor gate. In other words, it only gives a HIGH output if both the inputs are the same.
 
 Two-input XNor Gate Truth Table
@@ -117,4 +123,5 @@ Two-input XNor Gate Truth Table
 | 1       | 1       | 1      |
 
 Simple two-input XNor Gate
+
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/743" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
