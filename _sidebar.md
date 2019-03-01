@@ -9,3 +9,4 @@
   * [Standard Gates](gates.md)
   * [Decoders and Plexers](decodersandplexers.md)
   * [Splitter](splitter.md)
+  * [Input Elements](inputElements.md)
