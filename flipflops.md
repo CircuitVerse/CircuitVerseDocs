@@ -1,6 +1,6 @@
-                                                            Use Of FlipFlops
+                                                            # Use Of FlipFlops
 
-What is a Flip Flop Circuit?
+## What is a Flip Flop Circuit?
 
 The designing of the flip flop circuit can be done by using logic gates such as two NAND and NOR gates. Each flip flop consists of two inputs and two outputs, namely set and reset, Q and Q’. This kind of flip flop is stated to as an SR flip flop or SR latch.
 
@@ -9,7 +9,7 @@ The FF includes two states shown in the following figure. When Q=1 andQ’=0 the
 When the input 1 is applied to the flip flop, both the outputs of the FF go to 0, so both the o/p’ s are complements of each other. In a regular operation, this ailment must be neglected by making sure that ones are not applied to both the inputs concurrently
 
 
-Types of Flip Flops
+### Types of Flip Flops
 
 Flip flop circuits are classified into four types based on its use, namely D-Flip Flop, T- Flip Flop, SR- Flip Flop and JK- Flip Flop.
 SR-Flip Flop
@@ -31,7 +31,7 @@ JK Flip Flop
     When J=K=0, the CLK has no effect on the o/p and the o/p of the FF is similar as its previous value. This is because when both the J &K are 0, the o/p of their particular AND gate becomes 0.
     When J=0, K=1, the o/p of the AND gate is equivalent to J becomes 0 that is, S=0 and R=1 thus Q’ becomes 0. This condition will change the FF. This signifies the RESET state of FF.
 
-T Flip Flop
+### T Flip Flop
 
 The T-flip flop or toggle flip flop is a single i/p version of the JK-flip flop. The working of this FF is as follows: When the input of the T is ‘0’ such that the ‘T’ will make the next state that is similar as the current state. That means, when the input of the T-FF is 0 then the present state and the next state will be 0. However, if the i/p of the T is 1 then the present state is inverse to the next state. That means, when T=1, then the present state =0 and next state =1)
 T Flip Flop
