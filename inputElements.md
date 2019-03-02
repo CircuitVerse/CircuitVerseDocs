@@ -2,6 +2,8 @@
 
 >This Guide will help you to understand the input elements in the CircutVerse [simulator](https://circuitverse.org/simulator) and their usage.
 
+Contributing Authors: [@Kedar-K](https://github.com/Kedar-K)
+
 ## contents
 
 * [Getting started](#getting-started)
@@ -11,7 +13,6 @@
 * [Ground](#ground)
 * [Constantval](#constantval)
 * [Stepper](#stepper)
-
 
 ## Getting Started
 
@@ -56,11 +57,11 @@ You can see in the above example that the power is connected to the LED, hence i
 
  Occasionally, particularly in AC power distribution and some radio antenna systems, it does mean "a connection to the earth".
 
-However, in most electronics, particularly portable battery-operated devices, "ground" is just the point in the circuit that the designer chose to call "zero volts" and to use as a reference when measuring voltages elsewhere in the circuit. Hence it is just simillar to the power but always Low(0).
+However, in most electronics, particularly portable battery-operated devices, "ground" is just the point in the circuit that the designer chose to call "zero volts" and to use as a reference when measuring voltages elsewhere in the circuit. Hence it is just similar to the power but always Low(0).
 
 ## ConstantVal
 
-You can use the ConstantVal component when you want to input some constants of your choice instead of 0 and 1 by dragging and dropping it on the board.You can change the value of this component by double clicking on it which gives you dialog box with input section in it where you can enter your constants.
+You can use the ConstantVal component when you want to input some constants of your choice instead of 0 and 1 by dragging and dropping it on the board. You can change the value of this component by double-clicking on it which gives you a dialog box with an input section in it where you can enter your constants.
 
 <div>
     <iframe width="500px" height="400px" src="https://circuitverse.org/simulator/embed/9470" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
@@ -70,6 +71,6 @@ You can manipulate the above example to see the difference between the Input and
 
 ## Stepper
 
-The stepper can be used by deagging and dropping the component as shown [above](#getting-started).
+The stepper can be used by dragging and dropping the component as shown [above](#getting-started).
 
 Once you drag and drop the element then the value of the stepper can be changed by selecting the component by clicking on it and press (+) or (-) on your keyboard to increase or decrease the value.
