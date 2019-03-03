@@ -45,8 +45,16 @@ Next time you contribute, fork again. That way you’ll always have a fresh copy
     Check that you are using valid restructured text.
 
 
+## Testing the Documentation
 
-
+ You can use various extensions in your favourite Code Editor like Visual Studio Code Editor and following are the 
+ various types of Extensions you can use to test the CircuitVerse Docs offline :
+ 
+ 1. Live Server
+ 2. Live Sass Compiler
+ 3. Javascript Code Snippets
+ 4. NPM
+You can manually test the docs by using a 'python3 -m http.server' .
 
 
 
