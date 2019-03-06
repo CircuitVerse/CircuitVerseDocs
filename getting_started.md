@@ -24,3 +24,6 @@ Hold down shift key and drag to make a selection
 [filename](/video/properties.mp4 ':include :type=video')
 
 Select the object to see and change its properties.
+
+## Contributors.md
+
