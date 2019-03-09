@@ -8,7 +8,7 @@ Contributing Authors: [@brahmakulkarni](https://github.com/brahmakulkarni)
 
 A multiplexer is used to selectively pass only one of the inputs provided to it. This is done using a control signal. The number of inputs are always a power of 2. If there are N control bits, then there can be a maximum of 2^N inputs.
 
-Consider a simple multiplexer that takes two single-bit inputs (T1 and T2), a single-bit control signal (S) and has an output (Out). The truth table is given below:
+Consider a simple multiplexer that takes two single-bit inputs (T1 and T2), a single-bit control signal (S) and has an output (Out). This Type of multiplexer is known as a 2 to 1 multiplexer. The truth table is given below:
 
 |    S    |   Out   |
 |---------|---------|
@@ -19,14 +19,21 @@ Consider a simple multiplexer that takes two single-bit inputs (T1 and T2), a si
 
 Using the property menu (as shown in the getting started section) we can pass multi-bit inputs and also increase or decrease the number of inputs that can be given to the multiplexer.
 
-Here is another example where there are 4 three-bit inputs and a two-bit control signal:
+Here is example where there are 4 three-bit inputs and a two-bit control signal or a 4 to 1 multiplexer. The truth table is given below:
+
+|    S1   |    S0   |    Out    |
+|---------|---------|-----------|
+|    0    |    0    |    T1     |
+|    0    |    1    |    T2     |
+|    1    |    0    |    T3     |
+|    1    |    1    |    T4     |
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/747" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Demultiplexer
 
 A demultiplexer takes an input and passes it to only one of outputs. This is done using a control signal. The number of outputs is always a power of 2. If there are N control bits, we can choose to pass the output to any one of the 2^N output lines.
 
-Consider a simple demultiplexer that takes a single-bit input (T), a single-bit control signal (S) and two single-bit outputs (O1 and O2). The truth table is given below:
+Consider a simple demultiplexer that takes a single-bit input (T), a single-bit control signal (S) and two single-bit outputs (O1 and O2).This type of demultiplexer is called a 1 to 2 demultiplexer. The truth table is given below:
 
 |    S    |    O1   |    O2   |
 |---------|---------|---------|
@@ -37,7 +44,15 @@ Consider a simple demultiplexer that takes a single-bit input (T), a single-bit 
 
 Using the property menu (as shown in the getting started section) we can pass multi-bit inputs and also increase or decrease the number of outputs by changing the number of bits we want the control signal to have.
 
-Here is another example where a 3 bit input is taken and a two-bit control signal:
+Here is another example of demultiplexer where a 3 bit input is taken and a two-bit control signal or a 1 to 4 demultiplexer. The truth table is given below:
+
+|    S1   |    S0   |    O1   |    O2   |    O3   |    O4   |   
+|---------|---------|---------|---------|---------|---------|
+|    0    |    0    |    T    |    0    |    0    |    0    |
+|    0    |    1    |    0    |    T    |    0    |    0    |
+|    1    |    0    |    0    |    0    |    T    |    0    |
+|    1    |    1    |    0    |    0    |    0    |    T    |
+
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/757" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Bit-selector
