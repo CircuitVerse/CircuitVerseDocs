@@ -38,6 +38,8 @@ Consider a simple demultiplexer that takes a single-bit input (T), a single-bit 
 |    0    |    T    |    0    |
 |    1    |    0    |    T    |
 
+Its live cicuit is embedded below:
+
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/756" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 Using the property menu (as shown in the getting started section) we can pass multi-bit inputs and also increase or decrease the number of outputs by changing the number of bits we want the control signal to have.
@@ -50,6 +52,8 @@ Here is another example of demultiplexer where a 3 bit input is taken and a two-
 |    0    |    1    |    0    |    T    |    0    |    0    |
 |    1    |    0    |    0    |    0    |    T    |    0    |
 |    1    |    1    |    0    |    0    |    0    |    T    |
+
+Its live circuit is embedded below:
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/757" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
@@ -65,18 +69,20 @@ Consider a bit selector with a four-bit input. Let each of it's bits be addresse
 |    1    |    0    |    T2   |
 |    1    |    1    |    T3   |
 
+Its live circuit is embedded below:
+
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/758" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
-## Most Significant Bit (MSB) Delector
-The MSB delector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable input is also provided to activate/deactivate the MSB delector. The bit position of the MSB is also shown in decimal form within the body of the MSB delector.
+## Most Significant Bit (MSB) Detector
+The MSB detector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable input is also provided to activate/deactivate the MSB detector. The bit position of the MSB is also shown in decimal form within the body of the MSB detector.
 
-Consider an MSB delector with a four-bit input. It's live circuit is embeded below:
+Consider an MSB detector with a four-bit input. Its live circuit is embedded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/759" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
-## Least Significant Bit (LSB) Delector
-The LSB delector gives as output the bit position of the least-significant-bit of the input. In other words, it tells us at which bit position the left-most one is located. An enable input is also provided to activate/deactivate the LSB delector. The bit position of the LSB is also shown in decimal form within the body of the LSB delector.
+## Least Significant Bit (LSB) Detector
+The LSB detector gives as output the bit position of the least-significant-bit of the input. In other words, it tells us at which bit position the left-most one is located. An enable input is also provided to activate/deactivate the LSB detector. The bit position of the LSB is also shown in decimal form within the body of the LSB detector.
 
-Consider an LSB delector with a four-bit input. It's live circuit is embeded below:
+Consider an LSB detector with a four-bit input. Its live circuit is embedded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/761" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Priority Encoder
@@ -91,6 +97,7 @@ Consider a priority encoder with four single-bit inputs (T3, T2, T1 and T0 from 
 |    0    |    1    |    X    |    X    |    1    |    0    |
 |    1    |    X    |    X    |    X    |    1    |    1    |
 
+Its live circuit is emeded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/762" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Decoder
@@ -104,5 +111,7 @@ Consider a decoder with a single two-bit input (T1 and T0 from most to least-sig
 |    0    |    1    |    0    |    0    |    1    |    0    |
 |    1    |    0    |    0    |    1    |    0    |    0    |
 |    1    |    1    |    1    |    0    |    0    |    0    |
+
+Its live circuit is emeded below:
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/763" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
