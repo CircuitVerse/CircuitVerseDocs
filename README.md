@@ -11,3 +11,6 @@ Note that all documentation should have a corresponding live circuit embedded so
 ## Code of Conduct
 
 Read the [Code of Conduct](./code-of-conduct.md) of [CircuitVerseDocs](https://docs.circuitverse.org) Community.
+
+## GSoC'19 Project Details 
+Read the [wiki](https://github.com/CircuitVerse/CircuitVerseDocs/wiki/Interactive-Book) for more information on the interactive book. 
