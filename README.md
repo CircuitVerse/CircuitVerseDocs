@@ -6,6 +6,8 @@ To view the docs in offline mode, run
 `python3 -m http.server` or 
 `python -m SimpleHTTPServer 8000` 
 
+When you add a page, make sure you have an entry in the `_sidebar.md`
+
 **Note that all documentation should have a corresponding live circuit embedded so as to help the users. Note that live circuit is NOT the same as image of a circuit.**
 
 ## Code of Conduct
