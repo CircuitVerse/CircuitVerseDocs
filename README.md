@@ -2,7 +2,7 @@
 
 This is the official documentation of the CircuitVerse simulator. This is meant to be a guide for users to use CircuitVerse. This is to have details of the usage of all Circuit Elements in CircuitVerse along with some tips and tricks. This guide has to assume minimum knowledge of the user. 
 
-To view the docs in offline mode, run
+To view the docs in offline mode, navigate to `/docs` folder and run
 `python3 -m http.server` or 
 `python -m SimpleHTTPServer 8000` 
 
