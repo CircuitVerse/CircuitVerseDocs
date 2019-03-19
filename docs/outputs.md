@@ -40,12 +40,16 @@ Unlike the digital or variable LEDs, the RGB (red-green-blue) LED element can di
 If you want to display a certain color, the easiest way to find what the inputs need to be is to use a [color picker](https://htmlcolorcodes.com/color-picker/) to find the corresponding R, G, and B values and then use a [decimal-to-binary converter](https://codebeautify.org/decimal-binary-converter) (or do it manually for the math practice) to find the 8 bit value that you need to enter for each input.
 
 ## Square RGB LED
-The square RGB LED is quite similar to the regular RGB LED when it comes to displaying colors. However, it differs in its shape and the fact that you can vary its pin lengths in the [properties menu](getting_started.md#property-menu). Both of these additional features make square RGB LEDs ideal for simulating arrays of pixels.
+The square RGB LED is quite similar to the regular RGB LED when it comes to displaying colors. However, it differs in its shape as well as in the fact that you can vary its pin lengths in the [properties menu](getting_started.md#property-menu). Both of these additional features make square RGB LEDs ideal for simulating arrays of pixels.
 
-<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/11309" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/11345" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+This example illustrates how an array of pixels may be programmed to display an image. Here, "LED Buffer" [subcircuits](subcircuit.md) were used to ensure that the circuitry controlling the LEDs did not become too confusing or overwhelming to read. We recommend that you also use subcircuits when creating your square RGB LED projects. 
+
+As you can see, the ability to vary the pin length of the square RGB LEDs can be quite useful to create clean, easy to read circuits. However, it is crucial that you ensure that when you change the pin lengths, the pins of LEDs remain in the same vertical order as the LEDs themselves (i.e. the top pins correspond to the top LED). If you do not do this, you will find programming your square RGB LED projects to be rather confusing and frustrating.
 
 ## Hex Display
-The hex display takes a 4 bit input and can display the integers 1 through 9 and the letters A through F. The input bits do not actually control the individual segments (it would not be possible to completely control six segments with only four bits), but rather it recognizes the integer/letter that a given input corresponds to and displays this character without the need for any programming of what exactly that character should look like on the display.
+The hex display takes a 4 bit input and can display the integers 1 through 9 and the letters A through F. The input bits do not actually control the individual segments (it would not be possible to completely control six segments with only four bits), but rather the hex display recognizes the integer/letter that a given input corresponds to and displays this character without the need for any programming of what exactly that character should look like on the display.
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/11311" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
@@ -59,7 +63,7 @@ The seven segment display takes in eight inputs and displays the output on the s
 You can test out different inputs for yourself:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/11316" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
-A common use of the seven segment display is to display an integer from 1 to 9. You could manually use AND and OR gates to accomplish this, but there is a much easier way! Go to tools > combinational analysis to create a truth table that will allow you to simply input the binary equivalent of the integer you want to display and have it display it for you. For a more complete explanation of how to do this, take a look at [this video](https://www.youtube.com/watch?v=EqxCBW0lMVQ).
+A common use of the seven segment display is to display an integer from 1 to 9. You could manually use AND and OR gates to accomplish this, but there is a much easier way! Go to tools > combinational analysis to create a truth table that will allow you to simply input the binary equivalent of the integer you want to display and have the generated circuit display it for you. For a more complete explanation of how to do this, take a look at [this video](https://www.youtube.com/watch?v=EqxCBW0lMVQ).
 
 The seven segment display is quite simlar to the hex display, but the fact that it takes 8 bit input rather than 4 bit input makes it siginficantly more customizable. However, the larger input also makes it more complicated to work with.
 
