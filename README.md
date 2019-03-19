@@ -1,10 +1,22 @@
 # CircuitVerse Documentation
 
-This is the official documentation of the CircuitVerse simulator. This is meant to be a guide for users to use CircuitVerse. This is to have details of the usage of all Circuit Elements in CircuitVerse along with some tips and tricks. This guide has to assume minimum knowledge of the user. 
+This is the official documentation of the CircuitVerse simulator. This is meant to be a guide for users to use CircuitVerse. This is to have details of the usage of all Circuit Elements in CircuitVerse along with some tips and tricks. This guide has to assume minimum knowledge of the user.
+
+## Cloning Instructions
+
+- `git clone https://github.com/CircuitVerse/CircuitVerseDocs.git` this repository
+- `cd CircuitVerseDocs/docs`
+
+**Note :** If you want to contribute, first fork the original repository and clone the forked repository into your local machine followed by ```cd``` into the directory
+
+```sh
+git clone https://github.com/<username>/CircuitVerseDocs.git
+cd CircuitVerseDocs
+```
 
 To view the docs in offline mode, navigate to `/docs` folder and run
-`python3 -m http.server` or 
-`python -m SimpleHTTPServer 8000` 
+`python3 -m http.server` or
+`python -m SimpleHTTPServer 8000`
 
 When you add a page, make sure you have an entry in the `_sidebar.md`
 
@@ -14,5 +26,5 @@ When you add a page, make sure you have an entry in the `_sidebar.md`
 
 Read the [Code of Conduct](./code-of-conduct.md) of [CircuitVerseDocs](https://docs.circuitverse.org) Community.
 
-## GSoC'19 Project Details 
-Read the [wiki](https://github.com/CircuitVerse/CircuitVerseDocs/wiki/Interactive-Book) for more information on the interactive book. 
+## GSoC'19 Project Details
+Read the [wiki](https://github.com/CircuitVerse/CircuitVerseDocs/wiki/Interactive-Book) for more information on the interactive book.
