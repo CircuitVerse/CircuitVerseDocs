@@ -4,8 +4,8 @@ This is the official documentation of the CircuitVerse simulator. This is meant 
 
 ## Cloning Instructions
 
-- `git clone https://github.com/CircuitVerse/CircuitVersedocs.git` this repository
-- `cd CircuitVerseDocs`
+- `git clone https://github.com/CircuitVerse/CircuitVerseDocs.git` this repository
+- `cd CircuitVerseDocs/docs`
 
 **Note :** If you want to contribute, first fork the original repository and clone the forked repository into your local machine followed by ```cd``` into the directory
 
