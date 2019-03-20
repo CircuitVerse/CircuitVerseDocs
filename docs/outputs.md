@@ -1,4 +1,5 @@
 # Output Elements
+Contributing Authors: [@SarahBornais](https://github.com/SarahBornais/)
 
 CircuitVerse features a eight output elements:
 * [Output](#output)
@@ -11,6 +12,8 @@ CircuitVerse features a eight output elements:
 * [Sixteen Segment Display](#sixteen-segment-display)
 
 This guide will explain how and when to use each of these elements and provide some tips and tricks for doing so.
+
+
 
 ## Output
 Output is the most simple output element. When connected to an input, it simply displays the input applied to it in binary form. 
@@ -65,7 +68,7 @@ You can test out different inputs for yourself:
 
 A common use of the seven segment display is to display an integer from 1 to 9. You could manually use AND and OR gates to accomplish this, but there is a much easier way! Go to tools > combinational analysis to create a truth table that will allow you to simply input the binary equivalent of the integer you want to display and have the generated circuit display it for you. For a more complete explanation of how to do this, take a look at [this video](https://www.youtube.com/watch?v=EqxCBW0lMVQ).
 
-The seven segment display is quite simlar to the hex display, but the fact that it takes 8 bit input rather than 4 bit input makes it siginficantly more customizable. However, the larger input also makes it more complicated to work with.
+The seven segment display is quite similar to the hex display, but the fact that it takes 8 bit input rather than 4 bit input makes it significantly more customizable. However, the larger input also makes it more complicated to work with.
 
 ## Sixteen Segment Display
 The sixteen segment display takes two inputs and a total of 17 bits: 16 bits in the top input and 1 bit in the bottom input. The each of the 16 bits applied to the top input correspond to a certain segment in the sixteen segment display. The single bit applied to the bottom input controls the decimal point. 
