@@ -13,6 +13,7 @@ Contributing Authors: [@Kedar-K](https://github.com/Kedar-K)
 * [Ground](#ground)
 * [Constantval](#constantval)
 * [Stepper](#stepper)
+* [Counter](#counter)
 
 ## Getting Started
 
