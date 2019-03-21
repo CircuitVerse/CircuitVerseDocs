@@ -8,7 +8,7 @@ Contributing Authors: [@brahmakulkarni](https://github.com/brahmakulkarni)
 
 A multiplexer is used to selectively pass only one of the inputs provided to it. This is done using a control signal. The number of inputs are always a power of 2. If there are N control bits, then there can be a maximum of 2^N inputs.
 
-Consider a simple multiplexer that takes two single-bit inputs (T1 and T2), a single-bit control signal (S) and has an output (Out). The truth table is given below:
+Consider a simple multiplexer that takes two single-bit inputs (T1 and T2), a single-bit control signal (S) and has an output (Out). This Type of multiplexer is known as a 2 to 1 multiplexer. The truth table is given below:
 
 |    S    |   Out   |
 |---------|---------|
@@ -19,25 +19,44 @@ Consider a simple multiplexer that takes two single-bit inputs (T1 and T2), a si
 
 Using the property menu (as shown in the getting started section) we can pass multi-bit inputs and also increase or decrease the number of inputs that can be given to the multiplexer.
 
-Here is another example where there are 4 three-bit inputs and a two-bit control signal:
+Here is example where there are 4 three-bit inputs and a two-bit control signal or a 4 to 1 multiplexer. The truth table is given below:
+
+|    S1   |    S0   |    Out    |
+|---------|---------|-----------|
+|    0    |    0    |    T1     |
+|    0    |    1    |    T2     |
+|    1    |    0    |    T3     |
+|    1    |    1    |    T4     |
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/747" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Demultiplexer
 
 A demultiplexer takes an input and passes it to only one of outputs. This is done using a control signal. The number of outputs is always a power of 2. If there are N control bits, we can choose to pass the output to any one of the 2^N output lines.
 
-Consider a simple demultiplexer that takes a single-bit input (T), a single-bit control signal (S) and two single-bit outputs (O1 and O2). The truth table is given below:
+Consider a simple demultiplexer that takes a single-bit input (T), a single-bit control signal (S) and two single-bit outputs (O1 and O2).This type of demultiplexer is called a 1 to 2 demultiplexer. The truth table is given below:
 
 |    S    |    O1   |    O2   |
 |---------|---------|---------|
 |    0    |    T    |    0    |
 |    1    |    0    |    T    |
 
+Its live cicuit is embedded below:
+
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/756" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 Using the property menu (as shown in the getting started section) we can pass multi-bit inputs and also increase or decrease the number of outputs by changing the number of bits we want the control signal to have.
 
-Here is another example where a 3 bit input is taken and a two-bit control signal:
+Here is another example of demultiplexer where a 3 bit input is taken and a two-bit control signal or a 1 to 4 demultiplexer. The truth table is given below:
+
+|    S1   |    S0   |    O1   |    O2   |    O3   |    O4   |   
+|---------|---------|---------|---------|---------|---------|
+|    0    |    0    |    T    |    0    |    0    |    0    |
+|    0    |    1    |    0    |    T    |    0    |    0    |
+|    1    |    0    |    0    |    0    |    T    |    0    |
+|    1    |    1    |    0    |    0    |    0    |    T    |
+
+Its live circuit is embedded below:
+
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/757" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Bit-selector
@@ -53,20 +72,23 @@ Consider a bit selector with a four-bit input. Let each of it's bits be addresse
 |    1    |    0    |    T2   |
 |    1    |    1    |    T3   |
 
+Its live circuit is embedded below:
+
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/758" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Most Significant Bit (MSB) Delector
 
 The MSB delector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable input is also provided to activate/deactivate the MSB delector. The bit position of the MSB is also shown in decimal form within the body of the MSB delector.
 
-Consider an MSB delector with a four-bit input. It's live circuit is embeded below:
+Consider an MSB detector with a four-bit input. Its live circuit is embedded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/759" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
 
 ## Least Significant Bit (LSB) Delector
 
 The LSB delector gives as output the bit position of the least-significant-bit of the input. In other words, it tells us at which bit position the left-most one is located. An enable input is also provided to activate/deactivate the LSB delector. The bit position of the LSB is also shown in decimal form within the body of the LSB delector.
 
-Consider an LSB delector with a four-bit input. It's live circuit is embeded below:
+Consider an LSB detector with a four-bit input. Its live circuit is embedded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/761" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Priority Encoder
@@ -82,6 +104,7 @@ Consider a priority encoder with four single-bit inputs (T3, T2, T1 and T0 from 
 |    0    |    1    |    X    |    X    |    1    |    0    |
 |    1    |    X    |    X    |    X    |    1    |    1    |
 
+Its live circuit is emeded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/762" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Decoder
@@ -96,5 +119,7 @@ Consider a decoder with a single two-bit input (T1 and T0 from most to least-sig
 |    0    |    1    |    0    |    0    |    1    |    0    |
 |    1    |    0    |    0    |    1    |    0    |    0    |
 |    1    |    1    |    1    |    0    |    0    |    0    |
+
+Its live circuit is emeded below:
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/763" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>

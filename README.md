@@ -1,9 +1,13 @@
-# Welcome to CircuitVerse
+# CircuitVerse Documentation
 
-> CircuitVerse is extremely easy for beginners and experienced alike. This documentation will help you get started quickly.
+This is the official documentation of the CircuitVerse simulator. This is meant to be a guide for users to use CircuitVerse. This is to have details of the usage of all Circuit Elements in CircuitVerse along with some tips and tricks. This guide has to assume minimum knowledge of the user. 
 
-<p style="text-align:center">
-    <iframe width="100%" height="330px" src="https://circuitverse.org/simulator/embed/701" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
-</p>
+To view the docs in offline mode, run
+`python3 -m http.server` or 
+`python -m SimpleHTTPServer 8000` 
 
-> We invite everyone to contribute to the guide. Please read the contribution guidelines for more details.
+Note that all documentation should have a corresponding live circuit embedded so as to help the users. 
+
+## Code of Conduct
+
+Read the [Code of Conduct](./code-of-conduct.md) of [CircuitVerseDocs](https://docs.circuitverse.org) Community.
