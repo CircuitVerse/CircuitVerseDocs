@@ -76,40 +76,31 @@ The stepper can be used by dragging and dropping the component as shown [here](#
 
 Once the component is on the canvas, the value of the component can either be increased or decreased by pressing "+" key to increase and "-" key to decrease the value step by step after selecting the component.
 
+![sef](./images/stepper.gif)
+
+## Random
+
+The random component generates a random value in the range 0 to MaxValue every time it receives a high signal
+from the clock. It has 3 ports in total:
+
+* Max Value: input, maximum value generated.
+* Clock: input clock element, every time the clock gets high the random elements generates a number.
+* Random Value: output, the number generated
+
+The value is also displayed in decimal notation on the random element.
+
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/12041" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
 ## Counter
 
 The counter component can be used by dragging it on to the canvas. It is a binary counter from zero to a specified maximum value. It has 5 ports in total i.e
 
-* Max Value
-* Clock
-* Reset
-* Zero
-* Value
+* Max Value: input, maximum value that the counter will reach.
+* Clock: input clock element, every time the clock gets high the counter increments by one.
+* Reset: input, when high it resets the counter to zero.
+* Zero: output, it's high when the counter is zero.
+* Value: output, value of the counter in binary.
 
-Check this example to Understand the counter.
+The value is also displayed in decimal notation on the counter element.
 
-<iframe width="500px" height="400px" src="https://circuitverse.org/simulator/embed/11945" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
-
-Quick detail about above ports with respect to the example is below
-
-***Max Value***
-
-Max value port is at the top-left side of the component. Max value is used to specify the limit upto which the counter can increase. This input is a 8-bit value so, [Constant val](#constantval) component is used here.
-
-***Clock***
-
-The clock is the bottom-left port of the counter component. In simple words, it is just a clock pulse which we provide manually. In this case, the clock pulse is provided by the input component. If the value of this input component is changed simultaneously, then the value of the counter increases till the max value.
-
-As the counter value grows, the LED light which is at the Value port at the top-right gets brighter.
-
-***Reset***
-
-The Reset port is at the bottom of the counter component. This is used to reset the counter. As the [button](#button) is pressed, the counter resets to value zero.
-
-***Zero***
-
-The Zero port is at the bottom-right of the component. It always acts as Low(0). If the value of the Max Value is set to *00000000* then the LED at zero port glows if the clock is (1).
-
-***Value***
-
-The Value port is at the top-right of the counter component. The LED turns brighter as the value of the counter increases.
+<iframe width="500px" height="400px" src="https://circuitverse.org/simulator/embed/12036" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
