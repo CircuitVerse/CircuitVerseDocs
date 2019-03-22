@@ -78,18 +78,18 @@ Its live circuit is embedded below:
 
 ## Most Significant Bit (MSB) Delector
 
-The MSB delector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable input is also provided to activate/deactivate the MSB delector. The bit position of the MSB is also shown in decimal form within the body of the MSB delector.
+The MSB delector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable output is also provided to show if the MSB delector is active. The bit position of the MSB is also shown in decimal form within the body of the MSB delector.
 
 Consider an MSB detector with a four-bit input. Its live circuit is embedded below:
-<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/759" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/11988" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 
 ## Least Significant Bit (LSB) Delector
 
-The LSB delector gives as output the bit position of the least-significant-bit of the input. In other words, it tells us at which bit position the left-most one is located. An enable input is also provided to activate/deactivate the LSB delector. The bit position of the LSB is also shown in decimal form within the body of the LSB delector.
+The LSB delector gives as output the bit position of the least-significant-bit of the input. In other words, it tells us at which bit position the left-most one is located. An enable output is also provided to show if the LSB delector is active. The bit position of the LSB is also shown in decimal form within the body of the LSB delector.
 
 Consider an LSB detector with a four-bit input. Its live circuit is embedded below:
-<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/761" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/11990" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Priority Encoder
 
