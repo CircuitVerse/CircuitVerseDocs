@@ -30,7 +30,7 @@
 			],
 			loadSidebar: true,
 			maxLevel: 4,
-      		subMaxLevel: 2,
+			subMaxLevel: 2,
 			alias: {
 				'/.*/_sidebar.md': '/_sidebar.md'
 			}
@@ -42,10 +42,14 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112678513-2"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-112678513-2');
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-112678513-2');
 </script>
+
 </html>

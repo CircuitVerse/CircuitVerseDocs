@@ -3,10 +3,10 @@
 > CircuitVerse allows users to export images at high resolution in various formats including SVGs.
 
 ## Export menu
+
 To export a circuit as image go to tools &rightarrow; download Image.
 
 ![Subcircuit Menu](/images/render_options.png)
-
 
 ## Various rendering options
 
