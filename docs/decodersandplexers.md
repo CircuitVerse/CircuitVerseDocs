@@ -76,24 +76,24 @@ Its live circuit is embedded below:
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/758" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
-## Most Significant Bit (MSB) Delector
+## Most Significant Bit (MSB) Detector
 
-The MSB delector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable input is also provided to activate/deactivate the MSB delector. The bit position of the MSB is also shown in decimal form within the body of the MSB delector.
+The MSB detector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable input is also provided to activate/deactivate the MSB detector. The bit position of the MSB is also shown in decimal form within the body of the MSB detector.
 
 Consider an MSB detector with a four-bit input. Its live circuit is embedded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/759" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 
-## Least Significant Bit (LSB) Delector
+## Least Significant Bit (LSB) Detector
 
-The LSB delector gives as output the bit position of the least-significant-bit of the input. In other words, it tells us at which bit position the left-most one is located. An enable input is also provided to activate/deactivate the LSB delector. The bit position of the LSB is also shown in decimal form within the body of the LSB delector.
+The LSB detector gives as output the bit position of the least-significant-bit of the input. In other words, it tells us at which bit position the left-most one is located. An enable input is also provided to activate/deactivate the LSB detector. The bit position of the LSB is also shown in decimal form within the body of the LSB detector.
 
 Consider an LSB detector with a four-bit input. Its live circuit is embedded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/761" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Priority Encoder
 
-The priority encoder provided by Circuitverse works in a simmilar fashion to the MSB detector (in practise it can work like the LSB detector also). There is a specific output based on the bit position of the MSB, irrespective of the lesser significant bits. AN enable input is also provided to activate/deactivate the priority encoder. If there are N outputs, there will be 2^N inputs.
+The priority encoder provided by Circuitverse works in a similar fashion to the MSB detector (in practise it can work like the LSB detector also). There is a specific output based on the bit position of the MSB, irrespective of the lesser significant bits. AN enable input is also provided to activate/deactivate the priority encoder. If there are N outputs, there will be 2^N inputs.
 
 Consider a priority encoder with four single-bit inputs (T3, T2, T1 and T0 from most to least-significant bit) and two single-bit outputs (O2 and O1 from most to least-significant bit). The truth table is given below:
 
@@ -120,6 +120,6 @@ Consider a decoder with a single two-bit input (T1 and T0 from most to least-sig
 |    1    |    0    |    0    |    1    |    0    |    0    |
 |    1    |    1    |    1    |    0    |    0    |    0    |
 
-Its live circuit is emeded below:
+Its live circuit is embedded below:
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/763" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
