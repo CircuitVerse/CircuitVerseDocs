@@ -1,79 +1,51 @@
-# Minimization Techniques
+# How to Use
 
-> The process of simplifying the algebraic expression of a boolean function is called minimization. Minimization is important as it reduces the cost and complexity of the circuit. This guide will teach you the various minimization techniques in Boolean Algebra.
+> The process of simplifying the algebraic expression of a boolean function is called minimization. Minimization is important as it reduces the cost and complexity of the circuit. This guide will teach you.
 
 Contributing Authors:
 [@ritabandatta](https://github.com/Reetoo)
 
-## Boolean Algebra
+## Combinational Circuit
 
-At first, we need to learn some important laws which are required in boolean algebra.
+Combinational circuit is a circuit in which we combine the different gates in the circuit, for example encoder, decoder, multiplexer and demultiplexer. Some of the characteristics of combinational circuits are following −
 
-### AND laws
-A.0 = 0
-A.1 = A
-A.A = A
-A.A' = 0
+    The output of combinational circuit at any instant of time, depends only on the levels present at input terminals.
 
-### OR laws
-A + 0 = A
-A + 1 = 1
-A + A = A
-A + A' = 1
+    The combinational circuit do not use any memory. The previous state of input does not have any effect on the present state of the circuit.
 
-### Commutative laws
-A + B = B + A
-A.B = B.A
+    A combinational circuit can have an n number of inputs and m number of outputs
 
-### Associative laws
-(A + B) + C = A + (B + C)
-(A.B).C = A.(B.C)
 
-### Distributive laws
-A.(B + C) = A.B + A.C
-A + B.C = (A + B)(A + C)
+Using the Combinational Analysis of CircuitVerse, we can easily find out the circuit for any given boolean combinational analysis truth table.
 
-### Absorption laws
-A + A.B = A
-A.(A + B) = A
+Steps:
+1. Goto Tools -> Combinational Analysis.
 
-### De Morgans laws
-(A + B)' = A'.B'
-(A.B)' = A' + B'
+![Alt text](https://cdn1.imggmi.com/uploads/2019/3/23/62a413a525a46266a5b14e4392cd0919-full.png)
 
-Let us take a look at some examples to learn the technique.
+2. Enter the input gates and the output gates. Then press Next.  For example, take input gates as A, B, C and output gates as X, Y, Z.
 
-f = (A + (BC)')'(AB' + ABC)
-  = (A'BC).A(B' + BC)
-  = ((A.A')BC).(B' + BC)
-  = 0.(B' + BC)
-  = 0
+![Alt text](https://cdn1.imggmi.com/uploads/2019/3/23/9723ddaa9385110923f93259353edd10-full.png)
 
-f = ((AB)'.(CD + E'F)((AB)' + (CD)'))'
-  = (AB)'' + (CD + E'F)' + ((AB)' + (CD)')'
-  = AB + (CD)'.(EF)' + (AB)''.(CD)''
-  = AB + (C' + D')(E + F') + ABCD
-  = AB(1 + CD) + (C' + D')(E + F')
-  = AB + (C' + D')(E + F')
+3. Fill up the truth table mentioning the required output for a particular input combination. The valid datas are 0, 1 and x where x represents don't-care combination. Then press Generate Circuit. In the given example, the truth table has been taken as below:
 
-## Karnaugh Map
+|  A  |  B  |  C  |  X  |  Y  |  Z  |
+|-----|-----|-----|-----|-----|-----|
+|  0  |  0  |  0  |  0  |  0  |  X  |
+|  0  |  0  |  1  |  0  |  1  |  X  |
+|  0  |  1  |  0  |  1  |  X  |  0  |
+|  0  |  1  |  1  |  X  |  X  |  1  |
+|  1  |  0  |  0  |  0  |  1  |  1  |
+|  1  |  0  |  1  |  1  |  0  |  X  |
+|  1  |  1  |  0  |  1  |  0  |  0  |
+|  1  |  1  |  1  |  0  |  X  |  1  |
 
-K-map is a chart or a graph composed of an arrangement of adjacent cells representing a particular combination of variables in SOP or POS form.
-A n-variable K-map should contain 2^n cells.
+![Alt text](https://cdn1.imggmi.com/uploads/2019/3/23/5c64d0c7ed0655f7e7ecd468da833398-full.png)
 
-Steps to solve a K-map:
-1. Identify minterms or maxterms as given in the problem.
-2. For SOP, put 1's in the blocks of K-map respective to the minterms.
-3. For POS, put 1's in the blocks of K-map respective to the maxterms.
-4. Make rectangular groups containing total terms in power of two like 1,2,4,8 and try to cover as many elements as possible in one group while ensuring that the cells are adjacent to each other.
-5. From the groups made in step 4 find the product terms and sum them up for SOP form or find the sum terms and product them up for POS form.
+The live circuit is given here:
 
-Let us look at an example:
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/edit/12117" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
-f = Σm(1,3,6,7)
+Now go and try out some other input combinations in www.circuitverse.org
 
-![Alt text](https://cdncontribute.geeksforgeeks.org/wp-content/uploads/K-Map-Karnaugh-Map.png)
-
-From red group we get product term A'C
-From green group we get product term AB
-Summing up these two variables we get f = A'C + AB
+In the later sections we will be looking at some important combinational circuits.
