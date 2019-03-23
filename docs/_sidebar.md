@@ -5,6 +5,9 @@
 * [SubCircuits](subcircuit.md)
 * [Exporting Images](export.md)
 
+* Combnational Logic
+  * [Minimization Techniques](minimization.md)
+
 * Circuit Elements
   * [CircuitVerse Outputs](outputs.md)
   * [Standard Gates](gates.md)
