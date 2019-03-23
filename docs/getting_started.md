@@ -15,6 +15,7 @@ Select the circuit element type and drop on canvas or drag the object onto canva
 Click one node and simply drag the mouse to the other node.
 
 ## Multiple Object Selections
+
 [filename](/video/multiselectionDrag.mp4 ':include :type=video')
 
 Hold down shift key and drag to make a selection
