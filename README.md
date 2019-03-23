@@ -2,6 +2,8 @@
 
 This is the official documentation of the CircuitVerse simulator. This is meant to be a guide for users to use CircuitVerse. This is to have details of the usage of all Circuit Elements in CircuitVerse along with some tips and tricks. This guide has to assume minimum knowledge of the user.
 
+**Note that this is not a documentation on digital logic design. If you are interested in that, please checkout the GSoC'19 link at the end**
+
 ## Cloning Instructions
 
 - `git clone https://github.com/CircuitVerse/CircuitVerseDocs.git` this repository
