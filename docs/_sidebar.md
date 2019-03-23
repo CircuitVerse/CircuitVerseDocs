@@ -5,7 +5,7 @@
 * [SubCircuits](subcircuit.md)
 * [Exporting Images](export.md)
 
-* Combnational Logic
+* Combinational Logic
   * [Minimization Techniques](minimization.md)
 
 * Circuit Elements
