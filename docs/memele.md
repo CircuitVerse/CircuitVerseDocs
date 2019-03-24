@@ -15,7 +15,7 @@ or by selecting the component and pressing the "Reset" button in the properties 
 The contents of the RAM can be dumped to the console by transitioning CORE DUMP pin to 1
 or by selecting the component and pressing the "Core Dump" button in the properties window.
 Address spaces that have not been written will show up as undefined in the core dump.
-
+ ![Ram](\images\ram.png)
 ## ROM
 Short for **read-only memory**, ROM is a storage medium that is used with computers and other electronic devices. As the name indicates, data stored in ROM may only be read. 
 
