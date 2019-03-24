@@ -4,7 +4,7 @@ Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare)
 
 >This Section contains Documentation of various miscellaneous elements.
 
-List of Elements :
+**List of Elements :**
 
 - [ALU](#ALU)
 - [Adder](#Adder)
