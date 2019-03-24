@@ -8,6 +8,7 @@
 * Circuit Elements
   * [CircuitVerse Outputs](outputs.md)
   * [Standard Gates](gates.md)
+  * [Adders](adders.md)
   * [Decoders and Plexers](decodersandplexers.md)
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
