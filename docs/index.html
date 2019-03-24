@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+	
+
 	<!-- Defines the character encoding and language -->
 	<meta charset="UTF-8" lang="en">
 	<title>CircuitVerse Docs</title>
@@ -14,10 +16,56 @@
 	<!-- Viewport: Controls dimensions and scaling  -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<!--  CSS Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="//unpkg.com/docsify/lib/themes/vue.css">
+	<style type="text/css">
+		#theme{
+  display: inline-block;
+  text-decoration: none;
+  color: #668ad8;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  border-radius: 50%;
+  border: solid 2px #668ad8;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-weight: bold;
+  transition: .4s;
+  
+  margin-left: 16px;
+   
+   
+}
+
+#theme:hover {
+    background: #b3e1ff;
+}
+
+
+	</style>
+<link id="stylesheet" rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+ <script>
+ 	        var url =  "//unpkg.com/docsify/themes/dark.css";
+        	var url2 = "//unpkg.com/docsify/themes/vue.css";
+        	//var url3 = "//unpkg.com/docsify/themes/pure.css";
+        	 var stylesheet = document.getElementById("stylesheet");
+        
+         function setStyleSheet(){
+        	
+        stylesheet.setAttribute('href', url);
+           
+       }
+       function setStyleSheet1(){
+        	
+        stylesheet.setAttribute('href', url2);
+           
+       }
+ 	 	
+       </script>
 </head>
 
 <body>
+
 	<script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 	<div id="app"></div>
 	<script>
@@ -26,26 +74,50 @@
 			repo: 'https://github.com/CircuitVerse/CircuitVerseDocs/',
 
 			plugins: [
-				EditOnGithubPlugin.create('https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/'),
+				EditOnGithubPlugin.create('https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/'),
+				function(hook) {
+      var footer = [
+        
+        '<footer>',
+        '<span><a title="Read in dark theme" id="theme" onclick="setStyleSheet();" href="#"></a></span>',
+         '<span><a title="Default theme" id="theme" onclick="setStyleSheet1();" href="#"></a></span>',
+         '<hr/>',
+        '</footer>'
+      ].join('');
+
+      hook.afterEach(function(html) {
+        return footer + html;
+      });
+    }
 			],
 			loadSidebar: true,
 			maxLevel: 4,
-      		subMaxLevel: 2,
+			subMaxLevel: 2,
 			alias: {
 				'/.*/_sidebar.md': '/_sidebar.md'
-			}
+			},
+			executeScript:true
+			 
 		}
 	</script>
+	
+	<script>
+     
+</script>
 	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112678513-2"></script>
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+	window.dataLayer = window.dataLayer || [];
 
-  gtag('config', 'UA-112678513-2');
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-112678513-2');
 </script>
+
 </html>
