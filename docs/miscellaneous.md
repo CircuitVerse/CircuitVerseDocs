@@ -25,6 +25,14 @@ There are Different ports in an ALU :
 - Cout (status output) : This is an OUTPUT port for getting **carry** after the operation on given operands.
 - Ans : As name suggests, Output of **Result** after the operation on given operands.
 
+**STEPS FOR USAGE** :
+> Location of ALU : Under the **Misc** section.
+
+- Drop the ALU on Canvas
+- Place the Operand Inputs
+- Take an input with BitWidth of 3 Bits for ctr input (ALU opcode)
+- Take the outputs using output tool for different opcodes and values of operands.
+
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/12141" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 **Opcodes For Different functionalities of ALU ( values for ctr) :**
@@ -42,30 +50,34 @@ There are Different ports in an ALU :
 |    1 1 0     |         6         |      A - B      |
 |    1 1 1     |         7         |       SLT       |
 
-**STEPS FOR USAGE** :
-
-- Drop the ALU on Canvas
-- Place the Operand Inputs
-- Take an input with BitWidth of 3 Bits for ctr input (ALU opcode)
-- Note the outputs using output tool for different opcodes and values of operands.
-
 ## ADDER
 
-An Adder is a logical circuit that performs an addition operation on three binary numbers.<br/>
-The Adder produces a **sum of the Three inputs** and a **carry value** (Cout).
+An Adder is a logical circuit that performs an addition operation on binary numbers and
+produces a **sum of the Three inputs** and a **carry value** (Cout).
 
-The three inputs to adder are :
-- A : Operand 1
-- B : Operand 2
-- Cin : Previous Carry value
+>Note : This is Full Adder.
+
+The three inputs to Adder are :
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; A : Operand 1
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; B : Operand 2
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; Cin : Previous Carry value
 
 Two Output Values are :
-- Output : Sum of A + B + Cin
-- Cout : Carry Left after Operation
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; Output : Sum of A + B + Cin :&nbsp; (A XOR B) XOR Cin
+<br/>&nbsp;&nbsp;&nbsp;&nbsp; Cout : Carry Left after Operation :&nbsp; (A AND B) OR (Cin AND (A XOR B) )
+
+**STEPS FOR USAGE**
+> Location of Adder : Under the **Misc** section.
+
+- Drop the Adder from Misc section of Circuit Elements on canvas
+- Place the inputs (operands) and Cin as well
+<br/>
+Now,
+- Using Output tool, we can check for the different values of A,B and Cin.
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/12140" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
-**Table for Different values in adder :**
+**Truth Table for Different values in adder :**
 
 | A | B | Cin |  SUM   | Cout |
 |---|---|-----|--------|------|
@@ -77,11 +89,3 @@ Two Output Values are :
 | 1 | 0 |  1  |   0    |  1   |
 | 1 | 1 |  0  |   0    |  1   |
 | 1 | 1 |  1  |   1    |  1   |
-<br/>
-**STEPS FOR USAGE**
-
-- Drop the Adder from Misc section of Circuit Elements on canvas
-- Place the inputs (operands) and Cin as well
-<br/>
-Now,
-- Using Output tool, we can check for the different values of A,B and Cin.
