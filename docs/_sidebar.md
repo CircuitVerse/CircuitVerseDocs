@@ -9,5 +9,6 @@
   * [CircuitVerse Outputs](outputs.md)
   * [Standard Gates](gates.md)
   * [Decoders and Plexers](decodersandplexers.md)
+  * [Sequential Elements](Sequential.md)
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
