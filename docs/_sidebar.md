@@ -10,5 +10,6 @@
   * [Standard Gates](gates.md)
   * [Decoders and Plexers](decodersandplexers.md)
   * [Sequential Elements](Sequential.md)
+  * [Memory Elements](memoryelements.md)
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
