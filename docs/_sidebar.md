@@ -11,4 +11,4 @@
   * [Decoders and Plexers](decodersandplexers.md)
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
-  * [EEPROM](eeprom.md)
+  * [Memory Elements](memele.md)
