@@ -13,5 +13,6 @@
   * [CircuitVerse Outputs](outputs.md)
   * [Standard Gates](gates.md)
   * [Decoders and Plexers](decodersandplexers.md)
+  * [Flip Flop](flipflop.md)
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
