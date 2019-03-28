@@ -14,4 +14,6 @@
   * [Miscellaneous](miscellaneous.md)
 
 * [Groups](groups.md)
+* [Memory Elements](eeprom.md)(ram.md)(rom.md)
+                    
 
