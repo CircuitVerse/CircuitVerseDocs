@@ -6,9 +6,11 @@
 - [Exporting Images](export.md)
 - [Combinational Analysis](combinational.md)
 
-- Circuit Elements
+* Circuit Elements
   - [CircuitVerse Outputs](outputs.md)
   - [Standard Gates](gates.md)
   - [Decoders and Plexers](decodersandplexers.md)
   - [Splitter](splitter.md)
   - [Input Elements](inputElements.md)
+  - [Miscellaneous](miscellaneous.md)
+  - [Groups](groups.md)
