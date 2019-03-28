@@ -12,3 +12,7 @@
   * [Sequential Elements](Sequential.md)
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
+  * [Miscellaneous](miscellaneous.md)
+
+* [Groups](groups.md)
+
