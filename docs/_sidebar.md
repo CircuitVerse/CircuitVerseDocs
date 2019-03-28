@@ -4,10 +4,13 @@
 * [Modifying Circuit Elements](Modify.md)
 * [SubCircuits](subcircuit.md)
 * [Exporting Images](export.md)
-
+* [Timing Diagrams](timing_diagrams.md)
 * Circuit Elements
   * [CircuitVerse Outputs](outputs.md)
   * [Standard Gates](gates.md)
   * [Decoders and Plexers](decodersandplexers.md)
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
+  * [Miscellaneous](miscellaneous.md)
+* [Groups](groups.md)
+
