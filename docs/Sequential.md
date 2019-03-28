@@ -15,13 +15,13 @@ Truth Table for D Flip Flop is given below.
 | 1    | 1    | 1     | 0         |
 | 1    | 0    | 0     | 1         |
 
-#### Preset: 
+#### Preset and Asynchronous Reset
 
-The output is always high when the preset is high, irrespective of the input applied or the clock signal.
+The preset and asynchronous reset work in conjunction to change the default behavior of the flip flops. If the asynchronous reset is high, then the output of the flip flop is equal to the value of preset.
 
-#### Asynchronous Reset:
-
-The output is always low when the asynchronous reset is set high. It is basically used to clear the output.
+> When the Asynchronous Reset is high the value of the flip-flop is independent of the input or the clock. 
+>
+> Reset =  1 then output = Preset 
 
 #### Enable:
 
