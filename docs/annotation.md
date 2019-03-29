@@ -1,7 +1,7 @@
 # Annotation Elements
 
 > Circuitverse allows you to annotate your circuit in many ways. <br />
-> Annotating the circuit help the reader better understand your circuit. There are three ways we can annotate our circuit: adding labels, creating titles, and adding detail.
+> Annotating your circuit help the reader better understand the circuit. There are three ways you can annotate your circuit: adding labels, creating titles, and adding detail.
 
 ## Adding Labels
 
@@ -18,4 +18,20 @@ An example showing properly annotated Full Adder Circuit
 
 ![Annotation Example](/images/annotation-example.png)
 
-> Also you can add details in your circuit, to help further convey the logic, highlight specific points, or explain the flow of circuit, using the Text feature.
+> Also you can add details in your circuit, to help further convey the logic, highlight specific points, or explain the flow of circuit, using the Text feature. <br/>
+> Circuitverse also provides you with two more features to annotate your circuit namely **Arrow** and **Rectangle**.
+
+## Arrow 
+
+Just navigate through `Misc -> Arrow` and just drag & drop it to the required place. Also, you can change it's direction either by using the arrow keys on your keyboard or using the properties menu.
+
+![Arrow Location](/images/arrow-navigate.png)
+
+## Rectangle
+
+If you ever feel the need to highlight or mark a specific portion of your circuit, you can use *Rectangle*, by navigating through `Misc -> Rectangle`and just drag & drop it to the required place. You can change it's dimensions by using the properties menu.
+
+![Rectangle Location](/images/rectangle_navigate.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ![Properties Menu](/images/properties_rect.png)
+
+
+
