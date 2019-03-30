@@ -1,6 +1,6 @@
 # Miscellaneous Elements
 
-Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare)
+Contributing Author(s): [@harshagrwl](https://github.com/harshagrwl), [@iamNamanKhare](https://github.com/iamNamanKhare)
 
 >This Section contains Documentation of various miscellaneous elements.
 
@@ -8,6 +8,7 @@ Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare)
 
 - [ALU](#ALU)
 - [Adder](#Adder)
+- [Subtractor](#Subtractor)
 
 ## ALU
 
@@ -89,3 +90,51 @@ Now,
 | 1 | 0 |  1  |   0    |  1   |
 | 1 | 1 |  0  |   0    |  1   |
 | 1 | 1 |  1  |   1    |  1   |
+
+## SUBTRACTOR
+
+A Subtractor is logical circuit that performs subtraction of bits and produces a **difference** (D) and a **borrow** (B).
+
+### Half Subtractor
+
+>Half Subtractor using basic logic gates (OR, AND and NOT):
+
+Half Subtractor can be made using basic logic gates (OR, AND and NOT).
+The inputs to the Half Subractor are X and Y. The Outputs are D = (X XOR Y) and B = (X' XOR Y).
+
+**Truth table for different values in Half Subtractor :**
+
+| X  | Y  | D  | B  |
+|----|----|----|----|
+| 0  | 0  | 0  | 0  |
+| 0  | 1  | 1  | 1  |
+| 1  | 0  | 1  | 0  |
+| 1  | 1  | 0  | 0  |
+
+**Live Circuit of Half Subtractor :**
+
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/12628" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+### Full Subtractor
+
+>Full Subtractor using basic logic gates (OR, AND and NOT):
+
+The inputs to the subtractor are X, Y and Bin. The outputs are D = (X XOR Y XOR Bin) and Bout = (A'B + A'Bin + BBout).
+
+**Truth table for different values in Full Subtractor :**
+
+| X  | Y  | Bin| D  | Bout |
+|----|----|----|----|------|
+| 0  | 0  | 0  | 0  |   0  |
+| 0  | 0  | 1  | 1  |   1  |
+| 0  | 1  | 0  | 1  |   1  |
+| 0  | 1  | 1  | 0  |   1  |
+| 1  | 0  | 0  | 1  |   0  |
+| 1  | 0  | 1  | 0  |   0  |
+| 1  | 1  | 0  | 0  |   0  |
+| 1  | 1  | 1  | 1  |   1  |
+
+**Live Circuit of Full Subtractor:**
+
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/12629" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
