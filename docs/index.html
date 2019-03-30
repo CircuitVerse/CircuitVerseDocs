@@ -2,6 +2,8 @@
 <html lang="en">
 
 <head>
+	
+
 	<!-- Defines the character encoding and language -->
 	<meta charset="UTF-8" lang="en">
 	<title>CircuitVerse Docs</title>
@@ -14,10 +16,59 @@
 	<!-- Viewport: Controls dimensions and scaling  -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<!--  CSS Stylesheet -->
-	<link rel="stylesheet" type="text/css" href="//unpkg.com/docsify/lib/themes/vue.css">
+	<style type="text/css">
+		#theme1{
+   text-decoration: none;
+  color: #668ad8;
+  width: 30px;
+  height: 30px;
+  line-height: 28px;
+  border-radius: 50%;
+  border: solid 2px #668ad8;
+  text-align: center;
+  vertical-align: middle;
+  overflow: hidden;
+  font-weight: bold;
+  transition: .4s;
+  margin-left: 20px;
+  margin-top: 8px;
+  float: right;   
+   
+}
+
+#theme1:hover {
+    background: #b3e1ff;
+}
+
+
+	</style>
+<link id="stylesheet" rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+ <script>
+ 	        var url =  "//unpkg.com/docsify/themes/dark.css";
+        	var url2 = "//unpkg.com/docsify/themes/vue.css";
+        	var stylesheet = document.getElementById("stylesheet");
+        	var show = false;
+
+ 	  function setStyleSheet() {
+                 if (show) {
+                        stylesheet.setAttribute('href', url2);
+                           show = !show;
+                   document.getElementById('theme1').innerHTML = '☾';
+
+                       } 
+                 else {
+                    stylesheet.setAttribute('href', url);
+                    show = !show;
+                    document.getElementById('theme1').innerHTML = '☼';
+                       }
+                 };
+ 
+ 	  
+       </script>
 </head>
 
 <body>
+
 	<script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 	<div id="app"></div>
 	<script>
@@ -27,15 +78,31 @@
 
 			plugins: [
 				EditOnGithubPlugin.create('https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/'),
+				function(hook) {
+      var footer = [
+        
+        '<header>',
+        '<span><a title="dark theme/light theme" id="theme1" onclick="setStyleSheet();" href="#">☾</a></span>',
+          '</header>'
+      ].join('');
+
+      hook.afterEach(function(html) {
+        return footer + html;
+      });
+    }
 			],
 			loadSidebar: true,
 			maxLevel: 4,
 			subMaxLevel: 2,
 			alias: {
 				'/.*/_sidebar.md': '/_sidebar.md'
-			}
+			},
+			executeScript:true
+			 
 		}
 	</script>
+	
+	 
 	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
 </body>
