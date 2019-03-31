@@ -16,32 +16,7 @@
 	<!-- Viewport: Controls dimensions and scaling  -->
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<!--  CSS Stylesheet -->
-	<style type="text/css">
-		#theme1{
-   text-decoration: none;
-  color: #668ad8;
-  width: 30px;
-  height: 30px;
-  line-height: 28px;
-  border-radius: 50%;
-  border: solid 2px #668ad8;
-  text-align: center;
-  vertical-align: middle;
-  overflow: hidden;
-  font-weight: bold;
-  transition: .4s;
-  margin-left: 20px;
-  margin-top: 8px;
-  float: right;   
-   
-}
-
-#theme1:hover {
-    background: #b3e1ff;
-}
-
-
-	</style>
+        <link rel="stylesheet" type="text/css" href="theme.css">
 <link id="stylesheet" rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
  <script>
  	        var url =  "//unpkg.com/docsify/themes/dark.css";
@@ -82,7 +57,8 @@
       var footer = [
         
         '<header>',
-        '<span><a title="dark theme/light theme" id="theme1" onclick="setStyleSheet();" href="#">☾</a></span>',
+       '<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox"><span class="slider round"></span></label></span>',
+
           '</header>'
       ].join('');
 
