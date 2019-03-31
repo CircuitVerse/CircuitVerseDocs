@@ -70,15 +70,22 @@
 			subMaxLevel: 2,
 			alias: {
 				'/.*/_sidebar.md': '/_sidebar.md'
+ 
 			},
-			executeScript:true
-			 
+			executeScript:true,
+			pagination: {
+                              previousText: 'Previous',
+                             nextText: 'Next',
+                             }
+ 
 		}
 	</script>
 	
 	 
 	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+       <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+
 </body>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112678513-2"></script>
