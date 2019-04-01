@@ -44,18 +44,22 @@ CircuitVerse provides an easy way of creating test bench. Here we will try to ma
 
 1. In the [simulator](https://circuitverse.org/simulator) go to the Test Bench Tab and drag both the TB_input and TB_output onto the canvas.
 
-2. Connect the inputs of TB_input with your circuit input points and output with your circuit output points and provide a clock input to TB_input. As you can see the TB_input displays its status as *Not Running*
+2. Double click on the TB_input and paste the Generated Data into the dialog box and click on OK.
+
+   ![](images\testbench\enter_JSON.png)
+
+3. Connect the inputs of TB_input with your circuit input points and output with your circuit output points and provide a clock input to TB_input. As you can see the TB_input displays its status as *Not Running*
 
    ![](images\testbench\test_circuit.png)
 
-3. To change the status of TB_input block and go to the Properties Tab, situated on the bottom left corner and click on *Toggle State*
+4. To change the status of TB_input block and go to the Properties Tab, situated on the bottom left corner and click on *Toggle State*
    ![](images\testbench\toggle_state.png)
 
-4. Once you Click on Toggle State the Test Case you defined earlier on [test bench](https://circuitverse.org/testbench) starts running.
+5. Once you Click on Toggle State the Test Case you defined earlier on [test bench](https://circuitverse.org/testbench) starts running.
 
    [filename](/video/test_bench.mp4 ':include :type=video ')
 
-5. The *Reset Iterations* runs the test cases from beginning.
+6. The *Reset Iterations* runs the test cases from beginning.
 
 
 
