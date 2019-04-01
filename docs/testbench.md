@@ -56,3 +56,21 @@ CircuitVerse provides an easy way of creating test bench. Here we will try to ma
    [filename](/video/test_bench.mp4 ':include :type=video ')
 
 5. The *Reset Iterations* runs the test cases from beginning.
+
+
+
+### Checking Errors
+
+Whenever you run your test bench the TB_out always displays output in 2 columns as seen in the figure below.
+
+| Actual Output | Expected output |
+| ------------- | --------------- |
+| 1             | 0               |
+
+![](images\testbench\TB_out.png)
+
+When the actual output is written in red, it means the output produced by the circuit is not equal to the expected value. Thus there might be some errors in your design. But Sometimes, as in this example, though the input values 1,1 in AND gate produces an output of 1, it is shown wrong. This is because my test case looks like this: 
+
+![](images\testbench\wrong_test_case.png)
+
+Here I have provided a wrong test case in case 2 which is responsible for this unexpected behavior . So you must always recheck your test cases before using it in order to correctly stimulate your circuit.
