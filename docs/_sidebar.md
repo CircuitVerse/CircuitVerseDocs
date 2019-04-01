@@ -15,3 +15,4 @@
 
 * [Groups](groups.md)
 * [Memory Elements](memoryelements.md)
+* [Combinational Circuits](combinationalcircuits.md)
