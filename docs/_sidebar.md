@@ -14,5 +14,9 @@
   * [Miscellaneous](miscellaneous.md)
 
 * [Groups](groups.md)
+<<<<<<< HEAD
 * [Memory Elements](memoryelements.md)
 * [Combinational Circuits](combinationalcircuits.md)
+=======
+
+>>>>>>> parent of 22264cc... added memory elements in sidebar
