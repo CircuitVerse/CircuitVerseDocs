@@ -11,6 +11,7 @@
   * [Decoders and Plexers](decodersandplexers.md)
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
+  * [Sequential Elements](sequentialElements.md)
   * [Miscellaneous](miscellaneous.md)
 
 * [Groups](groups.md)
