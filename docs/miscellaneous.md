@@ -1,6 +1,6 @@
 # Miscellaneous Elements
 
-Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare)
+Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare), [@NavonilDas](https://github.com/NavonilDas)
 
 >This Section contains Documentation of various miscellaneous elements.
 
@@ -8,6 +8,9 @@ Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare)
 
 - [ALU](#ALU)
 - [Adder](#Adder)
+- [Buffer](#Buffer)
+- [Tri State Buffer](#tri-state-buffer)
+- [Tunnel](#tunnel)
 
 ## ALU
 
@@ -89,3 +92,35 @@ Now,
 | 1 | 0 |  1  |   0    |  1   |
 | 1 | 1 |  0  |   0    |  1   |
 | 1 | 1 |  1  |   1    |  1   |
+
+## Buffer
+A buffer has only a single input and a single output with behavior that is the opposite of an NOT gate. It simply passes its input, unchanged, to its output.
+
+| Input | Output |
+|-------|--------|
+| 0     | 0      |
+| 1     | 1      |
+
+Simple Buffer Example
+Drag and Drop the Buffer from Misc Section. Connect input and output to the buffer.
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/13250" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Tri-State Buffer
+A tri-state buffer is similar to a buffer, but it adds an additional "enable" input that controls whether the primary input is passed to its output or not. If the "enable" inputs signal is High (1), the tri-state buffer behaves like a normal buffer. If the "enable" input signal is LOW (0), the tri-state buffer passes a high impedance (Z) signal, which effectively disconnects its output from the circuit.
+| Enable | Input | Output |
+|------- |-------|--------|
+|   0    |   0   |  Z     | 
+|   0    |   1   |  Z     |
+|   1    |   0   |	0	  |
+|   1    |   1   |  1     |   
+
+Simple Tristate Buffer Example
+Drag and Drop a TriState from Misc Section. Connect input, output and enable pins.
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/13252" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Tunnel
+A tunnel acts like a hidden wire that binds points together,but unlike a wire ,the connection is not drawn. All tunnel with same " Debug Flag identifier " are effectively connected together. 
+
+Simple Example of a Tunnel
+Drag and Drop a two Tunnels from Misc section. Check whether both the tunnel have same " Debug Flag identifier ". Connect one as input and other one as output.
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/12642" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
