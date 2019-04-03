@@ -17,6 +17,8 @@
 <<<<<<< HEAD
 * [Memory Elements](memoryelements.md)
 * [Combinational Circuits](combinationalcircuits.md)
+* [Use of Flip Flops](flipflops.md)
+
 =======
 
 >>>>>>> parent of 22264cc... added memory elements in sidebar
