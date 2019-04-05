@@ -4,7 +4,9 @@
 
 Contributing Authors: [@amansingla97](https://github.com/amansingla97/)
 
-The user can add CircuitVerse members by adding their email-ids separated by comma. Collaborates can access as well as update the project.
+Collaboration in the CircuitVerse is when two or more people work together by contributing to the same project.
+The user can collaborate with CircuitVerse members by adding their email-ids separated by comma or space. 
+Collaborates can access as well as update the project.
 
 ** Note: Collaboration is not synced between the changes made by collaborators. Every save overwrites and updates the project.**
 
