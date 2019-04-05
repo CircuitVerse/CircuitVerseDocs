@@ -94,7 +94,7 @@ Now,
 | 1 | 1 |  1  |   1    |  1   |
 
 ## Buffer
-A buffer has only a single input and a single output with behavior that is the opposite of an NOT gate. It simply passes its input, unchanged, to its output.
+A buffer has only a single input and a single output with behavior that is the opposite of a NOT gate. It simply passes its input, unchanged, to its output.
 
 | Input | Output |
 |-------|--------|
@@ -125,7 +125,7 @@ Drag and Drop a TriState from Misc Section. Connect input, output and enable pin
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/13252" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Tunnel
-A tunnel acts like a hidden wire that binds points together,but unlike a wire ,the connection is not drawn. All tunnel with same " Debug Flag identifier " are effectively connected together. 
+A tunnel acts like a hidden wire that binds points together, but unlike a wire, the connection is not drawn. All tunnel with same " Debug Flag identifier " are effectively connected together. 
 
 **Simple Example of a Tunnel**
 

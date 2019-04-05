@@ -18,7 +18,7 @@ An example showing properly annotated Full Adder Circuit
 
 ![Annotation Example](/images/annotation-example.png)
 
-> Also you can add details in your circuit, to help further convey the logic, highlight specific points, or explain the flow of circuit, using the Text feature. <br/>
+> Also, you can add details in your circuit, to help further convey the logic, highlight specific points, or explain the flow of circuit, using the Text feature. <br/>
 > Circuitverse also provides you with two more features to annotate your circuit namely **Arrow** and **Rectangle**.
 
 ## Arrow 
@@ -29,7 +29,7 @@ Just navigate through `Misc -> Arrow` and just drag & drop it to the required pl
 
 ## Rectangle
 
-If you ever feel the need to highlight or mark a specific portion of your circuit, you can use *Rectangle*, by navigating through `Misc -> Rectangle`and just drag & drop it to the required place. You can change it's dimensions by using the properties menu.
+If you ever feel the need to highlight or mark a specific portion of your circuit, you can use *Rectangle*, by navigating through `Misc -> Rectangle` and just drag & drop it to the required place. You can change its dimensions by using the properties menu.
 
 ![Rectangle Location](/images/rectangle_navigate.png)&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;     ![Properties Menu](/images/properties_rect.png)
 

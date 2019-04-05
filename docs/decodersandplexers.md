@@ -6,7 +6,7 @@ Contributing Authors: [@brahmakulkarni](https://github.com/brahmakulkarni)
 
 ## Multiplexer
 
-A multiplexer is used to selectively pass only one of the inputs provided to it. This is done using a control signal. The number of inputs are always a power of 2. If there are N control bits, then there can be a maximum of 2^N inputs.
+A multiplexer is used to selectively pass only one of the inputs provided to it. This is done using a control signal. The number of inputs is always a power of 2. If there are N control bits, then there can be a maximum of 2^N inputs.
 
 Consider a simple multiplexer that takes two single-bit inputs (T1 and T2), a single-bit control signal (S) and has an output (Out). This Type of multiplexer is known as a 2 to 1 multiplexer. The truth table is given below:
 
@@ -19,7 +19,7 @@ Consider a simple multiplexer that takes two single-bit inputs (T1 and T2), a si
 
 Using the property menu (as shown in the getting started section) we can pass multi-bit inputs and also increase or decrease the number of inputs that can be given to the multiplexer.
 
-Here is example where there are 4 three-bit inputs and a two-bit control signal or a 4 to 1 multiplexer. The truth table is given below:
+Here is an example where there are 4 three-bit inputs and a two-bit control signal or a 4 to 1 multiplexer. The truth table is given below:
 
 |    S1   |    S0   |    Out    |
 |---------|---------|-----------|
@@ -46,7 +46,7 @@ Its live cicuit is embedded below:
 
 Using the property menu (as shown in the getting started section) we can pass multi-bit inputs and also increase or decrease the number of outputs by changing the number of bits we want the control signal to have.
 
-Here is another example of demultiplexer where a 3 bit input is taken and a two-bit control signal or a 1 to 4 demultiplexer. The truth table is given below:
+Here is another example of demultiplexer where a 3-bit input is taken and a two-bit control signal or a 1 to 4 demultiplexer. The truth table is given below:
 
 |    S1   |    S0   |    O1   |    O2   |    O3   |    O4   |   
 |---------|---------|---------|---------|---------|---------|
@@ -61,7 +61,7 @@ Its live circuit is embedded below:
 
 ## Bit-selector
 
-A bit-selector's function is self-explanatory. It takes a single or multi-bit input and gives the bit we desire to isolate as output. This is done using a single or multi-bit select line. The select line value indicates the specific bit we wish to isolate. An added feature is the bit-selctor shows the bit we want to isolate (as chosen using the select line) within it's body in decimal form.
+A bit-selector's function is self-explanatory. It takes a single or multi-bit input and gives the bit we desire to isolate as output. This is done using a single or multi-bit select line. The select line value indicates the specific bit we wish to isolate. An added feature is the bit-selector shows the bit we want to isolate (as chosen using the select line) within it's body in decimal form.
 
 Consider a bit selector with a four-bit input. Let each of it's bits be addressed separately as T3, T2, T1, T0 (from most significant to least significant). Let it have a two-bit select line (S1 and S0) and a single-bit output (Out). The truth table is given below:
 
@@ -76,24 +76,24 @@ Its live circuit is embedded below:
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/758" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
-## Most Significant Bit (MSB) Delector
+## Most Significant Bit (MSB) Detector
 
-The MSB delector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable output is also provided to show if the MSB delector is active. The bit position of the MSB is also shown in decimal form within the body of the MSB delector.
+The MSB detector gives as output the bit position of the most-significant-bit of the input. In other words, it tells us at which bit position the right-most one is located. An enable output is also provided to show if the MSB detector is active. The bit position of the MSB is also shown in decimal form within the body of the MSB detector.
 
 Consider an MSB detector with a four-bit input. Its live circuit is embedded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/11988" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 
-## Least Significant Bit (LSB) Delector
+## Least Significant Bit (LSB) Detector
 
-The LSB delector gives as output the bit position of the least-significant-bit of the input. In other words, it tells us at which bit position the left-most one is located. An enable output is also provided to show if the LSB delector is active. The bit position of the LSB is also shown in decimal form within the body of the LSB delector.
+The LSB detector gives as output the bit position of the least-significant-bit of the input. In other words, it tells us at which bit position the left-most one is located. An enable output is also provided to show if the LSB detector is active. The bit position of the LSB is also shown in decimal form within the body of the LSB detector.
 
 Consider an LSB detector with a four-bit input. Its live circuit is embedded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/11990" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Priority Encoder
 
-The priority encoder provided by Circuitverse works in a simmilar fashion to the MSB detector (in practise it can work like the LSB detector also). There is a specific output based on the bit position of the MSB, irrespective of the lesser significant bits. AN enable input is also provided to activate/deactivate the priority encoder. If there are N outputs, there will be 2^N inputs.
+The priority encoder provided by Circuitverse works in a similar fashion to the MSB detector (in practise it can work like the LSB detector also). There is a specific output based on the bit position of the MSB, irrespective of the lesser significant bits. AN enable input is also provided to activate/deactivate the priority encoder. If there are N outputs, there will be 2^N inputs.
 
 Consider a priority encoder with four single-bit inputs (T3, T2, T1 and T0 from most to least-significant bit) and two single-bit outputs (O2 and O1 from most to least-significant bit). The truth table is given below:
 
