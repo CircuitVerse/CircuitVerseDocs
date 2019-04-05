@@ -9,7 +9,7 @@ A fork is a copy of a project. Forking a project allows the user to freely exper
 
 
 #### Usage
-Most commonly, forks are used to either experiment with changes to someone else's project or to use someone else's project as a starting point for your own idea.
+In CircuitVerse, forks are used to either experiment with changes to someone else's project or to use someone else's project as a starting point for your own idea.
 
 ![](./images/fork.gif)
 
