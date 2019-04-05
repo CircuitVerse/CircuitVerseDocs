@@ -36,7 +36,7 @@ CircuitVerse provides an easy way of creating test bench. Here we will try to ma
 
   ![](images\testbench\Test_JSON.png)
 
-  Since we have succesfully created our test bench now let us use it to test our AND Gate in the [simulator](https://circuitverse.org/simulator)
+  Since we have successfully created our test bench now let us use it to test our AND Gate in the [simulator](https://circuitverse.org/simulator)
 
   
 
@@ -77,4 +77,4 @@ When the actual output is written in red, it means the output produced by the ci
 
 ![](images\testbench\wrong_test_case.png)
 
-Here I have provided a wrong test case in case 2 which is responsible for this unexpected behavior . So you must always recheck your test cases before using it in order to correctly stimulate your circuit.
+Here I have provided a wrong test case in case 2 which is responsible for this unexpected behavior . So you must always recheck your test cases before using it in order to correctly simulate your circuit.
