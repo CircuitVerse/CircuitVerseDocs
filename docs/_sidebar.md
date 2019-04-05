@@ -4,6 +4,8 @@
 * [Modifying Circuit Elements](Modify.md)
 * [SubCircuits](subcircuit.md)
 * [Exporting Images](export.md)
+* [Annotation Elements](annotation.md)
+
 * Circuit Elements
   * [CircuitVerse Outputs](outputs.md)
   * [Standard Gates](gates.md)
