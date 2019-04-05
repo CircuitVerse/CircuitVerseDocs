@@ -4,7 +4,7 @@
 * [Modifying Circuit Elements](Modify.md)
 * [SubCircuits](subcircuit.md)
 * [Exporting Images](export.md)
-* [Annotation Elements](annotation.md)
+* [Timing Diagrams](timing_diagrams.md)
 
 * Circuit Elements
   * [CircuitVerse Outputs](outputs.md)
@@ -14,5 +14,8 @@
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
   * [Miscellaneous](miscellaneous.md)
-* [Test Bench](testbench.md)
+* [Annotation Elements](annotation.md)
+
 * [Groups](groups.md)
+* [Test Bench](testbench.md)
+
