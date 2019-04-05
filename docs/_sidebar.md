@@ -1,6 +1,7 @@
 * [Home](/)
 * [Getting Started](getting_started.md)
 * [Video Demos](video_demos.md)
+* [Adding Collaborators](collaborator.md)
 * [Modifying Circuit Elements](Modify.md)
 * [SubCircuits](subcircuit.md)
 * [Exporting Images](export.md)
