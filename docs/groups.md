@@ -8,10 +8,10 @@ Teachers can :
 - Create groups
 - Add Students
 - Post Assignments
-- View Assigment Work of each Student member.
+- View Assignment Work of each Student member.
 
 Students can :
-- View the Given Assigment with live deadline counter.
+- View the Given Assignment with live deadline counter.
 - Create them easily with the help of CircuitVerse Simulator.
 - Submit them remotely.
 
