@@ -4,7 +4,6 @@
 * [Modifying Circuit Elements](Modify.md)
 * [SubCircuits](subcircuit.md)
 * [Exporting Images](export.md)
-
 * Circuit Elements
   * [CircuitVerse Outputs](outputs.md)
   * [Standard Gates](gates.md)
@@ -12,6 +11,5 @@
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
   * [Miscellaneous](miscellaneous.md)
-
+* [Test Bench](testbench.md)
 * [Groups](groups.md)
-
