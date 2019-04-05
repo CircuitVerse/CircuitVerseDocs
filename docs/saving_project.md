@@ -14,8 +14,6 @@ Tags are used to categorize projects. Tags work like keywords or labels that mak
 A project can be related to one or multiple tags separated by a comma.
 With one click on any tag, the user can search the related tagged projects.
 
-
-
 ![](./images/tag.gif)
 
 ## Save Offline
