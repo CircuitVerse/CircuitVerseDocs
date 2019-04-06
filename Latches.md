@@ -19,6 +19,7 @@ SR Latch is a circuit with:
 |  1  |  0   |    Set   |
 |  0  |  1   |  Reset |
 
+
 Under normal conditions, both the input remains 0.
 ##### Case 1 (Set state)
 <p>&nbsp; &nbsp;(i) Inputs : S = 0 &amp; R = 1<br />&nbsp; &nbsp;
