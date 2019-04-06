@@ -60,7 +60,7 @@ There are Different ports in an ALU :
 
 ## HALF ADDER
 
-Half adder is a combinational circuit, which performs the addition of two binary numbers A and B are of single bit. It produces two outputs sum, S & carry, C.
+Half adder is a combinational circuit, which performs the addition of two binary numbers A and B of single bit. It produces two outputs sum (S) & carry (C).
 
 **Truth Table for Different values in Half adder :**
 
