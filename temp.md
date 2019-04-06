@@ -75,6 +75,8 @@ Half adder is a combinational circuit, which performs the addition of two binary
 We can implement the above functions with 2-input Ex-OR gate & 2-input AND gate.
 <br/>
 <br/>
+
+
 **STEPS FOR USAGE**
 > Location of Half Adder : Under the **Misc** section.
 
