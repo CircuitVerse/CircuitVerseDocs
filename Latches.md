@@ -1,4 +1,5 @@
-# Latch
+## Latches
+Contributing Authors: [@saurabh111121](https://github.com/saurabh111121)<br/>
 A latch is an asynchronous device with exactly 2 stable state.
 Latches are used to hold information in place and thus used as a memory device as long as th device is powered.
 Latches are very similar to flip-flops, but are not synchronous  and do not operate on clock edges as flip-flops do.
