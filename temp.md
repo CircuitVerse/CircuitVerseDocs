@@ -1,6 +1,6 @@
 # Miscellaneous Elements
 
-Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare), [@NavonilDas](https://github.com/NavonilDas)
+Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare), [@NavonilDas](https://github.com/NavonilDas), [@saurabh111121](https://github.com/saurabh111121)
 
 >This Section contains Documentation of various miscellaneous elements.
 
@@ -74,12 +74,14 @@ Half adder is a combinational circuit, which performs the addition of two binary
 <p>From Truth table, the Boolean functions for each output can be written as<br />&nbsp; &nbsp; &nbsp; S=A&oplus;B<br />&nbsp; &nbsp; &nbsp; C=AB</p>
 We can implement the above functions with 2-input Ex-OR gate & 2-input AND gate.
 <br/>
-
+<br/>
 **STEPS FOR USAGE**
 > Location of Half Adder : Under the **Misc** section.
 
-- Drop the Half Adder from Misc section of Circuit Elements on canvas
-- Place the inputs (operands)
+- Drop the Half adder on Canvas
+- Place the Operand Inputs A & B
+- For input values A & B, there will be an output(S) and a Carry(C)
+- Inputs and Outputs are of 1 bit only
 <br/>
 Now,
 - Using Output tool, we can check for the different values of A and B.
