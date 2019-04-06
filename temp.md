@@ -7,6 +7,7 @@ Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare), [@Na
 **List of Elements :**
 
 - [ALU](#ALU)
+- [Half Adder](#HAlf_Adder)
 - [Adder](#Adder)
 - [Buffer](#Buffer)
 - [Tri State Buffer](#tri-state-buffer)
@@ -59,8 +60,7 @@ There are Different ports in an ALU :
 
 ## HALF ADDER
 
-An Adder is a logical circuit that performs an addition operation on binary numbers and
-produces a **sum of the Three inputs** and a **carry value** (Cout).
+Half adder is a combinational circuit, which performs the addition of two binary numbers A and B are of single bit. It produces two outputs sum, S & carry, C.
 
 **Truth Table for Different values in Half adder :**
 
@@ -73,7 +73,7 @@ produces a **sum of the Three inputs** and a **carry value** (Cout).
 
 <p>From Truth table, the Boolean functions for each output can be written as<br />&nbsp; &nbsp; &nbsp; S=A&oplus;B<br />&nbsp; &nbsp; &nbsp; C=AB</p>
 We can implement the above functions with 2-input Ex-OR gate & 2-input AND gate.
-
+<br/>
 
 **STEPS FOR USAGE**
 > Location of Half Adder : Under the **Misc** section.
