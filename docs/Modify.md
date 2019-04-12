@@ -27,5 +27,5 @@ You can change other attributes, like the number of inputs of an AndGate in the 
 
 ## Label and Label Direction
 
-You can label any circuit element in the property menu. You can also chose the position of the label.
+You can label any circuit element in the property menu. You can also choose the position of the label.
 ![Direction Change](/images/label.png)

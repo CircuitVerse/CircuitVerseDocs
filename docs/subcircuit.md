@@ -14,6 +14,6 @@ To edit layout of the circuit, click on an empty space to see the property menu 
 
 ![Property Menu](/images/property_layout.png)
 
-You should be able to see a window where you can change the width, height of all the subcircuit. Position the title of the subcircuit. To change the position of the node, simple drag on a node and place it where you wish. Please note that a node can only be placed on the perimeter of the subciruit.
+You should be able to see a window where you can change the width, height of all the subcircuit. Position the title of the subcircuit. To change the position of the node, simple drag on a node and place it where you wish. Please note that a node can only be placed on the perimeter of the subcircuit.
 
 ![Subcircuit Layout](/images/subcircuit_layout.png)
