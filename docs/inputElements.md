@@ -26,7 +26,7 @@ Once all the components are visible, they can be used by dragging and dropping i
 ## Input
 
 The input to any gate or circuit can be high or low i.e (1) or (0). Here in the circuit Verse [simulator](https://circuitverse.org/simulator), to use the component, it needs to be dragged to the canvas as [above](#getting-started)
-to use it. To change the Input state, the component needs to be clicked once as shown in below image.
+to use it. To change the Input state, the component needs to be clicked once as shown in the below image.
 
 ![](./images/input.gif)
 
@@ -60,7 +60,7 @@ The example above has LED's arranged in the form of "HI". These LED's will alway
 
 Occasionally, particularly in AC power distribution and some radio antenna systems, it does mean "a connection to the earth".
 
-However, in most electronics, particularly portable battery-operated devices, "ground" is just the point in the circuit that the designer chose to call "zero volts" and to use as a reference when measuring voltages elsewhere in the circuit. Hence, it is just similar to the power but always Low(0).
+However, in most electronics, particularly portable battery-operated devices, "ground" is just the point in the circuit that the designer chose to call "zero volts" and to use as a reference when measuring voltages elsewhere in the circuit. Hence, it is just similar to power but always Low(0).
 
 ## ConstantVal
 

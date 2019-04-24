@@ -8,7 +8,7 @@ Test Bench are used to simulate your designs. These are generally used for autom
 
 ### Creating a test bench
 
-CircuitVerse provides an easy way of creating test bench. Here we will try to make a test bench for testing our very own AND Gate.
+CircuitVerse provides an easy way of creating a test bench. Here we will try to make a test bench for testing our very own AND Gate.
 
 * Go to <https://circuitverse.org/testbench>.
 
@@ -20,11 +20,11 @@ CircuitVerse provides an easy way of creating test bench. Here we will try to ma
 
   ![](images\testbench\input.png)
 
-  You may want to change the Label of the inputs. In order to do so change that simply click on the box where inp1 is written and you will now be able to change the label for your input. Also note the color of your input box is purple while that of output will be light green.
+  You may want to change the Label of the inputs. In order to do so change that simply click on the box where inp1 is written and you will now be able to change the label for your input. Also, note the color of your input box is purple while that of output will be light green.
 
   The **Label** is used to label your input and outputs whereas **BitWidth** is used to specify the number of Bits For your input and output.
 
-* **Add output** as the name suggest is used to denote the output of your circuits. In our case the AND Gate has a single output.So, we shall only add one output to our test bench.
+* **Add output** as the name suggest is used to denote the output of your circuits. In our case, the AND Gate has a single output. So, we shall only add one output to our test bench.
 
   ![](images\testbench\output.png)
 
@@ -32,7 +32,7 @@ CircuitVerse provides an easy way of creating test bench. Here we will try to ma
 
   ![](images\testbench\test_cases.png)
 
-* **Generate Data** generates a JSON file which is later used to test your circuit. You may also use **Load Data** to load JSON data of your own to look how your Test bench looks like.
+* **Generate Data** generates a JSON file which is later used to test your circuit. You may also use **Load Data** to load JSON data of your own to look at how your Test bench looks like.
 
   ![](images\testbench\Test_JSON.png)
 
@@ -77,4 +77,4 @@ When the actual output is written in red, it means the output produced by the ci
 
 ![](images\testbench\wrong_test_case.png)
 
-Here I have provided a wrong test case in case 2 which is responsible for this unexpected behavior . So you must always recheck your test cases before using it in order to correctly simulate your circuit.
+Here I have provided a wrong test case in case 2 which is responsible for this unexpected behavior. So you must always recheck your test cases before using it in order to correctly simulate your circuit.

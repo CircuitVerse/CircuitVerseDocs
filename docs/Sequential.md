@@ -5,7 +5,7 @@ Contributing Authors: [@theredcap](https://github.com/theredcap)
 
 ## D Flip Flop
 
-A delay or D Flip Flop is used to delay the input. It has a single data input in addition to the clock input. The output of D Flip Flop is same as the input data.
+A delay or D Flip Flop is used to delay the input. It has a single data input in addition to the clock input. The output of D Flip Flop is the same as the input data.
 
 Truth Table for D Flip Flop is given below.
 
@@ -37,7 +37,7 @@ D Latch is essentially a D Flip Flop. Here you do not get an option to configure
 
 ## T Flip Flop
 
-T or 'toggle' Flip Flop is used to toggle the output. It has a single data input along with the clock input. If the value of input is 1, then the output of the next state is the complement of the previous state.
+T or 'toggle' Flip Flop is used to toggle the output. It has a single data input along with the clock input. If the value of the input is 1, then the output of the next state is the complement of the previous state.
 
 The truth table for T Flip is given below:
 
@@ -54,7 +54,7 @@ You can play with the circuit here:
 
 ## SR Flip Flop
 
-SR Flip Flops is one of the most simplest sequential circuit.  It has two inputs S and R along with the clock.  S here stands for 'Set' and R stands for 'Reset'. Thus when S is high the output is high, when R is high the output is low.
+SR Flip Flops is one of the simplest sequential circuits.  It has two inputs S and R along with the clock.  S here stands for 'Set' and R stands for 'Reset'. Thus when S is high the output is high, when R is high the output is low.
 
 The truth table is given below.
 
@@ -105,7 +105,7 @@ This component implements a very simple dumb terminal. It receives a sequence of
 * South edge, second pin from left (input, bit width 1)
   Clear - when 1, the terminal is cleared of all data, and all other inputs are ignored.
   
- To get following circuit, click on TTY under the Sequential circuits and connect it with random generator(Do not forget take bitwidth of 7).
+ To get the following circuit, click on TTY under the Sequential circuits and connect it with a random generator(Do not forget to take bitwidth of 7).
  
  <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/13085" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
  
