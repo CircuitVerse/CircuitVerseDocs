@@ -15,17 +15,17 @@ Modify the element direction by changing it in the property menu or simply use a
 
 ## Bitwidth
 
-Modify the bitwidth of the circuit element in the property menu.
+You can define the number of binary digits that is to be taken as input or output, by changing the bitwidth property of an element.
 
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/736" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Other attributes
 
-You can change other attributes, like the number of inputs of an AndGate in the Property Menu.
+You can change other attributes, like the number of inputs of an AND gate in the property menu.
 
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/735" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Label and Label Direction
 
-You can label any circuit element in the property menu. You can also chose the position of the label.
+You can give additional information about the circuit elements by the use of labels. One can also choose the position of the label with the help of label direction.
 ![Direction Change](/images/label.png)
