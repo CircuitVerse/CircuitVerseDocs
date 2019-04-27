@@ -119,3 +119,4 @@ This mode provides single pixel editing.Using a tri-state in any of these pins a
 
 ### Additional Features
 In the properties window, there is a button that toggles the matrix grid lines on and off. Turning them off allows the image in the matrix to appear as a normal bitmap.
+![](images/addon.png)
