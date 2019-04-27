@@ -11,6 +11,7 @@ Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare), [@Na
 - [Buffer](#Buffer)
 - [Tri State Buffer](#tri-state-buffer)
 - [Tunnel](#tunnel)
+- [Controlled Inverter](#controlled-inverter)
 
 ## ALU
 
@@ -132,3 +133,16 @@ A tunnel acts like a hidden wire that binds points together, but unlike a wire, 
 Drag and Drop a two Tunnels from Misc section. Check whether both the tunnel have same " Debug Flag identifier ". Connect one as input and other one as output.
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/12642" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Controlled Inverter
+
+A  controlled inverter is similar to an inverter, but it adds an additional "enable" input that controls whether the primary input is passed to its output or not. If the "enable" inputs signal is High (1), the controlled inverter behaves like a normal inverter. If the "enable" input signal is LOW (0), the controlled inverter passes a high impedance (Z) signal, which effectively disconnects its output from the circuit.
+
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/14974" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+| Enable | Input | Output |
+| ------ | ----- | ------ |
+| 0      | 1/0   | Z      |
+| 1      | 1     | 0      |
+| 1      | 0     | 1      |
+
