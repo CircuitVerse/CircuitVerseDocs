@@ -1,6 +1,7 @@
 * [Home](/)
 * [Getting Started](getting_started.md)
 * [Video Demos](video_demos.md)
+* [Saving Projects](saving_project.md)
 * [Forking Projects](forking_project.md)
 * [Modifying Circuit Elements](Modify.md)
 * [SubCircuits](subcircuit.md)
