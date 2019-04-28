@@ -85,6 +85,13 @@ There are both advantages and disadvantages to using the sixteen segment display
 ## RGB LED Matrix
 Displays a small grid of pixels, whose values are determined by the current inputs. The grid can have up to 128 rows and 128 columns.
 
+### LED Sizes
+* There are 3 LED sizes, configurable at design time.
+  * Small, 1x1.
+  * Medium, 2x2.
+  * Large, 3x3.
+Examples of different matrix configurations and comparison with the size of LEDs:
+![](images/led_size.png)
 ### Pins
 * **LEFT**: Ry, 1-bit: one pin for each row.
 * **BOTTOM**: Cx, 1-bit: one pin for each column.
