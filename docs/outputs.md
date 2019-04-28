@@ -90,6 +90,8 @@ Displays a small grid of pixels, whose values are determined by the current inpu
   * Small, 1x1.
   * Medium, 2x2.
   * Large, 3x3.
+ 
+ 
 Examples of different matrix configurations and comparison with the size of LEDs:
 ![](images/led_size.png)
 ### Pins
