@@ -85,7 +85,7 @@ There are both advantages and disadvantages to using the sixteen segment display
 ## RGB LED Matrix
 Displays a small grid of pixels, whose values are determined by the current inputs. The grid can have up to 128 rows and 128 columns.
 
-### LED Sizes
+### LED Sizes {docsify-ignore}
 * There are 3 LED sizes, configurable at design time.
   * Small, 1x1.
   * Medium, 2x2.
@@ -94,7 +94,7 @@ Displays a small grid of pixels, whose values are determined by the current inpu
  
 Examples of different matrix configurations and comparison with the size of LEDs:
 ![](images/led_size.png)
-### Pins
+### Pins {docsify-ignore}
 * **LEFT**: Ry, 1-bit: one pin for each row.
 * **BOTTOM**: Cx, 1-bit: one pin for each column.
 * **TOP**: CLRx, 24-bits (RGB): one pin of color for each column.
@@ -103,29 +103,29 @@ Examples of different matrix configurations and comparison with the size of LEDs
   * ***ROW***, variable bit width. This is on the right side of the matrix.
   * ***COLUMN***, variable bit width. This is on the right side of the matrix.
   
-### Usage
+### Usage {docsify-ignore}
 
 Pixels can be set in three different ways:
 
 **Method 1**: Use inputs R and CLR.
 In this mode, the pixel at (x,y) takes the colour specified by CLRx if CLRx is connected and Ry is 1.This mode provides bulk editing with multiple colours inputs.This is similar to how some real LED matrices work. A controlling circuit populates the column-colour pins, possibly with different colours, and then turns on one or more of the R pins to light up those rows, then moves on to other rows. Inputs that are disconnected (no wires or via tri-state) do not affect pixels in their corresponding columns.The main difference is that LEDs in real matrices fade-out, while in this simulation we keep them on as if they had a memory attached to them.
 
-#### You can play here:
+#### You can play here {docsify-ignore}
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/15118" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 **Method 2**: Use inputs R, C and COLOR.
 In this mode, the pixel at (x,y) takes the colour specified by COLOR if COLOR is connected, Ry is 1 and Cx is 1.This mode provides bulk editing with a single colour input. In particular, this makes it easy to draw rectangles in the matrix, by selecting the rows and columns that should be updated and turning on the COLOR pin. Using a tri-state in the COLOR pin allows one to control exactly when the colour is imprinted, in case the selected rows and columns are changed by different clock cycles.
-#### You can play here:
+#### You can play here {docsify-ignore}
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/15125" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 **Method 3**: Use the ROW, COLUMN and COLOR inputs.
 In this mode, the pixel at (COLUMN, ROW) takes the colour specified by COLOR if ROW, COLUMN and COLOUR are connected.
 This mode provides single pixel editing.Using a tri-state in any of these pins allows one to control exactly when the colour is imprinted, in case the pins are changed by different clock cycles.
-#### You can play here:
+#### You can play here {docsify-ignore}
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/15127" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 >These methods are not exclusive. A single matrix can have all pins being used at any particular time, but if a pixel is affected by multiple methods then method 1 has the lowest priority and method 3 has the highest priority. In other words, COLOR has precedence over CLRx.
 
-### Additional Features
+### Additional Features {docsify-ignore}
 In the properties window, there is a button that toggles the matrix grid lines on and off. Turning them off allows the image in the matrix to appear as a normal bitmap.
 ![](images/addon.png)
