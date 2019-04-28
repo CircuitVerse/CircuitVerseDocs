@@ -4,7 +4,7 @@
 
 Contributing Authors: [@theredcap](https:github.com/theredcap)
 
-Timing plays an vital role while you are designing any circuit. Timing diagrams help us visualize the state of different signals with respect to time.  In a timing diagram, time is represented on the x-axis and the different components or signals of the system, that interact with each other, are represented on the y-axis. 
+Timing plays a vital role while you are designing any circuit. Timing diagrams help us visualize the state of different signals with respect to time.  In a timing diagram, time is represented on the x-axis and the different components or signals of the system, that interact with each other, are represented on the y-axis. 
 
 #### Using Flags
 
@@ -26,7 +26,7 @@ By default the flags are named as F1, F2 and so on, this can be confusing when y
 
 1. Click on the flag
 
-2. Locate Properties ribbon that appears at bottom left corner of the page
+2. Locate Properties ribbon that appears at the bottom left corner of the page
 
    ![](images/timing_diagram/properties_of_flag.png)
 

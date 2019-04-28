@@ -24,7 +24,7 @@ Short for **read-only memory**, ROM is a storage medium that is used with comput
 
 It is either modified with extreme difficulty or not at all. ROM is mostly used for firmware updates. A simple example of ROM is the cartridge used with video game consoles, which allows one system to run multiple games. Another example of ROM is EEPROM, which is a programmable ROM used for the computer BIOS.
 
-The ROM in [CircuitVerse](https:circuitverse.org/simulator) accepts 4 bit address input. The corresponding value stored in the particular address is returned as a 8 bit output, *Remember, initial address always starts  from 0.*
+The ROM in [CircuitVerse](https:circuitverse.org/simulator) accepts 4-bit address input. The corresponding value stored in the particular address is returned as a 8-bit output, *Remember, initial address always starts  from 0.*
 
 The **enable** signal is used to enable the ROM.
 
