@@ -8,7 +8,7 @@
 
 Select the circuit element type and drop on canvas or drag the object onto canvas.
 
-## Connecting wires
+## Connecting Wires
 
 [filename](/video/wire.mp4 ':include :type=video')
 
