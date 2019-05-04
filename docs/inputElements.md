@@ -4,7 +4,7 @@
 
 Contributing Authors: [@Kedar-K](https://github.com/Kedar-K)
 
-## contents
+## Contents
 
 * [Getting started](#getting-started)
 * [Input](#input)
