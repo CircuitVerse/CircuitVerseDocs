@@ -4,7 +4,7 @@
 
 Contributing Authors: [@Kedar-K](https://github.com/Kedar-K)
 
-## contents
+## Contents
 
 * [Getting started](#getting-started)
 * [Input](#input)
@@ -13,6 +13,7 @@ Contributing Authors: [@Kedar-K](https://github.com/Kedar-K)
 * [Ground](#ground)
 * [Constantval](#constantval)
 * [Stepper](#stepper)
+* [Random](#random)
 * [Counter](#counter)
 
 ## Getting Started
