@@ -1,6 +1,6 @@
 # Video demonstrations
 
-> Here are video demonstrations on a few select topics.
+> Here are video demonstrations on a few selected topics.
 
 Contributing Authors: [@brahmakulkarni](https://github.com/brahmakulkarni)
 
