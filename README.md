@@ -24,6 +24,10 @@ When you add a page, make sure you have an entry in the `_sidebar.md`
 
 **Note that all documentation should have a corresponding live circuit embedded so as to help the users. Note that live circuit is NOT the same as image of a circuit.**
 
+## Open with Gitpod
+
+[![Open in Gitpod](https://gitpod.io/button/open-in-gitpod.svg)](https://gitpod.io/#https://github.com/CircuitVerse/CircuitVerseDocs/)
+
 ## Steps to Contributing
 
 1. Fork this project
