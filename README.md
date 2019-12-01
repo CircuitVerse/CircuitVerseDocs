@@ -1,3 +1,5 @@
+![download](https://user-images.githubusercontent.com/35162705/69916618-27d89c80-1483-11ea-9836-165db61b1a3e.png)
+
 # CircuitVerse Documentation
 
 This is the official documentation of the CircuitVerse simulator. This is meant to be a guide for users to use CircuitVerse. This is to have details of the usage of all Circuit Elements in CircuitVerse along with some tips and tricks. This guide has to assume minimum knowledge of the user.
@@ -37,5 +39,5 @@ When you add a page, make sure you have an entry in the `_sidebar.md`
 Read the [Code of Conduct](./code-of-conduct.md) of [CircuitVerseDocs](https://docs.circuitverse.org) Community.
 
 ## GSoC'19 Project Details
-
+ 
 Read the [wiki](https://github.com/CircuitVerse/CircuitVerseDocs/wiki/Interactive-Book) for more information on the interactive book.
