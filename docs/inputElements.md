@@ -98,7 +98,7 @@ The counter component can be used by dragging it on to the canvas. It is a binar
 * Max Value: input, maximum value that the counter will reach.
 * Clock: input clock element, every time the clock gets high the counter increments by one.
 * Reset: input, when high it resets the counter to zero.
-* Zero: output, it's high when the counter is zero.
+* Zero: output, it is activated when the counter overflows, and the clock cycle that overflowed the counter is still high; that is why when the max value is set to 0, it will always be high. 
 * Value: output, value of the counter in binary.
 
 The value is also displayed in decimal notation on the counter element.
