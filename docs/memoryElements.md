@@ -15,7 +15,9 @@ or by selecting the component and pressing the "Reset" button in the properties 
 The contents of the RAM can be dumped to the console by transitioning CORE DUMP pin to 1
 or by selecting the component and pressing the "Core Dump" button in the properties window.
 Address spaces that have not been written will show up as undefined in the core dump.
-![RAM](images\ram.png)
+
+![RAM](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/ram.png)
+
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/12515" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## ROM

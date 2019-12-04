@@ -6,14 +6,14 @@
 
 Create a circuit (circuit1) with inputs and outputs. Insert another circuit (Circuit &rightarrow; new circuit). Let's call this circuit 2. Then to insert circuit1 as a subcircuit in circuit 2, go to Circuit &rightarrow; insert Subcircuit. That is how you insert a subcircuit.
 
-![Subcircuit Menu](/images/subcircuit.png)
+![Subcircuit Menu](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/subcircuit.png)
 
 ## Editing layout of a subcircuit
 
 To edit the layout of the circuit, click on an empty space to see the property menu of the current circuit. Then click on edit layout.
 
-![Property Menu](/images/property_layout.png)
+![Property Menu](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/property_layout.png)
 
 You should be able to see a window where you can change the width, height of all the subcircuit. Position the title of the subcircuit. To change the position of the node, simple drag on a node and place it where you wish. Please note that a node can only be placed on the perimeter of the subcircuit.
 
-![Subcircuit Layout](/images/subcircuit_layout.png)
+![Subcircuit Layout](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/subcircuit_layout.png)

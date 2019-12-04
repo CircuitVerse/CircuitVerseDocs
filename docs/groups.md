@@ -19,7 +19,7 @@ Students can :
 
 - First Click on your username on the right top corner as shown.
 
-![My-Groups](/images/my-groups.png)
+![My-Groups](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/my-groups.png)
 
 - Then, Click on **New Group** Button to create a New Group.
 
@@ -27,7 +27,7 @@ Students can :
 - You can add students by clicking on the  **Add member** button.
 - Simply enter the list of emails separated by commas. (If students are already registered with CircuitVerse they will be added automatically. If they are not registered with CircuitVerse yet, an invitation will be sent to register. Once they register, they will be added automatically. )
 
-![Add-students](/images/students-list.png)
+![Add-students](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/students-list.png)
 
 ## Posting Assignments
 
@@ -40,7 +40,7 @@ Students can :
 
 > **NOTE :** Word Processing tools are available for Description as well as feature to embed Any File for Assignment Description.
 
-![Assigments](/images/assignment.png)
+![Assigments](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/assignment.png)
 
 > After Posting, to see the status of different assignments, Click on the **Show** button correspoding to a group.
 <br/>
@@ -50,7 +50,7 @@ Students can :
 
 >To see the students' work in each assignment, click on **show** button corresponding to an Assignment.
 
-![student-stauts](/images/student-status.png)
+![student-stauts](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/student-status.png)
 
 ## For Students
 
@@ -66,7 +66,7 @@ Students can :
 <br/>
 > **Start Working** Button : It Would Open a New Window.
 
-![groups-student](/images/groups-student.png)
+![groups-student](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/groups-student.png)
 
 ***In Start Working Window,***
  - To Work Upon a Assignment, Launch simulator from **Launch Simulator** Button. Complete the assignment in simulator and save the work.

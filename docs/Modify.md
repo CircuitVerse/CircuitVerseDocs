@@ -6,12 +6,13 @@
 
 Click on any circuit element and see it's property menu at the bottom left corner.
 
-![Property Menu](/images/property_menu.png)
+![Property Menu](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/property_menu.png)
 
 ## Direction
 
 Modify the element direction by changing it in the property menu or simply use arrow keys.
-![Direction Change](/images/direction.png)
+
+![Direction Change](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/direction.png)
 
 ## Bitwidth
 
@@ -28,4 +29,5 @@ You can change other attributes, like the number of inputs of an AndGate in the 
 ## Label and Label Direction
 
 You can label any circuit element in the property menu. You can also chose the position of the label.
-![Direction Change](/images/label.png)
+
+![Label Direction](https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/images/label.png)
