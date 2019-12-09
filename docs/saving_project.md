@@ -4,7 +4,7 @@
 
 Contributing Authors: [@amansingla97](https://github.com/amansingla97/)
 ## Save Online
-This option allows the user to save the project with CircuitVerse cloud. While saving the project the user can also provide the description along with relevant tags related to the project.
+This option allows the user to save their project with the CircuitVerse cloud. While saving the project the user can also provide a description along with relevant tags related to the project.
 The project can also be saved with public, private or limited access.
 
 ![](./images/save_online.gif)

@@ -26,7 +26,7 @@ There are Different ports in an ALU :
 >Input Values ( Opcodes ) for **ctr** are discussed in the later section.
 
 - Cout (status output) : This is an OUTPUT port for getting **carry** after the operation on given operands.
-- Ans : As name suggests, Output of **Result** after the operation on given operands.
+- Ans : As the name suggests, Output of **Result** after the operation on given operands.
 
 **STEPS FOR USAGE** :
 > Location of ALU : Under the **Misc** section.

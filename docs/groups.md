@@ -57,10 +57,10 @@ Students can :
 > Students can Manage their assignments from the **My Groups** Window.
 
 - Different groups Must be visible which are created by Their Teachers in **Groups You belong to** Window.
-- After Clicking On Particular Group, Few things are noticeable such as,
+- After Clicking On a particular group, few things are noticeable such as:
     - All the group members
     - List of Assignments with their respective deadline.
-    - Two Clickable like **show** and **Start Working**.
+    - Two Clickables like **show** and **Start Working**.
 
 > **Show** Button : Desription of the Assigment.
 <br/>
