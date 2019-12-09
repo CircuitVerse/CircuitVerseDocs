@@ -18,21 +18,27 @@
 	<link id="stylesheet" rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
 
  	<script>
-		var url =  "//unpkg.com/docsify/themes/dark.css";
-		var url2 = "//unpkg.com/docsify/themes/vue.css";
-		var stylesheet = document.getElementById("stylesheet");
-		var show = false;
+		const normalStyle = "//unpkg.com/docsify/themes/vue.css";
+		const darkStyle =  "//unpkg.com/docsify/themes/dark.css";
+		const normalLogoUrl = "/images/circuitverse-logo.png";
+		const darkLogoUrl = "/images/circuitverse-logo-white.png";
 
-		function setStyleSheet() {
-			if (show) {
-				stylesheet.setAttribute('href', url2);
-				show = !show;
-			} 
-			else {
-				stylesheet.setAttribute('href', url);
-				show = !show;
+		var stylesheet = document.getElementById("stylesheet");
+		var darkMode = false;
+
+		function toggleDarkMode() {
+			var logo = document.getElementById("circuitverse-logo");
+			darkMode = !darkMode;
+
+			if (darkMode) {
+				stylesheet.setAttribute('href', darkStyle);
+				logo.setAttribute("src", darkLogoUrl);
 			}
-		};
+			else {
+				stylesheet.setAttribute('href', normalStyle);
+				logo.setAttribute("src", normalLogoUrl);
+			}
+		}
     </script>
 </head>
 
@@ -43,21 +49,31 @@
 		window.$docsify = {
 			name: 'CircuitVerse Documentation',
 			repo: 'https://github.com/CircuitVerse/CircuitVerseDocs/',
-			logo: '/images/circuitverse_logo.png',
-			nameLink: 'https://circuitverse.org', 
 
 			plugins: [
 				EditOnGithubPlugin.create('https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/'),
+				//Custom plugin
 				function(hook) {
-					var footer = [
+					//Dark theme toggle
+					var header = [
 					'<header>',
-					'<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox"><span class="slider round"></span></label></span>',
+					'<span><label class="switch"><input title="Toggle Dark theme" onclick="toggleDarkMode();" type="checkbox"><span class="slider round"></span></label></span>',
 					'</header>'
 					].join('');
 
+					//Logo/main page link
+					var logo = [
+						'<a href="https://circuitverse.org" target="_blank"><img id="circuitverse-logo" src="/images/circuitverse-logo.png" alt="CircutVerse logo"></a>'
+					];
+
+					//Add elements
 					hook.afterEach(function(html) {
-						return footer + html;
+						return header + html;
 					});
+					hook.ready(function() {
+						var sidebar = document.getElementsByClassName("sidebar")[0];
+						sidebar.innerHTML = logo + sidebar.innerHTML;
+					})
 				}
 			],
 			loadSidebar: true,
