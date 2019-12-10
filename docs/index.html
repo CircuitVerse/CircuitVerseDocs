@@ -49,6 +49,7 @@
 		window.$docsify = {
 			name: 'CircuitVerse Documentation',
 			repo: 'https://github.com/CircuitVerse/CircuitVerseDocs/',
+			
 
 			plugins: [
 				EditOnGithubPlugin.create('https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/'),
@@ -74,6 +75,8 @@
 						var sidebar = document.getElementsByClassName("sidebar")[0];
 						var searchDiv = sidebar.childNodes[0];
 						searchDiv.insertAdjacentHTML("afterend", logo);
+
+						document.getElementsByClassName("app-name-link")[0].textContent = "Documentation";
 					});
 				}
 			],
