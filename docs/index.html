@@ -72,8 +72,9 @@
 					});
 					hook.ready(function() {
 						var sidebar = document.getElementsByClassName("sidebar")[0];
-						sidebar.innerHTML = logo + sidebar.innerHTML;
-					})
+						var searchDiv = sidebar.childNodes[0];
+						searchDiv.insertAdjacentHTML("afterend", logo);
+					});
 				}
 			],
 			loadSidebar: true,
