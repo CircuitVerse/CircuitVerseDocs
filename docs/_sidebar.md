@@ -8,13 +8,15 @@
 * [Timing Diagrams](timing_diagrams.md)
 
 * Circuit Elements
-  * [CircuitVerse Outputs](outputs.md)
+  * [Output Elements](outputs.md)
   * [Standard Gates](gates.md)
   * [Decoders and Plexers](decodersandplexers.md)
   * [Sequential Elements](Sequential.md)
   * [Splitter](splitter.md)
   * [Input Elements](inputElements.md)
   * [Miscellaneous](miscellaneous.md)
+  * [Memory](memoryElements.md)
+  
 * [Annotation Elements](annotation.md)
 
 * [Groups](groups.md)
