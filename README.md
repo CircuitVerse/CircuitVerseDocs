@@ -29,7 +29,7 @@ When you add a page, make sure you have an entry in the `_sidebar.md`
 2. Click `New site from Git` or go to [https://app.netlify.com/start](https://app.netlify.com/start)
 3. Click `GitHub` and authorise Netlify to view all your repositories or just the repository that you would like to publish
    * You will need to be the owner of the repository as Netlify needs to add a webhook and deploy key. You can get around this by forking the repository and publishing that instead
-4.  Review the settings and click `Deploy site` (you should not need to change any)
+4.  Click `Deploy site` (you do not need to change any settings other than maybe `branch`)
 
 ## Steps to Contributing
 
