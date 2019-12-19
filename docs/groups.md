@@ -36,7 +36,13 @@ Students can :
  Fill Up all the necessary Details like : 
  - Assignment name
  - Set the Deadline (both Time and Date)
- - Assignment description : Detailed Description of what assignment is all about, tools used, circuits used etc.
+ - Grading Scale
+    - Letter (A, B, C, ..)
+    - Percent (1%-100%)
+    - No scale (assignment won’t be graded)
+    - Custom (grade as needed)
+- Assignment description : Detailed Description of what assignment is all about, tools used, circuits used etc.
+
 
 > **NOTE :** Word Processing tools are available for Description as well as feature to embed Any File for Assignment Description.
 
@@ -48,7 +54,9 @@ Students can :
 
 ![assignment-list](/images/assignment2.png)
 
->To see the students' work in each assignment, click on **show** button corresponding to an Assignment.
+>To see the students' work in each assignment, click on **show** button corresponding to an Assignment. This will bring up a preview of their work.
+
+>**GRADING can only be done after the assignment's due date has passed!** Below the preview, you can enter in their grade and write any comments you may have.
 
 ![student-stauts](/images/student-status.png)
 
