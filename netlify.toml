@@ -1,0 +1,4 @@
+[build]
+
+#Directory to publish
+publish = "docs/"
