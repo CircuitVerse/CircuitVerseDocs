@@ -5,7 +5,7 @@
 
 ## Adding Labels
 
-You can label any circuit element using the property menu. You can also chose the position of the label.
+You can label any circuit element using the property menu. You can also choose the position of the label.
 ![Direction Change](/images/label.png)
 
 ## Creating Titles
@@ -14,7 +14,7 @@ You can title the circuit using the Text feature present under Misc.
 ![Text Location](/images/text-location.png)
 
 
-An example showing properly annotated Full Adder Circuit
+An example showing properly annotated Full Adder Circuit is shown below:
 
 ![Annotation Example](/images/annotation-example.png)
 
