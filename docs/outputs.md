@@ -78,4 +78,4 @@ The sixteen segment display takes two inputs and a total of 17 bits: 16 bits in 
 You can test out different inputs for yourself:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/11319" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
-There are both advantages and disadvantages to using the sixteen segment display as opposed to the hex and seven segment displays. The main advantage is that the greater number of segments allow you to create more detailed and clear numbers and letters. However, it requires double the input of the seven segment display and quadruples the input of the hex display, so it is significantly more complicated to work with.
+There are both advantages and disadvantages to using the sixteen segment display as opposed to the hex and seven segment displays. The main advantage is that the greater number of segments allow you to create more detailed and clear numbers and letters. However, it requires double the input of the seven segment display and quadruple the input of the hex display, so it is significantly more complicated to work with.

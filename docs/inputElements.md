@@ -60,7 +60,7 @@ The example above has LED's arranged in the form of "HI". These LED's will alway
 
 Occasionally, particularly in AC power distribution and some radio antenna systems, it does mean "a connection to the earth".
 
-However, in most electronics, particularly portable battery-operated devices, "ground" is just the point in the circuit that the designer chose to call "zero volts" and to use as a reference when measuring voltages elsewhere in the circuit. Hence, it is just similar to power but always Low(0).
+However, in most electronics, particularly portable battery-operated devices, "ground" is just the point in the circuit that the designer chooses to call "zero volts" and to use as a reference when measuring voltages elsewhere in the circuit. Hence, it is just similar to power but always Low(0).
 
 ## ConstantVal
 
@@ -68,7 +68,7 @@ The ConstantVal component can be used when there is a need to input some constan
 
 ![sef](./images/constantVal.gif)
 
-The value of constantval can be changed by double-clicking the component and entering the value in the prompt.
+The value of ConstantVal can be changed by double-clicking the component and entering the value in the prompt.
 
 ## Stepper
 

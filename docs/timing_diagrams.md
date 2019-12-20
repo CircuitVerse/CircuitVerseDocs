@@ -22,7 +22,7 @@ You will now see the visualizer at the bottom of your screen, which shows the ti
 
 #### Changing the name of the Flag
 
-By default the flags are named as F1, F2 and so on, this can be confusing when you are dealing with a lot of signals. To change the name of the flag:
+By default the flags are named as F1, F2 and so on. This can be confusing when you are dealing with a lot of signals. To change the name of the flag:
 
 1. Click on the flag
 

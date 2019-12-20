@@ -63,7 +63,7 @@ Its live circuit is embedded below:
 
 A bit-selector's function is self-explanatory. It takes a single or multi-bit input and gives the bit we desire to isolate as output. This is done using a single or multi-bit select line. The select line value indicates the specific bit we wish to isolate. An added feature is the bit-selector shows the bit we want to isolate (as chosen using the select line) within it's body in decimal form.
 
-Consider a bit selector with a four-bit input. Let each of it's bits be addressed separately as T3, T2, T1, T0 (from most significant to least significant). Let it have a two-bit select line (S1 and S0) and a single-bit output (Out). The truth table is given below:
+Consider a bit selector with a four-bit input. Let each of its bits be addressed separately as T3, T2, T1, T0 (from most significant to least significant). Let it have a two-bit select line (S1 and S0) and a single-bit output (Out). The truth table is given below:
 
 |    S1   |    S0   |   Out   |   
 |---------|---------|---------|
@@ -93,7 +93,7 @@ Consider an LSB detector with a four-bit input. Its live circuit is embedded bel
 
 ## Priority Encoder
 
-The priority encoder provided by Circuitverse works in a similar fashion to the MSB detector (in practise it can work like the LSB detector also). There is a specific output based on the bit position of the MSB, irrespective of the lesser significant bits. AN enable input is also provided to activate/deactivate the priority encoder. If there are N outputs, there will be 2^N inputs.
+The priority encoder provided by Circuitverse works in a similar fashion to the MSB detector (in practice it can work like the LSB detector also). There is a specific output based on the bit position of the MSB, irrespective of the lesser significant bits. AN enable input is also provided to activate/deactivate the priority encoder. If there are N outputs, there will be 2^N inputs.
 
 Consider a priority encoder with four single-bit inputs (T3, T2, T1 and T0 from most to least-significant bit) and two single-bit outputs (O2 and O1 from most to least-significant bit). The truth table is given below:
 
@@ -104,7 +104,7 @@ Consider a priority encoder with four single-bit inputs (T3, T2, T1 and T0 from 
 |    0    |    1    |    X    |    X    |    1    |    0    |
 |    1    |    X    |    X    |    X    |    1    |    1    |
 
-Its live circuit is emeded below:
+Its live circuit is embedded below:
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/762" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Decoder
@@ -120,6 +120,6 @@ Consider a decoder with a single two-bit input (T1 and T0 from most to least-sig
 |    1    |    0    |    0    |    1    |    0    |    0    |
 |    1    |    1    |    1    |    0    |    0    |    0    |
 
-Its live circuit is emeded below:
+Its live circuit is embedded below:
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/763" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>

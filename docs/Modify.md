@@ -15,7 +15,7 @@ Modify the element direction by changing it in the property menu or simply use a
 
 ## Bitwidth
 
-Modify the bitwidth of the circuit element in the property menu.
+Modify the BitWidth of the circuit element in the property menu.
 
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/736" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
@@ -27,5 +27,5 @@ You can change other attributes, like the number of inputs of an AndGate in the 
 
 ## Label and Label Direction
 
-You can label any circuit element in the property menu. You can also chose the position of the label.
+You can label any circuit element in the property menu. You can also choose the position of the label.
 ![Direction Change](/images/label.png)
