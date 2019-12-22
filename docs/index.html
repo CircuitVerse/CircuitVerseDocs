@@ -52,18 +52,20 @@
 			plugins: [
 				EditOnGithubPlugin.create('https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/'),
 				function(hook) {
-      var footer = [
-        
-        '<header>',
-       '<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox"><span class="slider round"></span></label></span>',
+					var header = [
+						'<header">',
+						'<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox"><span class="slider round"></span></label></span>',
+						'</header>'
+					].join('');
 
-          '</header>'
-      ].join('');
+					hook.afterEach(function(html) {
+						return header + html;
+					});
 
-      hook.afterEach(function(html) {
-        return footer + html;
-      });
-    }
+					hook.doneEach(function(html) {
+						pageLoaded();
+					});
+				}
 			],
 			loadSidebar: true,
 			maxLevel: 4,
@@ -99,6 +101,13 @@
 	gtag('js', new Date());
 
 	gtag('config', 'UA-112678513-2');
+	
+	function pageLoaded() {
+		console.log(stylesheet.getAttribute('href'), url, url2);
+		if (stylesheet.getAttribute('href') == url) { // if in dark mode
+			document.getElementsByClassName("switch")[0].childNodes[0].checked = true;
+		}
+	}
 </script>
 
 </html>
