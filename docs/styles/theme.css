@@ -66,6 +66,6 @@ input:checked + .slider:before {
 
 @media (max-width: 768px) {
   .switch {
-    padding-right: 5%;
+    margin-right: 5%;
   }
 }
