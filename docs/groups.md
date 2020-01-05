@@ -52,6 +52,20 @@ Students can :
 
 ![student-stauts](/images/student-status.png)
 
+> Teachers can add new assignments by clicking the add new assignment button on the group page. Then, create a name, grading scale, deadline and a description for the assignment.  
+
+ - Note: Students cannot complete their assignments when the deadline is met unless the teacher reopens it.  
+Different Grading modes:
+    - There are 4 modes of grading assignments
+   - 1) No scale
+        - Assignments won't be graded
+   - 2) Letter(A,B,C,D,F)
+        - Assignments can be grades with letters A-F
+   - 3) Percent(1% - 100%)
+        - Assignments will be graded based on a scale of 1-100%
+  -  4) Custom 
+        - Grade as needed
+
 ## For Students
 
 > Students can Manage their assignments from the **My Groups** Window.
@@ -68,20 +82,6 @@ Students can :
 
 ![groups-student](/images/groups-student.png)
 
-## For Teachers
-
-> Teachers can add new assignments by clicking the add new assignment button on the group page. Then, create a name, grading scale, deadline and a description for the assignment.  
- - Note: Students cannot complete their assignments when the deadline is met unless the teacher reopens it.  
-Different Grading modes:
-    - There are 4 modes of grading assignments
-   - 1) No scale
-        - Assignments won't be graded
-   - 2) Letter(A,B,C,D,F)
-        - Assignments can be grades with letters A-F
-   - 3) Percent(1% - 100%)
-        - Assignments will be graded based on a scale of 1-100%
-  -  4) Custom 
-        - Grade as needed
 
 ***In Start Working Window,***
  - To Work Upon a Assignment, Launch simulator from **Launch Simulator** Button. Complete the assignment in simulator and save the work.
