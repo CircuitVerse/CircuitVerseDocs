@@ -35,7 +35,7 @@ When you add a page, make sure you have an entry in the `_sidebar.md`
 
 1. Fork this project
 2. Create your feature branch `(git checkout -b feature/feature_name)`
-3. Commit your changes `(git commit -am 'Add feature')`
+3. Commit your changes `(git commit -m 'Add feature')`
 4. Push to the branch `(git push origin feature_name)`
 5. Create a new Pull Request
 
