@@ -67,7 +67,6 @@ input:checked + .slider:before {
   bottom: initial;
 }
 
-.search
-{
+.search {
 margin-top:39px;
 }
