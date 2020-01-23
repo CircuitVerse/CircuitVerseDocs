@@ -70,3 +70,9 @@ input:checked + .slider:before {
 .search {
   margin-top: 39px;
 }
+
+@media (max-width: 768px) {
+  .switch {
+    margin-right: 5%;
+  }
+}
