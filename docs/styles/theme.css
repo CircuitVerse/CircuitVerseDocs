@@ -40,7 +40,6 @@
   transition: .4s;
 }
 
-
 input:checked + .slider {
   background-color: #ea6f5a;
 }
@@ -62,4 +61,12 @@ input:checked + .slider:before {
 
 .slider.round:before {
   border-radius: 50%;
+}
+
+.sidebar-toggle {
+  bottom: initial;
+}
+
+.search {
+  margin-top: 39px;
 }
