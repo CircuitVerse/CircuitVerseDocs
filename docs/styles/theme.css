@@ -54,7 +54,7 @@ input:checked + .slider:before {
   transform: translateX(26px);
 }
 
-div[style="overflow:auto"]{
+div[style="overflow: auto"]{
   margin-top: 15px;
 }
 
