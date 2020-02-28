@@ -21,7 +21,7 @@
 
  <script>
 
-		var url =  "//unpkg.com/docsify/themes/dark.css";
+	var url =  "//unpkg.com/docsify/themes/dark.css";
     	var url2 = "//unpkg.com/docsify/themes/vue.css";
     	var stylesheet = document.getElementById("stylesheet");
     	var show = false;
@@ -62,40 +62,36 @@
 				function(hook) 
 				{
 
-			      var footer = [
-			        
-			        '<header>',
-			       '<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox"><span class="slider round"></span></label></span>',
+				      var footer = [
+					'<header>',
+				       	'<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox"><span class="slider round"></span></label></span>',
+					'</header>'
+				      ].join('');
 
-			          '</header>'
-			      ].join('');
-
-			      hook.afterEach(function(html) {
-			        return footer + html;
-			      });
-    			},
+				      hook.afterEach(function(html) {
+					return footer + html;
+				      });
+				},
 			],
 			loadSidebar: true,
 			maxLevel: 4,
 			subMaxLevel: 2,
 			alias: {
 				'/.*/_sidebar.md': '/_sidebar.md'
- 
 			},
 			executeScript:true,
 			auto2top: true,
 			pagination: {
-                              previousText: 'Previous',
+                             previousText: 'Previous',
                              nextText: 'Next',
-                             }
+                       	}
  
 		}
 	</script>
-	
 	 
 	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    	<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
 	<script type="text/javascript">
 
@@ -114,8 +110,7 @@
 			observer.observe(article, {
 				childList: true
 			});
-		}
-
+		};
 	</script>
 </body>
 <!-- Global site tag (gtag.js) - Google Analytics -->
