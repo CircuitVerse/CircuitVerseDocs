@@ -20,12 +20,19 @@
         <link rel="stylesheet" type="text/css" href="styles/theme.css">
 
  <script>
- 	        var url =  "//unpkg.com/docsify/themes/dark.css";
-        	var url2 = "//unpkg.com/docsify/themes/vue.css";
-        	var stylesheet = document.getElementById("stylesheet");
-        	var show = false;
+
+		var url =  "//unpkg.com/docsify/themes/dark.css";
+    	var url2 = "//unpkg.com/docsify/themes/vue.css";
+    	var stylesheet = document.getElementById("stylesheet");
+    	var show = false;
 
  	  function setStyleSheet() {
+ 	  			const slider = document.querySelector(".slider");
+ 	  			slider.classList.add("smooth");
+ 	  			setTimeout(function()
+ 	  			{
+ 	  				document.querySelector(".slider").classList.remove("smooth");
+ 	  			}, 500);
                  if (show) {
                         stylesheet.setAttribute('href', url2);
                            show = !show;
@@ -52,19 +59,21 @@
 
 			plugins: [
 				EditOnGithubPlugin.create('https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/'),
-				function(hook) {
-      var footer = [
-        
-        '<header>',
-       '<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox"><span class="slider round"></span></label></span>',
+				function(hook) 
+				{
 
-          '</header>'
-      ].join('');
+			      var footer = [
+			        
+			        '<header>',
+			       '<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox"><span class="slider round"></span></label></span>',
 
-      hook.afterEach(function(html) {
-        return footer + html;
-      });
-    }
+			          '</header>'
+			      ].join('');
+
+			      hook.afterEach(function(html) {
+			        return footer + html;
+			      });
+    			},
 			],
 			loadSidebar: true,
 			maxLevel: 4,
@@ -86,9 +95,28 @@
 	 
 	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-       <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+	<script type="text/javascript">
 
+		window.onload = function()
+		{
+			const observer = new MutationObserver(function(mutations){
+			mutations.forEach(function(mutation){
+					if(stylesheet.getAttribute("href") === url)
+						document.querySelector("input[type='checkbox']").checked = true;
+					else
+						document.querySelector("input[type='checkbox']").checked = false;
+				});
+			});
+
+			const article = document.querySelector("#main");
+			observer.observe(article, {
+				childList: true
+			});
+		}
+
+	</script>
 </body>
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112678513-2"></script>
@@ -102,5 +130,4 @@
 
 	gtag('config', 'UA-112678513-2');
 </script>
-
 </html>

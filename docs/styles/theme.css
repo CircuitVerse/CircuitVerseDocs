@@ -24,11 +24,24 @@
   right: 0;
   bottom: 0;
   background-color: #ccc;
+}
+
+.smooth{
   -webkit-transition: .4s;
   transition: .4s;
 }
 
 .slider:before {
+  position: absolute;
+  content: "";
+  height: 16px;
+  width: 16px;
+  left: 4px;
+  bottom: 4px;
+  background-color: white;
+}
+
+.slider.smooth:before {
   position: absolute;
   content: "";
   height: 16px;
