@@ -4,24 +4,33 @@
 
 ## Creating a Circuit Element
 
-[filename](/video/drag.mp4 ':include :type=video ')
+<video style="width:100%; height: 400px;" controls>
+    <source src="/video/drag.mp4" type="video/mp4">  Sorry, your browser doesn't support embedded videos.
+</video>
 
 Select the circuit element type and drop on canvas or drag the object onto canvas.
 
 ## Connecting wires
 
-[filename](/video/wire.mp4 ':include :type=video')
+<video style="width:100%; height: 400px;" controls>
+    <source src="/video/drag.mp4" type="video/mp4">  Sorry, your browser doesn't support embedded videos.
+</video>
+
 
 Click one node and simply drag the mouse to the other node.
 
 ## Multiple Object Selections
 
-[filename](/video/multiselectionDrag.mp4 ':include :type=video')
+<video style="width:100%; height: 400px;" controls>
+    <source src="/video/multiselectionDrag.mp4 " type="video/mp4">  Sorry, your browser doesn't support embedded videos.
+</video>
 
 Hold down shift key and drag to make a selection
 
 ## Property Menu
 
-[filename](/video/properties.mp4 ':include :type=video')
+<video style="width:100%; height: 400px;" controls>
+    <source src="/video/properties.mp4 " type="video/mp4">  Sorry, your browser doesn't support embedded videos.
+</video>
 
 Select the object to see and change its properties.
