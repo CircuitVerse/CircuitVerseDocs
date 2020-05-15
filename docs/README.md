@@ -1,4 +1,4 @@
-# Welcome to CircuitVerse
+<h1> Welcome to CircuitVerse </h1>
 
 > CircuitVerse is extremely easy for beginners and experienced alike. This documentation will help you get started quickly.
 
