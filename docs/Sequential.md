@@ -81,7 +81,7 @@ The truth table is given below.
 
 | J    | K    | Q         |
 | ---- | ---- | --------- |
-| 1    | 1    | No change |
+| 0    | 0    | No change |
 | 1    | 0    | 1         |
 | 0    | 1    | 0         |
 | 1    | 1    | Toggle    |
