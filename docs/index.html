@@ -26,8 +26,8 @@
     	var stylesheet = document.getElementById("stylesheet");
     	var show = false;
 		
-		
-		if(localStorage.darkmode ==="enabled"){
+		var darkmode = localStorage.getItem('darkmode')
+		if(darkmode ==="enabled"){
 			stylesheet.setAttribute('href', url);
 			show = !show;
 		}
@@ -44,7 +44,6 @@
                  if (show) {
                         stylesheet.setAttribute('href', url2);
 						localStorage.setItem('darkmode', "disabled");
-						console.log(slider);
                            show = !show;
 						   
  
@@ -77,7 +76,7 @@
 
 				      var footer = [
 					'<header>',
-				       	'<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox"><span class="slider round"></span></label></span>',
+				       	'<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox" id = "accept"><span class="slider round"></span></label></span>',
 					'</header>'
 				      ].join('');
 
@@ -99,8 +98,7 @@
                              nextText: 'Next',
                        	}
 			
-		}
-		
+		}		
 	</script>
 	 
 	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
