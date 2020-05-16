@@ -25,14 +25,7 @@
     	var url2 = "//unpkg.com/docsify/themes/vue.css";
     	var stylesheet = document.getElementById("stylesheet");
     	var show = false;
-		
 		var darkmode = localStorage.getItem('darkmode')
-		if(darkmode ==="enabled"){
-			stylesheet.setAttribute('href', url);
-			show = !show;
-		}
-
-
  	  function setStyleSheet() {
  	  			const slider = document.querySelector(".slider");
  	  			slider.classList.add("smooth");
@@ -51,7 +44,8 @@
                  else {
                     stylesheet.setAttribute('href', url);
 					localStorage.setItem('darkmode', "enabled");	
-                    show = !show;				
+                    show = !show;	
+
                         }
                  };
  
@@ -76,7 +70,7 @@
 
 				      var footer = [
 					'<header>',
-				       	'<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox" id = "accept"><span class="slider round"></span></label></span>',
+				       	'<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox" ><span class="slider round"></span></label></span>',
 					'</header>'
 				      ].join('');
 
@@ -97,8 +91,10 @@
                              previousText: 'Previous',
                              nextText: 'Next',
                        	}
+		
 			
-		}		
+		}
+		
 	</script>
 	 
 	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
@@ -109,13 +105,23 @@
 
 		window.onload = function()
 		{
+			var darkmode = localStorage.getItem('darkmode')
+			if(darkmode ==="enabled"){
+				stylesheet.setAttribute('href', url);
+				
+				show = !show;
+				document.querySelector("input[type='checkbox']").checked = true;
+				
+			}
+			
 			const observer = new MutationObserver(function(mutations){
 			mutations.forEach(function(mutation){
+					
 					if(stylesheet.getAttribute("href") === url ){
-						document.querySelector("input[type='checkbox']").checked = url;
+					document.querySelector("input[type='checkbox']").checked = url;						
 					}
 					else{
-						document.querySelector("input[type='checkbox']").checked = url2;
+						document.querySelector("input[type='checkbox']").checked = url2;						
 					}
 				});
 			});
@@ -127,6 +133,7 @@
 		};
 	</script>
 </body>
+
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112678513-2"></script>
 <script>
@@ -138,5 +145,6 @@
 	gtag('js', new Date());
 
 	gtag('config', 'UA-112678513-2');
+	
 </script>
 </html>
