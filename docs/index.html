@@ -25,22 +25,34 @@
     	var url2 = "//unpkg.com/docsify/themes/vue.css";
     	var stylesheet = document.getElementById("stylesheet");
     	var show = false;
+		
+		
+		if(localStorage.darkmode ==="enabled"){
+			stylesheet.setAttribute('href', url);
+			show = !show;
+		}
+
 
  	  function setStyleSheet() {
  	  			const slider = document.querySelector(".slider");
  	  			slider.classList.add("smooth");
+				document.body.classList.add("darkmode");
  	  			setTimeout(function()
  	  			{
  	  				document.querySelector(".slider").classList.remove("smooth");
- 	  			}, 500);
+ 	  			},500);
                  if (show) {
                         stylesheet.setAttribute('href', url2);
+						localStorage.setItem('darkmode', "disabled");
+						console.log(slider);
                            show = !show;
+						   
  
                        } 
                  else {
                     stylesheet.setAttribute('href', url);
-                    show = !show;
+					localStorage.setItem('darkmode', "enabled");	
+                    show = !show;				
                         }
                  };
  
@@ -49,6 +61,7 @@
 </head>
 
 <body>
+	
 
 	<script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
 	<div id="app"></div>
@@ -85,13 +98,14 @@
                              previousText: 'Previous',
                              nextText: 'Next',
                        	}
- 
+			
 		}
+		
 	</script>
 	 
 	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-    	<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
 	<script type="text/javascript">
 
@@ -99,10 +113,12 @@
 		{
 			const observer = new MutationObserver(function(mutations){
 			mutations.forEach(function(mutation){
-					if(stylesheet.getAttribute("href") === url)
-						document.querySelector("input[type='checkbox']").checked = true;
-					else
-						document.querySelector("input[type='checkbox']").checked = false;
+					if(stylesheet.getAttribute("href") === url ){
+						document.querySelector("input[type='checkbox']").checked = url;
+					}
+					else{
+						document.querySelector("input[type='checkbox']").checked = url2;
+					}
 				});
 			});
 
