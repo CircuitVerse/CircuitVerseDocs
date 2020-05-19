@@ -8,10 +8,6 @@
   float: right;   
 }
 
-:root {
-  --theme-color: yellow;
-}
-
 /* Hide default HTML checkbox */
 .switch input {
   opacity: 0;
