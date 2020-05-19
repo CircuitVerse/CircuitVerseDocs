@@ -1,4 +1,3 @@
-:root {
-    --theme-color: yellow;
+.markdown-section td {
+    background: yellow;
 }
-  
