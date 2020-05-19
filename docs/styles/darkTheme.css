@@ -1,3 +1,8 @@
-:root {
-    --table-row-odd-background: "";
+.markdown-section td {
+    background: yellow;
 }
+
+/* :root {
+    --table-row-even-background: yell;
+    --table-row-odd-background: yellow;
+} */
