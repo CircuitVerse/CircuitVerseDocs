@@ -17,13 +17,16 @@
 	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<!--  CSS Stylesheet -->
 	<link id="stylesheet" rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
-        <link rel="stylesheet" type="text/css" href="styles/theme.css">
+        <link id="stylesheet_override" rel="stylesheet" type="text/css" href="styles/theme.css">
 
  <script>
 
 	var url =  "//unpkg.com/docsify/themes/dark.css";
     	var url2 = "//unpkg.com/docsify/themes/vue.css";
+		var override2 = "styles/theme.css";
+		var override = "styles/darkTheme.css";
     	var stylesheet = document.getElementById("stylesheet");
+		var stylesheet_override = document.getElementById("stylesheet_override");
     	var show = false;
 
  	  function setStyleSheet() {
@@ -35,13 +38,14 @@
  	  			}, 500);
                  if (show) {
                         stylesheet.setAttribute('href', url2);
-                           show = !show;
- 
-                       } 
-                 else {
-                    stylesheet.setAttribute('href', url);
-                    show = !show;
-                        }
+                        stylesheet_override.setAttribute('href', override2);
+						show = !show;
+                    } 
+                else {
+						stylesheet.setAttribute('href', url);
+						stylesheet_override.setAttribute('href', override2);
+						show = !show;
+                    }
                  };
  
  	  
