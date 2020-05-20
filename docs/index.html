@@ -22,11 +22,11 @@
  <script>
 
 	var url =  "//unpkg.com/docsify/themes/dark.css";
-    	var url2 = "//unpkg.com/docsify/themes/vue.css";
-    	var stylesheet = document.getElementById("stylesheet");
-    	var show = false;
-		var darkmode = localStorage.getItem('darkmode')
- 	  function setStyleSheet() {
+	var url2 = "//unpkg.com/docsify/themes/vue.css";
+	var stylesheet = document.getElementById("stylesheet");
+	var show = false;
+	var darkmode = localStorage.getItem('darkmode')
+ 	function setStyleSheet() {
  	  			const slider = document.querySelector(".slider");
  	  			slider.classList.add("smooth");
 				document.body.classList.add("darkmode");
@@ -37,17 +37,14 @@
                  if (show) {
                         stylesheet.setAttribute('href', url2);
 						localStorage.setItem('darkmode', "disabled");
-                           show = !show;
-						   
- 
+                           show = !show; 
                        } 
                  else {
                     stylesheet.setAttribute('href', url);
 					localStorage.setItem('darkmode', "enabled");	
                     show = !show;	
-
-                        }
-                 };
+                    }
+                };
  
  	  
        </script>
@@ -102,21 +99,18 @@
     <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
 	<script type="text/javascript">
+	
 
 		window.onload = function()
-		{
-			var darkmode = localStorage.getItem('darkmode')
-			if(darkmode ==="enabled"){
-				stylesheet.setAttribute('href', url);
-				
-				show = !show;
-				document.querySelector("input[type='checkbox']").checked = true;
-				
-			}
+		{	var darkmode = localStorage.getItem('darkmode')
 			
+			if(darkmode ==="enabled"){
+				stylesheet.setAttribute('href', url);	
+				show = !show;
+				document.querySelector("input[type='checkbox']").checked = true;	
+			}
 			const observer = new MutationObserver(function(mutations){
 			mutations.forEach(function(mutation){
-					
 					if(stylesheet.getAttribute("href") === url ){
 					document.querySelector("input[type='checkbox']").checked = url;						
 					}
