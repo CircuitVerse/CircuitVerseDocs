@@ -22,3 +22,5 @@
 * [Groups](groups.md)
 * [Test Bench](testbench.md)
 
+* Examples
+  * [ROM 2-bit adder](rom_adder.md)

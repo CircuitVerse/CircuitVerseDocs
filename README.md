@@ -19,6 +19,8 @@ cd CircuitVerseDocs
 To view the docs in offline mode, navigate to `/docs` folder and run
 `python3 -m http.server` or
 `python -m SimpleHTTPServer 8000`
+For windows users run
+`python -m http.server 8000`
 
 When you add a page, make sure you have an entry in the `_sidebar.md`
 
