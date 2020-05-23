@@ -2,8 +2,6 @@
 
 >This Guide will help you understand the input elements in the CircutVerse [simulator](https://circuitverse.org/simulator) and their usage.
 
-Contributing Authors: [@Kedar-K](https://github.com/Kedar-K)
-
 ## contents
 
 * [Getting started](#getting-started)

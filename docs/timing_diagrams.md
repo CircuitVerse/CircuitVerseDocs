@@ -2,8 +2,6 @@
 
 > This guide will teach you how to visualize the timing diagram with the help of flags in CircuitVerse
 
-Contributing Authors: [@theredcap](https:github.com/theredcap)
-
 Timing plays a vital role while you are designing any circuit. Timing diagrams help us visualize the state of different signals with respect to time.  In a timing diagram, time is represented on the x-axis and the different components or signals of the system, that interact with each other, are represented on the y-axis. 
 
 #### Using Flags

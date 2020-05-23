@@ -2,9 +2,6 @@
 
 > This guide will teach you how to use the standard gates in CircuitVerse. It will also explain the way the gates work. The guide will explain how to customize an 'And' gate in detail. Other gates have a similar customization.
 
-Contributing Authors: [@satu0king](https://github.com/satu0king/)
-                      [@brahmakulkarni](https://github.com/brahmakulkarni)
-
 ## And Gate
 
 This gate gives a HIGH output only if all input values are HIGH.

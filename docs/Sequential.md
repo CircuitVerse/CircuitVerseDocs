@@ -1,8 +1,6 @@
 # Sequential Elements
 > This guide will teach you how to use the various sequential elements available in CircuitVerse.
 
-Contributing Authors: [@theredcap](https://github.com/theredcap)
-
 ## D Flip Flop
 
 A delay or D Flip Flop is used to delay the input. It has a single data input in addition to the clock input. The output of D Flip Flop is the same as the input data.

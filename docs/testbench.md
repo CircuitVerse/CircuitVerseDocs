@@ -2,7 +2,6 @@
 
 > This guide will teach you how to write test benches and use test bench on [CircuitVerse](https://circuitverse.com/simulator)
 
-Contributing Authors: [@theredcap](https://github.com/theredcap)
 
 Test Bench are used to simulate your designs. These are generally used for automated testing of your circuits. 
 

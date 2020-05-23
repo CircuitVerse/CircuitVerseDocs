@@ -2,8 +2,6 @@
 
 > This guide will teach you how to use the splitters in CircuitVerse. Splitters are used to split high bitwidth wires(buses) into lower bitwidth wires(buses) and vice versa. Note that splitter is the only two-way circuit element in CircuitVerse.
 
-Contributing Authors: [@satu0king](https://github.com/satu0king/)
-
 ## Full Split
 
 To get the following splitter, click on splitter, then type "4" as bitwidth, then type "1 1 1 1" as bitwidth split.

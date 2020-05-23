@@ -1,5 +1,4 @@
 # Output Elements
-Contributing Authors: [@SarahBornais](https://github.com/SarahBornais/)
 
 CircuitVerse features a eight output elements:
 * [Output](#output)

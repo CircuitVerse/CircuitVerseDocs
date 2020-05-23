@@ -2,8 +2,6 @@
 
 > This guide will teach you how to use the decoders and plexers available on Circuitverse.
 
-Contributing Authors: [@brahmakulkarni](https://github.com/brahmakulkarni)
-
 ## Multiplexer
 
 A multiplexer is used to selectively pass only one of the inputs provided to it. This is done using a control signal. The number of inputs is always a power of 2. If there are N control bits, then there can be a maximum of 2^N inputs.

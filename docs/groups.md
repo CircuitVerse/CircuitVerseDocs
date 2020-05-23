@@ -1,7 +1,5 @@
 # Groups
 
-Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare)
-
 > One of the Versatile Feature of CircuitVerse assists Teachers in Managing Class Assignments.
 
 Teachers can :

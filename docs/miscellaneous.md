@@ -1,7 +1,5 @@
 # Miscellaneous Elements
 
-Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare), [@NavonilDas](https://github.com/NavonilDas)
-
 >This Section contains Documentation of various miscellaneous elements.
 
 **List of Elements :**
