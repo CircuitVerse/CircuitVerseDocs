@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	
+
 
 	<!-- Defines the character encoding and language -->
 	<meta charset="UTF-8" lang="en">
@@ -14,7 +14,8 @@
 	<!-- Defines keywords for search engines -->
 	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
 	<!-- Viewport: Controls dimensions and scaling  -->
-	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<!--  CSS Stylesheet -->
 	<link id="stylesheet" rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
         <link rel="stylesheet" type="text/css" href="styles/theme.css">
@@ -77,12 +78,14 @@
 				},
 			],
 			loadSidebar: true,
+			routerMode: 'hash',
 			maxLevel: 4,
 			subMaxLevel: 2,
 			alias: {
 				'/.*/_sidebar.md': '/_sidebar.md'
 			},
 			executeScript:true,
+			noCompileLinks: ['/#'],
 			auto2top: true,
 			pagination: {
                              previousText: 'Previous',
@@ -93,7 +96,7 @@
 		}
 		
 	</script>
-	 
+
 	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
     <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
@@ -141,4 +144,5 @@
 	gtag('config', 'UA-112678513-2');
 	
 </script>
+
 </html>
