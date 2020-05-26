@@ -1,8 +1,8 @@
 # CircuitVerse Documentation
 
-This is the official documentation of the CircuitVerse simulator. This is meant to be a guide for users to use CircuitVerse. This is to have details of the usage of all Circuit Elements in CircuitVerse along with some tips and tricks. This guide has to assume minimum knowledge of the user.
+This is the official documentation of the CircuitVerse simulator. This is meant to be a guide for users to use CircuitVerse. This contains the details of the usage of all Circuit Elements in CircuitVerse along with some tips and tricks. This guide assumes that the user has the minimum required knowledge.
 
-**Note that this is not a documentation on digital logic design. If you are interested in that, please checkout the GSoC'19 link at the end**
+**Note :** **This is not a documentation on digital logic design. If you are interested in that, please checkout the GSoC'19 link at the end**
 
 ## Cloning Instructions
 
@@ -22,7 +22,7 @@ To view the docs in offline mode, navigate to `/docs` folder and run
 
 When you add a page, make sure you have an entry in the `_sidebar.md`
 
-**Note that all documentation should have a corresponding live circuit embedded so as to help the users. Note that live circuit is NOT the same as image of a circuit.**
+**Note :** **All the documentation should have a corresponding live circuit embedded so as to help the users. Also, the live circuit is NOT the same as image of a circuit.**
 
 ## Installation on Netlify
 1. Go to [https://app.netlify.com](https://app.netlify.com) and register an account
@@ -31,7 +31,7 @@ When you add a page, make sure you have an entry in the `_sidebar.md`
    * You will need to be the owner of the repository as Netlify needs to add a webhook and deploy key. You can get around this by forking the repository and publishing that instead
 4.  Click `Deploy site` (you do not need to change any settings other than maybe `branch`)
 
-## Steps to Contributing
+## Steps for Contributing
 
 1. Fork this project
 2. Create your feature branch `(git checkout -b feature/feature_name)`
