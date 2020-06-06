@@ -13,7 +13,7 @@ Select the circuit element type and drop on canvas or drag the object onto canva
 ## Connecting wires
 
 <video style="width:100%; height: 400px;" controls>
-    <source src="/video/drag.mp4" type="video/mp4">  Sorry, your browser doesn't support embedded videos.
+    <source src="/video/wire.mp4" type="video/mp4">  Sorry, your browser doesn't support embedded videos.
 </video>
 
 
