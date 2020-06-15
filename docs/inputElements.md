@@ -78,6 +78,8 @@ Once the component is on the canvas, the value of the component can either be in
 
 ![sef](./images/stepper.gif)
 
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/107525" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
+
 ## Random
 
 The random component generates a random value in the range 0 to MaxValue every time it receives a high signal
