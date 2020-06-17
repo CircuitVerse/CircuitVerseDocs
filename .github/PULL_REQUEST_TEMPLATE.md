@@ -18,6 +18,12 @@ Ref #
 #### Changes done:
 - [x] Task 1
 
+<!-- Any changes which change how the site looks, or adds styling, or fixes any UI issue need to be accompanied
+with a screenshot showing the comparison between old and new -->
+#### Screenshots:
+
+<!-- Preview links of all the files that have been changed/updated -->
+#### Preview Link(s):
 
 <!-- Before creating a PR, make sure to verify the following. -->
 #### ✅️ By submitting this PR, I have verified the following
