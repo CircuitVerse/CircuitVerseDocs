@@ -57,7 +57,7 @@ CircuitVerse provides an easy way of creating a test bench. Here we will try to 
 
 5. Once you Click on Toggle State the Test Case you defined earlier on [test bench](https://circuitverse.org/testbench) starts running.
 
-  <video style="width:100%; height: 400px;" controls>
+  <video style="width:100%; height: 650px;" controls>
     <source src="video/test_bench.mp4 " type="video/mp4">
   </video>
   
