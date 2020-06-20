@@ -5,6 +5,7 @@
 * [Modifying Circuit Elements](Modify.md)
 * [SubCircuits](subcircuit.md)
 * [Exporting Images](export.md)
+* [Embedding Circuits](embedding_circuits.md)
 * [Timing Diagrams](timing_diagrams.md)
 
 * Circuit Elements
