@@ -123,3 +123,104 @@ Consider a decoder with a single two-bit input (T1 and T0 from most to least-sig
 Its live circuit is embedded below:
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/763" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Parity Generator & Parity Detector
+
+These combinational circuits are used together to make data transmission error tolerant. Parity generator is used by the sender and parity detector is used by the receiver.
+
+### Parity Generator
+
+Parity generator is used to generate a parity bit which is later used by parity detectors to detect errors in data transmission. The parity bit is added to the original message to be sent.
+
+In an **even parity** generator, if the input message has even number of `1`s, the parity bit will be 0. On the other hand, if there are odd number of `1`s, parity bit generated will be 1.
+
+#### Truth Table for an Even Parity Generator for a 3-bit word
+
+
+| A  | B  | C  |  PARITY BIT(P)    |
+|:-:|:-:|:-:|:-:|:-:|
+|  0 |  0 |  0 |   0   |
+|  0 |  0 |  1 |   1   |
+|  0 |  1 |  0 |   1   |
+|  0 |  1 |  1 |   0   |
+|  1 |  0 |  0 |   1   |
+|  1 |  0 |  1 |   0   |
+|  1 |  1 |  0 |   0   |
+|  1 |  1 |  1 |   1   |
+
+
+
+Whereas, in an **odd parity** generator, if the input message has even number of `1`s, the parity bit will be 1. On the other hand, if there are odd number of `1`s, parity bit generated will be 0.
+
+#### Truth Table for an Odd Parity Generator for a 3-bit word
+
+| A  | B  | C  |  PARITY BIT(P)    |
+|:-:|:-:|:-:|:-:|:-:|
+|  0 |  0 |  0 |   1   |
+|  0 |  0 |  1 |   0   |
+|  0 |  1 |  0 |   0   |
+|  0 |  1 |  1 |   1   |
+|  1 |  0 |  0 |   0   |
+|  1 |  0 |  1 |   1   |
+|  1 |  1 |  0 |   1   |
+|  1 |  1 |  1 |   0   |
+
+
+
+The parity bit generated is then added to the message to be sent.
+
+
+### Parity Detector
+
+Parity detector receives the message and checks it for errors. If an error is detected, parity error check bit gives `1` as output and `0` when no error is detected.
+
+#### Truth Table for an Even Parity Detector for a 3-bit word
+
+| A  | B  | C  |  P |   PARITY ERROR CHECK |
+|:-:|:-:|:-:|:-:|:-:|---|
+| 0  | 0  | 0  | 0  | 0  |
+| 0  | 0  | 0  | 1  | 1  |
+| 0  | 0  | 1  | 0  | 1  |
+| 0  | 0  | 1  | 1  | 0  |
+| 0  | 1  | 0  | 0  | 1  |
+| 0  | 1  | 0  | 1  | 0  |
+| 0  | 1  | 1  | 0  | 0  |
+| 0  | 1  | 1  | 1  | 1  |
+| 1  | 0  | 0  | 0  | 1  |
+| 1  | 0  | 0  | 1  | 0  |
+| 1  | 0  | 1  | 0  | 0  |
+| 1  | 0  | 1  | 1  | 1  |
+| 1  | 1  | 0  | 0  | 0  |
+| 1  | 1  | 0  | 1  | 1  |
+| 1  | 1  | 1  | 0  | 1  |
+| 1  | 1  | 1  | 1  | 0  |
+
+#### Truth Table for an Odd Parity Detector for a 3-bit word
+
+| A  | B  | C  |  P |   PARITY ERROR CHECK |
+|:-:|:-:|:-:|:-:|:-:|---|
+| 0  | 0  | 0  | 0  | 1  |
+| 0  | 0  | 0  | 1  | 0  |
+| 0  | 0  | 1  | 0  | 0  |
+| 0  | 0  | 1  | 1  | 1  |
+| 0  | 1  | 0  | 0  | 0  |
+| 0  | 1  | 0  | 1  | 1  |
+| 0  | 1  | 1  | 0  | 1  |
+| 0  | 1  | 1  | 1  | 0  |
+| 1  | 0  | 0  | 0  | 0  |
+| 1  | 0  | 0  | 1  | 1  |
+| 1  | 0  | 1  | 0  | 1  |
+| 1  | 0  | 1  | 1  | 0  |
+| 1  | 1  | 0  | 0  | 1  |
+| 1  | 1  | 0  | 1  | 0  |
+| 1  | 1  | 1  | 0  | 0  |
+| 1  | 1  | 1  | 1  | 1  |
+
+Although, parity detector can detect most errors, it has some limitations. Some of them are listed below:
+* Error is detected only if there are odd number of error bits.
+* Error in parity bit might lead to error detection despite correct transmission.
+* Parity detector will not be able to detect errors where both parity and data bit has such error that the parity bit matches.
+
+You can verify the same in circuit given below.
+
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/109517" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
