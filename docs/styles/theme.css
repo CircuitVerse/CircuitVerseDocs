@@ -5,7 +5,7 @@
   height: 25px;
   margin-left: 15px;
   margin-top: 30px;
-  float: right;   
+  float: right;
 }
 
 /* Hide default HTML checkbox */
@@ -54,7 +54,7 @@
 }
 
 input:checked + .slider {
-  background-color: #ea6f5a;
+  background-color: #00bc8c;
 }
 
 input:focus + .slider {
