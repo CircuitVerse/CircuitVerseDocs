@@ -66,27 +66,65 @@ CircuitVerse provides an easy way of creating a test bench. Here we will try to 
       <button data-close-button class="close-button">&times;</button>
     </div>
     <div class="modal-body">
-      <video style="width:100%; height: 650px; position: center;" controls>
+      <video style="width:100%; height: 560px; position: center;" controls>
     <source src="video/test_bench.mp4 " type="video/mp4">
   </video> 
   </div>
   </div>
   <div id="overlay"></div>    
 
+
 <script>
-const openModalButtons = document.querySelectorAll('[data-modal-target]')
-const closeModalButtons = document.querySelectorAll('[data-close-button]')
-const overlay = document.getElementById('overlay')
+  var openModalButtons = document.querySelectorAll('[data-modal-target]')
+  var closeModalButtons = document.querySelectorAll('[data-close-button]')
+  var overlay = document.getElementById('overlay')
+
+  openModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      var modal = document.querySelector(button.dataset.modalTarget)
+      openModal(modal)
+    })
+  })
+
+  overlay.addEventListener('click', () => {
+    var modals = document.querySelectorAll('.modal.active')
+    modals.forEach(modal => {
+      closeModal(modal)
+    })
+  })
+
+  closeModalButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      var modal = button.closest('.modal')
+      closeModal(modal)
+    })
+  })
+
+  function openModal(modal) {
+    if (modal == null) return
+    modal.classList.add('active')
+    overlay.classList.add('active')
+  }
+
+  function closeModal(modal) {
+    if (modal == null) return
+    modal.classList.remove('active')
+    overlay.classList.remove('active')
+  }  
+
+var openModalButtons = document.querySelectorAll('[data-modal-target]')
+var closeModalButtons = document.querySelectorAll('[data-close-button]')
+var overlay = document.getElementById('overlay')
 
 openModalButtons.forEach(button => {
   button.addEventListener('click', () => {
-    const modal = document.querySelector(button.dataset.modalTarget)
+    var modal = document.querySelector(button.dataset.modalTarget)
     openModal(modal)
   })
 })
 
 overlay.addEventListener('click', () => {
-  const modals = document.querySelectorAll('.modal.active')
+  var modals = document.querySelectorAll('.modal.active')
   modals.forEach(modal => {
     closeModal(modal)
   })
@@ -94,7 +132,7 @@ overlay.addEventListener('click', () => {
 
 closeModalButtons.forEach(button => {
   button.addEventListener('click', () => {
-    const modal = button.closest('.modal')
+    var modal = button.closest('.modal')
     closeModal(modal)
   })
 })
@@ -121,7 +159,7 @@ function closeModal(modal) {
 .modal {
   position: fixed;
   top: 50%;
-  left: 55%;
+  left: 60%;
   transform: translate(-50%, -50%) scale(0);
   transition: 200ms ease-in-out;
   border: 1px solid black;
@@ -135,7 +173,7 @@ function closeModal(modal) {
 .modal.active {
   transform: translate(-50%, -50%) scale(1);
   width:70%;
-  height:90%;
+  height:80%;
 }
 
 .modal-header {
@@ -180,6 +218,7 @@ function closeModal(modal) {
   opacity: 1;
   pointer-events: all;
 }
+
 </style>
 
 
