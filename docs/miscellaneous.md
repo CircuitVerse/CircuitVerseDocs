@@ -11,13 +11,14 @@ Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare), [@Na
 - [Buffer](#Buffer)
 - [Tri State Buffer](#tri-state-buffer)
 - [Tunnel](#tunnel)
+- [Two's Complement](#two39s-complement)
 
 ## ALU
 
 An arithmetic logic unit (ALU) is a combinational digital electronic circuit that performs arithmetic and bitwise operations
 on integer binary numbers.
 
-There are Different ports in an ALU : 
+There are Different ports in an ALU :
 
 - A : Integer Operand (Input 1)
 - B : Integer Operand (Input 2)
@@ -125,10 +126,29 @@ Drag and Drop a TriState from Misc Section. Connect input, output and enable pin
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/13252" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## Tunnel
-A tunnel acts like a hidden wire that binds points together, but unlike a wire, the connection is not drawn. All tunnel with same " Debug Flag identifier " are effectively connected together. 
+A tunnel acts like a hidden wire that binds points together, but unlike a wire, the connection is not drawn. All tunnel with same " Debug Flag identifier " are effectively connected together.
 
 **Simple Example of a Tunnel**
 
 Drag and Drop a two Tunnels from Misc section. Check whether both the tunnel have same " Debug Flag identifier ". Connect one as input and other one as output.
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/12642" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+
+## Two's Complement
+
+This element calculates the two's complement of any binary number. Two's complement is widely used to represent signed integers in computers. Calculating the two's complement of a binary number involves two operations: inverting all the bits and adding 1 to the number obtained.
+
+**Simple Example of Two's Complement**
+
+ Drag and drop the element on the canvas and connect it with an input and an output. Ensure that the input, output and the two's complement element have the same bitwidth. You can also make your own two's complement circuit using some NOT gates and an adder.  
+
+Here's an example:
+```
+Given number        1  1  1  1  0           \\ Input bits
+1's complement      0  0  0  0  1           \\ Connect NOT Gates to all input bits
+add 1               +           1           \\ Add 1 using an adder
+                   ---------------
+2's complement      0  0  0  1  0
+                   ---------------
+```
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/110615" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
