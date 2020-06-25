@@ -41,6 +41,17 @@ When you add a page, make sure you have an entry in the `_sidebar.md`
 5. Push to the branch `(git push origin feature_name)`
 6. Create a new Pull Request
 
+## Prerequisites for using the CircuitVerse Simulator
+
+Getting started with using the [CircuitVerse Simulator](https://circuitverse.org/simulator) requires some basic knowledge of the following aspects/concepts:
+
+1. Basic concepts of number system (Decimal, Binary).
+   * Get to know about [Binary](https://www.electronics-tutorials.ws/binary/bin_1.html), Decimal, Octal and [many more systems](https://www.tutorialspoint.com/digital_circuits/digital_circuits_number_systems.htm).
+2. Knowledge of electronic circuits/elements (Logic Gates, basic Input and Output elements etc).
+   * Learn the basics about [Logic gates](https://www.electronics-tutorials.ws/logic/logic_1.html).
+   * Some [Input Elements](https://docs.circuitverse.org/#/inputElements) and [Output Elements](https://docs.circuitverse.org/#/outputs) guide to get you started.
+3. Basic concepts of [circuit theory](https://iaeimagazine.org/magazine/features/electrical-fundamentals-basic-electric-circuit-theory/). 
+
 ## Code of Conduct
 
 Read the [Code of Conduct](./code-of-conduct.md) of our [CircuitVerse](https://circuitverse.org/) community regarding contributing in the [Documentation](https://docs.circuitverse.org).
