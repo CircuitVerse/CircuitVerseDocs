@@ -57,11 +57,188 @@ CircuitVerse provides an easy way of creating a test bench. Here we will try to 
 
 5. Once you Click on Toggle State the Test Case you defined earlier on [test bench](https://circuitverse.org/testbench) starts running.
 
-   [filename](/video/test_bench.mp4 ':include :type=video ')
 
-6. The *Reset Iterations* runs the test cases from beginning.
+  <button data-modal-target="#modal">
+  Demo
+  </button>
+    <div class="modal" id="modal">
+      <div class="modal-header">
+        <div class="title">Test Bench</div>
+        <button data-close-button class="close-button">&times;</button>
+      </div>
+      <div class="modal-body">
+        <video id="video" style="width:100%; height: 560px; position: center;" controls>
+      <source src="video/test_bench.mp4 " type="video/mp4">
+    </video> 
+    </div>
+    </div>
+    <div id="overlay"></div>    
 
 
+<script>
+var openModalButtons = document.querySelectorAll('[data-modal-target]')
+var closeModalButtons = document.querySelectorAll('[data-close-button]')
+var overlay = document.getElementById('overlay')
+console.log(document.getElementsByTagName("STYLE"))
+function myFunction(x) {
+if (x.matches) { // If media query matches
+document.getElementById("video").style.height = "300px";
+document.getElementById("modal").style.left = "50%";
+document.getElementById("modal").style.height = "55%";
+} else {
+document.getElementById("video").style.height = "560px";
+document.getElementById("modal").style.left = "56.5%";
+document.getElementById("modal").style.height = "80%"; 
+}
+}
+
+var x = window.matchMedia("(max-width: 768px)")
+myFunction(x) // Call listener function at run time
+x.addListener(myFunction) // Attach listener function on state changes
+
+openModalButtons.forEach(button => {
+button.addEventListener('click', () => {
+var modal = document.querySelector(button.dataset.modalTarget)
+openModal(modal)
+})
+})
+
+overlay.addEventListener('click', () => {
+var modals = document.querySelectorAll('.modal.active')
+modals.forEach(modal => {
+closeModal(modal)
+})
+})
+
+closeModalButtons.forEach(button => {
+button.addEventListener('click', () => {
+var modal = button.closest('.modal')
+closeModal(modal)
+})
+})
+
+function openModal(modal) {
+if (modal == null) return
+modal.classList.add('active')
+overlay.classList.add('active')
+}
+
+function closeModal(modal) {
+if (modal == null) return
+modal.classList.remove('active')
+overlay.classList.remove('active')
+}  
+
+var openModalButtons = document.querySelectorAll('[data-modal-target]')
+var closeModalButtons = document.querySelectorAll('[data-close-button]')
+var overlay = document.getElementById('overlay')
+
+openModalButtons.forEach(button => {
+button.addEventListener('click', () => {
+var modal = document.querySelector(button.dataset.modalTarget)
+openModal(modal)
+})
+})
+
+overlay.addEventListener('click', () => {
+var modals = document.querySelectorAll('.modal.active')
+modals.forEach(modal => {
+closeModal(modal)
+})
+})
+
+closeModalButtons.forEach(button => {
+button.addEventListener('click', () => {
+var modal = button.closest('.modal')
+closeModal(modal)
+})
+})
+
+function openModal(modal) {
+if (modal == null) return
+modal.classList.add('active')
+overlay.classList.add('active')
+}
+
+function closeModal(modal) {
+if (modal == null) return
+modal.classList.remove('active')
+overlay.classList.remove('active')
+}
+</script>
+
+
+<style>
+*, *::after, *::before {
+box-sizing: border-box;
+}
+
+.modal {
+position: fixed;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%) scale(0);
+transition: 200ms ease-in-out;
+border: 1px solid black;
+border-radius: 10px;
+z-index: 10;
+background-color: white;
+width: 500px;
+max-width: 80%;
+}
+
+.modal.active {
+transform: translate(-50%, -50%) scale(1);
+width:70%;
+height:55%;
+}
+
+.modal-header {
+padding: 10px 15px;
+display: flex;
+justify-content: space-between;
+align-items: center;
+border-bottom: 1px solid black;
+}
+
+.modal-header .title {
+font-size: 1.25rem;
+font-weight: bold;
+}
+
+.modal-header .close-button {
+cursor: pointer;
+border: none;
+outline: none;
+background: none;
+font-size: 1.25rem;
+font-weight: bold;
+}
+
+.modal-body {
+padding: 10px 15px;
+}
+
+#overlay {
+position: fixed;
+opacity: 0;
+transition: 200ms ease-in-out;
+top: 0;
+left: 0;
+right: 0;
+bottom: 0;
+background-color: rgba(0, 0, 0, .5);
+pointer-events: none;
+}
+
+#overlay.active {
+opacity: 1;
+pointer-events: all;
+}
+
+</style>
+
+<p style="text-indent: 10px;">6. The *Reset Iterations* runs the test cases from beginning.</p>
 
 ### Checking Errors
 
