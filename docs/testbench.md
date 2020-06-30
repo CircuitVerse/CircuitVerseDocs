@@ -53,13 +53,14 @@ CircuitVerse provides an easy way of creating a test bench. Here we will try to 
    ![](images\testbench\test_circuit.png)
 
 4. To change the status of TB_input block and go to the Properties Tab, situated on the bottom left corner and click on *Toggle State*
+
    ![](images\testbench\toggle_state.png)
 
 5. Once you Click on Toggle State the Test Case you defined earlier on [test bench](https://circuitverse.org/testbench) starts running.
 
 
   <button data-modal-target="#modal">
-  Demo
+  &nbsp;&nbsp;Demo
   </button>
     <div class="modal" id="modal">
       <div class="modal-header">
