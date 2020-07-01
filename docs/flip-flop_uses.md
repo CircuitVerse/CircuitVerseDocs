@@ -59,10 +59,9 @@ Asynchronous counters are counters in which the output of the first flip flop se
 
 ### 2. Synchronous Counters:
 
-Synchronous counters are counters in which the common clock pulse is provided to all flip-flops. As a result there is no propagation delay and the ouput is generated parallely.
+Synchronous counters are counters in which the common clock pulse is provided to all flip-flops. As a result there is no propagation delay and the output is generated in parallel.
 
 
 ## Decade Counter
 
 A decade counter is a counter which starts from initial state and counts ten states and then returns to the initial state.For example a simple decade counter will count from 0 to 9. A typical decade counter can count from 10 to 19 also.
-
