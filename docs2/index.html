@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+
+	<!-- Defines the character encoding and language -->
+	<meta charset="UTF-8" lang="en">
+	<title>CircuitVerse Docs</title>
+	<!-- Provides HTTP header for the information/value of the content attribute -->
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+	<!-- Define a description of the code -->
+	<meta name="description" content="CircuitVerse Documentation">
+	<!-- Defines keywords for search engines -->
+	<meta name="keywords" content="HTML,CSS,XML,JavaScript">
+	<!-- Viewport: Controls dimensions and scaling  -->
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<!--  CSS Stylesheet -->
+	<link id="stylesheet" rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
+        <link rel="stylesheet" type="text/css" href="styles/theme.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+
+ <script>
+
+	var url =  "//cdn.jsdelivr.net/gh/sushantrahate/docsify-darkly-theme/css/darkly.min.css";
+	var url2 = "//unpkg.com/docsify/themes/vue.css";
+	var stylesheet = document.getElementById("stylesheet");
+	var show = false;
+	var darkmode = localStorage.getItem('darkmode')
+ 	function setStyleSheet() {
+ 	  			const slider = document.querySelector(".slider");
+ 	  			slider.classList.add("smooth");
+				document.body.classList.add("darkmode");
+ 	  			setTimeout(function()
+ 	  			{
+ 	  				document.querySelector(".slider").classList.remove("smooth");
+ 	  			},500);
+                 if (show) {
+                        stylesheet.setAttribute('href', url2);
+						localStorage.setItem('darkmode', "disabled");
+                           show = !show;
+                       }
+                 else {
+                    stylesheet.setAttribute('href', url);
+					localStorage.setItem('darkmode', "enabled");
+                    show = !show;
+                    }
+                };
+
+
+       </script>
+			 <style>
+		 			@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+		 			body{
+		 				font-family: 'Open Sans', sans-serif;
+		 			}
+
+		 			td {
+		 					color: black;
+		 					background-color: white;
+		 			}
+		 			.markdown-section {
+		 					 margin: 0 auto;
+		 					 max-width: 80%;
+		 					 padding: 30px 15px 40px 15px;
+		 					 position: relative;
+		 		 }
+				 .markdown-section a {
+						   color:  #00bc8c;
+						   font-weight: 600;
+				 }
+ 			</style>
+</head>
+
+<body>
+
+
+	<script src="//unpkg.com/docsify-edit-on-github/index.js"></script>
+	<div id="app"></div>
+	<script>
+		window.$docsify = {
+			name: 'CircuitVerse',
+			repo: 'https://github.com/CircuitVerse/CircuitVerseDocs/',
+      nameLink: 'https://circuitverse.org/',
+
+			plugins: [
+				EditOnGithubPlugin.create('https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/'),
+				function(hook)
+				{
+
+				      var footer = [
+					'<header>',
+				       	'<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox" ><span class="slider round"></span></label></span>',
+					'</header>'
+				      ].join('');
+
+				      hook.afterEach(function(html) {
+					return footer + html;
+				      });
+				},
+			],
+			loadSidebar: true,
+			routerMode: 'hash',
+			maxLevel: 4,
+			subMaxLevel: 2,
+			alias: {
+				'/.*/_sidebar.md': '/_sidebar.md'
+			},
+			executeScript:true,
+			noCompileLinks: ['/#'],
+			auto2top: true,
+			pagination: {
+                             previousText: 'Previous',
+                             nextText: 'Next',
+                       	}
+
+
+		}
+
+	</script>
+
+	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
+	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
+    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+	<script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
+	<script type="text/javascript">
+
+
+		window.onload = function()
+		{	var darkmode = localStorage.getItem('darkmode')
+
+			if(darkmode ==="enabled"){
+				stylesheet.setAttribute('href', url);
+				show = !show;
+				document.querySelector("input[type='checkbox']").checked = true;
+			}
+			const observer = new MutationObserver(function(mutations){
+			mutations.forEach(function(mutation){
+					if(stylesheet.getAttribute("href") === url ){
+					document.querySelector("input[type='checkbox']").checked = url;
+					}
+					else{
+						document.querySelector("input[type='checkbox']").checked = url2;
+					}
+				});
+			});
+
+			const article = document.querySelector("#main");
+			observer.observe(article, {
+				childList: true
+			});
+		};
+	</script>
+</body>
+
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-112678513-2"></script>
+<script>
+	window.dataLayer = window.dataLayer || [];
+
+	function gtag() {
+		dataLayer.push(arguments);
+	}
+	gtag('js', new Date());
+
+	gtag('config', 'UA-112678513-2');
+
+</script>
+
+</html>
