@@ -6,18 +6,18 @@ Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare)
 
 Teachers can :
 - Create groups
-- Add Students
-- Post Assignments
-- View Assignment Work of each Student member.
+- Add students
+- Post assignments
+- View assignments of each and every student.
 
 Students can :
-- View the Given Assignment with live deadline counter.
+- View the given assignment with live deadline counter.
 - Create them easily with the help of CircuitVerse Simulator.
 - Submit them remotely.
 
 ## Creating Groups
 
-- First Click on your username on the right top corner as shown.
+- First **click on your username** on the right top corner as shown.
 
 ![My-Groups](/images/my-groups.png)
 
@@ -35,24 +35,24 @@ Students can :
 
  Fill Up all the necessary Details like : 
  - Assignment name
- - Set the Deadline (both Time and Date)
- - Assignment description : Detailed Description of what assignment is all about, tools used, circuits used etc.
+ - Set the deadline (both time and date)
+ - Assignment description : Detailed description of what assignment is all about, tools used, circuits used etc.
 
-> **NOTE :** Word Processing tools are available for Description as well as feature to embed Any File for Assignment Description.
+> **NOTE :** Word Processing tools are available for description as well as feature to embed any file for the assignment description.
 
 ![Assigments](/images/assignment.png)
 
-> After Posting, to see the status of different assignments, Click on the **Show** button correspoding to a group.
+> After posting, to see the status of different assignments, Click on the **Show** button correspoding to a group.
 <br/>
->Now, You can see the lists of different Assigments.
+>Now, You can see the lists of different assigments.
 
 ![assignment-list](/images/assignment2.png)
 
->To see the students' work in each assignment, click on **show** button corresponding to an Assignment.
+>To see the students' work in each assignment, click on **show** button corresponding to an assignment.
 
 ![student-stauts](/images/student-status.png)
 
-> Teachers can add new assignments by clicking the add new assignment button on the group page. Then, create a name, grading scale, deadline and a description for the assignment.  
+> Teachers can add new assignments by clicking the **add new assignment** button on the group page. Then, create a name, grading scale, deadline and a description for the assignment.  
 
  - Note: Students cannot complete their assignments when the deadline is met unless the teacher reopens it.  
 Different Grading modes:
@@ -70,8 +70,8 @@ Different Grading modes:
 
 > Students can Manage their assignments from the **My Groups** Window.
 
-- Different groups Must be visible which are created by Their Teachers in **Groups You belong to** Window.
-- After Clicking On a particular group, few things are noticeable such as:
+- Different groups must be visible which are created by their teachers in **Groups You belong to** window.
+- After clicking on a particular group, few things are noticeable such as:
     - All the group members
     - List of Assignments with their respective deadline.
     - Two Clickables like **show** and **Start Working**.
