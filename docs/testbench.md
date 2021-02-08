@@ -10,7 +10,7 @@ Test Bench are used to simulate your designs. These are generally used for autom
 
 CircuitVerse provides an easy way of creating a test bench. Here we will try to make a test bench for testing our very own AND Gate.
 
-* Go to <https://circuitverse.org/testbench>.
+* Go to <https://circuitverse.org/testbench.html>.
 
   You are welcomed with this screen.
 
