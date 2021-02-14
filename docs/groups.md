@@ -42,9 +42,9 @@ Students can :
 
 ![Assigments](/images/assignment.png)
 
-> After posting, to see the status of different assignments, Click on the **Show** button correspoding to a group.
+> After posting, to see the status of different assignments, Click on the **Show** button corresponding to a group.
 <br/>
->Now, You can see the lists of different assigments.
+>Now, You can see the lists of different assignments.
 
 ![assignment-list](/images/assignment2.png)
 
