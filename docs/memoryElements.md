@@ -1,5 +1,5 @@
 # Memory elements
->In this section you will learn about RAM, RAM, EEP-ROM.
+>In this section you will learn about RAM, ROM, EEPROM.
 
 ## RAM 
 
