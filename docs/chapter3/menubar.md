@@ -2,7 +2,7 @@
 
 The menu bar (as shown in Figure 3.2) contains different labels for the different workflows to create and analyse their digital design simulations. Table 3.2 provides a quick description of the different labels available in the CircuitVerse menu bar.
 
-![drawing](/images/img_chapter3/3.2.png)
+![drawing](../images/img_chapter3/3.2.png)
 
 <div align="center"><em>Figure 3.2</em></div>
 
@@ -44,7 +44,7 @@ Table 3.2: Brief description of different labels available in the CircuitVerse s
 
 CircuitVerse provides different options for creating and managing CircuitVerse projects online or offline. Table 3.3 shares a brief description of the different options available in the **Project** drop-down menu (refer Figure 3.3).
 
-![drawing](/images/img_chapter3/3.3.png)
+![drawing](../images/img_chapter3/3.3.png)
 
 <div align="center"><em>Figure 3.3</em></div>
 
@@ -103,7 +103,7 @@ Table 3.3: Brief description of different selections available in the Project dr
 
 While saving projects online, users are directed to the **Edit Project** page for sharing more details about the project (refer Figure 3.4). 
 
-![drawing](/images/img_chapter3/3.4.png)
+![drawing](../images/img_chapter3/3.4.png)
 
 <div align="center"><em>Figure 3.4</em></div>
 
@@ -116,7 +116,7 @@ Watch this video for more information on the different fields that can be used f
 
 As the circuit design grows, the **Circuit** drop-down menu (refer Figure 3.5) lists different options for managing the design structure. Table 3.4 further shares a brief description of the different options. 
 
-![drawing](/images/img_chapter3/3.5.png)
+![drawing](../images/img_chapter3/3.5.png)
 
 <div align="center"><em>Figure 3.5</em></div>
 
@@ -156,7 +156,7 @@ Besides adding multiple circuit tabs within a project, circuit tabs can also be 
 
 Table 3.5 shares a brief description of the different options available in the **Tools** drop-down menu (refer Figure 3.6).
 
-![drawing](/images/img_chapter3/3.6.png)
+![drawing](../images/img_chapter3/3.6.png)
 
 <div align="center"><em>Figure 3.6</em></div>
 
@@ -212,7 +212,7 @@ The Combinational Analysis tool available within the CircuitVerse simulator gene
 
 > NOTE:  If the user generates the circuit by entering a boolean function, then the truth table is auto populated else the user must manually set the values.
 
-![drawing](/images/img_chapter3/3.4.png)
+![drawing](../images/img_chapter3/3.4.png)
 
 <div align="center"><em>Figure 3.7: Besides building a circuit using different circuit elements, the combinational analysis tool can also be used for generating a circuit using combinational analysis or a boolean function</em></div>
 
@@ -225,7 +225,7 @@ The circuit's inputs and outputs will be displayed in top-down and left-right  o
 
 The Hex-Bin-Dec Converter tool (refer Figure 3.8) converts a given binary number into its equivalent decimal, octal or hexadecimal value. Alternatively, a user can also generate a binary value from different available  formats.
 
-![drawing](/images/img_chapter3/3.8.png)
+![drawing](../images/img_chapter3/3.8.png)
 
 <div align="center"><em>Figure 3.8: Use the dec-bin-hex convertool to convert binary data into different formats</em></div>
 
@@ -233,7 +233,7 @@ The Hex-Bin-Dec Converter tool (refer Figure 3.8) converts a given binary number
 
 Different themes have been included that change the colors of the CircuitVerse simulator user interface (UI) while maintaining the contrast across different UI elements.  Refer Figure 3.9.
 
-![drawing](/images/img_chapter3/3.9.png)
+![drawing](../images/img_chapter3/3.9.png)
 
 <div align="center"><em>Figure 3.9: Different CircuitVerse simulator UI themes</em></div>
 
@@ -241,7 +241,7 @@ Different themes have been included that change the colors of the CircuitVerse s
 
 The Custom Shortcuts window displays different shortcuts for common user operations. As required, each of the available key shortcuts can be edited for a user preference and restored back to its default value. Refer Figure 3.10.
 
-![drawing](/images/img_chapter3/3.10.png)
+![drawing](../images/img_chapter3/3.10.png)
 
 <div align="center"><em>Figure 3.10: Different key shortcuts available within CiruitVerse</em></div>
 
@@ -251,7 +251,7 @@ Every circuit simulation project created within CircuitVerse can be exported as 
 
 > NOTE: This is an experimental module and some changes may be needed for the code to work.
 
-![drawing](/images/img_chapter3/3.11.png)
+![drawing](../images/img_chapter3/3.11.png)
 
 <div align="center"><em>Figure 3.11: Verilog code can be downloaded on the machine or tested on the EDA Playground</em></div>
 

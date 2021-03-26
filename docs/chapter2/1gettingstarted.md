@@ -16,7 +16,7 @@ CircuitVerse platform supports Google, Facebook and GitHub sign in secure authen
 ## Login to CircuitVerse User Account
 After successfully logging in to the CircuitVerse platform, a user receives different options to manage their circuit simulation projects within the CircuitVerse (refer Figure 2.1). Table 2.1 provides a brief description of the available options.
 
-![drawing](/images/img_chapter2/2.1.png)
+![drawing](../images/img_chapter2/2.1.png)
 
 <div align="center"><em>Figure 2.1:  Different options for managing circuit simulation projects within the CircuitVerse</em></div>
 

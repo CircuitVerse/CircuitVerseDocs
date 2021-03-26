@@ -2,7 +2,7 @@
 
 This section shares key features of the CircuitVerse simulator.
 
-![](/images/img_chapter1/1.4.png)
+![](../images/img_chapter1/1.4.png)
 
 <div align="center"><em>Figure 1.4: Some of the key features of the CircuitVerse simulator</em></div>
 

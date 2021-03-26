@@ -56,7 +56,7 @@ Table 4.19: Brief description of the ALU circuit element ports
   </tr>
 </table>
 
-![drawing](/images/img_chapter4/4.17.png)
+![drawing](../images/img_chapter4/4.17.png)
 
 <div align="center"><em>Figure 4.17: Relevant attributes for the ALU circuit element</em></div>
 
@@ -142,7 +142,7 @@ The **Adder** circuit element is a logical circuit of a full adder that performs
 
 > Properties that can be customized in the **PROPERTIES** panel include: **Direction**
 
-![drawing](/images/img_chapter4/4.18.png)
+![drawing](../images/img_chapter4/4.18.png)
 
 <div align="center"><em>Figure 4.18: Pin description of the Adder circuit element within the CircuitVerse platform</em></div>
 
@@ -345,7 +345,7 @@ If required, a user can change the orientation of the circuit element using the 
 
 > Properties that can be customized in the **PROPERTIES** panel include: **Direction, BitWidth**
 
-![drawing](/images/img_chapter4/4.19.png)
+![drawing](../images/img_chapter4/4.19.png)
 
 <div align="center"><em>Figure 4.19: Relevant attributes for the TriState circuit element</em></div>
 
@@ -401,7 +401,7 @@ You can verify the behavior of the **TriState** buffer circuit element in the li
 
 The **Tunnel** circuit element encapsulates desired connection points in a tunnel for transmitting signals without using a wire (refer Figure 4.18). It is recommended to use this circuit element for design areas that may require excessive wiring to connect otherwise. 
 
-![drawing](/images/img_chapter4/4.20.png)
+![drawing](../images/img_chapter4/4.20.png)
 
 <div align="center"><em>Figure 4.20: Relevant property attributes for the Tunnel circuit element</em></div>
 
@@ -426,19 +426,19 @@ Figure 4.21 shows the relevant properties for a 4 bitwidth splitter split into e
 
 >Properties that can be customized in the **PROPERTIES** panel include: **Direction**
 
-![drawing](/images/img_chapter4/4.21.png)
+![drawing](../images/img_chapter4/4.21.png)
 
 <div align="center"><em>Figure 4.21: Relevant properties for the Splitter circuit element</em></div>
 
 When the **Splitter** circuit element is dragged on the **Canvas**, the bitwidth window pops up (refer Figure 4.22) where the user must first identify the total bits the bus. 
 
-![drawing](/images/img_chapter4/4.22.png)
+![drawing](../images/img_chapter4/4.22.png)
 
 <div align="center"><em>Figure 4.22: Splitter bitwidth window</em></div>
 
 In the follow up window, the user can then identify if the bitwidth must be split into equal or unequal parts. 
 
-![drawing](/images/img_chapter4/4.23.png)
+![drawing](../images/img_chapter4/4.23.png)
 
 <div align="center"><em>Figure 4.23: Splitter bitwidth split window</em></div>
 
@@ -461,7 +461,7 @@ The **Flag** circuit element is used in a circuit design to flag outputs at diff
 
 > Properties that can be customized in the **PROPERTIES** panel include**: **BitWidth, Orientation, Debug Flag identifier**
 
-![drawing](/images/img_chapter4/4.24.png)
+![drawing](../images/img_chapter4/4.24.png)
 
 <div align="center"><em>Figure 4.24: Relevant attributes for the Flag circuit element</em></div>
 

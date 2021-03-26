@@ -6,7 +6,7 @@ Before exploring how to visualize a timing diagram for a given circuit, this sec
 
 The **Clock Time** property attribute in Figure 6.1 refers to the time interval for the half cycle of a circuit. Changing the clock time interval speeds up or slows down the circuit simulation. However, it should be noted that changing the **Delay** attribute for any circuit element doesn't change circuit behavior. This clock frequency is only for demonstration purposes.  
 
-![drawing](/images/img_chapter6/6.1.png)
+![drawing](../images/img_chapter6/6.1.png)
 
 <div align="center"><em>Figure 6.1: The Clock Time(ms) property attribute is the time interval for the half cycle of a circuit </em></div>
 

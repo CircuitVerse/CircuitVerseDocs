@@ -1,6 +1,6 @@
 # Report System
 
-![drawing](/images/img_chapter3/3.21.png)
+![drawing](../images/img_chapter3/3.21.png)
 
 <div align="center"><em>Figure 3.21</em></div>
 

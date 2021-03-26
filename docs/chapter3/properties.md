@@ -7,7 +7,7 @@ Each circuit element has some properties associated with itself which are displa
 
 While Figure 3.13 displays the properties associated with an AND gate, Table 3.7 lists the different properties available within the CircuitVerse simulator for different circuit elements.
 
-![drawing](/images/img_chapter3/3.13.png)
+![drawing](../images/img_chapter3/3.13.png)
 
 <div align="center"><em>Figure 3.13</em></div>
 
@@ -123,7 +123,7 @@ Table 3.7: Brief description of the different properties available for different
 
 As shown in Figure 3.14, the **Edit Layout **button available on the **PROPERTIES **panel converts the circuit into a black box. The circuit elements and the relevant connections are hidden whereas the input and output pins are displayed (in the same order as displayed in the main circuit ). 
 
-![drawing](/images/img_chapter3/3.14.png)
+![drawing](../images/img_chapter3/3.14.png)
 
 <div align="center"><em>Figure 3.14</em></div>
 
@@ -133,7 +133,7 @@ As required, a user can use the **LAYOUT ELEMENTS** panel to add any circuit ele
 
 >TIP: Make all the necessary changes  within the circuit layout prior to the wiring connections.
 
-![drawing](/images/img_chapter3/3.15.png)
+![drawing](../images/img_chapter3/3.15.png)
 
 <div align="center"><em>Figure 3.15</em></div>
 
