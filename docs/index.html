@@ -24,30 +24,28 @@
  <script>
 
 	var url =  "//cdn.jsdelivr.net/gh/sushantrahate/docsify-darkly-theme/css/darkly.min.css";
-	var url2 = "//unpkg.com/docsify/themes/vue.css";
-	var stylesheet = document.getElementById("stylesheet");
-	var show = false;
-	var darkmode = localStorage.getItem('darkmode')
- 	function setStyleSheet() {
- 	  			const slider = document.querySelector(".slider");
- 	  			slider.classList.add("smooth");
-				document.body.classList.add("darkmode");
- 	  			setTimeout(function()
- 	  			{
- 	  				document.querySelector(".slider").classList.remove("smooth");
- 	  			},500);
-                 if (show) {
-                        stylesheet.setAttribute('href', url2);
-						localStorage.setItem('darkmode', "disabled");
-                           show = !show;
-                       }
-                 else {
-                    stylesheet.setAttribute('href', url);
-					localStorage.setItem('darkmode', "enabled");
-                    show = !show;
-                    }
-                };
-
+	var url2 = "//unpkg.com/docsify/themes/vue.css";	
+		var stylesheet = document.getElementById("stylesheet");	
+		var show = false;	
+		var darkmode = localStorage.getItem('darkmode')	
+		function setStyleSheet() {	
+			const slider = document.querySelector(".slider");	
+			slider.classList.add("smooth");	
+			document.body.classList.add("darkmode");	
+			setTimeout(function () {	
+				document.querySelector(".slider").classList.remove("smooth");	
+			}, 500);	
+			if (show) {	
+				stylesheet.setAttribute('href', url2);	
+				localStorage.setItem('darkmode', "disabled");	
+				show = !show;	
+			}	
+			else {	
+				stylesheet.setAttribute('href', url);	
+				localStorage.setItem('darkmode', "enabled");	
+				show = !show;	
+			}	
+		};
 
        </script>
 			 <style>
@@ -138,10 +136,10 @@
 			const observer = new MutationObserver(function(mutations){
 			mutations.forEach(function(mutation){
 					if(stylesheet.getAttribute("href") === url ){
-					document.querySelector("input[type='checkbox']").checked = url;
+					document.querySelector("input[type='checkbox']").checked = true;
 					}
 					else{
-						document.querySelector("input[type='checkbox']").checked = url2;
+						document.querySelector("input[type='checkbox']").checked = false;
 					}
 				});
 			});
@@ -169,3 +167,4 @@
 </script>
 
 </html>
+
