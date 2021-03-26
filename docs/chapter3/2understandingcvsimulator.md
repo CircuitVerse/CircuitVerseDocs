@@ -2,7 +2,7 @@
 
 Figure 3.1 highlights the different sections of the CircuitVerse simulator and Table 3.1 provides a brief description for each section. 
 
-![drawing](/images/img_chapter3/3.1.png)
+![drawing](../images/img_chapter3/3.1.png)
 
 <div align="center"><em>Figure 3.1: Different sections of the CircuitVerse simulator</em></div>
 

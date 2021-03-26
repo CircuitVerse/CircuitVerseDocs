@@ -10,7 +10,7 @@ This section highlights the different annotation elements available in the **CIR
 
 Additionally, most of the circuit elements listed in the **CIRCUIT ELEMENTS** panel can be individually described on the **Canvas** using the **Label** and **Label Direction** attributes available in the **PROPERTIES** panel (refer Figure 4.13).
 
-![](/images/img_chapter4/4.13.png)
+![](../images/img_chapter4/4.13.png)
 
 <div align="center"><em>Figure 4.13: Add labels for individually describing the relevant circuit element on the Canvas</em></div>
 
@@ -20,7 +20,7 @@ The **Rectangle** annotation element allows the user to draw attention to a spec
 
 **Properties that can be customized in the PROPERTIES panel include:** **Rows, Columns**
 
-![](/images/img_chapter4/4.14.png)
+![](../images/img_chapter4/4.14.png)
 
 <div align="center"><em>Figure 4.14: Live circuit annotation using different annotation elements available within CircuitVerse</em></div>
 
@@ -30,7 +30,7 @@ Similar to the **Rectangle** annotation element, the **Arrow** annotation elemen
 
 > Properties that can be customized in the **PROPERTIES** panel include: **Direction**
 
-![](/images/img_chapter4/4.15.png)
+![](../images/img_chapter4/4.15.png)
 
 <div align="center"><em>Figure 4.15: Relevant attributes for the Arrow annotation element</em></div>
 
@@ -40,7 +40,7 @@ The **ImageAnnotation** annotation element allows the user to upload images insi
 
 >Properties that can be customized in the **PROPERTIES** panel include: **Rows, Columns**
 
-![](/images/img_chapter4/4.16.png)
+![](../images/img_chapter4/4.16.png)
 
 <div align="center"><em>Figure 4.16: Relevant attributes for the ImageAnnotation annotation element</em></div>
 

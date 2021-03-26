@@ -7,7 +7,7 @@ While understanding and learning the concepts of digital circuit design, student
 *   Embed interactive circuits using iframe within different web pages.
 
 
-![](/images/img_chapter2/2.2.png)
+![](../images/img_chapter2/2.2.png)
 _Figure 2.2: CircuitVerse workflow for managing student groups and assignments_
 
 
@@ -17,37 +17,37 @@ After successfully logging into your account, follow the below steps to create a
 
 1. Navigate to your account displayed in the upper right hand corner of your screen. (Refer Figure 2.3)
 
-      ![](/images/img_chapter2/2.3.png)
+      ![](../images/img_chapter2/2.3.png)
 
       <div align="center"> <em>Figure 2.3</em></div>
 
 2. Click on **My Groups** to display the GROUPS page as shown in Figure 2.4.
 
-      ![](/images/img_chapter2/2.4.png)
+      ![](../images/img_chapter2/2.4.png)
 
       <div align="center"> <em>Figure 2.4</em></div>
 
 3. Click on **+Make New Group** button to display the **NEW GROUP:** page. Refer Figure 2.5
 
-      ![](/images/img_chapter2/2.5.png)
+      ![](../images/img_chapter2/2.5.png)
 
       <div align="center"> <em>Figure 2.5</em></div>
 
 4. Enter a name for your new group in the **Group Name:** text field. Refer Figure 2.6.
 
-      ![](/images/img_chapter2/2.6.png)
+      ![](../images/img_chapter2/2.6.png)
 
       <div align="center"> <em>Figure 2.6</em></div>
 
 5. Click **Save** to complete the process. Refer Figure 2.7.
 
-      ![](/images/img_chapter2/2.7.png) 
+      ![](../images/img_chapter2/2.7.png) 
 
       <div align="center"> <em>Figure 2.7</em></div>
 
 6. Once a new group is successfully created, a successful group creation message (as shown in Figure 2.8) is displayed on the **GROUPS** page. 
 
-    ![](/images/img_chapter2/2.8.png)
+    ![](../images/img_chapter2/2.8.png)
 
     <div align="center"> <em>Figure 2.8</em></div>
 
@@ -62,48 +62,48 @@ Follow the below steps to add group members to a selected group:
 
 1. Navigate to **Login** displayed in the upper right hand corner of your screen and login to the portal. (Refer Figure 2.9)
 
-    ![](/images/img_chapter2/2.3.png)
+    ![](../images/img_chapter2/2.3.png)
     <div align="center"> <em>Figure 2.9</em></div>
 
 2. Click on **My Groups** to display the GROUPS page as shown in Figure 2.10. This page lists the different groups you are associated with.
 
-    ![](/images/img_chapter2/2.4.png)
+    ![](../images/img_chapter2/2.4.png)
 
     <div align="center"> <em>Figure 2.10</em></div>
 
 3. Select the group to which you wish to add your students and click on the **View** icon (refer Figure 2.11) to display the next page for adding members and assignments.
 
-    ![alt_text](/images/img_chapter2/2.11.png)
+    ![alt_text](../images/img_chapter2/2.11.png)
 
     <div align="center"> <em>Figure 2.11</em></div>
 
 4. Click on **+Add Members** button to add members to the selected group. An **Add Members** pop up window is displayed (refer Figure 2.12).
 
-    ![](/images/img_chapter2/2.12.png)
+    ![](../images/img_chapter2/2.12.png)
 
     <div align="center"> <em>Figure 2.12</em></div>
 
 5. Enter Email IDs separated by commas, spaces or list them individually in separate lines in the **Email IDs:** text field box. Refer Figure 2.13.
 
-   ![](/images/img_chapter2/2.13.png)
+   ![](../images/img_chapter2/2.13.png)
 
    <div align="center"> <em>Figure 2.13</em></div>
 
 6. Click on **Add members** to complete the process. Refer Figure 2.14.
 
-   ![](/images/img_chapter2/2.14.png)
+   ![](../images/img_chapter2/2.14.png)
 
    <div align="center"> <em>Figure 2.14</em></div>
 
 7. The group members will be listed in the **MEMBERS** section. Refer Figure 2.15.
 
-   ![](/images/img_chapter2/2.15.png)
+   ![](../images/img_chapter2/2.15.png)
 
    <div align="center"> <em>Figure 2.15</em></div>
 
 > NOTE: If a student is already registered with CircuitVerse, the student will be added automatically. Alternatively,  the student receives an email invitation to register with CircuitVerse. Once the student completes the registration process, the student will be automatically added/listed to the group.  Refer Figure 2.16.
 
-![](/images/img_chapter2/2.16.png)
+![](../images/img_chapter2/2.16.png)
 
 <div align="center"> <em>Figure 2.16</em></div>
 
@@ -118,43 +118,43 @@ Follow the below steps to add assignments for a selected group:
 
 1. Navigate to your account displayed in the upper right hand corner of your screen. Refer Figure 2.17.
 
-      ![](/images/img_chapter2/2.3.png)
+      ![](../images/img_chapter2/2.3.png)
 
       <div align="center"> <em>Figure 2.17</em></div>
 
 2. Click on **My Groups** to display the GROUPS page as shown in Figure 2.18. This page lists the different groups you are associated with.
 
-    ![](/images/img_chapter2/2.4.png)
+    ![](../images/img_chapter2/2.4.png)
 
     <div align="center"> <em>Figure 2.18</em></div>
 
 3. Select the group to which you wish to add assignments and click on the **View** icon (refer Figure 2.19) to display the next page for adding members and assignments.
 
-    ![](/images/img_chapter2/2.19.png)
+    ![](../images/img_chapter2/2.19.png)
 
     <div align="center"> <em>Figure 2.19</em></div>
 
 4. Navigate to the **Assignments** section and click on **+Add Assignment** button to display the **New Assignment** page as shown in Figure 2.20.
 
-    ![](/images/img_chapter2/2.20.png)
+    ![](../images/img_chapter2/2.20.png)
 
     <div align="center"> <em>Figure 2.20</em></div>
 
 5. Enter a name for the assignment in the **Name **text field as shown in Figure 2.21.
 
-    ![](/images/img_chapter2/2.21.png)
+    ![](../images/img_chapter2/2.21.png)
 
     <div align="center"> <em>Figure 2.21</em></div>
 
 6. Enter a brief description of the assignment in the **Description** text field as shown in Figure 2.22.
 
-    ![](/images/img_chapter2/2.22.png)
+    ![](../images/img_chapter2/2.22.png)
 
     <div align="center"> <em>Figure 2.22</em></div>
 
 7. Enter a timestamp for the assignment deadline in the **Deadline** text field as shown in Figure 2.23.
 
-    ![](/images/img_chapter2/2.23.png)
+    ![](../images/img_chapter2/2.23.png)
 
     <div align="center"> <em>Figure 2.23</em></div>
 
@@ -164,7 +164,7 @@ Follow the below steps to add assignments for a selected group:
     >
     > NOTE: Grades can only be added for a student assignment after the deadline has passed.
 
-    ![](/images/img_chapter2/2.24.png)
+    ![](../images/img_chapter2/2.24.png)
 
     <div align="center"> <em>Figure 2.24</em></div>
 
@@ -205,19 +205,19 @@ Follow the below steps to add assignments for a selected group:
 
 9. If needed, click the **Enable Elements Restriction** toggle button to display the list of elements that will be disabled for group members working on the assignments. Refer Figure 2.25.
 
-    ![](/images/img_chapter2/2.25.png)
+    ![](../images/img_chapter2/2.25.png)
 
     <div align="center"> <em>Figure 2.25</em></div>
 
 10. Click the **Create Assignment** button to complete the process (refer Figure 2.26). The new assignment will be listed under the **ASSIGNMENTS** section. 
 
-    ![](/images/img_chapter2/2.26.png)
+    ![](../images/img_chapter2/2.26.png)
 
     <div align="center"> <em>Figure 2.26</em></div>
 
     Once an assignment has been successfully added, different tasks can be performed for an assignment with active or inactive deadline (refer Figure 2.27). For instance, any assignment with a passed deadline can be reopened. Table 2.3 provides a quick description for the different tasks available for managing assignments.
 
-    ![](/images/img_chapter2/2.27.png)
+    ![](../images/img_chapter2/2.27.png)
 
     <div align="center"> <em>Figure 2.27</em></div>
 
@@ -261,7 +261,7 @@ The grading criteria for any assignment can only be identified once while adding
 
 >NOTE: Assignments can be graded within CircuitVerse only after the deadline has elapsed. 
 
-![](/images/img_chapter2/2.24.png)
+![](../images/img_chapter2/2.24.png)
 
 <div align="center"> <em>Figure 2.28</em></div>
 
@@ -306,49 +306,49 @@ After the grading scale has been set and the assignment deadline has passed, the
 
 1. Click on **My Groups** to display the GROUPS page as shown in Figure 2.29. This page lists the different groups you are associated with.
 
-    ![](/images/img_chapter2/2.4.png)
+    ![](../images/img_chapter2/2.4.png)
 
     <div align="center"> <em>Figure 2.29</em></div>
 
 2. Select the group to which you wish to add assignments and click on the **View** icon (refer Figure 2.30) to display the next page for viewing your members and assignments.
 
-    ![](/images/img_chapter2/2.30.png)
+    ![](../images/img_chapter2/2.30.png)
 
     <div align="center"><em>Figure 2.30</em></div>
 
 3. Navigate to the **Assignments** section to view the list of assignments available for the selected group. Refer Figure 2.31.
 
-    ![](/images/img_chapter2/2.31.png)
+    ![](../images/img_chapter2/2.31.png)
 
     <div align="center"><em>Figure 2.31</em></div>
 
 4. Select the assignment that must be graded. Refer Figure 2.32. 
 
-    ![](/images/img_chapter2/2.32.png)
+    ![](../images/img_chapter2/2.32.png)
 
     <div align="center"><em>Figure 2.32</em></div>
 
 5. Click on **View** to launch the assignment details page. Refer Figure 2.33.
 
-    ![](/images/img_chapter2/2.33.png)
+    ![](../images/img_chapter2/2.33.png)
 
     <div align="center"><em>Figure 2.33</em></div>
 
 6. Navigate to the **Submissions** section of the page to view the different submissions from the group members. Refer Figure 2.34.
 
-    ![](/images/img_chapter2/2.34.png)
+    ![](../images/img_chapter2/2.34.png)
 
     <div align="center"><em>Figure 2.34</em></div>
 
 7. Select a submission from the left hand side of the member list and double-click on the selection to view the submitted circuit (see Figure 2.35).
 
-    ![](/images/img_chapter2/2.35.png)
+    ![](../images/img_chapter2/2.35.png)
 
     <div align="center"><em>Figure 2.35</em></div>
 
 8. Enter the desired grade in the **Grade** text field. If needed, add remarks. Refer Figure 2.36.
 
-    ![](/images/img_chapter2/2.36.png)
+    ![](../images/img_chapter2/2.36.png)
 
     <div align="center"><em>Figure 2.36</em></div>
 
@@ -356,7 +356,7 @@ After the grading scale has been set and the assignment deadline has passed, the
 
     > NOTE: If a student has already been assigned a grade, the grade will be updated.
 
-    ![](/images/img_chapter2/2.37.png)
+    ![](../images/img_chapter2/2.37.png)
 
     <div align="center"><em>Figure 2.37</em></div>
 
@@ -366,31 +366,31 @@ After the grades have been assigned, a group mentor may choose to export the gra
 
 1. Navigate to the student group for which the grades must be exported and click **View** to display the next page for viewing your members and assignments. Refer Figure 2.38.
 
-    ![](/images/img_chapter2/2.38.png)
+    ![](../images/img_chapter2/2.38.png)
 
     <div align="center"><em>Figure 2.38</em></div>
 
 2. Navigate to the **Assignments** section to view the list of assignments available for the selected group. Refer Figure 2.39.
 
-    ![](/images/img_chapter2/2.31.png)
+    ![](../images/img_chapter2/2.31.png)
 
     <div align="center"><em>Figure 2.39</em></div>
 
 3. Select the assignment that must be graded. Refer Figure 2.40. 
 
-    ![](/images/img_chapter2/2.32.png)
+    ![](../images/img_chapter2/2.32.png)
 
     <div align="center"><em>Figure 2.40</em></div>
 
 4. Click on **View** to launch the assignment details page. Refer Figure 2.41.
 
-    ![](/images/img_chapter2/2.41.png)
+    ![](../images/img_chapter2/2.41.png)
 
     <div align="center"><em>Figure 2.41</em></div>
 
 5. Scroll down on the assignment details page and click on the **Export Grades** button to export the grades into a .csv file on your machine. Refer Figure 2.43.
 
-    ![](/images/img_chapter2/2.43.png)
+    ![](../images/img_chapter2/2.43.png)
 
     <div align="center"><em>Figure 2.43</em></div>
 
@@ -400,7 +400,7 @@ After the grades have been assigned, a group mentor may choose to export the gra
 Since CircuitVerse is built using the HTML5 markup language, an iframe can be generated for each CircuitVerse simulation for embedding it within web pages and Google Slides. 
 > NOTE: The **Project access type:** property for the project that must be embedded must be set to **Public.** Refer Figure 2.44.
 
-![](/images/img_chapter2/2.44.png)
+![](../images/img_chapter2/2.44.png)
 
 <div align="center"><em>Figure 2.44</em></div>
 
@@ -408,31 +408,31 @@ Follow the below steps to embed a CircuitVerse simulation within a web page:
 
 1. Navigate to your account displayed in the upper right hand corner of your screen. Select **Dashboard** from the drop-down menu to display your dashboard. Refer Figure 2.45.
 
-    ![](/images/img_chapter2/2.45.png)
+    ![](../images/img_chapter2/2.45.png)
 
     <div align="center"><em>Figure 2.45</em></div>
 
 2. Navigate to the project that you wish to embed. Refer Figure 2.46.
 
-    ![](/images/img_chapter2/2.46.png)
+    ![](../images/img_chapter2/2.46.png)
 
     <div align="center"><em>Figure 2.46</em></div>
 
 3. Click on the **More** button to display the project details page. Refer Figure 2.47.
 
-    ![](/images/img_chapter2/2.47.png)
+    ![](../images/img_chapter2/2.47.png)
 
     <div align="center"><em>Figure 2.47</em></div>
 
 4. Click on the **Embed** button to display the iFrame code associated with the relevant project. Refer Figure 2.48.
 
-    ![](/images/img_chapter2/2.48.png)
+    ![](../images/img_chapter2/2.48.png)
 
     <div align="center"><em>Figure 2.48</em></div>
 
 5. Copy the displayed iframe value and paste the iframe code within the HTML frame of the desired webpage. The circuit will be embedded with the **Made with CircuitVerse** watermark as shown in Figure 2.49.  
 
-    ![](/images/img_chapter2/2.49.png)
+    ![](../images/img_chapter2/2.49.png)
 
     <div align="center"><em>Figure 2.49</em></div>
 
@@ -447,7 +447,7 @@ When the extension is successfully installed, it is displayed as an option in th
 
 > NOTE: If the menu option is not available, then the Google Slides addon may not get installed successfully.
 
-![](/images/img_chapter2/2.50.png)
+![](../images/img_chapter2/2.50.png)
 
 <div align="center"><em>Figure 2.50: CircuitVerse Chrome Extension for embedding Live Circuit in Google Slides</em></div>
 
@@ -462,7 +462,7 @@ CircuitVerse offers different options for downloading images in different format
 
 > NOTE: Images for circuit simulation projects that are part of a CircuitVerse user account can only be downloaded. As needed, a user can fork an existing circuit contribution to add the CircuitVerse project to their dashboard.
 
-![](/images/img_chapter2/2.55.png)
+![](../images/img_chapter2/2.55.png)
 
 <div align="center"><em>Figure 2.51: Different image formats, views and resolutions supported within CircuitVerse </em></div>
 
@@ -555,25 +555,25 @@ Follow the below steps to download an image from the CircuitVerse simulator:
 
 1. Navigate to the circuit design that must be downloaded. Refer Figure 2.52.
 
-    ![](/images/img_chapter2/2.52.png)
+    ![](../images/img_chapter2/2.52.png)
 
     <div align="center"><em>Figure 2.52</em></div> 
 
 2. Click on the **Launch Simulator** button to launch the circuit simulation in the CircuitVerse simulator. Refer Figure 2.53.
 
-    ![](/images/img_chapter2/2.53.png)
+    ![](../images/img_chapter2/2.53.png)
 
     <div align="center"><em>Figure 2.53</em></div> 
 
 3. Click on the **Download Image** icon displayed in the quick access toolbar. Alternatively, you can navigate to **Tools** drop-down menu available in the menu toolbar and select **Download Image**. Refer Figure 2.54.
 
-    ![](/images/img_chapter2/2.54.png)
+    ![](../images/img_chapter2/2.54.png)
 
     <div align="center"><em>Figure 2.54</em></div> 
 
 4. The **Render Image** pop up window is displayed (refer Figure 2.55).
 
-    ![](/images/img_chapter2/2.55.png)
+    ![](../images/img_chapter2/2.55.png)
 
     <div align="center"><em>Figure 2.55</em></div> 
 
@@ -581,7 +581,7 @@ Follow the below steps to download an image from the CircuitVerse simulator:
 
 6. Click on the **Render Circuit Image** button to download the image on your machine. (Refer Figure 2.56)
 
-    ![](/images/img_chapter2/2.56.png)
+    ![](../images/img_chapter2/2.56.png)
 
     <div align="center"><em>Figure 2.56</em></div> 
 

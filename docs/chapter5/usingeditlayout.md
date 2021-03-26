@@ -8,7 +8,7 @@ As required, a user can use the **LAYOUT ELEMENTS** panel to add any circuit ele
 >
 >TIP: Make all the necessary changes  within the circuit layout prior to the wiring connections.
 
-![drawing](/images/img_chapter5/5.3.png)
+![drawing](../images/img_chapter5/5.3.png)
 
 <div align="center"><em>Figure 5.3</em></div>
 

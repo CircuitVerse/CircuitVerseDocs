@@ -2,7 +2,7 @@
 
 CircuitVerse includes a vast library of circuit elements for building circuits (refer Figure 4.1). 
 
-![](/images/img_chapter4/4.1.png)
+![](../images/img_chapter4/4.1.png)
 
 <div align="center"><em>Figure 4.1: Different circuit elements are available within the CV simulator for building circuits</em></div>
 

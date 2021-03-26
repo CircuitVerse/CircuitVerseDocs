@@ -6,7 +6,7 @@ A timing diagram is used for analyzing and debugging the behavior of circuits fo
 
 Similar to other panels available in the CV simulator, the **TIMING DIAGRAM** panel is collapsible and can be dragged by the mouse. Figure 6.2 elucidates the different icons available on the  **TIMING DIAGRAM** panel for plotting a waveform. 
 
-![drawing](/images/img_chapter6/6.2.png)
+![drawing](../images/img_chapter6/6.2.png)
 
 <div align="center"><em>Figure 6.2: Description of different icons available on the Timing Diagram panel </em></div>
 
@@ -24,7 +24,7 @@ Similarly, the clock interval maps how many milliseconds are there in one half c
 
 Figure 6.3 illustrates a circuit design where two NOT gates cancel out each other to behave as an XNOR gate.
 
-![drawing](/images/img_chapter6/6.3.png)
+![drawing](../images/img_chapter6/6.3.png)
 
 <div align="center"><em>Figure 6.3</em></div>
 

@@ -24,7 +24,7 @@ A delay or D Flip Flop circuit element delays the input. As Figure 4.3 shows, it
 
 >Properties that can be customized in the **PROPERTIES** panel include: **BitWidth**
 
-![](/images/img_chapter4/4.3.png)
+![](../images/img_chapter4/4.3.png)
 
 <div align="center"><em>Figure 4.3: Pin description of the D Flip Flop within the CircuitVerse platform</em></div>
 
@@ -82,7 +82,7 @@ The **D Latch** circuit element is a single input flip flop. As Figure 4.4, it w
 
 >Properties that can be customized in the **PROPERTIES** panel include:** **BitWidth**
 
-![](/images/img_chapter4/4.4.png)
+![](../images/img_chapter4/4.4.png)
 
 <div align="center"><em>Figure 4.4: Pin description of the D Latch within the CircuitVerse platform</em></div>
 
@@ -137,7 +137,7 @@ Table 4.13: Table for D Latch circuit element
 
 A toggle or **T Flip Flop** circuit element toggles the output. As Figure 4.5 shows, it takes in a single data input and a clock input. As Table 4.14 (the truth table for T Flip Flop) displays, if the value of the input is 1, then the output of the next state is the complement of the previous state.
 
-![](/images/img_chapter4/4.5.png)
+![](../images/img_chapter4/4.5.png)
 
 <div align="center"><em>Figure 4.5: Pin description of the T Flip Flop within the CircuitVerse platform</em></div>
 
@@ -196,7 +196,7 @@ A **SR Flip Flop** circuit element is one of the simplest sequential circuits. I
 *   When S is HIGH, the output Q is HIGH. 
 *   When R is HIGH, the output is LOW.
 
-![](/images/img_chapter4/4.6.png)
+![](../images/img_chapter4/4.6.png)
 
 <div align="center"><em>Figure 4.6: Pin description of the SR Flip Flop within the CircuitVerse platform</em></div>
 
@@ -254,7 +254,7 @@ The **JK Flip Flop** circuit element, an improvement of a SR Flip Flop, includes
 
 >Properties that can be customized in the **PROPERTIES** panel include: **BitWidth**
 
-![](/images/img_chapter4/4.7.png)
+![](../images/img_chapter4/4.7.png)
 
 <div align="center"><em>Figure 4.7: Pin description of the JK Flip Flop within the CircuitVerse platform</em></div>
 
@@ -312,7 +312,7 @@ A **TTY** circuit element receives an input sequence of ASCII codes and displays
 
 >Properties that can be customized in the **PROPERTIES** panel include: **BitWidth must be set as 7, Rows, Columns**
 
-![](/images/img_chapter4/4.8.png)
+![](../images/img_chapter4/4.8.png)
 
 <div align="center"><em>Figure 4.8: Pin description of the TTY circuit element within the CircuitVerse platform</em></div>
 
@@ -373,7 +373,7 @@ The **Keyboard** circuit element allows the circuit to read keystrokes, as long 
 
 >Properties that can be customized in the **PROPERTIES** panel include: **Buffer Size**
 
-![](/images/img_chapter4/4.9.png)
+![](../images/img_chapter4/4.9.png)
 
 <div align="center"><em>Figure 4.9: Pin description of the Keyboard circuit element within the CircuitVerse platform</em></div>
 
@@ -456,7 +456,7 @@ As the name suggests, the **ROM **( read-only memory) circuit element stores rea
 
 The **ROM** circuit element includes three pins. As Figure 4.10 elucidates, it accepts a 4-bit address input (**A**) and the corresponding value stored in the particular address is returned as a 8-bit output (**D**) (initial address always starts from 0). The Enable (**En**) pin enables the ROM.
 
-![](/images/img_chapter4/4.10.png)
+![](../images/img_chapter4/4.10.png)
 
 <div align="center"><em>Figure 4.10: ROM circuit element within the CircuitVerse platform</em></div>
 
@@ -475,7 +475,7 @@ Alternatively, the contents of the RAM can be dumped to the console by transitio
 >Properties that can be customized in the **PROPERTIES** panel include: **Address Width, BitWidth**
 
 
-![](/images/img_chapter4/4.11.png)
+![](../images/img_chapter4/4.11.png)
 
 <div align="center"><em>Figure 4.11: RAM circuit element and relevant property attributes available in the PROPERTIES panel</em></div>
 
@@ -487,7 +487,7 @@ You can verify the behavior of the **RAM **circuit element in the live circuit e
 
 The **EEPROM** circuit element is a programmable ROM used for the computer BIOS. EEPROMs are generally more expensive than RAMs. The maximum address space of the **EEPROM** circuit element is 10-bits (1024 addresses)––smaller than the RAM. Figure 4.12 shares a pin description of the **EEPROM **circuit element.
 
-![](/images/img_chapter4/4.12.png)
+![](../images/img_chapter4/4.12.png)
 
 <div align="center"><em>Figure 4.12: EEPROM circuit element available within the CircuitVerse simulator</em></div>
 

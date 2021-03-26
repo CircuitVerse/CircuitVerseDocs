@@ -5,7 +5,7 @@
 2.    **Mind those circuit element properties**: Use the **PROPERTIES** panel smartly while designing your circuit. 
 Consider that you are building an adder that receives eight bits as an input. As Figure 2.57 illustrates, the **BitWidth** property attribute of the **Adder** circuit element must be set to eight bits in the **PROPERTIES** panel. Any input circuit elements connected to the 8-bit adder should also be 8 bits wide. Thus, the **BitWidth** property attribute of the **Input** circuit elements in Figure 2.57 has been also set to eight bits.
 
-        ![](/images/img_chapter2/2.57.png)
+        ![](../images/img_chapter2/2.57.png)
 
         <div align="center"><em>Figure 2.57</em></div> 
 
