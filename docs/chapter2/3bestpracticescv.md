@@ -13,4 +13,4 @@ Consider that you are building an adder that receives eight bits as an input. As
 
 4.    **Copy paste your circuits:** Cross-project copy and paste is supported to include whole or parts of circuits across different circuit tabs or across different project URLs.
 
-5.    **Annotate your circuits:** As your design goes through multiple revisions, use different  annotation tools available within the CircuitVerse simulator to add the version number, date, amendments and different group members involved. Refer [Chapter 4](/chapter4/7annotation.md) for learning more about the different annotation elements avaialble within the CV simulator.
+5.    **Annotate your circuits:** As your design goes through multiple revisions, use different  annotation tools available within the CircuitVerse simulator to add the version number, date, amendments and different group members involved. Refer [Chapter 4](/chapter4/7annotation.md) for learning more about the different annotation elements available within the CV simulator.

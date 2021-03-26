@@ -243,7 +243,7 @@ The Custom Shortcuts window displays different shortcuts for common user operati
 
 ![drawing](../images/img_chapter3/3.10.png)
 
-<div align="center"><em>Figure 3.10: Different key shortcuts available within CiruitVerse</em></div>
+<div align="center"><em>Figure 3.10: Different key shortcuts available within CircuitVerse</em></div>
 
 ## Export Verilog 
 

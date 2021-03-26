@@ -13,4 +13,4 @@
 
     ![Contention Error 1 and 0](https://i.stack.imgur.com/xW0lC.gif)
 
-**Resolution:** Logic contention errors indicate a circuit design problem leading to large amounts of power to flow across circuit elements. Revisit your design for some wiring errors or for active multiple output enable lines that are driving a bus or circuit node simulatenously.
+**Resolution:** Logic contention errors indicate a circuit design problem leading to large amounts of power to flow across circuit elements. Revisit your design for some wiring errors or for active multiple output enable lines that are driving a bus or circuit node simultaneously.
