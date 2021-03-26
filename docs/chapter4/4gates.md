@@ -2,19 +2,20 @@
 
 CircuitVerse features the following gates in the circuit elements library:
 
-1. [AND Gate](#and-gate)
-2. [OR Gate](#or-gate)
-3. [NOT Gate](#not-gate)
-4. [XOR Gate](#xor-gate)
-5. [NAND Gate](#nand-gate)
-6. [NOR Gate](#nor-gate)
-7. [XNOR Gate](#xnor-gate)
+- [Gates](#gates)
+  - [AND Gate](#and-gate)
+  - [OR Gate](#or-gate)
+  - [NOT Gate](#not-gate)
+  - [XOR Gate](#xor-gate)
+  - [NAND Gate](#nand-gate)
+  - [NOR Gate](#nor-gate)
+  - [XNOR Gate](#xnor-gate)
 
 > Properties that can be customized in the **PROPERTIES** panel include: **Bit Width, Input Size, Direction**
 
 > TIP: Direction of any gate can be changed within the CircuitVerse simulator by either using the up, down, right, left arrow keys or by changing the **Direction** property parameter in the **PROPERTIES** panel.
 
-Each of the gates included in the CircuitVerse library can be customized for mutliple input size and multiple bitwidth. Users can create:
+Each of the gates included in the CircuitVerse library can be customized for multiple input size and multiple bitwidth. Users can create:
 * Multi-input gate by changing the **Input Size** property parameter in the **PROPERTIES** panel. You can verify the behavior of a multi-input **AND gate** in the live circuit embedded below:
 
 <iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/735" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
@@ -92,7 +93,7 @@ You can verify the behavior of an **XOR gate** circuit element in the live circu
 
 ## NAND Gate
 
-NAND gate, a combination of an AND gate and a NOT gate connected together in series, produces the inverted output of an AND gate––produces a LOW output when all the inputs are HIGH. Refe Table 4.29.
+NAND gate, a combination of an AND gate and a NOT gate connected together in series, produces the inverted output of an AND gate––produces a LOW output when all the inputs are HIGH. Refer Table 4.29.
 
 Table 4.29: Two-input NAND gate truth table
 

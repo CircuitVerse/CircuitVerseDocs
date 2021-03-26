@@ -16,7 +16,7 @@ This section shares key features of the CircuitVerse simulator.
 
 3. **Insert subcircuit**: Hierarchical circuits can be created by nesting and reusing smaller circuits in larger circuits (something like this).  No need to mention verilog here. 
 
-4. **Export images in multiple formats**: High-resolution CircutVerse images can be exported in multiple formats for different views and background options.
+4. **Export images in multiple formats**: High-resolution CircuitVerse images can be exported in multiple formats for different views and background options.
 
 5. **Visualize circuit simulations using timing diagram**: Timing diagrams can be used to analyze and debug the behavior of circuits for different input sequences. debug logical mistakes and race conditions. Timing diagrams can be paired with the Flag circuit element to explain different concepts such as propagation delay, stable state and race conditions.
 
