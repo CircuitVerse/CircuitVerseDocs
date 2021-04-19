@@ -2,17 +2,18 @@
 
 CircuitVerse features the following circuit elements in this category:
 
-1. [D Flip Flop](#d-flip-flop)
-2. [D Latch](#d-latch)
-3. [T Flip Flop](#t-flip-flop)
-4. [SR Flip Flop](#sr-flip-flop)
-5. [JK Flip Flop](#jk-flip-flop)
-6. [TTY](#tty)	
-7. [Keyboard](#keyboard)
-8. [Clock](#clock)
-9. [ROM](#rom)
-10. [RAM](#ram)
-11. [EEPROM](#eeprom)	
+- [Sequential Elements](#sequential-elements)
+  - [D Flip Flop](#d-flip-flop)
+  - [D Latch](#d-latch)
+  - [T Flip Flop](#t-flip-flop)
+  - [SR Flip Flop](#sr-flip-flop)
+  - [JK Flip Flop](#jk-flip-flop)
+  - [TTY](#tty)
+  - [Keyboard](#keyboard)
+  - [Clock](#clock)
+  - [ROM](#rom)
+  - [RAM](#ram)
+  - [EEPROM](#eeprom)
 
 ## D Flip Flop
 
@@ -74,7 +75,7 @@ Table 4.12: Table for D Flip Flop circuit element
 
 You can verify the behavior of the D Flip Flop circuit element in the live circuit embedded below:
 
-<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/12254" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+<iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/d-flip-flop-a69c6d44-1bfb-4325-89de-ab72de66c743" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## D Latch
 
