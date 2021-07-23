@@ -22,5 +22,4 @@
 
 * [Groups](groups.md)
 * [Test Bench](testbench.md)
-* [Integrate with LMS](lms_integration.md)
 
