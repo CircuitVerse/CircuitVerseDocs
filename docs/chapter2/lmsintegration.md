@@ -10,11 +10,11 @@ Contributing Authors: [@ayan-biswas0412](https:github.com/ayan-biswas0412)
 
 You can connect a learning management system (LMS) to CircuitVerse, To connect your LMS to CircuitVerse, you must enter configuration credentials for CircuitVerse in your LMS.
 
-**Note:** You and your students must use the same email which is assoicated with your LMS as CircuitVerse account's email.If you don't have an account please create one at [CircuitVerse Sign Up](https://circuitverse.org/users/sign_up).
+**Note:** You and your students must use the same email which is associated with your LMS as CircuitVerse account's email.If you don't have an account please create one at [CircuitVerse Sign Up](https://circuitverse.org/users/sign_up).
 
 ## Prerequisites
 
-To connect LMS with CircuitVerse, you must have atleast one assignment in your CircuitVerse group which is LTI enabled.    Just check the **Integrate with LMS** button while creating an assignment in CircuitVerse.You can also update an exising assignment to enable LTI just by checking the box **Integrate with LMS**.
+To connect LMS with CircuitVerse, you must have atleast one assignment in your CircuitVerse group which is LTI enabled.    Just check the **Integrate with LMS** button while creating an assignment in CircuitVerse.You can also update an existing assignment to enable LTI just by checking the box **Integrate with LMS**.
 
 ## Supported LMSs
 
@@ -40,7 +40,7 @@ CircuitVerse tested linking of assignments with the following LMSs:
     ![Integrate with LMS](/images/img_chapter2/lms_integration/lms_checkbox.png)
 
 4. Fill in the required fields and click **Create Assignment**.
-5. After successfull creation of an assignment, you will be redirected to the Group page and you will see the **Show LMS Credentials** link on the assignment which you have just created.
+5. After successful creation of an assignment, you will be redirected to the Group page and you will see the **Show LMS Credentials** link on the assignment which you have just created.
 
     ![Show LMS Credentials](/images/img_chapter2/lms_integration/show_lms_link.png)
 
@@ -107,9 +107,9 @@ You can configure CircuitVerse as an external app for Canvas. For more informati
 
 * In the **Privacy** field select **Public**.
 * Please keep the Custom Fields blank.
-* **Optional :** You can add a description for the exernal tool in the **Description** field.
+* **Optional :** You can add a description for the external tool in the **Description** field.
 
-> After successfull completion of the above mentioned steps your assignment will be available in Canvas as an external tool.You can add the assignment to a module of your course by naviagting to **Home** in the left sidebar then please click on the **+** button and select **External Tool** in the **Add** filed and you will see the newly installed **CircuitVerse** app there.Just click on the **Add Item** button to add the assignment to the course module.
+> After successful completion of the above mentioned steps your assignment will be available in Canvas as an external tool.You can add the assignment to a module of your course by navigating to **Home** in the left sidebar then please click on the **+** button and select **External Tool** in the **Add** filed and you will see the newly installed **CircuitVerse** app there.Just click on the **Add Item** button to add the assignment to the course module.
 
 ## Configuring Sakai
 
@@ -130,7 +130,7 @@ You can configure CircuitVerse as an external app for Canvas. For more informati
 * In **Privacy Settings** please check the all checkboxes.
 * In **Services** please check the all checkboxes.
 
-> The steps mentioned above for the Sakai are the mandatory steps for the installation of an **CircuitVerse assignment** as an **LTI 1.x** tool.But there are some of the additional fileds, checkboxes which you can use for customizing your tool, but they are not mandatory.
+> The steps mentioned above for the Sakai are the mandatory steps for the installation of an **CircuitVerse assignment** as an **LTI 1.x** tool.But there are some of the additional fields, checkboxes which you can use for customizing your tool, but they are not mandatory.
 
 ## Common Troubleshooting
 
