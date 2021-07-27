@@ -4,8 +4,6 @@
 
 > This guide will teach you how to integrate CircuitVerse with LTI supported Learning Management Systems.
 
-Contributing Authors: [@ayan-biswas0412](https:github.com/ayan-biswas0412)
-
 ## About configuration of your LMS
 
 You can connect a learning management system (LMS) to CircuitVerse, To connect your LMS to CircuitVerse, you must enter configuration credentials for CircuitVerse in your LMS.
