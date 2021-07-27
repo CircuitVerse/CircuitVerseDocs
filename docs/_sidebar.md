@@ -6,7 +6,7 @@
 * Chapter 2: Getting Started with CircuitVerse
     * [Getting Started with CircuitVerse](/chapter2/1gettingstarted.md)
     * [CircuitVerse For Educators](/chapter2/2cvforeducators.md)
-    * [Integrate CircuitVerse with LMS](/chapter2/lmsintegration.md)
+    * [Integrate with Learning Management Systems](/chapter2/lmsintegration.md)
     * [Best Practices For Working With CircuitVerse Simulator](/chapter2/3bestpracticescv.md)
 * Chapter 3: Simulator Interface
     * [Introduction](/chapter3/1introduction.md)
