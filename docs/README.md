@@ -1,10 +1,12 @@
 
 # Welcome to CircuitVerse 
 
-> CircuitVerse is extremely easy for beginners and experienced alike. This documentation will help you get started quickly.
+CircuitVerse (CV) simulator is a cloud-based open source tool for building live circuit simualtions. Use the CircuitVerse documentation to learn about the interface and different features and functionalities. You can read it from start to finish, or use it as a reference.
 
-<p style="text-align:center">
-          <iframe width="100%" height="330px" src="https://circuitverse.org/simulator/embed/701" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
-  </p>
+If it’s your first time using the CV simulator, [watch these video tutorials](https://www.youtube.com/channel/UCAK48dCPc_QON6Y5QqqRLOg). 
 
-> We invite everyone to contribute to the guide. Please read the contribution guidelines for more details.
+We invite everyone to [contribute to the guide](https://github.com/CircuitVerse). Please read the contribution guidelines for more details. 
+
+For any queries about the CV simulator, visit the [CircuitVerse Forum](https://circuitverse.org/forum).
+
+
