@@ -101,12 +101,18 @@
 				},
 			],
 			loadSidebar: true,
+			loadNavbar: true,
+			mergeNavbar: true,
 			routerMode: 'hash',
 			maxLevel: 4,
 			subMaxLevel: 2,
-			alias: {
-				'/.*/_sidebar.md': '/_sidebar.md'
+			search: {
+				placeholder: {'/hi/': 'सर्च करने के लिए टाइप करे', '/': 'Type to search'},
+				noData: {'/hi/': 'कोई परिणाम नहीं!', '/': 'No results!'}
 			},
+		  //alias: {
+		  //	'/.*/_sidebar.md': '/_sidebar.md'
+		  //},
 			executeScript:true,
 			noCompileLinks: ['/#'],
 			auto2top: true,
