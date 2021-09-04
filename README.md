@@ -1,3 +1,5 @@
+<img src="https://raw.githubusercontent.com/CircuitVerse/CircuitVerse/6362a9eb4a9fd6b5391c8e4ef0e3b82525e722de/app/assets/images/cvlogo.svg" alt="The CircuitVerse logo" width="736"/>
+
 # CircuitVerse Documentation
 
 This is the official documentation of the CircuitVerse simulator. This is meant to be a guide for users to use CircuitVerse. This contains the details of the usage of all Circuit Elements in CircuitVerse along with some tips and tricks. This guide assumes that the user has the minimum required knowledge.
