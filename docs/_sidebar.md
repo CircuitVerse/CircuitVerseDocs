@@ -8,7 +8,7 @@
 * [Embedding Circuits](embedding_circuits.md)
 * [Timing Diagrams](timing_diagrams.md)
 
-* Circuit Elements
+* [Circuit Elements](circuit_elements.md)
   * [Output Elements](outputs.md)
   * [Standard Gates](gates.md)
   * [Decoders and Plexers](decodersandplexers.md)
