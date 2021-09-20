@@ -2,15 +2,15 @@
 
 Contributing Author(s): [@iamNamanKhare](https://github.com/iamNamanKhare)
 
-> One of the Versatile Feature of CircuitVerse assists Teachers in Managing Class Assignments.
+> One of the Versatile Feature of CircuitVerse assists Teachers in Managing Class Assignments. Teachers can add students to groups, post assignments with deadlines and also grade the assignments using the built-in preview.
 
-Teachers can :
+**Teachers can :**
 - Create groups
 - Add Students
 - Post Assignments
-- View Assignment Work of each Student member.
+- View Assignment Work of each Student/Member.
 
-Students can :
+**Students can :**
 - View the Given Assignment with live deadline counter.
 - Create them easily with the help of CircuitVerse Simulator.
 - Submit them remotely.
@@ -33,16 +33,16 @@ Students can :
 
  After adding members, Click on the **ADD new assignment** Button.
 
- Fill Up all the necessary Details like : 
+ Fill Up all the necessary Details like :
  - Assignment name
- - Set the Deadline (both Time and Date)
- - Assignment description : Detailed Description of what assignment is all about, tools used, circuits used etc.
+ - Set the Deadline (both Date and Time)
+ - Assignment description : Detailed Description of what the assignment is all about, tools and circuits to be used etc.
 
-> **NOTE :** Word Processing tools are available for Description as well as feature to embed Any File for Assignment Description.
+> **NOTE :** Word Processing tools are available for Description as well as an option to embed any file for Assignment Description.
 
-![Assigments](/images/assignment.png)
+![Assignments](/images/assignment.png)
 
-> After Posting, to see the status of different assignments, Click on the **Show** button correspoding to a group.
+> After Posting, to see the status of different assignments, Click on the **Show** button corresponding to a group.
 <br/>
 >Now, You can see the lists of different Assigments.
 
@@ -50,7 +50,7 @@ Students can :
 
 >To see the students' work in each assignment, click on **show** button corresponding to an Assignment.
 
-![student-stauts](/images/student-status.png)
+![student-status](/images/student-status.png)
 
 > Teachers can add new assignments by clicking the add new assignment button on the group page. Then, create a name, grading scale, deadline and a description for the assignment.  
 
@@ -70,20 +70,26 @@ Different Grading modes:
 
 > Students can Manage their assignments from the **My Groups** Window.
 
-- Different groups Must be visible which are created by Their Teachers in **Groups You belong to** Window.
-- After Clicking On a particular group, few things are noticeable such as:
+- Different groups must be visible which are created by their Teachers in **Groups You belong to** Window.
+- After Clicking On a Particular Group, Few things are noticeable such as:
     - All the group members
     - List of Assignments with their respective deadline.
     - Two Clickables like **show** and **Start Working**.
 
-> **Show** Button : Desription of the Assigment.
+**Show** Button : Displays the details and Description of the Assignment.
 <br/>
-> **Start Working** Button : It Would Open a New Window.
+**Start Working** Button : It Would Open a New Window.
 
 ![groups-student](/images/groups-student.png)
 
 
 ***In Start Working Window,***
- - To Work Upon a Assignment, Launch simulator from **Launch Simulator** Button. Complete the assignment in simulator and save the work.
+ - To start working on your assignment, click on the **Launch Simulator** Button.
  - To preview, Click on **Preview** Button.
  - To work in Group (for group assignment), Click on **Add Collaborator** Button.
+
+> After completing your assignment on the simulator, save your work. There’s no separate option to submit your assignment. Your work   gets automatically submitted and you can continue to update your work till the deadline.
+
+## Groups Vs Collaborations
+
+All the group members are supposed to work on the given assignment individually or in groups. For example, if the assignment is a group task, you can add collaborators to your assignment and all the collaborators can work on the same project.
