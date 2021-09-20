@@ -14,13 +14,13 @@ Select the circuit element type and drop on canvas or drag the object onto canva
 
 #### There are two ways to connect wires between elements of the circuit:
 
-1. Click one node and simply drag the mouse to the other node.
+I. Click one node and simply drag the mouse to the other node.
 
 <video style="width:100%; height: 400px;" controls>
     <source src="/video/clickwire.mp4" type="video/mp4">  Sorry, your browser doesn't support embedded videos.
 </video>
 
-2. Hold down `Ctrl`, click on a node and simply move the cursor to the final node to which it needs to be attached. Clicking on the wire will insert a node at that position.
+II. Hold down `Ctrl`, click on a node and simply move the cursor to the final node to which it needs to be attached. Clicking on the wire will insert a node at that position.
 
 <video style="width:100%; height: 400px;" controls>
     <source src="/video/ctrlclickwire.mp4" type="video/mp4">  Sorry, your browser doesn't support embedded videos.
