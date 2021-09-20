@@ -21,5 +21,8 @@
 * [Annotation Elements](annotation.md)
 
 * [Groups](groups.md)
+ 
+* [Memory Elements](memoryelements.md)
+* [Combinational Circuits](combinationalcircuits.md)
 * [Test Bench](testbench.md)
 
