@@ -7,6 +7,7 @@
 * [Exporting Images](export.md)
 * [Embedding Circuits](embedding_circuits.md)
 * [Timing Diagrams](timing_diagrams.md)
+* [Combinational Analysis](combinational.md)
 
 * [Circuit Elements](circuit_elements.md)
   * [Output Elements](outputs.md)
@@ -23,3 +24,4 @@
 * [Groups](groups.md)
 * [Test Bench](testbench.md)
 
+- [Groups](groups.md)
