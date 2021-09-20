@@ -19,7 +19,7 @@ Students can :
 
 - First Click on your username on the right top corner as shown.
 
-![My-Groups](/images/my-groups.png)
+![My-Groups](images/my-groups.png)
 
 - Then, Click on **New Group** Button to create a New Group.
 
@@ -27,7 +27,7 @@ Students can :
 - You can add students by clicking on the  **Add member** button.
 - Simply enter the list of emails separated by commas. (If students are already registered with CircuitVerse they will be added automatically. If they are not registered with CircuitVerse yet, an invitation will be sent to register. Once they register, they will be added automatically. )
 
-![Add-students](/images/students-list.png)
+![Add-students](images/students-list.png)
 
 ## Posting Assignments
 
@@ -36,21 +36,29 @@ Students can :
  Fill Up all the necessary Details like : 
  - Assignment name
  - Set the Deadline (both Time and Date)
- - Assignment description : Detailed Description of what assignment is all about, tools used, circuits used etc.
+ - Grading Scale
+    - Letter (A, B, C, ..)
+    - Percent (1%-100%)
+    - No scale (assignment won’t be graded)
+    - Custom (grade as needed)
+- Assignment description : Detailed Description of what assignment is all about, tools used, circuits used etc.
+
 
 > **NOTE :** Word Processing tools are available for Description as well as feature to embed Any File for Assignment Description.
 
-![Assigments](/images/assignment.png)
+![Assigments](images/assignment.png)
 
 > After Posting, to see the status of different assignments, Click on the **Show** button correspoding to a group.
 <br/>
 >Now, You can see the lists of different Assigments.
 
-![assignment-list](/images/assignment2.png)
+![assignment-list](images/assignment2.png)
 
->To see the students' work in each assignment, click on **show** button corresponding to an Assignment.
+>To see the students' work in each assignment, click on **show** button corresponding to an Assignment. This will bring up a preview of their work.
 
-![student-stauts](/images/student-status.png)
+>**GRADING can only be done after the assignment's due date has passed!** Below the preview, you can enter in their grade and write any comments you may have.
+
+![student-stauts](images/student-status.png)
 
 > Teachers can add new assignments by clicking the add new assignment button on the group page. Then, create a name, grading scale, deadline and a description for the assignment.  
 
@@ -80,7 +88,7 @@ Different Grading modes:
 <br/>
 > **Start Working** Button : It Would Open a New Window.
 
-![groups-student](/images/groups-student.png)
+![groups-student](images/groups-student.png)
 
 
 ***In Start Working Window,***
