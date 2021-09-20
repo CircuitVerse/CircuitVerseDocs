@@ -21,5 +21,11 @@
 * [Annotation Elements](annotation.md)
 
 * [Groups](groups.md)
+
+* [Memory Elements](memoryelements.md)
+* [Combinational Circuits](combinationalcircuits.md)
+* [Use of Flip Flops](flipflops.md)
+
 * [Test Bench](testbench.md)
 
+ parent of 22264cc... added memory elements in sidebar
