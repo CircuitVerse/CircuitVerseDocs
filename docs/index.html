@@ -18,59 +18,68 @@
 		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
 	<!--  CSS Stylesheet -->
 	<link id="stylesheet" rel="stylesheet" href="//unpkg.com/docsify/themes/vue.css">
-        <link rel="stylesheet" type="text/css" href="styles/theme.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css" integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="styles/theme.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.1/css/all.css"
+		integrity="sha384-xxzQGERXS00kBmZW/6qxqJPyxW3UR0BPsL4c8ILaIWXva5kFi7TxkIIaMiKtqV1Q" crossorigin="anonymous">
 
- <script>
+	<script>
 
-	var url =  "//cdn.jsdelivr.net/gh/sushantrahate/docsify-darkly-theme/css/darkly.min.css";
-	var url2 = "//unpkg.com/docsify/themes/vue.css";
-	var stylesheet = document.getElementById("stylesheet");
-	var show = false;
-	var darkmode = localStorage.getItem('darkmode')
- 	function setStyleSheet() {
- 	  			const slider = document.querySelector(".slider");
- 	  			slider.classList.add("smooth");
-				document.body.classList.add("darkmode");
- 	  			setTimeout(function()
- 	  			{
- 	  				document.querySelector(".slider").classList.remove("smooth");
- 	  			},500);
-                 if (show) {
-                        stylesheet.setAttribute('href', url2);
-						localStorage.setItem('darkmode', "disabled");
-                           show = !show;
-                       }
-                 else {
-                    stylesheet.setAttribute('href', url);
-					localStorage.setItem('darkmode', "enabled");
-                    show = !show;
-                    }
-                };
+		var url = "//cdn.jsdelivr.net/gh/sushantrahate/docsify-darkly-theme/css/darkly.min.css";
+		var url2 = "//unpkg.com/docsify/themes/vue.css";
+		var stylesheet = document.getElementById("stylesheet");
+		var show = false;
+		var darkmode = localStorage.getItem('darkmode')
+		function setStyleSheet() {
+			const slider = document.querySelector(".slider");
+			slider.classList.add("smooth");
+			document.body.classList.add("darkmode");
+			setTimeout(function () {
+				document.querySelector(".slider").classList.remove("smooth");
+			}, 500);
+			if (show) {
+				stylesheet.setAttribute('href', url2);
+				localStorage.setItem('darkmode', "disabled");
+				show = !show;
+			}
+			else {
+				stylesheet.setAttribute('href', url);
+				localStorage.setItem('darkmode', "enabled");
+				show = !show;
+			}
+		};
+		function backToTop() {
+			document.body.scrollTop = 0;
+			document.documentElement.scrollTop = 0;
+		}
+	</script>
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
 
+		body {
+			font-family: 'Open Sans', sans-serif;
+		}
 
-       </script>
-			 <style>
-		 			@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
-		 			body{
-		 				font-family: 'Open Sans', sans-serif;
-		 			}
+		html {
+			scroll-behavior: smooth;
+		}
 
-		 			td {
-		 					color: black;
-		 					background-color: white;
-		 			}
-		 			.markdown-section {
-		 					 margin: 0 auto;
-		 					 max-width: 80%;
-		 					 padding: 30px 15px 40px 15px;
-		 					 position: relative;
-		 		 }
-				 .markdown-section a {
-						   color:  #00bc8c;
-						   font-weight: 600;
-				 }
- 			</style>
+		td {
+			color: black;
+			background-color: white;
+		}
+
+		.markdown-section {
+			margin: 0 auto;
+			max-width: 80%;
+			padding: 30px 15px 40px 15px;
+			position: relative;
+		}
+
+		.markdown-section a {
+			color: #00bc8c;
+			font-weight: 600;
+		}
+	</style>
 </head>
 
 <body>
@@ -82,22 +91,23 @@
 		window.$docsify = {
 			name: 'CircuitVerse',
 			repo: 'https://github.com/CircuitVerse/CircuitVerseDocs/',
-      nameLink: 'https://circuitverse.org/',
+			nameLink: 'https://circuitverse.org/',
 
 			plugins: [
 				EditOnGithubPlugin.create('https://github.com/CircuitVerse/CircuitVerseDocs/blob/master/docs/'),
-				function(hook)
-				{
+				function (hook) {
+					var backtoTop = [
+						'<div><button id="back-to-top" class="back-to-top" onclick="backToTop();"><i class="fas fa-angle-up"></i></button ></div>',
+					]
+					var footer = [
+						'<header>',
+						'<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox" ><span class="slider round"></span></label></span>',
+						'</header>'
+					].join('');
 
-				      var footer = [
-					'<header>',
-				       	'<span><label class="switch"><input title="Toggle Dark theme" onclick="setStyleSheet();" type="checkbox" ><span class="slider round"></span></label></span>',
-					'</header>'
-				      ].join('');
-
-				      hook.afterEach(function(html) {
-					return footer + html;
-				      });
+					hook.afterEach(function (html) {
+						return footer + html + backtoTop;
+					});
 				},
 			],
 			loadSidebar: true,
@@ -107,13 +117,13 @@
 			alias: {
 				'/.*/_sidebar.md': '/_sidebar.md'
 			},
-			executeScript:true,
+			executeScript: true,
 			noCompileLinks: ['/#'],
 			auto2top: true,
 			pagination: {
-                             previousText: 'Previous',
-                             nextText: 'Next',
-                       	}
+				previousText: 'Previous',
+				nextText: 'Next',
+			}
 
 
 		}
@@ -122,25 +132,26 @@
 
 	<script src="//unpkg.com/docsify@4.7.1/lib/docsify.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/search.min.js"></script>
-    <script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
+	<script src="//unpkg.com/docsify-pagination/dist/docsify-pagination.min.js"></script>
 	<script src="//unpkg.com/docsify/lib/plugins/zoom-image.min.js"></script>
 	<script type="text/javascript">
 
 
-		window.onload = function()
-		{	var darkmode = localStorage.getItem('darkmode')
 
-			if(darkmode ==="enabled"){
+		window.onload = function () {
+			var darkmode = localStorage.getItem('darkmode')
+
+			if (darkmode === "enabled") {
 				stylesheet.setAttribute('href', url);
 				show = !show;
 				document.querySelector("input[type='checkbox']").checked = true;
 			}
-			const observer = new MutationObserver(function(mutations){
-			mutations.forEach(function(mutation){
-					if(stylesheet.getAttribute("href") === url ){
-					document.querySelector("input[type='checkbox']").checked = url;
+			const observer = new MutationObserver(function (mutations) {
+				mutations.forEach(function (mutation) {
+					if (stylesheet.getAttribute("href") === url) {
+						document.querySelector("input[type='checkbox']").checked = url;
 					}
-					else{
+					else {
 						document.querySelector("input[type='checkbox']").checked = url2;
 					}
 				});
@@ -157,6 +168,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112678513-2"></script>
 <script>
+
 	window.dataLayer = window.dataLayer || [];
 
 	function gtag() {

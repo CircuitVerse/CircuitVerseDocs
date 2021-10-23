@@ -88,6 +88,23 @@ div[style="overflow: auto"]{
   margin-top: 39px;
 }
 
+.back-to-top {
+  background-color: #00e8b3;
+  color: #fff;
+  right: 15px;
+  position: fixed;
+  bottom: 15px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.back-to-top .fas {
+  font-size: 1.3rem;
+}
+
 @media (max-width: 768px) {
   .switch {
     margin-right: 5%;
