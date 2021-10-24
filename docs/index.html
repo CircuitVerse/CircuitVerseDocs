@@ -47,6 +47,20 @@
 				show = !show;
 			}
 		};
+		window.addEventListener('load', function () {
+			var backToTop_Button = document.getElementById("back-to-top");
+			if (document.documentElement.scrollTop < 165) {
+				backToTop_Button.style.display = "none";
+			}
+		})
+		window.addEventListener('scroll', function () {
+			var backToTop_Button = document.getElementById("back-to-top");
+			if (document.body.scrollTop > 165 || document.documentElement.scrollTop > 165) {
+				backToTop_Button.style.display = "block";
+			} else {
+				backToTop_Button.style.display = "none";
+			}
+		})
 		function backToTop() {
 			document.body.scrollTop = 0;
 			document.documentElement.scrollTop = 0;
@@ -139,8 +153,10 @@
 
 
 		window.onload = function () {
-			var darkmode = localStorage.getItem('darkmode')
+			if (document.documentElement.scrollTop) {
 
+			}
+			var darkmode = localStorage.getItem('darkmode')
 			if (darkmode === "enabled") {
 				stylesheet.setAttribute('href', url);
 				show = !show;
@@ -168,7 +184,6 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112678513-2"></script>
 <script>
-
 	window.dataLayer = window.dataLayer || [];
 
 	function gtag() {
@@ -177,7 +192,6 @@
 	gtag('js', new Date());
 
 	gtag('config', 'UA-112678513-2');
-
 </script>
 
 </html>

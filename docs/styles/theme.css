@@ -89,7 +89,8 @@ div[style="overflow: auto"]{
 }
 
 .back-to-top {
-  background-color: #00e8b3;
+  display: none;
+  background-color: #42b983;
   color: #fff;
   right: 15px;
   position: fixed;
