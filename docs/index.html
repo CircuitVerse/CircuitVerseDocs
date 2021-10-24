@@ -153,10 +153,8 @@
 
 
 		window.onload = function () {
-			if (document.documentElement.scrollTop) {
-
-			}
 			var darkmode = localStorage.getItem('darkmode')
+
 			if (darkmode === "enabled") {
 				stylesheet.setAttribute('href', url);
 				show = !show;
@@ -184,6 +182,7 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-112678513-2"></script>
 <script>
+
 	window.dataLayer = window.dataLayer || [];
 
 	function gtag() {
@@ -192,6 +191,7 @@
 	gtag('js', new Date());
 
 	gtag('config', 'UA-112678513-2');
+
 </script>
 
 </html>
