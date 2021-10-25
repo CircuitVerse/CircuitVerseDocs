@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #42b983;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -54,7 +58,7 @@
 }
 
 input:checked + .slider {
-  background-color: #00bc8c;
+  background-color: var(--primary-color);
 }
 
 input:focus + .slider {
@@ -86,6 +90,24 @@ div[style="overflow: auto"]{
 
 .search {
   margin-top: 39px;
+}
+
+.back-to-top {
+  display: none;
+  background-color: var(--primary-color);
+  color: #fff;
+  right: 15px;
+  position: fixed;
+  bottom: 15px;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  outline: none;
+  cursor: pointer;
+}
+
+.back-to-top .fas {
+  font-size: 1.3rem;
 }
 
 @media (max-width: 768px) {
