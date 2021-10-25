@@ -1,3 +1,7 @@
+:root {
+  --primary-color: #42b983;
+}
+
 .switch {
   position: relative;
   display: inline-block;
@@ -54,7 +58,7 @@
 }
 
 input:checked + .slider {
-  background-color: #00bc8c;
+  background-color: var(--primary-color);
 }
 
 input:focus + .slider {
@@ -90,7 +94,7 @@ div[style="overflow: auto"]{
 
 .back-to-top {
   display: none;
-  background-color: #42b983;
+  background-color: var(--primary-color);
   color: #fff;
   right: 15px;
   position: fixed;
