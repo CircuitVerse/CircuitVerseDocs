@@ -82,10 +82,16 @@ div[style="overflow: auto"]{
 
 .sidebar-toggle {
   bottom: initial;
+  background: white;
+  width: 100%;
 }
 
 .search {
   margin-top: 39px;
+  position: sticky;
+  top: 36px;
+  background: white;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
