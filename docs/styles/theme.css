@@ -82,8 +82,6 @@ div[style="overflow: auto"]{
 
 .sidebar-toggle {
   bottom: initial;
-  background: white;
-  width: 100%;
 }
 
 .search {
@@ -98,4 +96,8 @@ div[style="overflow: auto"]{
   .switch {
     margin-right: 5%;
   }
+  body.close .sidebar-toggle{
+    background-color: white;
+    width: 296px;
+  }  
 }
