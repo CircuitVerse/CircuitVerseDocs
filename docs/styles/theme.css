@@ -86,10 +86,18 @@ div[style="overflow: auto"]{
 
 .search {
   margin-top: 39px;
+  position: sticky;
+  top: 36px;
+  background: white;
+  width: 100%;
 }
 
 @media (max-width: 768px) {
   .switch {
     margin-right: 5%;
   }
+  body.close .sidebar-toggle{
+    background-color: white;
+    width: 296px;
+  }  
 }
