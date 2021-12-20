@@ -58,7 +58,6 @@ Getting started with using the [CircuitVerse Simulator](https://circuitverse.org
 
 Read the [Code of Conduct](./code-of-conduct.md) of our [CircuitVerse](https://circuitverse.org/) community regarding contributing in the [Documentation](https://docs.circuitverse.org).
 
-## GSoC'20 Project Details
 
 ### Interactive Book
 
