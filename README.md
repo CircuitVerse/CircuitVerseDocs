@@ -1,4 +1,6 @@
+<p align="center">
 <img src="https://raw.githubusercontent.com/CircuitVerse/CircuitVerse/6362a9eb4a9fd6b5391c8e4ef0e3b82525e722de/app/assets/images/cvlogo.svg" alt="The CircuitVerse logo" width="736"/>
+</p>
 
 # CircuitVerse Documentation
 
