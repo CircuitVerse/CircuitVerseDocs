@@ -12,7 +12,7 @@ You can connect a learning management system (LMS) to CircuitVerse, To connect y
 
 ## Prerequisites
 
-To connect LMS with CircuitVerse, you must have atleast one assignment in your CircuitVerse group which is LTI enabled.    Just check the **Integrate with LMS** button while creating an assignment in CircuitVerse.You can also update an existing assignment to enable LTI just by checking the box **Integrate with LMS**.
+To connect LMS with CircuitVerse, you must have at least one assignment in your CircuitVerse group which is LTI enabled.    Just check the **Integrate with LMS** button while creating an assignment in CircuitVerse.You can also update an existing assignment to enable LTI just by checking the box **Integrate with LMS**.
 
 ## Supported LMSs
 
@@ -35,16 +35,16 @@ CircuitVerse tested linking of assignments with the following LMSs:
 2. Click on the **+Add Assignment** button.
 3. Check the **Integrate with LMS** box.
 
-    ![Integrate with LMS](/images/img_chapter2/lms_integration/lms_checkbox.png)
+    ![Integrate with LMS](../images/img_chapter2/lms_integration/lms_checkbox.png)
 
 4. Fill in the required fields and click **Create Assignment**.
 5. After successful creation of an assignment, you will be redirected to the Group page and you will see the **Show LMS Credentials** link on the assignment which you have just created.
 
-    ![Show LMS Credentials](/images/img_chapter2/lms_integration/show_lms_link.png)
+    ![Show LMS Credentials](../images/img_chapter2/lms_integration/show_lms_link.png)
 
 6. Click on the link and you will see the LMS configuration in the pop-up.
 
-    ![Tool Keys](/images/img_chapter2/lms_integration/tool_key.png)
+    ![Tool Keys](../images/img_chapter2/lms_integration/tool_key.png)
 
 7. Copy the **Consumer Key**, **Shared Secret**, and **Tool URL** for the connection of the assignment in your LMS.
 
