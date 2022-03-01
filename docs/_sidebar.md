@@ -33,8 +33,8 @@
     * [Online Forums](/chapter8/1onlineforums.md)
     * [FAQ](/chapter8/2cvfaq.md)
     * [Understanding Error Messages](/chapter8/3cverrormessages.md)
-
-
+* Chapter 9: Keyboard Shortcuts
+    * [Shortcuts](/chapter9/shortcuts.md)
 
 
 
