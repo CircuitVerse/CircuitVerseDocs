@@ -33,8 +33,4 @@
     * [Online Forums](/chapter8/1onlineforums.md)
     * [FAQ](/chapter8/2cvfaq.md)
     * [Understanding Error Messages](/chapter8/3cverrormessages.md)
-
-
-
-
-
+    * [Keyboard Shortcuts](/chapter8/4shortcuts.md)
