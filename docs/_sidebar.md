@@ -29,6 +29,7 @@
 * Chapter 7: Building Circuit Simulations within CircuitVerse
     * [CircuitVerse Design Process](/chapter7/1cvdesignprocess.md)
     * [Building Circuit Simulations within CircuitVerse Simulator](/chapter7/2buildwithcv.md)
+    * [Testing Circuits](/chapter7/3testcircuits.md)
 * Chapter 8: Support Resources
     * [Online Forums](/chapter8/1onlineforums.md)
     * [FAQ](/chapter8/2cvfaq.md)
