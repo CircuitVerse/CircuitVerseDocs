@@ -106,7 +106,7 @@ Table 4.29: Two-input NAND gate truth table
 
 You can verify the behavior of an **NAND gate** circuit element in the live circuit embedded below:
 
-<iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/741" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
+<iframe width="300px" height="200px" src="https://circuitverse.org/simulator/embed/simple-nand-gate" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
 ## NOR Gate
 
