@@ -88,10 +88,15 @@ div[style="overflow: auto"]{
   margin-top: 39px;
   position: sticky;
   top: 36px;
-  background: white;
   width: 100%;
+  padding: 0 !important;
 }
-
+.search .input-wrap {
+  margin-left: 10px;
+}
+.search .results-panel.show {
+  padding: 10px;
+}
 @media (max-width: 768px) {
   .switch {
     margin-right: 5%;
