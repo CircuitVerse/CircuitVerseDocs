@@ -1,6 +1,7 @@
 # CircuitVerse for Educators
 While understanding and learning the concepts of digital circuit design, students must learn through simulation of daily engineering tasks, including design verification and testing. This section highlights how educators can use the CircuitVerse tool as an educational tool for managing student groups, assignments and grades in one place (refer Figure 2.2). Some of the key workflows available within the CV tool include:
 *   Create different student groups for different coursework
+*   Add mentors to different student groups
 *   Add members to different student groups
 *   Add assignments for student groups while managing the deadlines and the grading scale
 *   Grade assignments for different student groups
@@ -53,6 +54,54 @@ After successfully logging into your account, follow the below steps to create a
 
 Additionally, a successful group creation message is sent to the registered email address.
 
+## Add Group Mentors
+
+This section highlights the different steps for adding members to a group. 
+
+Follow the below steps to add group members to a selected group:
+
+1. Navigate to **Login** displayed in the upper right hand corner of your screen and login to the portal. (Refer Figure 2.9)
+
+    ![](../images/img_chapter2/2.3.png)
+    <div align="center"> <em>Figure 2.9</em></div>
+
+2. Click on **My Groups** to display the GROUPS page as shown in Figure 2.10. This page lists the different groups you are associated with.
+
+    ![](../images/img_chapter2/2.4.png)
+
+    <div align="center"> <em>Figure 2.10</em></div>
+
+3. Select the group to which you wish to add your students and click on the **View** icon (refer Figure 2.11) to display the next page for adding members and assignments.
+
+    ![alt_text](../images/img_chapter2/2.11.png)
+
+    <div align="center"> <em>Figure 2.11</em></div>
+
+4. Click on **+Add Mentors** button to add members to the selected group. An **Add Mentors** pop up window is displayed (refer Figure 2.11.1).
+
+    ![alt_text](../images/img_chapter2/2.58.png)
+
+    <div align="center"> <em>Figure 2.11.1</em></div>
+
+5. Enter Email IDs separated by commas, spaces or list them individually in separate lines in the **Email IDs:** text field box. Refer Figure 2.11.2.
+
+   ![](../images/img_chapter2/2.59.png)
+
+   <div align="center"> <em>Figure 2.11.2</em></div>
+
+6. Click on **Add mentors** to complete the process. Refer Figure 2.11.3.
+
+   ![](../images/img_chapter2/2.60.png)
+
+   <div align="center"> <em>Figure 2.11.3</em></div>
+
+7. The group mentors will be listed in the **MENTORS** section. Refer Figure 2.11.4.
+
+   ![](../images/img_chapter2/2.61.png)
+
+   <div align="center"> <em>Figure 2.11.4</em></div>
+
+> NOTE: If a mentor is already registered with CircuitVerse, the mentor will be added automatically. Alternatively,  the mentor receives an email invitation to register with CircuitVerse. Once the mentor completes the registration process, the mentor will be automatically added/listed to the group.
 
 ## Add Group Members
 
@@ -106,6 +155,46 @@ Follow the below steps to add group members to a selected group:
 ![](../images/img_chapter2/2.16.png)
 
 <div align="center"> <em>Figure 2.16</em></div>
+
+## Switch Roles
+
+This section describes you the way to switch the roles, i.e., mentor to member or member to mentor.
+
+#### Member to Mentor
+
+1. All members are being listed under the **MEMBERS** section.
+
+    ![](../images/img_chapter2/2.62.png)
+
+2. Click on the **Make mentor** button in the desired Member container.
+
+    ![](../images/img_chapter2/2.63.png)
+
+3. Popup will be displayed for the confirmation, you can check the mentor accessibilities.
+
+    ![](../images/img_chapter2/2.64.png)
+
+4. Click on **Make mentor** and you are all done!
+
+    ![](../images/img_chapter2/2.65.png)
+
+#### Mentor to Member
+
+1. All mentors are being listed under the **MENTORS** section.
+
+   ![](../images/img_chapter2/2.66.png)
+
+2. Click on the **Make mentor** button in the desired Mentor container.
+
+   ![](../images/img_chapter2/2.67.png)
+
+3. Popup will be displayed for the confirmation, you can check the member accessibilities.
+
+   ![](../images/img_chapter2/2.68.png)
+
+4. Click on **Make mentor** and you are all done!
+
+   ![](../images/img_chapter2/2.69.png)
 
 
 ## Add Assignments
