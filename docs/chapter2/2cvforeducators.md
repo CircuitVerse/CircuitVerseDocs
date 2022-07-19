@@ -513,15 +513,33 @@ Follow the below steps to embed a CircuitVerse simulation within a web page:
 
     <div align="center"><em>Figure 2.47</em></div>
 
-4. Click on the **Embed** button to display the iFrame code associated with the relevant project. Refer Figure 2.48.
+4. Click on the **Embed** button to display the popup to customize the iframe associated with the relevant project. Refer Figure 2.48.
 
     ![](../images/img_chapter2/2.48.png)
 
     <div align="center"><em>Figure 2.48</em></div>
 
-5. Copy the displayed iframe value and paste the iframe code within the HTML frame of the desired webpage. The circuit will be embedded with the **Made with CircuitVerse** watermark as shown in Figure 2.49.  
+5. Customize your Project Embed in the Popup. You can customize height, width, border-width, border-color and border-style. Refer Figure 2.48.1
 
-    ![](../images/img_chapter2/2.49.png)
+    ![](../images/img_chapter2/2.48.1.png)
+
+    <div align="center"><em>Figure 2.48.1</em></div>
+
+6. For the advance options, you just need to click on the **Advance Option** and more options will be rendered. Refer Figure 2.48.2
+
+    ![](../images/img_chapter2/2.48.2.png)
+
+    <div align="center"><em>Figure 2.48.2</em></div>
+
+7. You need to click on **Publish** button to update the embed link with the updated changes in the configurations. The embed link will be copied to your clipboard and is ready to render/embed your circuit. Refer Figure 2.48.3
+
+    ![](../images/img_chapter2/2.48.3.png)
+
+    <div align="center"><em>Figure 2.48.3</em></div>
+
+8. Paste the iframe code within the HTML frame of the desired webpage. 
+
+    ![](../images/img_chapter2/2.48.4.png)
 
     <div align="center"><em>Figure 2.49</em></div>
 
