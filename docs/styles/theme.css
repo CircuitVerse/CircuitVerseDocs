@@ -82,6 +82,7 @@ div[style="overflow: auto"]{
 
 .sidebar-toggle {
   bottom: initial;
+  background-color: var(--background);
 }
 
 .search {
@@ -90,12 +91,15 @@ div[style="overflow: auto"]{
   top: 36px;
   width: 100%;
   padding: 0 !important;
+  background-color: var(--background);
 }
 .search .input-wrap {
-  margin-left: 10px;
+  margin-left: 5px;
+  padding: 5px 0;
 }
 .search .results-panel.show {
   padding: 10px;
+  border-bottom: 4px dashed #00bc8c;
 }
 @media (max-width: 768px) {
   .switch {
