@@ -99,7 +99,8 @@ div[style="overflow: auto"]{
 }
 .search .results-panel.show {
   padding: 10px;
-  border-bottom: 4px dashed var(--accent);
+  border-bottom: 1px dashed var(--accent);
+  box-shadow: 0 10px 15px -10px #00000099;
 }
 @media (max-width: 768px) {
   .switch {
