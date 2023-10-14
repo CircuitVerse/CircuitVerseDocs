@@ -9,6 +9,7 @@
 8. [Unequal Split](#unequal-split)
 9. [Flag](#flag)
 10. [Two's Complement](#twos-complement)
+11. [Force Gate](#force-gate)
 
 ## ALU
 
@@ -479,3 +480,59 @@ add 1               +           1
 You can verify the behavior of the **Two’s Complement** circuit element in the live circuit embedded below:
 
 <iframe width="600px" height="400px" src="https://circuitverse.org/simulator/embed/110615" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
+
+## Force Gate
+
+The **Force Gate** is a logical circuit element designed to manipulate and control binary data. It enables the user to force specific values onto the inputs of a connected circuit, allowing for custom simulations and testing scenarios. This documentation provides an overview of the Force Gate circuit element in CircuitVerse, its properties, and its usage. 
+
+>Properties that can be customized in the **PROPERTIES** panel include: **Direction, BitWidth**
+
+![drawing](../images/img_chapter4/4.25.png)
+
+<div align="center"><em>Figure 4.25: Relevant attributes for the Force Gate element</em></div>
+
+Table 4.25: Truth table for a Force Gate
+<table>
+  <tr>
+   <td><strong>Enable</strong>
+   </td>
+   <td><strong>Input</strong>
+   </td>
+   <td><strong>Output</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>0
+   </td>
+   <td>0
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>1
+   </td>
+   <td>0
+   </td>
+  </tr>
+  <tr>
+   <td>1
+   </td>
+   <td>0
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>1
+   </td>
+   <td>1
+   </td>
+   <td>1
+   </td>
+  </tr>
+</table>
+
+<iframe src="https://circuitverse.org/simulator/embed/force-gate?theme=default&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true" style="border-width:; border-style: solid; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
