@@ -9,12 +9,10 @@ While a user can browse through the CircuitVerse contributions and build circuit
 
 ## Create CircuitVerse User Account
 CircuitVerse platform supports Google, Facebook and GitHub sign in secure authentication systems to reduce the burden of login for the users. Users can get started by signing in with their Google, Facebook or GitHub Account, or creating a user account using their preferred email address.
-![Login screen screenshot](../images/img_chapter2/2.70.png)
+![drawing](../images/img_chapter2/2.70.png)
 
 ## Login to CircuitVerse User Account
 After successfully logging in to the CircuitVerse platform, a user receives different options to manage their circuit simulation projects within the CircuitVerse (refer Figure 2.1). Table 2.1 provides a brief description of the available options.
-
-![drawing](../images/img_chapter2/2.1.png)
 
 <div align="center"><em>Figure 2.1:  Different options for managing circuit simulation projects within the CircuitVerse</em></div>
 
