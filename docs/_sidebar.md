@@ -19,7 +19,7 @@
 
   - [Introduction](/chapter1/1introduction.md)
   - [Key Features](/chapter1/2keyfeatures.md)
-  - [System Requirements](/chapter1/3systemrequirements.md)
+  - [System Requirements](/chapter1/3systemrequirments.md)
 </details>
 
 <details>
