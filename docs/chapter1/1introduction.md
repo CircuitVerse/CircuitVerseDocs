@@ -22,4 +22,6 @@ As the CircuitVerse community grows, educators and students can join the online 
 
 Watch the below video for a quick demonstration of the CircuitVerse platform.
 
-[CV Marketing Video]
+<div>
+  <iframe width="500px" height="400px" src="https://www.youtube.com/embed/3Df-2Cn_80A" frameborder="0" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen></iframe>
+</div>
