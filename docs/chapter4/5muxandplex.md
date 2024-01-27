@@ -855,7 +855,7 @@ Table 4.10: Truth table for an even three-bit parity detector
    </td>
   </tr>
 </table>
-<br>
+
 Table 4.11: Truth table for an odd 3-bit parity detector
 <table>
   <tr>
