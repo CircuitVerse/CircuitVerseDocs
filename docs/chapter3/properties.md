@@ -38,6 +38,12 @@ Table 3.7: Brief description of the different properties available for different
    </td>
   </tr>
   <tr>
+   <td>Lite Mode
+   </td>
+   <td>streamlines or straightforwardes the experience, often with reduced features or complexity.
+   </td>
+  </tr>
+  <tr>
    <td>BitWidth
    </td>
    <td>Specifies the bit width associated with the selected input or output circuit element. The bit width numeric stepper changes the bit width size from 1 to 32.
