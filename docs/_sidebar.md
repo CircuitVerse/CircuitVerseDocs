@@ -7,6 +7,7 @@
     * [Getting Started with CircuitVerse](/chapter2/1gettingstarted.md)
     * [CircuitVerse For Educators](/chapter2/2cvforeducators.md)
     * [Integrate CircuitVerse with LMS](/chapter2/3lmsintegration.md)
+    * [Single Sign On Configurations](/chapter2/5ssointegration.md)
     * [Best Practices For Working With CircuitVerse Simulator](/chapter2/4bestpracticescv.md)
 * Chapter 3: Simulator Interface
     * [Introduction](/chapter3/1introduction.md)
