@@ -278,7 +278,9 @@ You can verify the behavior of the **Least Significant Bit (LSB)** detector circ
 
 ## Priority Encoder
 
-The **Priority Encoder** circuit element works similarly to the **MSB and LSB **detector. There is a specific output based on the bit position of the MSB, irrespective of the lesser significant bits. An enable input is also provided to activate/deactivate the priority encoder. If there are N outputs, there will be 2^N inputs.
+The **Priority Encoder** circuit element works similarly to the **MSB and LSB **detector. There is a specific output based on the bit position of the MSB, irrespective of the lesser significant bits. If there are N outputs, there will be 2^N inputs.
+
+There is also an output labeled "EN", which is 1 when the input is valid (e.g., not all zero).
 
 In the live circuit embedded below, a **Priority Encoder** with four single-bit inputs (T3, T2, T1 and T0 from most to least-significant bit) and two single-bit outputs (O2 and O1 from most to least-significant bit). Table 4.6 displays the truth table of the four-input priority encoder.
 
@@ -299,6 +301,24 @@ Table 4.6 : Truth table of a four-input priority encoder
    </td>
    <td><strong>O1</strong>
    </td>
+   <td><strong>EN</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>0
+   </td>
+   <td>0
+   </td>
+   <td>0
+   </td>
+   <td>0
+   </td>
+   <td>0
+   </td>
+   <td>0
+   </td>
   </tr>
   <tr>
    <td>0
@@ -313,24 +333,28 @@ Table 4.6 : Truth table of a four-input priority encoder
    </td>
    <td>0
    </td>
-  </tr>
-  <tr>
-   <td>0
-   </td>
-   <td>0
-   </td>
-   <td>1
-   </td>
-   <td>X
-   </td>
-   <td>0
-   </td>
    <td>1
    </td>
   </tr>
   <tr>
    <td>0
    </td>
+   <td>0
+   </td>
+   <td>1
+   </td>
+   <td>X
+   </td>
+   <td>0
+   </td>
+   <td>1
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
    <td>1
    </td>
    <td>X
@@ -341,6 +365,8 @@ Table 4.6 : Truth table of a four-input priority encoder
    </td>
    <td>0
    </td>
+   <td>1
+   </td>
   </tr>
   <tr>
    <td>1
@@ -350,6 +376,8 @@ Table 4.6 : Truth table of a four-input priority encoder
    <td>X
    </td>
    <td>X
+   </td>
+   <td>1
    </td>
    <td>1
    </td>
