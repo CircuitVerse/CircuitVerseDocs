@@ -7,7 +7,7 @@ const config = {
   tagline: 'Explore Digital Circuits Online',
   favicon: 'img/favicon.ico',
 
-  url: 'http://localhost:3000', // Netlify production URL
+  url: 'https://circuitverse-docs.netlify.app/', // Netlify production URL
   baseUrl: '/',
 
   organizationName: 'CircuitVerse',
@@ -37,16 +37,6 @@ const config = {
             require.resolve('./src/css/darkTheme.css'),
           ],
         },
-      },
-    ],
-  ],
-
-  plugins: [
-    [
-      require.resolve('@easyops-cn/docusaurus-search-local'),
-      {
-        hashed: true,
-        language: ['en'],
       },
     ],
   ],
@@ -120,6 +110,13 @@ const config = {
       defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
+    },
+    algolia: {
+      appId: 'DM4KWCC17E',
+      apiKey: '39b1e358bb863804871f81fba53b8f1d',
+      indexName: 'circuitverse-netlify',
+      contextualSearch: true,
+      searchParameters: {}, // Optional: Additional Algolia search parameters
     },
   },
 };
