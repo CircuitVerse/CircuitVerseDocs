@@ -8,7 +8,8 @@ This is the official documentation of the CircuitVerse simulator. This is meant 
 
 ## Cloning Instructions
 
-> **Note :** If you want to contribute, first fork the original repository and clone the forked repository into your local machine followed by `cd` into the directory
+> [!NOTE]
+> **If you want to contribute, first fork the original repository and clone the forked repository into your local machine followed by `cd` into the directory**
 
 ```sh
 git clone https://github.com/<your-username>/CircuitVerseDocs.git
@@ -25,7 +26,8 @@ To view the docs in offline mode, navigate to `/docs` folder and run
 
 When you add a page, make sure you have an entry in the `_sidebar.md`
 
-**Note :** **All the documentation should have a corresponding live circuit embedded so as to help the users. Also, the live circuit is NOT the same as image of a circuit.**
+> [!NOTE]
+> **All the documentation should have a corresponding live circuit embedded so as to help the users. Also, the live circuit is NOT the same as image of a circuit.**
 
 ## Installation on Netlify
 1. Go to [https://app.netlify.com](https://app.netlify.com) and register an account
