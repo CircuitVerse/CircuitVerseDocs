@@ -2,7 +2,7 @@
 
 <iframe width="100%" height="330px" src="https://circuitverse.org/simulator/embed/701" id="projectPreview" scrolling="no" webkitAllowFullScreen mozAllowFullScreen allowFullScreen> </iframe>
 
-Inspired by Logisism, CircuitVerse is an open-source educational tool for designing and visualizing digital logic circuit simulations in the cloud. Users including educators, students, electronic engineers, and hobbyists can play with digital circuit simulations from their browsers for exploring different “what-if” scenarios. As required, a user can share their creations using unique circuit URLs, or fork different contributions of the CircuitVerse community to yield their curiosity. Figure 1 shares a screenshot of a ripple carry adder simulation built using CircuitVerse.
+Inspired by Logisim, CircuitVerse is an open-source educational tool for designing and visualizing digital logic circuit simulations in the cloud. Users including educators, students, electronic engineers, and hobbyists can play with digital circuit simulations from their browsers for exploring different “what-if” scenarios. As required, a user can share their creations using unique circuit URLs, or fork different contributions of the CircuitVerse community to yield their curiosity. Figure 1 shares a screenshot of a ripple carry adder simulation built using CircuitVerse.
 
 ![](../images/img_chapter1/1.1.png)
 
