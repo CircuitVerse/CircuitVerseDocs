@@ -82,21 +82,32 @@ div[style="overflow: auto"]{
 
 .sidebar-toggle {
   bottom: initial;
+   background-color: #030312; 
+  z-index: 999; /* Ensure it's below the search bar */
+  width: 299px;
 }
 
 .search {
-  margin-top: 39px;
+  margin-top: 38px;
   position: sticky;
   top: 36px;
   width: 100%;
-  padding: 0 !important;
+  padding: 1px !important;
+  background-color: #030312;
+  color: white; 
+  z-index: 1000;
+  width: 299px; 
 }
+
 .search .input-wrap {
   margin-left: 10px;
 }
+
 .search .results-panel.show {
   padding: 10px;
+  background: #030312; 
 }
+
 @media (max-width: 768px) {
   .switch {
     margin-right: 5%;
