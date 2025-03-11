@@ -38,16 +38,16 @@
 
 7. How can I move a wire while laying out complex designs on the Canvas?
 
-    You can easily move a wire on the Canvas by selecting both the nodes of the wire as shown in Figure 8.1.
+    You can easily move a wire on the Canvas by selecting both the nodes of the wire as shown in Figure 9.1.
 
-    ![drawing](../images/img_chapter8/8.1.png)
+    ![drawing](../images/img_chapter9/9.1.png)
 
-    <div align="center"><em>Figure 8.1</em></div>
+    <div align="center"><em>Figure 9.1</em></div>
 
 8. I'm getting lots of problems with the new UI now. Is the old CircuitVerse simulator interface still accessible?
 
-    While we encourage our users to use the new UI, the old user interface can be accessed from the **Project** drop-down menu in the menu bar. Refer Figure 8.2 for more details.
+    While we encourage our users to use the new UI, the old user interface can be accessed from the **Project** drop-down menu in the menu bar. Refer Figure 9.2 for more details.
 
-    ![drawing](../images/img_chapter8/8.2.png)
+    ![drawing](../images/img_chapter9/9.2.png)
 
-    <div align="center"><em>Figure 8.2</em></div>
+    <div align="center"><em>Figure 9.2</em></div>

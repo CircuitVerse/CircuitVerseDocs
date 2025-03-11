@@ -31,8 +31,11 @@
     * [CircuitVerse Design Process](/chapter7/1cvdesignprocess.md)
     * [Building Circuit Simulations within CircuitVerse Simulator](/chapter7/2buildwithcv.md)
     * [Testing Circuits](/chapter7/3testcircuits.md)
-* Chapter 8: Support Resources
-    * [Online Forums](/chapter8/1onlineforums.md)
-    * [FAQ](/chapter8/2cvfaq.md)
-    * [Understanding Error Messages](/chapter8/3cverrormessages.md)
-    * [Keyboard Shortcuts](/chapter8/4shortcuts.md)
+* Chapter 8: Verilog in Circuitverse
+    * [Export Verilog for your Circuits](/chapter8/1circuittoverilog.md)
+    * [Insert subcircuits using Verilog module](/chapter8/2verilogtocircuit.md)
+* Chapter 9: Support Resources
+    * [Online Forums](/chapter9/1onlineforums.md)
+    * [FAQ](/chapter9/2cvfaq.md)
+    * [Understanding Error Messages](/chapter9/3cverrormessages.md)
+    * [Keyboard Shortcuts](/chapter9/4shortcuts.md)
