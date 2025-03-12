@@ -9,8 +9,14 @@
 
 **Resolution**: Cyclic paths cause an infinite loop and the circuit never reaches a stable state. Sometimes contention in wires presents itself as a cyclic path. Revise your circuit design for circuit nodes that sometimes behave as inputs and sometimes behave as outputs. Alternatively, troubleshoot and resolve the bug in the circuit.
 
-2. **Contention Error 1 and 0**: When the circuit is driven by two or more outputs of both HIGH and LOW, the simulator may display this error. 
+2. **Contention Error 1 and 0**: When the circuit is driven by two or more outputs of both HIGH and LOW, the simulator may display this error.Refer figure 9.3 and 9.4.
 
-    ![Contention Error 1 and 0](https://i.stack.imgur.com/xW0lC.gif)
+   ![drawing](../images/img_chapter9/9.3.gif)
+
+   <div align="center"><em>Figure 9.3</em></div>
+
+    ![drawing](../images/img_chapter8/9.4.gif)
+
+   <div align="center"><em>Figure 9.4</em></div>
 
 **Resolution:** Logic contention errors indicate a circuit design problem leading to large amounts of power to flow across circuit elements. Revisit your design for some wiring errors or for active multiple output enable lines that are driving a bus or circuit node simultaneously.
