@@ -33,7 +33,9 @@ Enter the desired Verilog code in the module interface. Refer Figure 8.5.
    <div align="center"><em>Figure 8.6</em></div>
 
 6. Navigate to Simulator back from the Verilog code editor: Refer Figure 8.10
-   ![Navigate to Simulator back](https://qph.cf2.quoracdn.net/main-qimg-955036fcebfdc7850b407ba95b4ba23d)
+   ![navigate to simulator back](../images/img_chapter8/8.10.gif)
+
+   <div align="center"><em>Figure 8.10</em></div>
 
 7. Navigate to **Circuit** drop-down menu to select **Insert SubCircuit** from the drop down menu. As shown in Figure 8.7, the **Insert SubCircuit** pop up window is displayed. Select your Verilog-module name and click on **Insert SubCircuit** button.
 
