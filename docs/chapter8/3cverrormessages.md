@@ -11,6 +11,7 @@
 
 2. **Contention Error 1 and 0**: When the circuit is driven by two or more outputs of both HIGH and LOW, the simulator may display this error. 
 
-    ![Contention Error 1 and 0](https://i.stack.imgur.com/xW0lC.gif)
+    ![Contention Error 1 and 0](https://qph.cf2.quoracdn.net/main-qimg-ecf6607d961cd423e3104917db9ff19c)
+    ![Contention Error](https://qph.cf2.quoracdn.net/main-qimg-77c8e38932aadfbaf79d99eb65496788)
 
 **Resolution:** Logic contention errors indicate a circuit design problem leading to large amounts of power to flow across circuit elements. Revisit your design for some wiring errors or for active multiple output enable lines that are driving a bus or circuit node simultaneously.
