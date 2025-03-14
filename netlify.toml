@@ -1,4 +1,5 @@
 [build]
+  #Directory to publish
+  publish = "build/"
+  command = "npm run build"
 
-#Directory to publish
-publish = "build/"
