@@ -1,4 +1,4 @@
 [build]
 
 #Directory to publish
-publish = "docs/"
+publish = "build/"
