@@ -6,7 +6,7 @@ CircuitVerse together with providing a graphical interface for designing circuit
     - [Steps to Convert Circuit to Verilog Code](#Steps-to-Convert-Circuit-to-Verilog-Code)
     - [Features and Verilog construct provided by Circuitverse](#Features-and-Verilog-construct-provided-by-Circuitverse)
     - [Example](#Example)
-  - [Verilog code to Circuit](verilogtocircuit.md)
+  - [Verilog code to Circuit](2verilogtocircuit.md)
 
 ## Circuit to Verilog code
 CircuitVerse allows users to convert graphical circuits into Verilog code and export them to be run by different verilog simulators like EDA playground and reconfigurable integrated circuits like FPGAs (NOTE: CV doesn't generate bitstreams for hardware).
