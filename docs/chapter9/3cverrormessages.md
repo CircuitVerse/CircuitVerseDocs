@@ -15,7 +15,7 @@
 
    <div align="center"><em>Figure 9.3</em></div>
 
-    ![drawing](../images/img_chapter8/9.4.gif)
+    ![drawing](../images/img_chapter9/9.4.gif)
 
    <div align="center"><em>Figure 9.4</em></div>
 
