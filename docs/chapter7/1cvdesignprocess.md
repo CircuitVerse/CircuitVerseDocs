@@ -5,5 +5,5 @@ CircuitVerse simulator allows users to build and simulate their designs on the g
 
 Finally, the circuit schematic must be annotated using the different annotation elements available in the **PROPERTIES** panel. Any questions or suggestions can be shared with the CircuitVerse Forum where CircuitVerse mentors and a growing community of users can answer your queries or share quick workarounds.
 
-For best practices of building circuits within CircuitVerse, [refer this section](/chapter2/3bestpracticescv.md).
+For best practices of building circuits within CircuitVerse, [refer this section](/chapter2/4bestpracticescv.md).
 
