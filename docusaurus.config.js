@@ -27,7 +27,7 @@ const config = {
 			{
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
-					editUrl: 'https://github.com/CircuitVerse/CircuitVerseDocs/edit/main/docs/',
+					editUrl: 'https://github.com/CircuitVerse/CircuitVerseDocs/edit/master/docs/',
 					routeBasePath: '/',
 				},
 				blog: false, // Disable blog
