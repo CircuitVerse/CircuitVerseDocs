@@ -54,7 +54,7 @@ CircuitVerse tested linking of assignments with the following LMSs:
 
 7. Copy the **Consumer Key**, **Shared Secret**, and **Tool URL** for the connection of the assignment in your LMS.
 
-## Configuring an generic LMS
+## Configuring a generic LMS
 
 You must configure the privacy settings for your LMS to allow external tools to receive user's information.
 
