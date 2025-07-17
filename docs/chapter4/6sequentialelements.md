@@ -20,6 +20,7 @@ CircuitVerse features the following circuit elements in this category:
   - [ROM](#rom)
   - [RAM](#ram)
   - [EEPROM](#eeprom)
+  - [Shift Register](#shift-register)
 
 ## D Flip Flop
 
@@ -586,3 +587,71 @@ You can verify the behavior of the EEPROM circuit element in the live circuit em
 >
   {" "}
 </iframe>
+
+
+## Shift Register
+
+A **Shift Register** is a sequential digital circuit element that stores and shifts binary data across multiple stages on each clock pulse. This CircuitVerse component supports both **serial** and **parallel load** modes, making it a versatile tool for implementing data buffers, delay lines, and basic memory.
+
+> Properties that can be customized in the **PROPERTIES** panel include: `Direction`, `BitWidth`, `Number of Stages`, `Parallel Load`
+
+---
+
+### Shift Register Ports
+
+| **Name**       | **Description**                                                                 |
+|----------------|----------------------------------------------------------------------------------|
+| `First Input`  | Serial input to the first stage (used in shift mode)                            |
+| `In0...InN`    | Parallel input lines to each stage (visible when Parallel Load is enabled)      |
+| `Out0...OutN`  | Output lines from each stage                                                    |
+| `Reset`        | Clears all internal storage cells to `0` when set to logic high (`1`)           |
+| `S/L`          | Shift/Load control input. `1` for parallel load, `0` for shift operation        |
+| `Clock`        | Clock input. The register updates only on the **rising edge** of this signal    |
+
+---
+
+![Shift Register Circuit](/img/img_chapter4/4.26.png)  
+*Figure X.X: Relevant attributes for the Shift Register circuit element*
+
+---
+
+### Behavior
+
+- On **rising edge** of the `Clock`:
+  - If `Reset` is `1`: All outputs are cleared to `0`.
+  - Else if `S/L` is `1`: The values on `In0` to `InN` are **loaded** in parallel into the register stages.
+  - Else (`S/L` is `0`): The register **shifts** all stored values to the right, taking the new input from `First Input`.
+
+---
+
+### Properties
+
+- **Number of Stages**: Configurable between `1` and `32`.
+- **Parallel Load**: Can be set to `Yes` (enables `In0...InN`) or `No` (shift-only mode).
+- **Bit Width**: Determines how many bits each stage stores — default is `1`.
+
+These can be configured in the **PROPERTIES** panel, and changes apply live during circuit simulation.
+
+---
+
+### Example
+
+If the shift register is configured with:
+- 4 stages (`noOfStages = 4`)
+- `Parallel Load = Yes`
+- Clock initially low (`0`), then goes high (`1`)
+- `S/L = 1`, inputs: `In0 = 1`, `In1 = 0`, `In2 = 1`, `In3 = 1`
+
+Then on the rising clock edge:
+- Output becomes: `Out0 = 1`, `Out1 = 0`, `Out2 = 1`, `Out3 = 1`
+
+On the next rising edge, if `S/L = 0` and `First Input = 0`, values shift right:
+- New output: `Out0 = 0`, `Out1 = 1`, `Out2 = 0`, `Out3 = 1`
+
+---
+<!-- 
+### Embedded Circuit
+
+**[View Shift Register Simulation](https://circuitverse.org/simulator/embed/TODO)** -->
+
+---
