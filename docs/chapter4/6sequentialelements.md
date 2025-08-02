@@ -20,6 +20,7 @@ CircuitVerse features the following circuit elements in this category:
   - [ROM](#rom)
   - [RAM](#ram)
   - [EEPROM](#eeprom)
+  - [FIFO Queue](#fifo-queue)
 
 ## D Flip Flop
 
@@ -585,4 +586,87 @@ You can verify the behavior of the EEPROM circuit element in the live circuit em
   allowFullScreen
 >
   {" "}
+</iframe>
+
+## FIFO Queue
+
+The **FIFO Queue** circuit element simulates a hardware queue that follows the *First-In-First-Out* principle. It temporarily stores input data and allows retrieval in the same order it was received. Users can enqueue (`ENQ`) and dequeue (`DEQ`) data values, reset the entire queue (`RST`), and monitor its current state via `EMP` (Empty) and `FULL` indicators.
+
+> Properties that can be customized in the **PROPERTIES** panel include: **Direction, BitWidth, Depth**
+
+### Functionality
+The queue operation is clock-driven and updates happen on the rising edge of the `CLK` input:
+
+- When `ENQ` is HIGH, the value on `D` is stored into the queue (if not full).
+- When `DEQ` is HIGH, the next value is output from the queue (if not empty).
+- If `RST` is HIGH during a clock edge, the queue is cleared.
+- Output indicators reflect queue state (`EMP` = empty, `FULL` = full).
+
+---
+
+### Table: Pin Description of FIFO Queue
+
+<table>
+  <tr>
+    <td><strong>Pin</strong></td>
+    <td><strong>Description</strong></td>
+  </tr>
+  <tr>
+    <td>D</td>
+    <td>Input data to be enqueued into the queue</td>
+  </tr>
+  <tr>
+    <td>ENQ</td>
+    <td>Trigger to enqueue current input (rising edge CLK)</td>
+  </tr>
+  <tr>
+    <td>DEQ</td>
+    <td>Trigger to dequeue and output next value (rising edge CLK)</td>
+  </tr>
+  <tr>
+    <td>RST</td>
+    <td>Resets and clears the entire queue</td>
+  </tr>
+  <tr>
+    <td>CLK</td>
+    <td>Clock input; operations occur on rising edge</td>
+  </tr>
+  <tr>
+    <td>Q</td>
+    <td>Output data from the front of the queue</td>
+  </tr>
+  <tr>
+    <td>EMP</td>
+    <td>High (1) when the queue is empty</td>
+  </tr>
+  <tr>
+    <td>FULL</td>
+    <td>High (1) when the queue is full</td>
+  </tr>
+</table>
+
+---
+
+### Depth Property
+
+The `Depth` property controls the **maximum number of entries** the queue can hold. It can be changed via the **PROPERTIES** panel.
+
+> Default depth is `8`. You can set custom values as needed.
+
+---
+
+### Example
+
+Below is a live example of the **FIFO Queue** in operation. Try toggling `ENQ`, `DEQ`, and `RST` inputs while observing the output (`Q`) and status flags (`EMP`, `FULL`):
+
+<iframe
+  width="600px"
+  height="400px"
+  src="https://circuitverse.org/simulator/embed/<INSERT_PROJECT_ID>"
+  id="projectPreview"
+  scrolling="no"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+>
 </iframe>
