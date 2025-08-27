@@ -8,7 +8,7 @@ description: "Delayvsclock page in Chapter6 of CircuitVerse documentation."
 
 Before exploring how to visualize a timing diagram for a given circuit, this section explores some key concepts that define the working of the **TIMING DIAGRAM** panel.
 
-## Clock Time (ms):
+## Clock Time (ms)
 
 The **Clock Time** property attribute in Figure 6.1 refers to the time interval for the half cycle of a circuit. Changing the clock time interval speeds up or slows down the circuit simulation. However, it should be noted that changing the **Delay** attribute for any circuit element doesn't change circuit behavior. This clock frequency is only for demonstration purposes.
 
