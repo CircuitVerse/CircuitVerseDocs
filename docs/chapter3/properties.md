@@ -192,3 +192,31 @@ Table 3.8: Brief description of the different settings available on the **LAYOUT
     </td>
   </tr>
 </table>
+
+## Lite Mode in Simulator
+
+![drawing](/img/img_chapter3/3.24.png)
+
+<div align="center">
+  <em>Figure 3.24</em>
+</div>
+
+The Lite Mode is a performance mode that trades visual quality and features for better performance on resource-constrained devices. The Lite mode does the following things: 
+
+1. Reduces Canvas Resolution: Sets DPR to 1 regardless of device (no retina/high-DPI rendering)
+2. Slows Down Updates: Makes UI updates 5x less frequent (time *= 5)
+3. Disables Minimap: Completely disables minimap rendering and setup
+4. Reduces Scaling Complexity: Simplifies canvas scaling calculations
+
+### Changes due to Lite Mode:
+
+Visual Changes:
+1. Lower Resolution: Circuit elements appear less crisp on high-DPI displays
+2. No Minimap: The navigation minimap is hidden
+3. Slower Responsiveness: UI updates happen less frequently
+
+When to use Lite mode:
+1. Low-end devices with limited graphics performance
+2. Battery saving on mobile devices
+3. Older computers that struggle with high-resolution rendering
+4. Large circuits where performance becomes an issue
