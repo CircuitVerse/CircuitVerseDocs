@@ -81,12 +81,20 @@ const sidebars = {
     },
     {
       type: 'category',
-      label: 'Chapter 8: Support Resources',
+      label: 'Chapter 8: Verilog Support',
       items: [
-        { type: 'doc', id: 'chapter8/chapter8-onlineforums', label: 'Online Forums' },
-        { type: 'doc', id: 'chapter8/chapter8-cvfaq', label: 'FAQ' },
-        { type: 'doc', id: 'chapter8/chapter8-cverrormessages', label: 'Understanding Error Messages' },
-        { type: 'doc', id: 'chapter8/chapter8-shortcuts', label: 'Keyboard Shortcuts' },
+        { type: 'doc', id: 'chapter8/1circuittoverilog', label: 'Circuit to Verilog' },
+        { type: 'doc', id: 'chapter8/2verilogtocircuit', label: 'Verilog to Circuit' },
+      ],
+    },
+    {
+      type: 'category',
+      label: 'Chapter 9: Support Resources',
+      items: [
+        { type: 'doc', id: 'chapter9/1onlineforums', label: 'Online Forums' },
+        { type: 'doc', id: 'chapter9/2cvfaq', label: 'FAQ' },
+        { type: 'doc', id: 'chapter9/3cverrormessages', label: 'Understanding Error Messages' },
+        { type: 'doc', id: 'chapter9/4shortcuts', label: 'Keyboard Shortcuts' },
       ],
     },
   ],
