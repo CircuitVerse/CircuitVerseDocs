@@ -208,7 +208,7 @@ The Lite Mode is a performance mode that trades visual quality and features for 
 3. Disables Minimap: Completely disables minimap rendering and setup
 4. Reduces Scaling Complexity: Simplifies canvas scaling calculations
 
-### Changes due to Lite Mode:
+### Changes due to Lite Mode
 
 Visual Changes:
 1. Lower Resolution: Circuit elements appear less crisp on high-DPI displays
