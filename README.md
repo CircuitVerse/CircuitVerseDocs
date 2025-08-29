@@ -18,6 +18,15 @@ cd CircuitVerseDocs
 
 ## Local Deployment for testing
 
+### Docusaurus
+To start the Docusaurus server:
+```sh
+npm install
+npm start
+```
+
+### Docsify
+
 To view the docs in offline mode, navigate to `/docs` folder and run
 `python3 -m http.server` (for python3.x) or
 `python -m SimpleHTTPServer 8000` (for python2.x) or
