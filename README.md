@@ -19,9 +19,11 @@ cd CircuitVerseDocs
 ## Local Deployment for testing
 
 ### Docusaurus
-To Start the dcusarus server:
-> npm install
-> npm start
+To start the Docusaurus server:
+```sh
+npm install
+npm start
+```
 
 ### Docsify
 
