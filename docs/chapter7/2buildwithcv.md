@@ -25,7 +25,7 @@ Follow the below steps to create a new project and save the circuit online:
 
    <div align="center"><em>Figure 7.1</em></div>
 
-3. Navigate to the **Quick Access Panel**. Click on either **Save Online** icon or **Save Offline** icon to receive the** Enter Project Name**: pop-up window for saving the circuit. Refer Figure 7.2.
+3. Navigate to the **Quick Access Panel**. Click on either **Save Online** icon or **Save Offline** icon to receive the **Enter Project Name**: pop-up window for saving the circuit. Refer Figure 7.2.
 
    > NOTE: If a project file is saved online, it is available on the dashboard. Alternatively, any project file that is saved offline, is downloaded to your browser’s local storage.
 
@@ -43,7 +43,7 @@ Follow the below steps to create a new project and save the circuit online:
 
    <div><iframe width="560" height="315" src="https://www.youtube.com/embed/b4SXde9huFQ?si=9u1dclLobVWyYZbL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
-5. Click **Update Project** to save the project details and return back to the CV simulator window. Refer Figure 7.4.
+5. Click **Update Project** to save the project details and return to the CV simulator window. Refer Figure 7.4.
 
    ![drawing](../images/img_chapter7/7.4.png)
 
@@ -162,7 +162,7 @@ If required, a user can also insert a Verilog module as a subcircuit. Follow the
 
 2. Enter a circuit tab name in the text field. Refer Figure 7.16.
 
-3. Click **OK **to launch the Verilog code interface window as shown in Figure 7.17.
+3. Click **OK** to launch the Verilog code interface window as shown in Figure 7.17.
 
    ![drawing](../images/img_chapter7/7.17.png)
 
