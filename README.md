@@ -16,15 +16,41 @@ git clone https://github.com/<your-username>/CircuitVerseDocs.git
 cd CircuitVerseDocs
 ```
 
-## Local Deployment for testing
+## Local Development Setup
 
-To view the docs in offline mode, navigate to `/docs` folder and run
-`python3 -m http.server` (for python3.x) or
-`python -m SimpleHTTPServer 8000` (for python2.x) or
-`python -m http.server`
+### Prerequisites
+- Node.js (version 18 or higher recommended)
+- npm or yarn package manager
 
+### Installation
 
-When you add a page, make sure you have an entry in the `_sidebar.md`
+Install the dependencies:
+
+```sh
+npm install
+```
+
+### Running Locally
+
+Start the development server:
+
+```sh
+npm start
+```
+
+This will start a local development server and open the documentation in your default browser at `http://localhost:3000`. The site will automatically reload when you make changes.
+
+### Building for Production
+
+To build the static files for production:
+
+```sh
+npm run build
+```
+
+The production-ready files will be generated in the `build` directory.
+
+When you add a new page, make sure you have an entry in the `sidebars.js` file.
 
 > [!NOTE]
 > **All the documentation should have a corresponding live circuit embedded so as to help the users. Also, the live circuit is NOT the same as image of a circuit.**
@@ -34,7 +60,10 @@ When you add a page, make sure you have an entry in the `_sidebar.md`
 2. Click `New site from Git` or go to [https://app.netlify.com/start](https://app.netlify.com/start)
 3. Click `GitHub` and authorise Netlify to view all your repositories or just the repository that you would like to publish
    * You will need to be the owner of the repository as Netlify needs to add a webhook and deploy key. You can get around this by forking the repository and publishing that instead
-4.  Click `Deploy site` (you do not need to change any settings other than maybe `branch`)
+4. Configure the build settings:
+   * **Build command:** `npm run build`
+   * **Publish directory:** `build`
+5. Click `Deploy site`
 
 ## Steps for Contributing
 
