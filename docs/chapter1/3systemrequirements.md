@@ -1,7 +1,7 @@
 ---
-id: chapter1-systemrequirments
-title: "Systemrequirments"
-description: "Systemrequirments page in Chapter1 of CircuitVerse documentation."
+id: chapter1-systemrequirements
+title: "Systemrequirements"
+description: "Systemrequirements page in Chapter1 of CircuitVerse documentation."
 ---
 
 # System Requirements
