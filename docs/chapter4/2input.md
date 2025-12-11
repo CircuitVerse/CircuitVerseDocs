@@ -23,7 +23,7 @@ The **Input** circuit element can have two input states - HIGH or LOW.
 Property attributes that can be customized within the **PROPERTIES** panel include **BitWidth**.
 
 You can verify the behavior of the **Input** circuit element (by clicking on the circuit element once) in the live circuit embedded below:
-
+<div class="responsive-iframe-container">
 <iframe
   width="500px"
   height="400px"
@@ -34,6 +34,7 @@ You can verify the behavior of the **Input** circuit element (by clicking on the
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+</div>
 
 ## Button
 
@@ -44,7 +45,7 @@ The **Button** circuit element is a simple push button mechanism for controlling
 
 You can verify the behavior of the **Button** circuit element in the live circuit embedded below:
 
-<div>
+<div class="responsive-iframe-container">
   <iframe
     src="https://circuitverse.org/simulator/embed/untitled-184db5e7-689f-4ce3-9221-467d1830bf16?theme=default&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true"
     style={{
@@ -68,6 +69,7 @@ The **Power** circuit element in the circuit design is always in a HIGH state. T
 <br />
 In the live circuit embedded below, multiple LEDs are arranged in the form of "HI". As the LEDs are all connected to the **Power** circuit element, they will always glow.
 
+<div class="responsive-iframe-container">
 <iframe
   width="500px"
   height="400px"
@@ -78,6 +80,7 @@ In the live circuit embedded below, multiple LEDs are arranged in the form of "H
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+</div>
 
 ## Ground
 
@@ -89,6 +92,7 @@ While in AC power distribution and some radio antenna systems the “ground” i
 
 The **ConstantVal** circuit element allows the user to input a constant value (instead of 0 and 1).
 
+<div class="responsive-iframe-container">
 <iframe
   width="500px"
   height="400px"
@@ -99,6 +103,7 @@ The **ConstantVal** circuit element allows the user to input a constant value (i
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+</div>
 
 As the above example explains, the value of the **ConstantVal** circuit element can be changed by double-clicking the component and entering the value in the prompt.
 
@@ -108,6 +113,7 @@ The value of the **Stepper** circuit element can either be increased or decrease
 
 You can verify the behavior of the **Stepper** circuit element in the live circuit embedded below:
 
+<div class="responsive-iframe-container">
 <iframe
   width="600px"
   height="400px"
@@ -118,6 +124,7 @@ You can verify the behavior of the **Stepper** circuit element in the live circu
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+</div>
 
 ## Random
 
@@ -131,6 +138,7 @@ The value is also displayed in decimal notation on the random element.
 
 You can verify the behavior of the **Random** circuit element in the live circuit embedded below:
 
+<div class="responsive-iframe-container">
 <iframe
   width="600px"
   height="400px"
@@ -141,6 +149,7 @@ You can verify the behavior of the **Random** circuit element in the live circui
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+</div>
 
 ## Counter
 
@@ -156,6 +165,7 @@ The value is also displayed in decimal notation on the counter element.
 
 You can verify the behavior of the Counter circuit element in the live circuit embedded below:
 
+<div class="responsive-iframe-container">
 <iframe
   width="500px"
   height="400px"
@@ -166,3 +176,4 @@ You can verify the behavior of the Counter circuit element in the live circuit e
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+</div>

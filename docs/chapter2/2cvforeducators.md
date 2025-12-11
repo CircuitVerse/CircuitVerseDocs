@@ -540,7 +540,7 @@ Watch the below video for a quick demonstration of how the CircuitVerse Chrome e
 
 [insert embed video]
 
-<div><iframe></iframe></div>
+<div class="responsive-iframe-container"><iframe></iframe></div>
 
 ## Download Image
 

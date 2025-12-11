@@ -121,6 +121,7 @@ Table 4.20: CTR port input opcodes for different functionalities of ALU
   </tr>
 </table>
 
+<div class="responsive-iframe-container">
 <iframe
   width="600px"
   height="400px"
@@ -133,6 +134,7 @@ Table 4.20: CTR port input opcodes for different functionalities of ALU
 >
   {" "}
 </iframe>
+</div>
 
 ## Adder
 
@@ -264,6 +266,7 @@ Table 4.22: Truth Table for an adder
   </tr>
 </table>
 
+<div class="responsive-iframe-container">
 <iframe
   width="600px"
   height="400px"
@@ -276,6 +279,7 @@ Table 4.22: Truth Table for an adder
 >
   {" "}
 </iframe>
+</div>
 
 ## Buffer
 
@@ -302,6 +306,7 @@ Table 4.23: Truth table for a buffer
 
 You can verify the behavior of the **Buffer** circuit element in the live circuit embedded below:
 
+<div class="responsive-iframe-container">
 <iframe
   width="600px"
   height="400px"
@@ -314,6 +319,7 @@ You can verify the behavior of the **Buffer** circuit element in the live circui
 >
   {" "}
 </iframe>
+</div>
 
 ## TriState Buffer
 
@@ -370,6 +376,7 @@ Table 4.24: Truth table for a TriState buffer
 
 You can verify the behavior of the **TriState** buffer circuit element in the live circuit embedded below:
 
+<div class="responsive-iframe-container">
 <iframe
   width="600px"
   height="400px"
@@ -382,6 +389,7 @@ You can verify the behavior of the **TriState** buffer circuit element in the li
 >
   {" "}
 </iframe>
+</div>
 
 ## Tunnel
 
@@ -401,6 +409,7 @@ When the **Tunnel** circuit element is implemented in a circuit design, tunnels 
 
 You can verify the behavior of the **Tunnel** circuit element in the live circuit embedded below:
 
+<div class="responsive-iframe-container">
 <iframe
   width="600px"
   height="400px"
@@ -413,6 +422,7 @@ You can verify the behavior of the **Tunnel** circuit element in the live circui
 >
   {" "}
 </iframe>
+</div>
 
 ## Splitter
 
@@ -453,6 +463,7 @@ In the follow up window, the user can then identify if the bitwidth must be spli
 
 You can verify the behavior of the **Splitter** circuit element when the bitwidth is split in equal parts in the live circuit embedded below:
 
+<div class="responsive-iframe-container">
 <iframe
   width="650px"
   height="400px"
@@ -465,11 +476,13 @@ You can verify the behavior of the **Splitter** circuit element when the bitwidt
 >
   {" "}
 </iframe>
+</div>
 
 ### Unequal Split
 
 You can verify the behavior of the **Splitter** circuit element when the bitwidth is split in unequal parts in the live circuit embedded below:
 
+<div class="responsive-iframe-container">
 <iframe
   width="650px"
   height="400px"
@@ -482,6 +495,7 @@ You can verify the behavior of the **Splitter** circuit element when the bitwidt
 >
   {" "}
 </iframe>
+</div>
 
 ## Flag
 
@@ -509,6 +523,7 @@ add 1               +           1
 
 You can verify the behavior of the **Two’s Complement** circuit element in the live circuit embedded below:
 
+<div class="responsive-iframe-container">
 <iframe
   width="600px"
   height="400px"
@@ -519,3 +534,4 @@ You can verify the behavior of the **Two’s Complement** circuit element in the
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+</div>

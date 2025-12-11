@@ -128,7 +128,7 @@ While saving projects online, users are directed to the **Edit Project** page fo
 
 Watch this video for more information on the different fields that can be used for sharing more information about the project.
 
-<div>
+<div class="responsive-iframe-container">
   <iframe>[insert saving project video link]</iframe>
 </div>
 
@@ -250,7 +250,7 @@ The Combinational Analysis tool available within the CircuitVerse simulator gene
 
 The circuit's inputs and outputs will be displayed in top-down and left-right order corresponding to how they were identified in the **Boolean Logic Table** popup window. Watch the below video to learn more about this tool.
 
-<div><iframe>[insert combinational analysis tool]</iframe></div>
+<div class="responsive-iframe-container"><iframe>[insert combinational analysis tool]</iframe></div>
 
 ## Hex-Bin-Dec Converter
 
