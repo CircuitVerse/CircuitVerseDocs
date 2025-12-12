@@ -89,7 +89,7 @@ Table 3.1: Different sections of the CircuitVerse simulator
 
 While the **CIRCUIT ELEMENTS** panel, **PROPERTIES** panel and the quick access panel can be easily moved around the screen, the **CIRCUIT ELEMENTS** panel and the **PROPERTIES** panel are collapsible panels.
 
-<div class="responsive-iframe-container">
+<div>
   <iframe>Insert customize video panels video</iframe>
 </div>
 

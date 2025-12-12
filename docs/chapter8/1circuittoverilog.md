@@ -58,9 +58,7 @@ Here is a simple example of a AND Gate circuit and its corresponding Verilog cod
 
 ### Circuit Design
 
-<div class="responsive-iframe-container">
 <iframe src="https://circuitverse.org/simulator/embed/andvk?theme=&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true" style="border-width:; border-style: ; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
-</div>
 
 ### Generated Verilog Code
 

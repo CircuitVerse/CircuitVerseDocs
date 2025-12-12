@@ -71,7 +71,7 @@ Table 4.12: Table for D Flip Flop circuit element
 
 You can verify the behavior of the D Flip Flop circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -191,7 +191,7 @@ Table 4.14: Table for T Flip Flop circuit element
 
 You can verify the behavior of the **T Flip Flop **circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -260,7 +260,7 @@ Table 4.15: Table for SR Flip Flop circuit element
 
 You can verify the behavior of the **SR Flip Flop** circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -328,7 +328,7 @@ Table 4.16: Table for JK Flip Flop circuit element
 
 You can verify the behavior of the JK Flip Flop circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -397,7 +397,7 @@ Table 4.17: Pin description of TTY circuit element within CircuitVerse simulator
 
 You can verify the behavior of the TTY circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -476,7 +476,7 @@ Table 4.18: Pin description of Keyboard circuit element within CircuitVerse simu
 
 You can verify the behavior of the **Keyboard** circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -513,7 +513,7 @@ The **ROM** circuit element includes three pins. As Figure 4.10 elucidates, it a
 
 You can verify the behavior of the **ROM** circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -549,7 +549,7 @@ Alternatively, the contents of the RAM can be dumped to the console by transitio
 
 You can verify the behavior of the **RAM **circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -590,7 +590,7 @@ You can verify the behavior of the EEPROM circuit element in the live circuit em
 3. Make **Write**=0 and the text in the EEPROM will show in the TTY element.
 4. Save the circuit and it will persist the contents of the EEPROM for future use
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"

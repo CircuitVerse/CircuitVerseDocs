@@ -42,7 +42,7 @@ Table 4.1: Truth table of a 2 to 1 multiplexer
   </tr>
 </table>
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -89,7 +89,7 @@ Table 4.2: Truth table of a 4 to 1 multiplexer
   </tr>
 </table>
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -132,7 +132,7 @@ Table 4.3: Truth table of a 1 to 2 demultiplexer
   </tr>
 </table>
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -194,7 +194,7 @@ Table 4.4: Truth table of a 1 to 4 demultiplexer
   </tr>
 </table>
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -247,7 +247,7 @@ Table 4.5: Truth table of a four-bit bit selector
   </tr>
 </table>
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -268,7 +268,7 @@ The **Most Significant Bit (MSB)** detector circuit element outputs the bit posi
 
 You can verify the behavior of the **Most Significant Bit (MSB)** detector circuit element with a four-bit input in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -289,7 +289,7 @@ The **Least Significant Bit (LSB)** detector circuit element outputs the bit pos
 
 You can verify the behavior of the **Least Significant Bit (LSB)** detector circuit element with a four-bit input in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -357,7 +357,7 @@ Table 4.6: Truth table of a four-input priority encoder
   </tr>
 </table>
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -425,7 +425,7 @@ Table 4.7: Truth table of a two-bit decoder
   </tr>
 </table>
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
@@ -695,7 +695,7 @@ Although the parity detector can detect most errors, some of its limitations inc
 - Parity detector will not be able to detect errors where both parity and data bits have such an error that matches the parity bit.
 
 You can verify the same in the live circuit embedded below:
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"

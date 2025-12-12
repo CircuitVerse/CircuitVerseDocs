@@ -198,7 +198,7 @@ The **SixteenSegDisplay** takes two inputs and a total of 17 bits: 16 bits in th
 
 You can verify the behavior of the **SixteenSegDisplay** circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+<div>
 <iframe
   width="600px"
   height="400px"
