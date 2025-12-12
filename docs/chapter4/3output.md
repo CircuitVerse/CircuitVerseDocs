@@ -25,7 +25,7 @@ When the **Output** circuit element is connected to another circuit element, it 
 
 You can verify the behavior of the **Output** circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+
 <iframe
   width="600px"
   height="400px"
@@ -38,7 +38,7 @@ You can verify the behavior of the **Output** circuit element in the live circui
 >
   {" "}
 </iframe>
-</div>
+
 
 ## Digital LED
 
@@ -55,7 +55,7 @@ The digital LED does not recognize inputs of a length other than one bit. For yo
 
 You can verify the behavior of the **Digital LED** circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+
 <iframe
   width="600px"
   height="400px"
@@ -68,7 +68,7 @@ You can verify the behavior of the **Digital LED** circuit element in the live c
 >
   {" "}
 </iframe>
-</div>
+
 
 ## VariableLED
 
@@ -79,7 +79,7 @@ The **variableLED** element changes between 256 intensities based on an 8-bit in
 
 You can verify the behavior of the **variableLED** circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+
 <iframe
   width="600px"
   height="400px"
@@ -92,7 +92,7 @@ You can verify the behavior of the **variableLED** circuit element in the live c
 >
   {" "}
 </iframe>
-</div>
+
 
 ## RGBLED
 
@@ -102,7 +102,7 @@ Unlike the **digitalLED or variableLED** circuit elements, the **RGBLED** elemen
 
 You can verify the behavior of the **RGBLED** circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+
 <iframe
   width="600px"
   height="400px"
@@ -115,7 +115,7 @@ You can verify the behavior of the **RGBLED** circuit element in the live circui
 >
   {" "}
 </iframe>
-</div>
+
 
 ## SquareRGBLED
 
@@ -125,7 +125,7 @@ While the **SquareRGBLED** works similarly to the **RGBLED**, the **SquareRGBLED
 
 The live circuit embedded below illustrates how an array of pixels may be programmed to display an image. The circuit design includes a LED buffer subcircuit that manages the circuitry controlling the LEDs. The ability to vary the pin length of the square RGB LED element makes the design clean and easy to read. To make the design more comprehensible, the pins for different square LEDs must remain in the same vertical order as the LEDs themselves (i.e. the top pins must correspond to the top LED).
 
-<div class="responsive-iframe-container" >
+
 <iframe
   width="600px"
   height="400px"
@@ -138,7 +138,7 @@ The live circuit embedded below illustrates how an array of pixels may be progra
 >
   {" "}
 </iframe>
-</div>
+
 
 ## HexDisplay
 
@@ -148,7 +148,7 @@ The input bits do not control the individual segments ( as it is not possible to
 
 You can verify the behavior of the **HexDisplay** circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+
 <iframe
   width="600px"
   height="400px"
@@ -161,7 +161,6 @@ You can verify the behavior of the **HexDisplay** circuit element in the live ci
 >
   {" "}
 </iframe>
-</div>
 
 ## SevenSegDisplay
 
@@ -175,7 +174,7 @@ The **SevenSegDisplay** behaves similar to a **HexDisplay**, but it takes an 8-b
 
 You can verify the behavior of the **SevenSegDisplay** circuit element in the live circuit embedded below:
 
-<div class="responsive-iframe-container">
+
 <iframe
   width="600px"
   height="400px"
@@ -188,7 +187,7 @@ You can verify the behavior of the **SevenSegDisplay** circuit element in the li
 >
   {" "}
 </iframe>
-</div>
+
 
 Watch [this video tutorial](https://www.youtube.com/watch?v=EqxCBW0lMVQ) to learn more about how to use this circuit element in a circuit.
 
@@ -198,7 +197,6 @@ The **SixteenSegDisplay** takes two inputs and a total of 17 bits: 16 bits in th
 
 You can verify the behavior of the **SixteenSegDisplay** circuit element in the live circuit embedded below:
 
-<div>
 <iframe
   width="600px"
   height="400px"
@@ -211,6 +209,6 @@ You can verify the behavior of the **SixteenSegDisplay** circuit element in the 
 >
   {" "}
 </iframe>
-</div>
+
 
 As opposed to the **HexDisplay** and **SevenSegDisplay** circuit elements, the main advantage of using a **SixteenSegDisplay** is that multiple segments can be used to create numbers and letters. However, it requires double the input of the **SevenSegDisplay** and quadruple the input of the **HexDisplay**.

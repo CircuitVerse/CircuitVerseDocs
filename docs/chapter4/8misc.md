@@ -134,7 +134,6 @@ Table 4.20: CTR port input opcodes for different functionalities of ALU
   {" "}
 </iframe>
 
-
 ## Adder
 
 The **Adder** circuit element is a logical circuit of a full adder that performs an addition operation on binary numbers and produces a sum of the three inputs and a carry value (Cout). Figure 4.18 displays the different pins available for the **Adder **circuit element within CircuitVerse and Table 4.21 shares a brief description of the same.
@@ -316,7 +315,6 @@ You can verify the behavior of the **Buffer** circuit element in the live circui
   {" "}
 </iframe>
 
-
 ## TriState Buffer
 
 The **TriState** buffer circuit element behaves similar to a buffer. As Figure 4.17 illustrates, this circuit element includes an additional **Enable** input that controls whether the primary input is passed to its output or not.
@@ -385,7 +383,6 @@ You can verify the behavior of the **TriState** buffer circuit element in the li
   {" "}
 </iframe>
 
-
 ## Tunnel
 
 The **Tunnel** circuit element encapsulates desired connection points in a tunnel for transmitting signals without using a wire (refer Figure 4.18). It is recommended to use this circuit element for design areas that may require excessive wiring to connect otherwise.
@@ -416,7 +413,6 @@ You can verify the behavior of the **Tunnel** circuit element in the live circui
 >
   {" "}
 </iframe>
-
 
 ## Splitter
 
@@ -470,7 +466,6 @@ You can verify the behavior of the **Splitter** circuit element when the bitwidt
   {" "}
 </iframe>
 
-
 ### Unequal Split
 
 You can verify the behavior of the **Splitter** circuit element when the bitwidth is split in unequal parts in the live circuit embedded below:
@@ -513,7 +508,6 @@ add 1               +           1
 ```
 
 You can verify the behavior of the **Two’s Complement** circuit element in the live circuit embedded below:
-
 
 <iframe
   width="600px"
