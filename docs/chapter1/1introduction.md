@@ -57,8 +57,6 @@ Watch the below video for a quick demonstration of the CircuitVerse platform.
 
 <div class='responsive-iframe-container'>
   <iframe
-    width="500px"
-    height="400px"
     src="https://www.youtube.com/embed/3Df-2Cn_80A"
     frameborder="0"
     scrolling="no"
