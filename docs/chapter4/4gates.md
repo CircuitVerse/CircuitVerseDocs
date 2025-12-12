@@ -54,7 +54,6 @@ Each of the gates included in the CircuitVerse library can be customized for mul
   {" "}
 </iframe>
 
-
 ## AND Gate
 
 AND gate gives a HIGH output only if all input values are HIGH. Refer Table 4.25.
@@ -83,7 +82,6 @@ You can verify the behavior of the **AND gate** circuit element in the live circ
   {" "}
 </iframe>
 
-
 ## OR Gate
 
 OR gate produces a HIGH output only if any of the input values are HIGH. Refer Table 4.26.
@@ -111,7 +109,6 @@ You can verify the behavior of an **OR gate** circuit element in the live circui
 >
   {" "}
 </iframe>
-
 
 ## NOT Gate
 
@@ -165,7 +162,6 @@ You can verify the behavior of an **XOR gate** circuit element in the live circu
   allowFullScreen
 ></iframe>
 
-
 ## NAND Gate
 
 NAND gate, a combination of an AND gate and a NOT gate connected together in series, produces the inverted output of an AND gate––produces a LOW output when all the inputs are HIGH. Refer Table 4.29.
@@ -194,7 +190,6 @@ You can verify the behavior of an **NAND gate** circuit element in the live circ
   {" "}
 </iframe>
 
-
 ## NOR Gate
 
 NOR gate inverts the output of an OR gate. In other words, it only goes HIGH when all the inputs are LOW. Refer Table 4.30.
@@ -222,7 +217,6 @@ You can verify the behavior of an **NOR gate** circuit element in the live circu
 >
   {" "}
 </iframe>
-
 
 ## XNOR Gate
 

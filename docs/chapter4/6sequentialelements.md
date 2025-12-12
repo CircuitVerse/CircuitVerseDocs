@@ -552,7 +552,6 @@ You can verify the behavior of the **RAM **circuit element in the live circuit e
   {" "}
 </iframe>
 
-
 ## EEPROM
 
 The **EEPROM** circuit element is a programmable ROM used for the computer BIOS. EEPROMs are generally more expensive than RAMs. The maximum address space of the **EEPROM** circuit element is 10-bits (1024 addresses)––smaller than the RAM. Figure 4.12 shares a pin description of the **EEPROM **circuit element.

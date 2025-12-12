@@ -45,6 +45,7 @@ The **Button** circuit element is a simple push button mechanism for controlling
 
 You can verify the behavior of the **Button** circuit element in the live circuit embedded below:
 
+<div>
   <iframe
     src="https://circuitverse.org/simulator/embed/untitled-184db5e7-689f-4ce3-9221-467d1830bf16?theme=default&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true"
     style={{
@@ -59,7 +60,7 @@ You can verify the behavior of the **Button** circuit element in the live circui
     width="500"
     allowFullScreen
   ></iframe>
-
+</div>
 
 ## Power
 

@@ -55,7 +55,6 @@ Table 4.1: Truth table of a 2 to 1 multiplexer
   {" "}
 </iframe>
 
-
 Using Table 4.2, you can verify the behavior of the **Multiplexer** circuit element in the live circuit of a 4 to 1 multiplexer embedded below:
 
 Table 4.2: Truth table of a 4 to 1 multiplexer
@@ -141,7 +140,6 @@ Table 4.3: Truth table of a 1 to 2 demultiplexer
 >
   {" "}
 </iframe>
-
 
 In another example of a live circuit embedded below, a 1 to 4 demultiplexer takes in a three-bit input and a two-bit control signal. Table 4.4 displays the truth table of a 1 to 4 demultiplexer.
 
@@ -254,13 +252,11 @@ Table 4.5: Truth table of a four-bit bit selector
   {" "}
 </iframe>
 
-
 ## Most Significant Bit (MSB) Detector
 
 The **Most Significant Bit (MSB)** detector circuit element outputs the bit position of the most significant bit of the input. In other words, it outputs the bit position of the rightmost bit. An enable output is also provided to show if the MSB detector is active. The bit position of the MSB is also shown in decimal form within the body of the MSB detector.
 
 You can verify the behavior of the **Most Significant Bit (MSB)** detector circuit element with a four-bit input in the live circuit embedded below:
-
 
 <iframe
   width="600px"
@@ -275,13 +271,11 @@ You can verify the behavior of the **Most Significant Bit (MSB)** detector circu
   {" "}
 </iframe>
 
-
 ## Least Significant Bit (LSB) Detector
 
 The **Least Significant Bit (LSB)** detector circuit element outputs the bit position of the least significant bit of the input. In other words, it outputs the bit position of the leftmost bit. An enable output is also provided to show if the LSB detector is active. The bit position of the LSB is also shown in decimal form within the body of the LSB detector.
 
 You can verify the behavior of the **Least Significant Bit (LSB)** detector circuit element with a four-bit input in the live circuit embedded below:
-
 
 <iframe
   width="600px"
@@ -295,7 +289,6 @@ You can verify the behavior of the **Least Significant Bit (LSB)** detector circ
 >
   {" "}
 </iframe>
-
 
 ## Priority Encoder
 
@@ -363,7 +356,6 @@ Table 4.6: Truth table of a four-input priority encoder
   {" "}
 </iframe>
 
-
 ## Decoder
 
 The **Decoder** circuit element includes N input bits and has 2^N output lines.
@@ -429,7 +421,6 @@ Table 4.7: Truth table of a two-bit decoder
 >
   {" "}
 </iframe>
-
 
 ## Parity Generator & Parity Detector
 
