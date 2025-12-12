@@ -67,6 +67,7 @@ The **Power** circuit element in the circuit design is always in a HIGH state. T
 
 <br />
 In the live circuit embedded below, multiple LEDs are arranged in the form of "HI". As the LEDs are all connected to the **Power** circuit element, they will always glow.
+<br />
 
 <iframe
   width="500px"
@@ -78,8 +79,6 @@ In the live circuit embedded below, multiple LEDs are arranged in the form of "H
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
-
-<br />
 
 ## Ground
 
