@@ -79,6 +79,8 @@ In the live circuit embedded below, multiple LEDs are arranged in the form of "H
   allowFullScreen
 ></iframe>
 
+<br />
+
 ## Ground
 
 The **Ground** circuit element in the circuit design is always in a LOW state.
