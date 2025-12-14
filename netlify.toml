@@ -1,5 +1,6 @@
 [build]
   #Directory to publish
+  
   NODE_VERSION = "18.19.0"
   publish = "build/"
   command = "npm run build"
