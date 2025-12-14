@@ -6,7 +6,7 @@ description: "Lmsintegration page in Chapter2 of CircuitVerse documentation."
 
 # Integrate CircuitVerse with LMS
 
-> You can configure an LTI-compliant learning management system (LMS) to connect to CircuitVerse so that you can import an CircuitVerse assignment for your course and you can access them without leaving your LMS.
+> You can configure an LTI-compliant learning management system (LMS) to connect to CircuitVerse so that you can import a CircuitVerse assignment for your course and you can access them without leaving your LMS.
 
 > This guide will teach you how to integrate CircuitVerse with LTI supported Learning Management Systems.
 
