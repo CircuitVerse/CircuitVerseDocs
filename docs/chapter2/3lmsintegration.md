@@ -134,7 +134,7 @@ You can configure CircuitVerse as an external app for Canvas. For more informati
 - In **Privacy Settings** please check the all checkboxes.
 - In **Services** please check the all checkboxes.
 
-> The steps mentioned above for the Sakai are the mandatory steps for the installation of an **CircuitVerse assignment** as an **LTI 1.x** tool.But there are some of the additional fields, checkboxes which you can use for customizing your tool, but they are not mandatory.
+> The steps mentioned above for the Sakai are the mandatory steps for the installation of a **CircuitVerse assignment** as an **LTI 1.x** tool. But there are some of the additional fields, checkboxes which you can use for customizing your tool, but they are not mandatory.
 
 ## Common Troubleshooting
 
