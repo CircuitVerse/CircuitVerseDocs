@@ -35,6 +35,7 @@ const config = {
 					customCss: [
 						require.resolve('./src/css/theme.css'),
 						require.resolve('./src/css/darkTheme.css'),
+						require.resolve('./src/css/custom.css'),
 					],
 				},
 			},

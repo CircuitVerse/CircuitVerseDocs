@@ -1,0 +1,8 @@
+/* === Custom global styles for CircuitVerse Docs === */
+@media (max-width: 650px) {
+  iframe {
+    width: 100% !important;
+    height: auto !important;
+    aspect-ratio: 4 / 3;
+  }
+}
