@@ -41,7 +41,7 @@ Follow the below steps to create a new project and save the circuit online:
 
     Watch this video for more information on the different fields that can be used for sharing more information about the project.
 
-    <div><iframe width="560" height="315" style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/b4SXde9huFQ?si=9Y9noFw90boEGfP_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+    <div><iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/b4SXde9huFQ?si=9Y9noFw90boEGfP_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
 
 5. Click **Update Project** to save the project details and return back to the CV simulator window. Refer Figure 7.4.
 
