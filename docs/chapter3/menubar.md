@@ -260,7 +260,7 @@ The Hex-Bin-Dec Converter tool (refer Figure 3.8) converts a given binary number
 
 <div align="center">
   <em>
-    Figure 3.8: Use the dec-bin-hex convertool to convert binary data into
+    Figure 3.8: Use the dec-bin-hex converter tool to convert binary data into
     different formats
   </em>
 </div>
