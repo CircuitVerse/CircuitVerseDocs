@@ -16,6 +16,8 @@ description: "Misc page in Chapter4 of CircuitVerse documentation."
 8. [Unequal Split](#unequal-split)
 9. [Flag](#flag)
 10. [Two's Complement](#twos-complement)
+11. [Serial Port](#serial-port)
+
 
 ## ALU
 
@@ -519,3 +521,90 @@ You can verify the behavior of the **Two’s Complement** circuit element in the
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+
+## Serial Port
+
+The **Serial Port** component enables real-time communication between CircuitVerse and physical hardware using the **Web Serial API**. This allows the simulation to **send (TX)** and **receive (RX)** 8-bit data to/from devices such as Arduino, ESP32, or any microcontroller with UART support.
+
+> Properties that can be customized in the **PROPERTIES** panel include: **Baud Rate**, **Direction** (using arrow keys or dropdown)
+
+Table 4.25: Brief description of the SerialPort circuit element ports
+
+| Name | Direction | Width | Description |
+|------|-----------|--------|-------------|
+| TX   | Input     | 8-bit  | Sends 8-bit values from CircuitVerse to the external device |
+| RX   | Output    | 8-bit  | Receives 8-bit values from the external device into CircuitVerse |
+
+### Baud Rate
+
+Users can select a baud rate (speed of communication in bits per second) from **1 to 115200**. Common values include 9600, 19200, 38400, 57600, and 115200. This must match the baud rate on the external microcontroller.
+
+
+
+### How It Works
+
+* The **TX** pin sends a new 8-bit value when it changes. The component avoids re-sending the same value to reduce traffic.
+* The **RX** pin gets updated with the latest byte received from the serial stream.
+* Internally, a reader reads the stream asynchronously and pushes the value to RX.
+
+### Example
+
+>⚠️ **Note:** This demonstration uses a safe, low-voltage LED circuit.  
+> Do **not** attempt to replicate this with high-voltage devices unless properly trained in electrical safety.
+
+This example demonstrates how to use the Serial Port component to control an LED connected to an Arduino board based on light intensity from an LDR (Light Dependent Resistor). The Arduino sends sensor data to CircuitVerse using RX, and CircuitVerse responds with control signals using TX.
+
+#### Circuit
+![drawing](/img/img_chapter4/4.25.png)
+*Figure 4.25: The simulated CircuitVerse setup using the Serial Port component. It receives analog values from the LDR via RX and sends control signals via TX.*
+
+#### Hardware Circuit
+![drawing](/img/img_chapter4/4.26.png)
+*Figure 4.26: A schematic representation of the hardware setup, including Arduino Uno, LDR, and LED.*
+
+
+
+#### Arduino Sketch
+
+```cpp
+int ldrPin = A0;  // Connect LDR to analog pin A0
+int ldrValue = 0;
+int ledPin = 7;  // Choose any digital pin
+int receivedByte = 0;
+void setup() {
+  pinMode(ledPin, OUTPUT);
+  Serial.begin(9600);
+}
+void loop() {
+
+  ldrValue = analogRead(ldrPin);  // Read LDR value (0–1023)
+  Serial.write(ldrValue >> 2);    // Send 8-bit value (0–255) via Serial.write()
+
+  if (Serial.available() > 0) {
+    receivedByte = Serial.read();  // Read 1 byte (0–255)
+    if (receivedByte == 1) {
+      digitalWrite(ledPin, HIGH);
+    } else {
+      digitalWrite(ledPin, LOW);
+    }
+  }
+  delay(500);  // Small delay to reduce noise
+}
+```
+
+### Compatibility and Browser Requirements
+
+- **Secure Context Requirement:**  
+  The Web Serial API is available **only in secure contexts** (i.e., when accessed via **HTTPS**). Users will be prompted to grant permission to access connected serial devices at runtime. This permission must be granted manually for each session.
+
+- **Baud Rate Change Notice:**  
+  Any changes made to the **Baud Rate** property will take effect **only after the serial connection is re-established**.
+
+- **Browser Support:**
+  - ✅ **Supported:** Chromium-based browsers such as **Google Chrome**, **Microsoft Edge**, and **Opera**.
+  - ❌ **Not Supported:** **Mozilla Firefox**, **Apple Safari**, and other non-Chromium browsers.
+
+### Related Resources
+
+* [Web Serial API on MDN](https://developer.mozilla.org/en-US/docs/Web/API/Serial)
+* [Arduino Serial Reference](https://www.arduino.cc/reference/en/language/functions/communication/serial/)
