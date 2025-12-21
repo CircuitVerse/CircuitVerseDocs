@@ -136,7 +136,7 @@ Table 4.13: Table for D Latch circuit element
 </table>
 
 /* You can verify the behavior of the **D Latch** circuit element in the live circuit embedded below:
-[insert live cirucit] */
+[insert live circuit] */
 
 ## T Flip Flop
 

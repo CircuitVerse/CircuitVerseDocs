@@ -418,7 +418,7 @@ You can verify the behavior of the **Tunnel** circuit element in the live circui
 
 Splitters split high bitwidth wires (buses) into lower bitwidth wires(buses) and vice versa. It is the only two-way circuit element in CircuitVerse.
 
-The bitwidth may be split into equal parts or unequal parts. Consider that you have a 4 bitwith bus. You may split it into equal or unequal parts as shown below:
+The bitwidth may be split into equal parts or unequal parts. Consider that you have a 4 bitwidth bus. You may split it into equal or unequal parts as shown below:
 
 - Equal parts: 4 -> 1 1 1 1
 - Unequal parts: 4 -> 1 2 1
