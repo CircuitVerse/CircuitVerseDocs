@@ -22,7 +22,7 @@ slug : /
 
 Inspired by Logisim, CircuitVerse is an open-source educational platform for designing and visualizing digital logic circuit simulations in the cloud. Users—including educators, students, electronic engineers, and hobbyists—can experiment with digital circuit simulations directly from their browsers to explore various “what-if” scenarios. Users can also share their creations via unique circuit URLs or fork contributions from the CircuitVerse community to satisfy their curiosity. Figure 1 shows a screenshot of a ripple carry adder simulation created using CircuitVerse.
 
-![](/img/img_chapter1/1.1.png)
+![Screenshot of a ripple carry adder simulation in CircuitVerse](/img/img_chapter1/1.1.png)
 
 <div align="center">
   <em>Figure 1.1: Ripple Carry Adder simulation built using CircuitVerse</em>
@@ -30,7 +30,7 @@ Inspired by Logisim, CircuitVerse is an open-source educational platform for des
 
 Developed for educators by educators, the CircuitVerse platform provides a high-quality learning experience in a scalable manner. Educators can efficiently manage, track, and achieve their classroom learning objectives within a single, powerful solution. They can create and manage multiple student groups, assign different tasks, set submission deadlines, and add or export grades (Figure 2). With the CircuitVerse Chrome extension, educators can embed live circuits directly into Google Slides, demonstrating concepts without switching between tabs. Alternatively, they can export images or embed circuits using iFrames on their webpages.
 
-![](/img/img_chapter1/1.2.png)
+![Educator dashboard with student groups and grades](/img/img_chapter1/1.2.png)
 
 <div align="center">
   <em>
@@ -41,7 +41,7 @@ Developed for educators by educators, the CircuitVerse platform provides a high-
 
 As the CircuitVerse community continues to grow, educators and students can participate in online forums to share ideas, ask questions, and exchange resources related to teaching and learning digital logic design using CircuitVerse.
 
-![](/img/img_chapter1/1.3.png)
+![CircuitVerse community forum interface](/img/img_chapter1/1.3.png)
 
 <div align="center">
   <em>
