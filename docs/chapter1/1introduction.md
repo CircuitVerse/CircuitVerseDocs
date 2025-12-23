@@ -20,7 +20,7 @@ slug : /
   {" "}
 </iframe>
 
-Inspired by Logisim, CircuitVerse is an open-source educational tool for designing and visualizing digital logic circuit simulations in the cloud. Users including educators, students, electronic engineers, and hobbyists can play with digital circuit simulations from their browsers for exploring different “what-if” scenarios. As required, a user can share their creations using unique circuit URLs, or fork different contributions of the CircuitVerse community to yield their curiosity. Figure 1 shares a screenshot of a ripple carry adder simulation built using CircuitVerse.
+Inspired by Logisim, CircuitVerse is an open-source educational platform for designing and visualizing digital logic circuit simulations in the cloud. Users—including educators, students, electronic engineers, and hobbyists—can experiment with digital circuit simulations directly from their browsers to explore various “what-if” scenarios. Users can also share their creations via unique circuit URLs or fork contributions from the CircuitVerse community to satisfy their curiosity. Figure 1 shows a screenshot of a ripple carry adder simulation created using CircuitVerse.
 
 ![](/img/img_chapter1/1.1.png)
 
@@ -28,7 +28,7 @@ Inspired by Logisim, CircuitVerse is an open-source educational tool for designi
   <em>Figure 1.1: Ripple Carry Adder simulation built using CircuitVerse</em>
 </div>
 
-Developed for educators by educators, the CircuitVerse platform delivers high class learning experience in a scalable way. Educators can manage, track, and achieve their classroom learning goals in a single, powerful solution. They can create and manage different student groups, post different assignments, define submission deadlines and add or export grades (refer Figure 2). Using the CircuitVerse Chrome extension, educators can embed live circuits in their Google Slides and demonstrate concepts without navigating across different tabs. Alternatively, they can also export images or embed iFrames within their webpages.
+Developed for educators by educators, the CircuitVerse platform provides a high-quality learning experience in a scalable manner. Educators can efficiently manage, track, and achieve their classroom learning objectives within a single, powerful solution. They can create and manage multiple student groups, assign different tasks, set submission deadlines, and add or export grades (Figure 2). With the CircuitVerse Chrome extension, educators can embed live circuits directly into Google Slides, demonstrating concepts without switching between tabs. Alternatively, they can export images or embed circuits using iFrames on their webpages.
 
 ![](/img/img_chapter1/1.2.png)
 
@@ -39,7 +39,7 @@ Developed for educators by educators, the CircuitVerse platform delivers high cl
   </em>
 </div>
 
-As the CircuitVerse community grows, educators and students can join the online forums to share ideas, questions, and resources related to teaching and learning digital logic design using CircuitVerse.
+As the CircuitVerse community continues to grow, educators and students can participate in online forums to share ideas, ask questions, and exchange resources related to teaching and learning digital logic design using CircuitVerse.
 
 ![](/img/img_chapter1/1.3.png)
 
