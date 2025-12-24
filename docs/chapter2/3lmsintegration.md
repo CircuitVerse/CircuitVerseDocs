@@ -6,7 +6,7 @@ description: "Lmsintegration page in Chapter2 of CircuitVerse documentation."
 
 # Integrate CircuitVerse with LMS
 
-> You can configure an LTI-compliant learning management system (LMS) to connect to CircuitVerse so that you can import an CircuitVerse assignment for your course and you can access them without leaving your LMS.
+> You can configure an LTI-compliant learning management system (LMS) to connect to CircuitVerse so that you can import a CircuitVerse assignment for your course and you can access them without leaving your LMS.
 
 > This guide will teach you how to integrate CircuitVerse with LTI supported Learning Management Systems.
 
@@ -134,7 +134,7 @@ You can configure CircuitVerse as an external app for Canvas. For more informati
 - In **Privacy Settings** please check the all checkboxes.
 - In **Services** please check the all checkboxes.
 
-> The steps mentioned above for the Sakai are the mandatory steps for the installation of an **CircuitVerse assignment** as an **LTI 1.x** tool.But there are some of the additional fields, checkboxes which you can use for customizing your tool, but they are not mandatory.
+> The steps mentioned above for the Sakai are the mandatory steps for the installation of a **CircuitVerse assignment** as an **LTI 1.x** tool. But there are some of the additional fields, checkboxes which you can use for customizing your tool, but they are not mandatory.
 
 ## Common Troubleshooting
 
