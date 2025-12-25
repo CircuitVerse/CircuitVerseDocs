@@ -65,9 +65,7 @@ You can verify the behavior of the **Button** circuit element in the live circui
 
 The **Power** circuit element in the circuit design is always in a HIGH state. This component should be used when there is a need for the input to be always HIGH.
 
-<br />
 In the live circuit embedded below, multiple LEDs are arranged in the form of "HI". As the LEDs are all connected to the **Power** circuit element, they will always glow.
-<br />
 
 <iframe
   width="500px"
