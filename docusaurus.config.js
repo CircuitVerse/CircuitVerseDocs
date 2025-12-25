@@ -123,7 +123,7 @@ const config = {
 		format: 'md'
 	},
 	
-	// Performance optimizations
+	// Placeholder for future plugin extensions
 	plugins: [],
 	
 	// Client-side performance optimizations - lazy load iframes

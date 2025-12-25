@@ -45,30 +45,22 @@ The **Button** circuit element is a simple push button mechanism for controlling
 
 You can verify the behavior of the **Button** circuit element in the live circuit embedded below:
 
-<div>
-  <iframe
-    src="https://circuitverse.org/simulator/embed/untitled-184db5e7-689f-4ce3-9221-467d1830bf16?theme=default&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true"
-    style={{
-      borderWidth: "1px",
-      borderStyle: "solid",
-      borderColor: "#000",
-    }}
-    id="projectPreview"
-    scrolling="no"
-    loading="lazy"
-    frameborder="1"
-    height="500"
-    width="500"
-    allowFullScreen
-  
-  loading="lazy"></iframe>
-</div>
+<iframe
+  width="500px"
+  height="500px"
+  src="https://circuitverse.org/simulator/embed/untitled-184db5e7-689f-4ce3-9221-467d1830bf16?theme=default&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true"
+  id="projectPreview"
+  scrolling="no"
+  loading="lazy"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+></iframe>
 
 ## Power
 
 The **Power** circuit element in the circuit design is always in a HIGH state. This component should be used when there is a need for the input to be always HIGH.
 
-<br />
 In the live circuit embedded below, multiple LEDs are arranged in the form of "HI". As the LEDs are all connected to the **Power** circuit element, they will always glow.
 
 <iframe
@@ -87,7 +79,7 @@ In the live circuit embedded below, multiple LEDs are arranged in the form of "H
 
 The **Ground** circuit element in the circuit design is always in a LOW state.
 
-While in AC power distribution and some radio antenna systems the “ground” implies a connection to the earth, in digital logic design "ground" is a point in the circuit that the user calls as zero volts. The ground in the circuit is used as a reference for measuring voltages across different points in the circuit.
+While in AC power distribution and some radio antenna systems the "ground" implies a connection to the earth, in digital logic design "ground" is a point in the circuit that the user calls as zero volts. The ground in the circuit is used as a reference for measuring voltages across different points in the circuit.
 
 ## ConstantVal
 
@@ -96,7 +88,7 @@ The **ConstantVal** circuit element allows the user to input a constant value (i
 <iframe
   width="500px"
   height="400px"
-  src="https://www.youtube.com/embed/DON063zxYmcc"
+  src="https://www.youtube.com/embed/DON063zxYmc"
   id="projectPreview"
   scrolling="no"
   loading="lazy"
