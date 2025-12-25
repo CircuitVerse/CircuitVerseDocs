@@ -127,6 +127,7 @@ Table 4.20: CTR port input opcodes for different functionalities of ALU
   src="https://circuitverse.org/simulator/embed/12141"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -270,6 +271,7 @@ Table 4.22: Truth Table for an adder
   src="https://circuitverse.org/simulator/embed/12140"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -308,6 +310,7 @@ You can verify the behavior of the **Buffer** circuit element in the live circui
   src="https://circuitverse.org/simulator/embed/13250"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -376,6 +379,7 @@ You can verify the behavior of the **TriState** buffer circuit element in the li
   src="https://circuitverse.org/simulator/embed/13252"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -407,6 +411,7 @@ You can verify the behavior of the **Tunnel** circuit element in the live circui
   src="https://circuitverse.org/simulator/embed/12642"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -459,6 +464,7 @@ You can verify the behavior of the **Splitter** circuit element when the bitwidt
   src="https://circuitverse.org/simulator/embed/1959"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -476,6 +482,7 @@ You can verify the behavior of the **Splitter** circuit element when the bitwidt
   src="https://circuitverse.org/simulator/embed/1960"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -515,6 +522,7 @@ You can verify the behavior of the **Two’s Complement** circuit element in the
   src="https://circuitverse.org/simulator/embed/110615"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen

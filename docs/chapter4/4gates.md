@@ -31,6 +31,7 @@ Each of the gates included in the CircuitVerse library can be customized for mul
   src="https://circuitverse.org/simulator/embed/735"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -46,6 +47,7 @@ Each of the gates included in the CircuitVerse library can be customized for mul
   src="https://circuitverse.org/simulator/embed/736"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -74,6 +76,7 @@ You can verify the behavior of the **AND gate** circuit element in the live circ
   src="https://circuitverse.org/simulator/embed/734"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -102,6 +105,7 @@ You can verify the behavior of an **OR gate** circuit element in the live circui
   src="https://circuitverse.org/simulator/embed/737"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -128,6 +132,7 @@ You can verify the behavior of an **NOT gate** circuit element in the live circu
   src="https://circuitverse.org/simulator/embed/738"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -156,6 +161,7 @@ You can verify the behavior of an **XOR gate** circuit element in the live circu
   src="https://circuitverse.org/simulator/embed/740"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -182,6 +188,7 @@ You can verify the behavior of an **NAND gate** circuit element in the live circ
   src="https://circuitverse.org/simulator/embed/simple-nand-gate"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -210,6 +217,7 @@ You can verify the behavior of an **NOR gate** circuit element in the live circu
   src="https://circuitverse.org/simulator/embed/742"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -238,6 +246,7 @@ You can verify the behavior of an **XNOR gate** circuit element in the live circ
   src="https://circuitverse.org/simulator/embed/743"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen

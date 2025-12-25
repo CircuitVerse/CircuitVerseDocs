@@ -30,6 +30,7 @@ You can verify the behavior of the **Input** circuit element (by clicking on the
   src="https://circuitverse.org/simulator/embed/11920"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -54,11 +55,13 @@ You can verify the behavior of the **Button** circuit element in the live circui
     }}
     id="projectPreview"
     scrolling="no"
+    loading="lazy"
     frameborder="1"
     height="500"
     width="500"
     allowFullScreen
-  ></iframe>
+  
+  loading="lazy"></iframe>
 </div>
 
 ## Power
@@ -74,6 +77,7 @@ In the live circuit embedded below, multiple LEDs are arranged in the form of "H
   src="https://circuitverse.org/simulator/embed/9554"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -95,6 +99,7 @@ The **ConstantVal** circuit element allows the user to input a constant value (i
   src="https://www.youtube.com/embed/DON063zxYmcc"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -114,6 +119,7 @@ You can verify the behavior of the **Stepper** circuit element in the live circu
   src="https://circuitverse.org/simulator/embed/107525"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -137,6 +143,7 @@ You can verify the behavior of the **Random** circuit element in the live circui
   src="https://circuitverse.org/simulator/embed/12041"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -162,6 +169,7 @@ You can verify the behavior of the Counter circuit element in the live circuit e
   src="https://circuitverse.org/simulator/embed/12036"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
