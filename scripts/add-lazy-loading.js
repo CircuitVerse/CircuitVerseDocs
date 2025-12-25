@@ -17,15 +17,15 @@ function processFile(filePath) {
     // This handles all iframe variations in one pass
     content = content.replace(
       /<iframe([^>]*?)>/g,
-      (match, attributes) => {
+      (match, attributes, offset) => {
         // Skip if already has loading attribute
         if (/loading\s*=/.test(attributes)) {
           return match;
         }
         
         // Add loading="lazy" before the closing >
-        // Detect indentation from the line
-        const lines = content.substring(0, content.indexOf(match)).split('\n');
+        // Detect indentation using offset (correct position for each match)
+        const lines = content.substring(0, offset).split('\n');
         const currentLine = lines[lines.length - 1];
         const indent = currentLine.match(/^(\s*)/)?.[1] || '  ';
         
