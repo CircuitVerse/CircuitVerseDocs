@@ -19,7 +19,7 @@ description: "Misc page in Chapter4 of CircuitVerse documentation."
 
 ## ALU
 
-An **Arithmetic Logic Unit** (ALU) circuit element is a combinational digital electronic circuit that performs arithmetic and bitwise operations on integer binary numbers. Figure 4.15 highlights the different ports in the ALU circuit element available within CircutVerse and Table 4.19 provides a brief description of the different ports.
+An **Arithmetic Logic Unit** (ALU) circuit element is a combinational digital electronic circuit that performs arithmetic and bitwise operations on integer binary numbers. Figure 4.15 highlights the different ports in the ALU circuit element available within CircuitVerse and Table 4.19 provides a brief description of the different ports.
 
 > Properties that can be customized in the **PROPERTIES** panel include: **Direction, BitWidth**
 
@@ -418,7 +418,7 @@ You can verify the behavior of the **Tunnel** circuit element in the live circui
 
 Splitters split high bitwidth wires (buses) into lower bitwidth wires(buses) and vice versa. It is the only two-way circuit element in CircuitVerse.
 
-The bitwidth may be split into equal parts or unequal parts. Consider that you have a 4 bitwith bus. You may split it into equal or unequal parts as shown below:
+The bitwidth may be split into equal parts or unequal parts. Consider that you have a 4 bitwidth bus. You may split it into equal or unequal parts as shown below:
 
 - Equal parts: 4 -> 1 1 1 1
 - Unequal parts: 4 -> 1 2 1

@@ -135,8 +135,20 @@ Table 4.13: Table for D Latch circuit element
   </tr>
 </table>
 
-/* You can verify the behavior of the **D Latch** circuit element in the live circuit embedded below:
-[insert live cirucit] */
+You can verify the behavior of the **D Latch** circuit element in the live circuit embedded below:
+
+<iframe
+  width="600px"
+  height="400px"
+  src="https://circuitverse.org/simulator/embed/d-latch-cf30de29-db37-4995-8c90-89c4d9700910"
+  id="projectPreview"
+  scrolling="no"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+>
+  {" "}
+</iframe>
 
 ## T Flip Flop
 
