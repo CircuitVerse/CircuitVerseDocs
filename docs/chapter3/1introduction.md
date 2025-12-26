@@ -15,6 +15,7 @@ The CircuitVerse simulator includes different sections for building and managing
     src="https://www.youtube.com/embed/F-_uvYJK938"
     title="YouTube video player"
     frameborder="0"
+    loading="lazy"
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
   ></iframe>

@@ -13,6 +13,7 @@ slug : /
   src="https://circuitverse.org/simulator/embed/701"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -60,6 +61,7 @@ Watch the below video for a quick demonstration of the CircuitVerse platform.
     src="https://www.youtube.com/embed/3Df-2Cn_80A"
     frameborder="0"
     scrolling="no"
+    loading="lazy"
     webkitAllowFullScreen
     mozAllowFullScreen
     allowFullScreen
