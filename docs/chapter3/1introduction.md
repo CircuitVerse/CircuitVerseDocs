@@ -17,4 +17,4 @@ The CircuitVerse simulator includes different sections for building and managing
     allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
     allowfullscreen
   ></iframe>
-</div
+</div>
