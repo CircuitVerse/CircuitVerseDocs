@@ -16,6 +16,7 @@ description: "Misc page in Chapter4 of CircuitVerse documentation."
 8. [Unequal Split](#unequal-split)
 9. [Flag](#flag)
 10. [Two's Complement](#twos-complement)
+11. [Bit Extender](#bit-extender)
 
 ## ALU
 
@@ -519,3 +520,56 @@ You can verify the behavior of the **Two’s Complement** circuit element in the
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+
+## Bit Extender
+
+The **Bit Extender** is a combinational digital circuit component that extends an input binary value to a specified larger bit width. It supports multiple extension strategies such as **zero-extension**, **sign-extension**, **one-extension**, and **custom input extension**.
+
+This is useful in arithmetic operations and situations where bit width alignment is required between components.
+
+> Properties that can be customized in the **PROPERTIES** panel include: `Bit Width In`, `Bit Width Out`, `Extension Type`, `Direction`
+
+---
+
+### Bit Extender Ports
+
+| **Name**          | **Description** |
+|-------------------|-----------------|
+| `Bit Width In`    | Input value to be extended |
+| `Bit Width Out`   | Output after extension |
+| `input` (optional) | Used only when `Extension Type = Input`; specifies the extension bit |
+
+---
+
+![Bit Extender Circuit](/img/img_chapter4/4.25.png)  
+*Figure 4.25: Relevant attributes for the Bit Extender circuit element*
+
+---
+
+### Behavior
+
+If the **input width** (`Bit Width In`) is less than the **output width** (`Bit Width Out`), the remaining bits are filled based on the selected extension strategy:
+
+| **Extension Type** | **Filler Bits**                                               |
+|--------------------|---------------------------------------------------------------|
+| `Zero`             | All extra bits are set to `0`                                  |
+| `One`              | All extra bits are set to `1`                                  |
+| `Sign`             | Fills with the **most significant bit** of the input (sign bit)|
+| `Input`            | Fills with the value of an external **input node**            |
+
+If the input bit width is **greater than** the output, the input is **truncated from the MSB side**.
+
+---
+
+### Example
+
+- `Bit Width In = 4`, `Bit Width Out = 8`
+- Input: `1011`
+- Extension Type: `Sign`
+
+The MSB is `1`, so the output becomes: `11111011`
+
+### Embedded Circuit
+
+<!-- **[Pull Resistor Simulation](https://circuitverse.org/simulator/embed/TODO)** -->
+
