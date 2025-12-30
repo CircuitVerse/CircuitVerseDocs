@@ -234,7 +234,7 @@ Table 3.5: Brief description of different selections available in the **Tools** 
 
 ## Combinational Analysis Tool
 
-The Combinational Analysis tool available within the CircuitVerse simulator generates a circuit using combinational analysis or a boolean function (refer Figure 3.7). A truth table is then populated to construct the final circuit using different different gates and circuit elements.
+The Combinational Analysis tool available within the CircuitVerse simulator generates a circuit using combinational analysis or a boolean function (refer Figure 3.7). A truth table is then populated to construct the final circuit using different gates and circuit elements.
 
 > NOTE: If the user generates the circuit by entering a boolean function, then the truth table is auto populated else the user must manually set the values.
 
