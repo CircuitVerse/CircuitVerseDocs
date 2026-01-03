@@ -11,7 +11,7 @@ Inspired by Logisim, **CircuitVerse** is an open-source educational platform for
 
 Users can share their creations using unique circuit URLs or fork projects from the CircuitVerse community to satisfy their curiosity.
 
-![Ripple Carry Adder simulation built using CircuitVerse](/img/img_chapter1/1.1.png)
+![Ripple Carry Adder simulation built using CircuitVerse](../../img/img_chapter1/1.1.png)
 
 *Figure 1.1: Ripple Carry Adder simulation built using CircuitVerse*
 
@@ -27,7 +27,7 @@ Developed for educators by educators, CircuitVerse delivers a **high-quality lea
 
 Using the CircuitVerse Chrome extension, instructors can embed live circuits into Google Slides or export simulations as images or iFrames.
 
-![Educator dashboard for managing assignments in CircuitVerse](/img/img_chapter1/1.2.png)
+![Classroom management interface in CircuitVerse](../../img/img_chapter1/1.2.png)
 
 *Figure 1.2: Classroom management features in CircuitVerse*
 
@@ -37,7 +37,7 @@ Using the CircuitVerse Chrome extension, instructors can embed live circuits int
 
 As the CircuitVerse community grows, educators and students can connect through online forums to share ideas, ask questions, and collaborate on digital logic design concepts.
 
-![CircuitVerse community forum interface](/img/img_chapter1/1.3.png)
+![CircuitVerse community forum interface](../../img/img_chapter1/1.3.png)
 
 *Figure 1.3: CircuitVerse community forum*
 
