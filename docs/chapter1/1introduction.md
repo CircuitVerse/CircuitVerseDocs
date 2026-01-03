@@ -1,82 +1,53 @@
 ---
 id: chapter1-introduction
 title: "Introduction"
-description: "Introduction page in Chapter 1 of CircuitVerse documentation."
+description: "Introduction to CircuitVerse and its features."
 slug: /
 ---
 
-# Introduction
+## What is CircuitVerse?
 
-<iframe
-  width="100%"
-  height="330px"
-  src="https://circuitverse.org/simulator/embed/701"
-  id="projectPreview"
-  scrolling="no"
-  webkitAllowFullScreen
-  mozAllowFullScreen
-  allowFullScreen
-  title="CircuitVerse Simulator - Interactive Demo"
-/>
+Inspired by Logisim, **CircuitVerse** is an open-source educational platform for designing and visualizing digital logic circuits directly in the browser. It enables educators, students, electronics engineers, and hobbyists to experiment with digital circuit simulations and explore various "what-if" scenarios.
 
-Inspired by Logisim, CircuitVerse is an open-source educational tool for designing and visualizing digital logic circuit simulations in the cloud.
+Users can share their creations using unique circuit URLs or fork projects from the CircuitVerse community to satisfy their curiosity.
 
-Users—including educators, students, electronics engineers, and hobbyists—can experiment with digital circuit simulations directly from their browsers to explore various "what-if" scenarios. Users can share their creations using unique circuit URLs or fork contributions from the CircuitVerse community to satisfy their curiosity.
-
-Figure 1.1 shows a screenshot of a ripple carry adder simulation built using CircuitVerse.
-
-![Ripple Carry Adder simulation showing input bits, full adder components, sum outputs, and carry chain in the CircuitVerse simulator](/img/img_chapter1/1.1.png)
-
-*Figure 1.1: Ripple Carry Adder simulation built using CircuitVerse*
+<figure>
+  <img src="/img/img_chapter1/1.1.png" alt="Ripple Carry Adder simulation built using CircuitVerse" />
+  <figcaption>Figure 1.1: Ripple Carry Adder simulation built using CircuitVerse</figcaption>
+</figure>
 
 ---
 
-## Classroom Management for Educators
+## Classroom Management
 
-Developed for educators by educators, the CircuitVerse platform delivers a high-quality learning experience in a scalable way. Educators can manage, track, and achieve their classroom learning goals in a single, powerful solution.
-
-Key features include:
+Developed for educators by educators, CircuitVerse delivers a **high-quality learning experience** at scale. Educators can:
 
 - Create and manage student groups
-- Post assignments with submission deadlines
-- Add or export grades seamlessly
+- Assign projects with deadlines
+- Track submissions and export grades
 
-Refer to Figure 1.2 for an overview of these features.
+Using the CircuitVerse Chrome extension, instructors can embed live circuits into Google Slides or export simulations as images or iFrames.
 
-![CircuitVerse educator dashboard displaying group management, assignment tracking, and grading options](/img/img_chapter1/1.2.png)
-
-*Figure 1.2: Educators can manage, track, and achieve their classroom learning goals using the CircuitVerse platform*
-
-### Chrome Extension
-
-Using the CircuitVerse Chrome extension, educators can embed live circuits in their Google Slides and demonstrate concepts without navigating across tabs. Alternatively, they can export images or embed iFrames within their webpages.
+<figure>
+  <img src="/img/img_chapter1/1.2.png" alt="Classroom management interface in CircuitVerse" />
+  <figcaption>Figure 1.2: Classroom management features in CircuitVerse</figcaption>
+</figure>
 
 ---
 
 ## Community & Collaboration
 
-As the CircuitVerse community grows, educators and students can join the online forums to share ideas, questions, and resources related to teaching and learning digital logic design.
+As the CircuitVerse community grows, educators and students can connect through online forums to share ideas, ask questions, and collaborate on digital logic design concepts.
 
-![CircuitVerse community forum showing discussion threads and collaboration features for digital logic design topics](/img/img_chapter1/1.3.png)
-
-*Figure 1.3: Connect and collaborate on the CircuitVerse Forum for sharing ideas, questions, and resources*
+<figure>
+  <img src="/img/img_chapter1/1.3.png" alt="CircuitVerse community forum interface" />
+  <figcaption>Figure 1.3: CircuitVerse community forum</figcaption>
+</figure>
 
 ---
 
-## Platform Demo
+## Video Overview
 
-Watch the video below for a quick demonstration of the CircuitVerse platform.
+Watch the video below for a quick demonstration of the CircuitVerse platform:
 
-<iframe
-  width="100%"
-  height="400px"
-  src="https://www.youtube.com/embed/3Df-2Cn_80A"
-  frameBorder="0"
-  scrolling="no"
-  webkitAllowFullScreen
-  mozAllowFullScreen
-  allowFullScreen
-  title="CircuitVerse Platform Demonstration Video"
-/>
-
-*Can't view the video? [Watch on YouTube](https://www.youtube.com/watch?v=3Df-2Cn_80A)*
+<iframe width="100%" height="400" src="https://www.youtube.com/embed/3Df-2Cn_80A" title="CircuitVerse Platform Overview" loading="lazy" allowfullscreen></iframe>
