@@ -5,19 +5,13 @@ description: "Introduction to CircuitVerse and its features."
 slug: /
 ---
 
-import useBaseUrl from '@docusaurus/useBaseUrl';
-
 ## What is CircuitVerse?
 
 Inspired by Logisim, **CircuitVerse** is an open-source educational platform for designing and visualizing digital logic circuits directly in the browser. It enables educators, students, electronics engineers, and hobbyists to experiment with digital circuit simulations and explore various “what-if” scenarios.
 
 Users can share their creations using unique circuit URLs or fork projects from the CircuitVerse community to satisfy their curiosity.
 
-<img
-  src={useBaseUrl('/img/img_chapter1/1.1.png')}
-  alt="Ripple Carry Adder simulation built using CircuitVerse"
-  style={{ maxWidth: '100%' }}
-/>
+![Ripple Carry Adder simulation built using CircuitVerse](/img/img_chapter1/1.1.png)
 
 *Figure 1.1: Ripple Carry Adder simulation built using CircuitVerse*
 
@@ -33,11 +27,7 @@ Developed for educators by educators, CircuitVerse delivers a **high-quality lea
 
 Using the CircuitVerse Chrome extension, instructors can embed live circuits into Google Slides or export simulations as images or iFrames.
 
-<img
-  src={useBaseUrl('/img/img_chapter1/1.2.png')}
-  alt="Classroom management interface in CircuitVerse"
-  style={{ maxWidth: '100%' }}
-/>
+![Classroom management interface in CircuitVerse](/img/img_chapter1/1.2.png)
 
 *Figure 1.2: Classroom management features in CircuitVerse*
 
@@ -47,11 +37,7 @@ Using the CircuitVerse Chrome extension, instructors can embed live circuits int
 
 As the CircuitVerse community grows, educators and students can connect through online forums to share ideas, ask questions, and collaborate on digital logic design concepts.
 
-<img
-  src={useBaseUrl('/img/img_chapter1/1.3.png')}
-  alt="CircuitVerse community forum interface"
-  style={{ maxWidth: '100%' }}
-/>
+![CircuitVerse community forum interface](/img/img_chapter1/1.3.png)
 
 *Figure 1.3: CircuitVerse community forum*
 
