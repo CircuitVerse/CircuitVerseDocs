@@ -14,7 +14,7 @@ For a hierarchical design flow, different circuit tabs can be inserted as a subc
 
 <div align="center">
   <em>
-    Figure 5.1: Ideal circuit design flow for for an integrated effort while
+    Figure 5.1: Ideal circuit design flow for an integrated effort while
     using subcircuits within CircuitVerse
   </em>
 </div>

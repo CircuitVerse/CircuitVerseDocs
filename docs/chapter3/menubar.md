@@ -234,7 +234,7 @@ Table 3.5: Brief description of different selections available in the **Tools** 
 
 ## Combinational Analysis Tool
 
-The Combinational Analysis tool available within the CircuitVerse simulator generates a circuit using combinational analysis or a boolean function (refer Figure 3.7). A truth table is then populated to construct the final circuit using different different gates and circuit elements.
+The Combinational Analysis tool available within the CircuitVerse simulator generates a circuit using combinational analysis or a boolean function (refer Figure 3.7). A truth table is then populated to construct the final circuit using different gates and circuit elements.
 
 > NOTE: If the user generates the circuit by entering a boolean function, then the truth table is auto populated else the user must manually set the values.
 
@@ -260,7 +260,7 @@ The Hex-Bin-Dec Converter tool (refer Figure 3.8) converts a given binary number
 
 <div align="center">
   <em>
-    Figure 3.8: Use the dec-bin-hex convertool to convert binary data into
+    Figure 3.8: Use the dec-bin-hex converter tool to convert binary data into
     different formats
   </em>
 </div>
