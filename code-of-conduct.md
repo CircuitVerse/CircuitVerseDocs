@@ -19,7 +19,7 @@ Diversity and inclusion make the CircuitVerse community strong. We encourage par
 
 Harassment may include but not limited to the following:
 - Offensive, inappropriate, or unwanted comments related to gender, gender identity or expression, sexual orientation, disability, physical appearance, body size, race, ethnicity, national origin, religion, or age, or other protected categories under applicable law.
-- Visual harassment eg. sexual imagery or use of sexual language at Docker community events
+- Visual harassment eg. sexual imagery or use of sexual language at CircuitVerse community events
 - Disrespect towards differences of opinion
 - Deliberate intimidation, stalking, harassing photography or recording
 - Sustained disruption of talks or other events
