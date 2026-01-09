@@ -6,7 +6,7 @@ description: "Input page in Chapter4 of CircuitVerse documentation."
 
 # Input
 
-Circuitverse features different input elements listed below:
+CircuitVerse features different input elements listed below:
 
 1. [Input](#input)
 2. [Button](#button)
