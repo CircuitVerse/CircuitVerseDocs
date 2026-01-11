@@ -14,7 +14,9 @@ CircuitVerse features different input elements listed below:
 4. [Ground](#ground)
 5. [ConstantVal](#constantval)
 6. [Stepper](#stepper)
+8. [Random](#random)
 7. [Counter](#counter)
+9. [Pull Resistor](#pull-resistor)
 
 ## Input
 
@@ -165,3 +167,66 @@ You can verify the behavior of the Counter circuit element in the live circuit e
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+
+
+
+## Pull Resistor
+
+A **Pull Resistor** is a passive circuit element used to stabilize floating inputs by forcing them to a known logic level — either logic high (`1`) or logic low (`0`) — when no active signal is driving the line.
+
+In digital circuits, floating inputs can cause unpredictable behavior. A pull-up or pull-down resistor ensures consistent logic values for such undriven nodes.
+
+> Properties that can be customized in the **PROPERTIES** panel include: `pullDirection`, `Direction`
+
+---
+
+### Pull Resistor Ports
+
+| **Name** | **Description** |
+|----------|-----------------|
+| `inp`   | The single pin that both receives input and applies the pull logic when the signal is floating (`undefined`) |
+
+
+---
+
+![Pull Resistor Circuit](/img/img_chapter4/4.27.png)  
+
+---
+
+The Pull Resistor component only activates when the connected input is **floating** (i.e., its value is `undefined`). It does **not override** actively driven signals.
+
+The `pullDirection` property allows users to choose between:
+- `Pull-Up` (sets floating input to `1`)
+- `Pull-Down` (sets floating input to `0`)
+
+The **Direction** property lets users rotate the component using the **PROPERTIES** panel or the arrow keys.
+
+---
+
+### Example
+
+Consider the following setup:
+
+- An **Input** component is set to logic `1`.
+- This input is connected to the **input pin** of a **Tri-State Buffer**.
+- A **Button** controls the **enable pin** of the Tri-State Buffer.
+- A **Pull Resistor** is connected between the **output** of the Tri-State Buffer and the final **output node**.
+
+| **State**                      | **Output Value** |
+|-------------------------------|------------------|
+| Button **pressed**            | `1` (from Input via Tri-State Buffer) |
+| Button **not pressed**        | Pull Resistor sets output to `0` (Pull-Down) or `1` (Pull-Up), depending on configuration |
+
+This example illustrates how the Pull Resistor provides a **default logic value** when the Tri-State Buffer is **disabled** (output is high-impedance).
+
+This is especially important in circuits where a component may temporarily disconnect from a line, and you still need that line to remain at a defined logic level.
+
+
+---
+
+<!-- ### Embedded Circuit
+
+An example project demonstrating the Pull Resistor can be viewed using the link below: -->
+
+<!-- **[Pull Resistor Simulation](https://circuitverse.org/simulator/embed/TODO)** -->
+
