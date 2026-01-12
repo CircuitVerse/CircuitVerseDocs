@@ -138,7 +138,10 @@ Table 4.20: CTR port input opcodes for different functionalities of ALU
 
 The **Adder** circuit element is a logical circuit of a full adder that performs an addition operation on binary numbers and produces a sum of the three inputs and a carry value (Cout). Figure 4.18 displays the different pins available for the **Adder **circuit element within CircuitVerse and Table 4.21 shares a brief description of the same.
 
-> Properties that can be customized in the **PROPERTIES** panel include: **Direction**
+:::note
+Properties that can be customized in the **PROPERTIES** panel include: **Direction**
+:::
+
 
 ![drawing](/img/img_chapter4/4.18.png)
 
