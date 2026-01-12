@@ -55,16 +55,17 @@ Each of the gates included in the CircuitVerse library can be customized for mul
 
 ## AND Gate
 
-AND gate gives a HIGH output only if all input values are HIGH. Refer Table 4.25.
+AND gate gives a HIGH output only if all input values are HIGH.  
+**Boolean Expression:** `Y = A · B`  
 
-Table 2.5: Two-input AND gate truth table
+Table 4.25: Two-input AND gate truth table
+| A (Input 1) | B (Input 2) | Y = (A · B) |
+| ----------- | ----------- | ----------- |
+| 0           | 0           | 0           |
+| 0           | 1           | 0           |
+| 1           | 0           | 0           |
+| 1           | 1           | 1           |
 
-| Input 1 | Input 2 | Output |
-| ------- | ------- | ------ |
-| 0       | 0       | 0      |
-| 0       | 1       | 0      |
-| 1       | 0       | 0      |
-| 1       | 1       | 1      |
 
 You can verify the behavior of the **AND gate** circuit element in the live circuit of a two-input AND gate embedded below:
 
@@ -83,16 +84,17 @@ You can verify the behavior of the **AND gate** circuit element in the live circ
 
 ## OR Gate
 
-OR gate produces a HIGH output only if any of the input values are HIGH. Refer Table 4.26.
+OR gate produces a HIGH output only if any of the input values are HIGH.  
+**Boolean Expression:** `Y = A + B`
 
-Table 2.6: Two-input OR gate truth table
+Table 4.26: Two-input OR gate truth table
 
-| Input 1 | Input 2 | Output |
-| ------- | ------- | ------ |
-| 0       | 0       | 0      |
-| 0       | 1       | 1      |
-| 1       | 0       | 1      |
-| 1       | 1       | 1      |
+| A (Input 1) | B (Input 2) | Y = (A + B) |
+| ----------- | ----------- | ----------- |
+| 0           | 0           | 0           |
+| 0           | 1           | 1           |
+| 1           | 0           | 1           |
+| 1           | 1           | 1           |
 
 You can verify the behavior of an **OR gate** circuit element in the live circuit embedded below:
 
@@ -111,14 +113,15 @@ You can verify the behavior of an **OR gate** circuit element in the live circui
 
 ## NOT Gate
 
-NOT gate inverts the input as an output. It is also known as an inverter. Refer Table 4.27.
+NOT gate inverts the input as an output. It is also known as an inverter.  
+**Boolean Expression:** `Y = ¬A`
 
 Table 4.27: NOT gate truth table
 
-| Input | Output |
-| ----- | ------ |
-| 0     | 1      |
-| 1     | 0      |
+| A (Input) | Y = (¬A) |
+| --------- | -------- |
+| 0         | 1        |
+| 1         | 0        |
 
 You can verify the behavior of an **NOT gate** circuit element in the live circuit embedded below:
 
@@ -137,16 +140,17 @@ You can verify the behavior of an **NOT gate** circuit element in the live circu
 
 ## XOR Gate
 
-XOR gate produces a HIGH output only if both inputs aren't the same. Refer Table 4.28.
+XOR gate produces a HIGH output only if both inputs aren't the same.  
+**Boolean Expression:** `Y = A ⊕ B`
 
 Table 4.28: Two-input XOR gate truth table
 
-| Input 1 | Input 2 | Output |
-| ------- | ------- | ------ |
-| 0       | 0       | 0      |
-| 0       | 1       | 1      |
-| 1       | 0       | 1      |
-| 1       | 1       | 0      |
+| A (Input 1) | B (Input 2) | Y = (A ⊕ B) |
+| ----------- | ----------- | ------------ |
+| 0           | 0           | 0            |
+| 0           | 1           | 1            |
+| 1           | 0           | 1            |
+| 1           | 1           | 0            |
 
 You can verify the behavior of an **XOR gate** circuit element in the live circuit embedded below:
 
@@ -163,16 +167,17 @@ You can verify the behavior of an **XOR gate** circuit element in the live circu
 
 ## NAND Gate
 
-NAND gate, a combination of an AND gate and a NOT gate connected together in series, produces the inverted output of an AND gate––produces a LOW output when all the inputs are HIGH. Refer Table 4.29.
+NAND gate, a combination of an AND gate and a NOT gate connected together in series, produces the inverted output of an AND gate––produces a LOW output when all the inputs are HIGH.  
+**Boolean Expression:** `Y = ¬(A · B)`
 
 Table 4.29: Two-input NAND gate truth table
 
-| Input 1 | Input 2 | Output |
-| ------- | ------- | ------ |
-| 0       | 0       | 1      |
-| 0       | 1       | 1      |
-| 1       | 0       | 1      |
-| 1       | 1       | 0      |
+| A (Input 1) | B (Input 2) | Y = (¬(A · B)) |
+| ----------- | ----------- | -------------- |
+| 0           | 0           | 1              |
+| 0           | 1           | 1              |
+| 1           | 0           | 1              |
+| 1           | 1           | 0              |
 
 You can verify the behavior of an **NAND gate** circuit element in the live circuit embedded below:
 
@@ -191,16 +196,17 @@ You can verify the behavior of an **NAND gate** circuit element in the live circ
 
 ## NOR Gate
 
-NOR gate inverts the output of an OR gate. In other words, it only goes HIGH when all the inputs are LOW. Refer Table 4.30.
+NOR gate inverts the output of an OR gate. In other words, it only goes HIGH when all the inputs are LOW.  
+**Boolean Expression:** `Y = ¬(A + B)` 
 
 Table 4.30: Two-input NOR gate truth table
 
-| Input 1 | Input 2 | Output |
-| ------- | ------- | ------ |
-| 0       | 0       | 1      |
-| 0       | 1       | 0      |
-| 1       | 0       | 0      |
-| 1       | 1       | 0      |
+| A (Input 1) | B (Input 2) | Y = (¬(A + B)) |
+| ----------- | ----------- | -------------- |
+| 0           | 0           | 1              |
+| 0           | 1           | 0              |
+| 1           | 0           | 0              |
+| 1           | 1           | 0              |
 
 You can verify the behavior of an **NOR gate** circuit element in the live circuit embedded below:
 
@@ -219,16 +225,17 @@ You can verify the behavior of an **NOR gate** circuit element in the live circu
 
 ## XNOR Gate
 
-XNOR gate inverts the output of an XOR gate––it only goes HIGH if both the inputs are the same. Refer Table 4.31.
+XNOR gate inverts the output of an XOR gate––it only goes HIGH if both the inputs are the same.  
+**Boolean Expression:** `Y = ¬(A ⊕ B)`
 
 Table 4.31: Two-input XNOR gate truth table
 
-| Input 1 | Input 2 | Output |
-| ------- | ------- | ------ |
-| 0       | 0       | 1      |
-| 0       | 1       | 0      |
-| 1       | 0       | 0      |
-| 1       | 1       | 1      |
+| A (Input 1) | B (Input 2) | Y = (¬(A ⊕ B)) |
+| ----------- | ----------- | -------------- |
+| 0           | 0           | 1              |
+| 0           | 1           | 0              |
+| 1           | 0           | 0              |
+| 1           | 1           | 1              |
 
 You can verify the behavior of an **XNOR gate** circuit element in the live circuit embedded below:
 
