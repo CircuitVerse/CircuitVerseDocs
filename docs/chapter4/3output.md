@@ -31,6 +31,7 @@ You can verify the behavior of the **Output** circuit element in the live circui
   src="https://circuitverse.org/simulator/embed/11294"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -59,6 +60,7 @@ You can verify the behavior of the **Digital LED** circuit element in the live c
   src="https://circuitverse.org/simulator/embed/11304"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -81,6 +83,7 @@ You can verify the behavior of the **variableLED** circuit element in the live c
   src="https://circuitverse.org/simulator/embed/11308"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -102,6 +105,7 @@ You can verify the behavior of the **RGBLED** circuit element in the live circui
   src="https://circuitverse.org/simulator/embed/11292"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -123,6 +127,7 @@ The live circuit embedded below illustrates how an array of pixels may be progra
   src="https://circuitverse.org/simulator/embed/11345"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -144,6 +149,7 @@ You can verify the behavior of the **HexDisplay** circuit element in the live ci
   src="https://circuitverse.org/simulator/embed/11311"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -169,6 +175,7 @@ You can verify the behavior of the **SevenSegDisplay** circuit element in the li
   src="https://circuitverse.org/simulator/embed/11316"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -190,6 +197,7 @@ You can verify the behavior of the **SixteenSegDisplay** circuit element in the 
   src="https://circuitverse.org/simulator/embed/11319"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen

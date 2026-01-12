@@ -77,6 +77,7 @@ You can verify the behavior of the D Flip Flop circuit element in the live circu
   src="https://circuitverse.org/simulator/embed/d-flip-flop-a69c6d44-1bfb-4325-89de-ab72de66c743"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -207,6 +208,7 @@ You can verify the behavior of the **T Flip Flop **circuit element in the live c
   src="https://circuitverse.org/simulator/embed/12258"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -274,6 +276,7 @@ You can verify the behavior of the **SR Flip Flop** circuit element in the live 
   src="https://circuitverse.org/simulator/embed/12264"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -340,6 +343,7 @@ You can verify the behavior of the JK Flip Flop circuit element in the live circ
   src="https://circuitverse.org/simulator/embed/12263"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -407,6 +411,7 @@ You can verify the behavior of the TTY circuit element in the live circuit embed
   src="https://circuitverse.org/simulator/embed/13085"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -484,6 +489,7 @@ You can verify the behavior of the **Keyboard** circuit element in the live circ
   src="https://circuitverse.org/simulator/embed/13087"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -519,6 +525,7 @@ You can verify the behavior of the **ROM** circuit element in the live circuit e
   src="https://circuitverse.org/simulator/embed/12358"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -553,6 +560,7 @@ You can verify the behavior of the **RAM **circuit element in the live circuit e
   src="https://circuitverse.org/simulator/embed/12515"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -592,6 +600,7 @@ You can verify the behavior of the EEPROM circuit element in the live circuit em
   src="https://circuitverse.org/simulator/embed/12187"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen

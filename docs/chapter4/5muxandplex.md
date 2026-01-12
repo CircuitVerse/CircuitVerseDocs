@@ -48,6 +48,7 @@ Table 4.1: Truth table of a 2 to 1 multiplexer
   src="https://circuitverse.org/simulator/embed/746"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -93,6 +94,7 @@ Table 4.2: Truth table of a 4 to 1 multiplexer
   src="https://circuitverse.org/simulator/embed/747"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -134,6 +136,7 @@ Table 4.3: Truth table of a 1 to 2 demultiplexer
   src="https://circuitverse.org/simulator/embed/756"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -194,6 +197,7 @@ Table 4.4: Truth table of a 1 to 4 demultiplexer
   src="https://circuitverse.org/simulator/embed/757"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -245,6 +249,7 @@ Table 4.5: Truth table of a four-bit bit selector
   src="https://circuitverse.org/simulator/embed/758"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -264,6 +269,7 @@ You can verify the behavior of the **Most Significant Bit (MSB)** detector circu
   src="https://circuitverse.org/simulator/embed/11988"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -283,6 +289,7 @@ You can verify the behavior of the **Least Significant Bit (LSB)** detector circ
   src="https://circuitverse.org/simulator/embed/11990"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -349,6 +356,7 @@ Table 4.6: Truth table of a four-input priority encoder
   src="https://circuitverse.org/simulator/embed/762"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -415,6 +423,7 @@ Table 4.7: Truth table of a two-bit decoder
   src="https://circuitverse.org/simulator/embed/763"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -684,6 +693,7 @@ You can verify the same in the live circuit embedded below:
   src="https://circuitverse.org/simulator/embed/109517"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
