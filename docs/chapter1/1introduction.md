@@ -2,7 +2,7 @@
 id: chapter1-introduction
 title: "Introduction"
 description: "Introduction page in Chapter1 of CircuitVerse documentation."
-slug : /
+slug: /
 ---
 
 # Introduction
@@ -20,7 +20,7 @@ slug : /
   {" "}
 </iframe>
 
-Inspired by Logisim, CircuitVerse is an open-source educational tool for designing and visualizing digital logic circuit simulations in the cloud. Users including educators, students, electronic engineers, and hobbyists can play with digital circuit simulations from their browsers for exploring different “what-if” scenarios. As required, a user can share their creations using unique circuit URLs, or fork different contributions of the CircuitVerse community to yield their curiosity. Figure 1 shares a screenshot of a ripple carry adder simulation built using CircuitVerse.
+Inspired by Logisim, CircuitVerse is an open-source educational tool designed for creating and visualizing digital logic circuits in the cloud. It enables educators, students, engineers, and hobbyists to build and experiment with digital circuit simulations directly from their web browsers. Users can explore various “what-if” scenarios, share their circuit designs using unique URLs, or fork simulations created by other community members to enhance their learning experience. Figure 1 illustrates a ripple carry adder simulation built using CircuitVerse.
 
 ![](/img/img_chapter1/1.1.png)
 
