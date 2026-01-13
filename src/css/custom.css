@@ -6,3 +6,10 @@
     aspect-ratio: 4 / 3;
   }
 }
+
+.theme-doc-markdown p,
+.theme-doc-markdown li,
+.markdown p,
+.markdown li {
+  text-align: justify;
+}
