@@ -6,3 +6,34 @@
     aspect-ratio: 4 / 3;
   }
 }
+
+/* Responsive image handling */
+.markdown img {
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 768px) {
+  .markdown img {
+    width: 100%;
+  }
+
+  figure {
+    margin: 0.5rem 0 !important;
+  }
+}
+
+/* Prevent oversized images */
+img {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+/* OptimizedImage component responsive behavior */
+@media (max-width: 768px) {
+  .optimized-image {
+    max-width: 100% !important;
+    width: 100% !important;
+  }
+}
