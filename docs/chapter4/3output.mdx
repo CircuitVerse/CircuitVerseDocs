@@ -4,6 +4,8 @@ title: "Output"
 description: "Output page in Chapter4 of CircuitVerse documentation."
 ---
 
+import OptimizedImage from '@site/src/components/OptimizedImage';
+
 # Output
 
 CircuitVerse features different output elements listed below:
@@ -155,11 +157,17 @@ You can verify the behavior of the **HexDisplay** circuit element in the live ci
 
 The **SevenSegDisplay** behaves similar to a **HexDisplay**, but it takes an 8-bit input rather than a 4-bit input––making it more customizable. It takes in eight inputs and displays an output, an integer from 1 to 9. As Figure 4.2 elucidates, the top four inputs correspond to the middle, top left, top, and top right segments from left to right respectively. The bottom four inputs correspond to the bottom left, bottom, bottom right, and decimal segments from left to right respectively.
 
-![](/img/img_chapter4/4.2.png)
+<!-- ![](/img/img_chapter4/4.2.png)
 
 <div align="center">
   <em>Figure 4.2: Pin description of SevenSegDisplay</em>
-</div>
+</div> -->
+
+<OptimizedImage
+  src="/img/img_chapter4/4.2.png"
+  alt="Pin description of SevenSegDisplay"
+  caption="Figure 4.2: Pin description of SevenSegDisplay"
+/>
 
 You can verify the behavior of the **SevenSegDisplay** circuit element in the live circuit embedded below:
 
