@@ -4,11 +4,19 @@ title: "Ssointegration"
 description: "Ssointegration page in Chapter2 of CircuitVerse documentation."
 ---
 
+import OptimizedImage from '@site/src/components/OptimizedImage';
+
 # Single Sign On Configurations
 
 > Single sign-on (SSO) is an identification method that enables users to log in to multiple applications and websites with one set of credentials. SSO streamlines the authentication process for users.
 
-![About SSO Integration](/img/img_chapter2/sso_integration/about_sso.png)
+<!-- ![About SSO Integration](/img/img_chapter2/sso_integration/about_sso.png) -->
+
+<OptimizedImage
+    src="/img/img_chapter2/sso_integration/about_sso.png"
+    alt="About SSO Integration"
+    caption="Figure 2.60: About SSO Integration"
+/>
 
 ## Configure CircuitVerse with SAML based SSO using Okta
 
@@ -20,22 +28,43 @@ This guide provides step-by-step instructions for setting up SAML-based Single S
 
 2. Navigate to "Applications" > "Applications" in the main menu.
 
-   ![Navigate to "Applications" > "Applications" in the main menu.](/img/img_chapter2/sso_integration/navigate_to_applicattion.png)
+   <!-- ![Navigate to "Applications" > "Applications" in the main menu.](/img/img_chapter2/sso_integration/navigate_to_applicattion.png) -->
+   <OptimizedImage
+       src="/img/img_chapter2/sso_integration/navigate_to_applicattion.png"
+       alt="Navigate to Applications"
+       caption="Figure 2.61: Navigate to Applications"
+   />
 
 3. Click on "Create App Integration".
 
-   ![Click on "Create App Integration.](/img/img_chapter2/sso_integration/create_app_integration.png)
+   <!-- ![Click on "Create App Integration.](/img/img_chapter2/sso_integration/create_app_integration.png) -->
+   <OptimizedImage
+       src="/img/img_chapter2/sso_integration/create_app_integration.png"
+       alt="Create App Integration"
+       caption="Figure 2.62: Create App Integration"
+   />
 
 4. Select "SAML 2.0" as the Sign-on method and click "Next".
 
-   ![Select "SAML 2.0" as the Sign-on method and click "Next"..](/img/img_chapter2/sso_integration/step_4_select_saml2.0.png)
+   <!-- ![Select "SAML 2.0" as the Sign-on method and click "Next"..](/img/img_chapter2/sso_integration/step_4_select_saml2.0.png) -->
+   <OptimizedImage
+       src="/img/img_chapter2/sso_integration/step_4_select_saml2.0.png"
+       alt="Select SAML 2.0"
+       caption="Figure 2.63: Select SAML 2.0"
+   />
 
 5. Fill in the following details for your CircuitVerse app:
 
    - App name: "CircuitVerse" (or your preferred name)
    - App logo: (Optional) Upload CircuitVerse logo
 
-   ![add name and logo](/img/img_chapter2/sso_integration/step5.png)
+   <!-- ![add name and logo](/img/img_chapter2/sso_integration/step5.png) -->
+
+   <OptimizedImage
+       src="/img/img_chapter2/sso_integration/step5.png"
+       alt="Add name and logo"
+       caption="Figure 2.64: Add name and logo"
+   />
 
 6. In the "SAML Settings" section, configure the following:
 
@@ -45,11 +74,22 @@ This guide provides step-by-step instructions for setting up SAML-based Single S
    - Application username: `Email`
 
    In the image below, the domain `https://localhost:3000` is shown as an example. You should replace it with your own domain.
-   ![SAML Settings](/img/img_chapter2/sso_integration/step6.png)
+   <!-- ![SAML Settings](/img/img_chapter2/sso_integration/step6.png) -->
+
+   <OptimizedImage
+       src="/img/img_chapter2/sso_integration/step6.png"
+       alt="SAML Settings"
+       caption="Figure 2.65: SAML Settings"
+   />
 
 7. Click "Next" and select "I'm an Okta customer adding an internal app".
 
-   ![Click "Next" and select "I'm an Okta customer adding an internal app"](/img/img_chapter2/sso_integration/step7.png)
+   <!-- ![Click "Next" and select "I'm an Okta customer adding an internal app"](/img/img_chapter2/sso_integration/step7.png) -->
+   <OptimizedImage
+       src="/img/img_chapter2/sso_integration/step7.png"
+       alt="Select internal app"
+       caption="Figure 2.66: Select internal app"
+   />
 
 8. Click "Finish" to create the application.
 
@@ -59,11 +99,22 @@ This guide provides step-by-step instructions for setting up SAML-based Single S
    - Identity Provider Issuer
    - Certificate FingerPrint
 
-   ![Credentials](/img/img_chapter2/sso_integration/credentials.png)
+   <!-- ![Credentials](/img/img_chapter2/sso_integration/credentials.png) -->
+   <OptimizedImage
+      src="/img/img_chapter2/sso_integration/credentials.png"
+      alt="Credentials"
+      maxWidth={400}
+      caption="Figure 2.67: Credentials"
+   />
 
 10. You can add users and groups by navigate to Assignment > Assign > Assign to People / Assign to Groups
 
-    ![Assign people/Groups](/img/img_chapter2/sso_integration/Assign.png)
+    <!-- ![Assign people/Groups](/img/img_chapter2/sso_integration/Assign.png) -->
+      <OptimizedImage
+         src="/img/img_chapter2/sso_integration/Assign.png"
+         alt="Assign people/Groups"
+         caption="Figure 2.68: Assign people/Groups"
+      />
 
 ### Step 2: Configure CircuitVerse
 
@@ -76,7 +127,12 @@ This guide provides step-by-step instructions for setting up SAML-based Single S
 1. Enable the sso_integration feature flag using Flipper (if not already enabled).
 2. Verify that the SSO login option appears on the login page.
 
-![Single Sign On Button](/img/img_chapter2/sso_integration/SingleSignOnButton.png)
+<!-- ![Single Sign On Button](/img/img_chapter2/sso_integration/SingleSignOnButton.png) -->
+<OptimizedImage
+    src="/img/img_chapter2/sso_integration/SingleSignOnButton.png"
+    alt="Single Sign On Button"
+    caption="Figure 2.69: Single Sign On Button"
+/>
 
 ### Step 4: Test the Integration
 
@@ -94,7 +150,12 @@ This guide provides step-by-step instructions for setting up SAML-based Single S
 
 1. Go to the Keycloak Admin console UI and sign in as an administrator
 
-   ![Keycloak Admin console](/img/img_chapter2/sso_integration/admin-login-keycloak.webp)
+   <!-- ![Keycloak Admin console](/img/img_chapter2/sso_integration/admin-login-keycloak.webp) -->
+   <OptimizedImage
+       src="/img/img_chapter2/sso_integration/admin-login-keycloak.webp"
+       alt="Keycloak Admin console"
+       caption="Figure 2.70: Keycloak Admin console"
+   />
 
 2. Select or create a realm for CircuitVerse.
 
@@ -103,11 +164,22 @@ This guide provides step-by-step instructions for setting up SAML-based Single S
    - Client ID: CircuitVerse (or your preferred name)
    - Client Type: Select `SAML`
 
-     ![create a realm for CircuitVerse.](/img/img_chapter2/sso_integration/create-realm-keycloak.png)
+     <!-- ![create a realm for CircuitVerse.](/img/img_chapter2/sso_integration/create-realm-keycloak.png) -->
+       <OptimizedImage
+          src="/img/img_chapter2/sso_integration/create-realm-keycloak.png"
+          alt="Create Realm for CircuitVerse"
+          caption="Figure 2.71: Create Realm for CircuitVerse"
+      />
 
 4. Click "Save" to create the client.
 
-   ![create client Keycloak.](/img/img_chapter2/sso_integration/create-client-keycloak.png)
+   <!-- ![create client Keycloak.](/img/img_chapter2/sso_integration/create-client-keycloak.png) -->
+
+   <OptimizedImage
+       src="/img/img_chapter2/sso_integration/create-client-keycloak.png"
+       alt="Create Client Keycloak"
+       caption="Figure 2.72: Create Client Keycloak"
+   />
 
 5. In the client settings, configure the following:
 
@@ -116,18 +188,33 @@ This guide provides step-by-step instructions for setting up SAML-based Single S
    - Master SAML Processing URL: https://your-circuitverse-domain.com/users/saml/auth
 
      In the image below, the domain `https://localhost:3000` is shown as an example. You should replace it with your own
-     ![Configurations Details](/img/img_chapter2/sso_integration/client-access-settings-keycloak.png)
+     <!-- ![Configurations Details](/img/img_chapter2/sso_integration/client-access-settings-keycloak.png) -->
+
+      <OptimizedImage
+         src="/img/img_chapter2/sso_integration/client-access-settings-keycloak.png"
+         alt="Configurations Details"
+         caption="Figure 2.73: Configurations Details"
+      />
 
 6. Go to Clients > Client scopes, and select `{Your-realm-name}` and add predefined mappers such as `Email`
 
 7. Go to Clients > Keys, and turn off the Client signature required option from signing keys config
 
-   ![Client Signature Required](/img/img_chapter2/sso_integration/client-signature-required.png)
+   <!-- ![Client Signature Required](/img/img_chapter2/sso_integration/client-signature-required.png) -->
+   <OptimizedImage
+       src="/img/img_chapter2/sso_integration/client-signature-required.png"
+       alt="Client Signature Required"
+       caption="Figure 2.74: Client Signature Required"
+   />
 
 8. Create new user which is to be used for login. Be sure to include email id in username and email fields
 
-   ![Create User](/img/img_chapter2/sso_integration/create-user.webp)
-
+   <!-- ![Create User](/img/img_chapter2/sso_integration/create-user.webp) -->
+   <OptimizedImage
+       src="/img/img_chapter2/sso_integration/create-user.webp"
+       alt="Create User"
+       caption="Figure 2.75: Create User"
+   />
 ### Step 2: Extract Keycloak SAML Credentials
 
 To get the required credentials for CircuitVerse (`IDP_SSO_URL` and `IDP_FINGERPRINT`), follow these steps:
@@ -147,7 +234,12 @@ To get the required credentials for CircuitVerse (`IDP_SSO_URL` and `IDP_FINGERP
 1. Enable the sso_integration feature flag using Flipper (if not already enabled).
 2. Verify that the SSO login option appears on the login page.
 
-![Single Sign On Button](/img/img_chapter2/sso_integration/SingleSignOnButton.png)
+<!-- ![Single Sign On Button](/img/img_chapter2/sso_integration/SingleSignOnButton.png) -->
+<OptimizedImage
+    src="/img/img_chapter2/sso_integration/SingleSignOnButton.png"
+    alt="Single Sign On Button"
+    caption="Figure 2.76: Single Sign On Button"
+/>
 
 ### Step 5: Test the Integration
 
