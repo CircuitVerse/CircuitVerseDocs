@@ -1,4 +1,5 @@
-import React, { useState, useRef, useEffect } from 'react';
+import React, { useState, useRef, useEffect, useMemo } from 'react';
+import { use } from 'react';
 
 const OptimizedImage = ({
     src,
@@ -11,12 +12,14 @@ const OptimizedImage = ({
     aspectRatio = 'auto'
 }) => {
     const [imageSize, setImageSize] = useState({ width: 0, height: 0 });
-    const imgRef = useRef(null);
 
     useEffect(() => {
         const img = new Image();
         img.onload = () => {
             setImageSize({ width: img.naturalWidth, height: img.naturalHeight });
+        };
+        img.onerror = () => {
+            console.warn(`Failed to load image at ${src}`);
         };
         img.src = src;
     }, [src]);
@@ -78,8 +81,11 @@ const OptimizedImage = ({
         };
     };
 
-    const { width: computedWidth, maxWidth: computedMaxWidth, minWidth: computedMinWidth } = getOptimalSize();
-
+    const { width: computedWidth, maxWidth: computedMaxWidth, minWidth: computedMinWidth } = useMemo(
+        () => getOptimalSize(),
+        [imageSize, width, maxWidth, minWidth]
+    );
+    
     const imageStyle = {
         width: computedWidth,
         maxWidth: computedMaxWidth,
@@ -101,7 +107,6 @@ const OptimizedImage = ({
     return (
         <figure style={figureStyle}>
             <img
-                ref={imgRef}
                 src={src}
                 alt={alt}
                 style={imageStyle}

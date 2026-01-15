@@ -30,7 +30,7 @@ img {
   object-fit: contain;
 }
 
-/* OptimizedImage component responsive behavior */
+/* !important needed to override inline styles from OptimizedImage component */
 @media (max-width: 768px) {
   .optimized-image {
     max-width: 100% !important;
