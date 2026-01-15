@@ -4,6 +4,8 @@ title: "Buildwithcv"
 description: "Buildwithcv page in Chapter7 of CircuitVerse documentation."
 ---
 
+import OptimizedImage from '@site/src/components/OptimizedImage';
+
 # Building Circuit Simulations within CircuitVerse
 
 In this section, we will build a circuit of a full adder exploring the different stages of building a live circuit within the CircuitVerse simulator. We will start off by creating a circuit of a half adder and insert it as a subcircuit to create a 4-bit full adder.
@@ -27,41 +29,67 @@ Follow the below steps to create a new project and save the circuit online:
 
 2. Click on the **Launch Simulator** button to launch the simulator. Refer Figure 7.1.
 
-   ![drawing](/img/img_chapter7/7.1.png)
+   <!-- ![drawing](/img/img_chapter7/7.1.png)
 
    <div align="center">
      <em>Figure 7.1</em>
-   </div>
+   </div> -->
 
-3. Navigate to the **Quick Access Panel**. Click on either **Save Online** icon or **Save Offline** icon to receive the** Enter Project Name**: pop-up window for saving the circuit. Refer Figure 7.2.
+  <OptimizedImage
+    src="/img/img_chapter7/7.1.png"
+    alt="Launch CircuitVerse simulator from the CircuitVerse homepage"
+    caption="Figure 7.1: Launch CircuitVerse simulator from the CircuitVerse homepage"
+  />
+
+3. Navigate to the **Quick Access Panel**. Click on either **Save Online** icon or **Save Offline** icon to receive the **Enter Project Name** : pop-up window for saving the circuit. Refer Figure 7.2.
 
    > NOTE: If a project file is saved online, it is available on the dashboard. Alternatively, any project file that is saved offline, is downloaded to your browser’s local storage.
 
-   ![drawing](/img/img_chapter7/7.2.png)
+   <!-- ![drawing](/img/img_chapter7/7.2.png)
 
    <div align="center">
      <em>Figure 7.2</em>
-   </div>
+   </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.2.png"
+      alt="Save CircuitVerse project online or offline from the Quick Access Panel"
+      caption="Figure 7.2: Save CircuitVerse project online or offline from the Quick Access Panel"
+    />
 
 4. If the project is saved online, you will be directed to the **Edit Project** details page for sharing more information about the project (refer Figure 7.3).
 
-   ![drawing](/img/img_chapter7/7.3.png)
+   <!-- ![drawing](/img/img_chapter7/7.3.png)
 
    <div align="center">
      <em>Figure 7.3</em>
-   </div>
+   </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.3.png"
+      alt="Edit CircuitVerse project details page for sharing more information about the project"
+      caption="Figure 7.3: Edit CircuitVerse project details page for sharing more information about the project"
+    />
 
    Watch this video for more information on the different fields that can be used for sharing more information about the project.
 
-   <div><iframe style="width:100%; aspect-ratio:16/9;" src="https://www.youtube.com/embed/b4SXde9huFQ?si=9Y9noFw90boEGfP_" title="YouTube video: Saving Projects Within the CircuitVerse Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></div>
+  <div style={{display: "flex", justifyContent: "center"}}>
+    <iframe style={{width: "75%", aspectRatio: "16/9"}} src="https://www.youtube.com/embed/b4SXde9huFQ?si=9Y9noFw90boEGfP_" title="YouTube video: Saving Projects Within the CircuitVerse Simulator" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+  </div>
 
 5. Click **Update Project** to save the project details and return back to the CV simulator window. Refer Figure 7.4.
 
-   ![drawing](/img/img_chapter7/7.4.png)
+   <!-- ![drawing](/img/img_chapter7/7.4.png)
 
    <div align="center">
      <em>Figure 7.4</em>
-   </div>
+   </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.4.png"
+      alt="Update CircuitVerse project details and return back to the simulator window"
+      caption="Figure 7.4: Update CircuitVerse project details and return back to the simulator window"
+    />
 
 ## Create Circuit Using CircuitVerse Simulation
 
@@ -69,31 +97,49 @@ After successfully creating a CircuitVerse user account, follow the below steps 
 
 6. Navigate to the **CIRCUITS ELEMENTS** panel. Identify the relevant circuit elements and drop them on the canvas. If required, you may search for an element in the search bar. Refer Figure 7.5.
 
-   ![drawing](/img/img_chapter7/7.5.png)
+   <!-- ![drawing](/img/img_chapter7/7.5.png)
 
    <div align="center">
      <em>Figure 7.5</em>
-   </div>
+   </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.5.png"
+      alt="Building a half adder circuit using different circuit elements within CircuitVerse simulator"
+      caption="Figure 7.5: Building a half adder circuit using different circuit elements within CircuitVerse simulator"
+    />
 
 7. Connect the circuit elements by clicking on one node and dragging the mouse to the other node. Refer to Figure 7.6 for the final circuit connection.
 
    > TIP: Hold down Ctrl key. Click on a node and simply move the cursor to the final node to which it needs to be attached. Clicking on the wire will insert a node at that position. Upon reaching the final node, leave the Ctrl key and click on the node to end the wire.
 
-   ![drawing](/img/img_chapter7/7.6.png)
+   <!-- ![drawing](/img/img_chapter7/7.6.png)
 
    <div align="center">
      <em>Figure 7.6</em>
-   </div>
+   </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.6.png"
+      alt="Completed half adder circuit within CircuitVerse simulator"
+      caption="Figure 7.6: Completed half adder circuit within CircuitVerse simulator"
+    />
 
 8. Select a circuit element. It will be highlighted in yellow as shown in Figure 7.7.
 
 9. Navigate to the **PROPERTIES** panel. Edit the **Label** parameter to add a label for the selected circuit element. Refer Figure 7.7.
 
-   ![drawing](/img/img_chapter7/7.7.png)
+   <!-- ![drawing](/img/img_chapter7/7.7.png)
 
    <div align="center">
      <em>Figure 7.7</em>
-   </div>
+   </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.7.png"
+      alt="Adding labels to different circuit elements using the PROPERTIES panel"
+      caption="Figure 7.7: Adding labels to different circuit elements using the PROPERTIES panel"
+    />
 
 10. Repeat steps 3 and 4 to add labels for the remaining circuit elements as shown in Figure 7.7.
 
@@ -107,29 +153,47 @@ Follow the below steps to view and edit the circuit layout of the half-adder cir
 
 12. Click on the **Edit Layout** button to display the circuit layout for the built circuit (refer Figure 7.8).
 
-    ![drawing](/img/img_chapter7/7.8.png)
+    <!-- ![drawing](/img/img_chapter7/7.8.png)
 
     <div align="center">
       <em>Figure 7.8</em>
-    </div>
+    </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.8.png"
+      alt="Accessing Edit Layout from the PROPERTIES panel"
+      caption="Figure 7.8: Accessing Edit Layout from the PROPERTIES panel"
+    />
 
 13. The **Edit Layout** screen displays the page as shown in Figure 7.9. The circuit is placed inside a back box. The **LAYOUT** panel displays different options for editing the layout of the circuit.
 
-    ![drawing](/img/img_chapter7/7.9.png)
+    <!-- ![drawing](/img/img_chapter7/7.9.png)
 
     <div align="center">
       <em>Figure 7.9</em>
-    </div>
+    </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.9.png"
+      alt="Circuit layout displayed within the Edit Layout screen"
+      caption="Figure 7.9: Circuit layout displayed within the Edit Layout screen"
+    />
 
 14. Change the desired settings of the **LAYOUT** panel.
 
 15. Click **Save** to save the layout settings as shown in Figure 7.10.
 
-    ![drawing](/img/img_chapter7/7.10.png)
+    <!-- ![drawing](/img/img_chapter7/7.10.png)
 
     <div align="center">
       <em>Figure 7.10</em>
-    </div>
+    </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.10.png"
+      alt="Save circuit layout settings from the Edit Layout screen"
+      caption="Figure 7.10: Save circuit layout settings from the Edit Layout screen"
+    />
 
 ## Insert Subcircuit
 
@@ -141,39 +205,63 @@ Follow the below steps for building a full adder circuit using two half-adder su
 
 16. Click on the add tab icon (refer Figure 7.11) displayed in the circuit tab section. Alternatively, you may also click on **NewCircuit+** selection in the **Circuit** drop-down menu. As shown in Figure 7.11, the **Enter circuit name:** pop up window is displayed.
 
-    ![drawing](/img/img_chapter7/7.11.png)
+    <!-- ![drawing](/img/img_chapter7/7.11.png)
 
     <div align="center">
       <em>Figure 7.11</em>
-    </div>
+    </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.11.png"
+      alt="Add new circuit tab from the circuit tab section"
+      caption="Figure 7.11: Add new circuit tab from the circuit tab section"
+    />
 
 17. Enter a circuit name in the text field as shown in Figure 7.11.
 
 18. Click **OK** to save the circuit name. Refer Figure 7.12.
 
-    ![drawing](/img/img_chapter7/7.12.png)
+    <!-- ![drawing](/img/img_chapter7/7.12.png)
 
     <div align="center">
       <em>Figure 7.12</em>
-    </div>
+    </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.12.png"
+      alt="New circuit tab created for building full adder circuit"
+      caption="Figure 7.12: New circuit tab created for building full adder circuit"
+    />
 
 19. Navigate to **Circuit** drop-down menu to select **Insert SubCircuit** from the drop down menu. As shown in Figure 7.13, the **Insert SubCircuit** pop up window is displayed.
 
-![drawing](/img/img_chapter7/7.13.png)
+<!-- ![drawing](/img/img_chapter7/7.13.png)
 
 
 <div align="center">
   <em>Figure 7.13</em>
-</div>
+</div> -->
+
+<OptimizedImage
+  src="/img/img_chapter7/7.13.png"
+  alt="Insert SubCircuit from the Circuit drop-down menu"
+  caption="Figure 7.13: Insert SubCircuit from the Circuit drop-down menu"
+/>
 
 20. Select the circuit that you wish to insert. Refer Figure 7.14.
 
-![drawing](/img/img_chapter7/7.14.png)
+<!-- ![drawing](/img/img_chapter7/7.14.png)
 
 
 <div align="center">
   <em>Figure 7.14</em>
-</div>
+</div> -->
+
+<OptimizedImage
+  src="/img/img_chapter7/7.14.png"
+  alt="Select the desired subcircuit to insert within the current circuit tab"
+  caption="Figure 7.14: Select the desired subcircuit to insert within the current circuit tab"
+/>
 
 21. Click the **Insert SubCircuit** button to insert the subcircuit within the **Full Adder** tab (refer Figure 7.14).
 
@@ -183,12 +271,18 @@ Follow the below steps for building a full adder circuit using two half-adder su
 
 23. Refer to Figure 7.15 and complete the wiring connections of the full adder circuit.
 
-    ![drawing](/img/img_chapter7/7.15.png)
+    <!-- ![drawing](/img/img_chapter7/7.15.png)
 
     
     <div align="center">
       <em>Figure 7.15</em>
-    </div>
+    </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.15.png"
+      alt="Completed full adder circuit using two half adder subcircuits"
+      caption="Figure 7.15: Completed full adder circuit using two half adder subcircuits"
+    />
 
 ### b. Insert Circuit Using Verilog Module
 
@@ -196,37 +290,61 @@ If required, a user can also insert a Verilog module as a subcircuit. Follow the
 
 1. Navigate to **Circuit** drop-down menu to select **New Verilog Module** from the drop down menu. As shown in Figure 7.16, the **Enter circuit name** pop up window is displayed.
 
-   ![drawing](/img/img_chapter7/7.16.png)
+   <!-- ![drawing](/img/img_chapter7/7.16.png)
 
    <div align="center">
      <em>Figure 7.16</em>
-   </div>
+   </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.16.png"
+      alt="Create new Verilog module from the Circuit drop-down menu"
+      caption="Figure 7.16: Create new Verilog module from the Circuit drop-down menu"
+    />
 
 2. Enter a circuit tab name in the text field. Refer Figure 7.16.
 
-3. Click **OK **to launch the Verilog code interface window as shown in Figure 7.17.
+3. Click **OK** to launch the Verilog code interface window as shown in Figure 7.17.
 
-   ![drawing](/img/img_chapter7/7.17.png)
+   <!-- ![drawing](/img/img_chapter7/7.17.png)
 
    <div align="center">
      <em>Figure 7.17</em>
-   </div>
+   </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.17.png"
+      alt="Verilog code interface window for adding Verilog code"
+      caption="Figure 7.17: Verilog code interface window for adding Verilog code"
+    />
 
 4. Enter the desired Verilog code in the module interface. Refer Figure 7.18.
 
-   ![drawing](/img/img_chapter7/7.18.png)
+   <!-- ![drawing](/img/img_chapter7/7.18.png)
 
    <div align="center">
      <em>Figure 7.18</em>
-   </div>
+   </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.18.png"
+      alt="Adding Verilog code in the module interface"
+      caption="Figure 7.18: Adding Verilog code in the module interface"
+    />
 
 5. Click on the **Save Code** button to receive the message that the code has been saved successfully. Refer Figure 7.19.
 
-   ![drawing](/img/img_chapter7/7.19.png)
+   <!-- ![drawing](/img/img_chapter7/7.19.png)
 
    <div align="center">
      <em>Figure 7.19</em>
-   </div>
+   </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.19.png"
+      alt="Save Verilog code from the module interface"
+      caption="Figure 7.19: Save Verilog code from the module interface"
+    />
 
 ## Annotate Circuit
 
@@ -234,26 +352,44 @@ Follow the below steps to annotate the final circuit diagram:
 
 24. Navigate to the **Misc** section of the **CIRCUIT ELEMENTS** panel as shown in Figure 7.20.
 
-    ![drawing](/img/img_chapter7/7.20.png)
+    <!-- ![drawing](/img/img_chapter7/7.20.png)
 
     <div align="center">
       <em>Figure 7.20</em>
-    </div>
+    </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.20.png"
+      alt="Misc section of the CIRCUIT ELEMENTS panel for adding annotation elements"
+      caption="Figure 7.20: Misc section of the CIRCUIT ELEMENTS panel for adding annotation elements"
+    />
 
 25. Drag the **Text Tool** element on the canvas as shown in Figure 7.21.
 
-    ![drawing](/img/img_chapter7/7.21.png)
+    <!-- ![drawing](/img/img_chapter7/7.21.png)
 
     <div align="center">
       <em>Figure 7.21</em>
-    </div>
+    </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.21.png"
+      alt="Adding Text Tool element for annotating the circuit"
+      caption="Figure 7.21: Adding Text Tool element for annotating the circuit"
+    />
 
 26. Navigate to the **PROPERTIES** panel to edit the **Label:** text field as shown in Figure 7.21.
 
 27. Repeat steps 24 to 26 to add more annotation elements. In Figure 7.22, a **Rectangle Tool** element has been added to highlight the structural relationship across different elements .
 
-    ![drawing](/img/img_chapter7/7.22.png)
+    <!-- ![drawing](/img/img_chapter7/7.22.png)
 
     <div align="center">
       <em>Figure 7.22</em>
-    </div>
+    </div> -->
+
+    <OptimizedImage
+      src="/img/img_chapter7/7.22.png"
+      alt="Adding Rectangle Tool element for annotating the circuit"
+      caption="Figure 7.22: Adding Rectangle Tool element for annotating the circuit"
+    />
