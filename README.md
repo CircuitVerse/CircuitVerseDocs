@@ -56,8 +56,8 @@ When you add a new page, make sure you have an entry in the `sidebars.js` file.
 > **All the documentation should have a corresponding live circuit embedded so as to help the users. Also, the live circuit is NOT the same as image of a circuit.**
 
 ## Installation on Netlify
-1. Go to [https://app.netlify.com](https://app.netlify.com) and register an account
-2. Click `New site from Git` or go to [https://app.netlify.com/start](https://app.netlify.com/start)
+1. Go to [netlify app](https://app.netlify.com) and register an account
+2. Click `New site from Git` or go to [netlify app start](https://app.netlify.com/start)
 3. Click `GitHub` and authorise Netlify to view all your repositories or just the repository that you would like to publish
    * You will need to be the owner of the repository as Netlify needs to add a webhook and deploy key. You can get around this by forking the repository and publishing that instead
 4. Configure the build settings:
