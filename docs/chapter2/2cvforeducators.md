@@ -526,7 +526,8 @@ Follow the below steps to embed a CircuitVerse simulation within a web page:
 Since Google Slides does not support live circuit simulations, CircuitVerse live circuits can be embedded in Google Slides after installing the relevant browser extension.
 
 - CircuitVerse Chrome Extension: [Download link](https://chrome.google.com/webstore/detail/circuitverse/nmmehnggkgmdfbpfnebaimfjdbgmoaoo)
-- CircuitVerse Firefox Extension: Download link
+- CircuitVerse Firefox Extension: ⚠️ This extension is no longer maintained and has been removed.
+
 
 When the extension is successfully installed, it is displayed as an option in the menu bar. Refer to Figure 2.50.
 
