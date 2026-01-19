@@ -26,10 +26,10 @@ const sidebars = {
       label: 'Chapter 2: Getting Started with CircuitVerse',
       items: [
         { type: 'doc', id: 'chapter2/chapter2-gettingstarted', label: 'Getting Started' },
-        { type: 'doc', id: 'chapter2/chapter2-cvforeducators', label: 'CircuitVerse For Educators' },
+        { type: 'doc', id: 'chapter2/chapter2-cvforeducators', label: 'CircuitVerse for Educators' },
         { type: 'doc', id: 'chapter2/chapter2-lmsintegration', label: 'Integrate CircuitVerse with LMS' },
         { type: 'doc', id: 'chapter2/chapter2-ssointegration', label: 'Single Sign-On Configurations' },
-        { type: 'doc', id: 'chapter2/chapter2-bestpracticescv', label: 'Best Practices For Working With CircuitVerse' },
+        { type: 'doc', id: 'chapter2/chapter2-bestpracticescv', label: 'Best Practices for Working with CircuitVerse' },
       ],
     },
     {
@@ -66,7 +66,7 @@ const sidebars = {
       type: 'category',
       label: 'Chapter 6: Timing Diagrams and Delay',
       items: [
-        { type: 'doc', id: 'chapter6/chapter6-delayvsclock', label: 'Clock Time vs Delay' },
+        { type: 'doc', id: 'chapter6/chapter6-delayvsclock', label: 'Clock Time vs. Delay' },
         { type: 'doc', id: 'chapter6/chapter6-timingdiagram', label: 'Timing Diagram' },
       ],
     },
