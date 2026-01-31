@@ -110,6 +110,16 @@ These labels indicate the approximate level of effort required.
 
 ---
 
+## Documentation-Specific Labels
+
+These are targeted for documentation.
+
+| Label | Description |
+|------|-------------|
+| `docs/translation` | Translation-related work or issues with localized content. |
+
+---
+
 ## GENERAL GUIDELINES
 
 - Multiple labels may be applied when appropriate, but over-labeling should be avoided.
