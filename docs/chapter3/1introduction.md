@@ -10,7 +10,7 @@ The CircuitVerse simulator includes different sections for building and managing
 
 <div>
   <iframe
-    style="width:100%; aspect-ratio:16/9;"
+    style={{width: "100%", aspectRatio: "16/9"}}
     src="https://www.youtube.com/embed/F-_uvYJK938"
     title="Make Your First Circuit Simulation With CircuitVerse"
     frameborder="0"
