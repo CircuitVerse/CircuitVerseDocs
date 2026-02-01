@@ -104,9 +104,9 @@ These labels indicate the approximate level of effort required.
 
 | Label | Description |
 |------|------------|
-| `urgent` | Urgent documentation issue requiring immediate attention. |
-| `Priority-High` | High-priority improvement but not blocking usage. |
-| `Priority-Normal` | Normal priority documentation work. |
+| `p0` | Urgent documentation issue requiring immediate attention. |
+| `p1` | High-priority improvement but not blocking usage. |
+| `p2` | Normal priority documentation work. |
 
 ---
 
@@ -116,7 +116,7 @@ These are targeted for documentation.
 
 | Label | Description |
 |------|-------------|
-| `docs/translation` | Translation-related work or issues with localized content. |
+| `translation` | Translation-related work or issues with localized content. |
 
 ---
 
