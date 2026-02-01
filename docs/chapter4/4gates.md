@@ -26,8 +26,8 @@ Each of the gates included in the CircuitVerse library can be customized for mul
 - Multi-input gate by changing the **Input Size** property parameter in the **PROPERTIES** panel. You can verify the behavior of a multi-input **AND gate** in the live circuit embedded below:
 
 <iframe
-  width="300px"
-  height="200px"
+  width="600px"
+  height="400px"
   src="https://circuitverse.org/simulator/embed/735"
   id="projectPreview"
   scrolling="no"
@@ -41,8 +41,8 @@ Each of the gates included in the CircuitVerse library can be customized for mul
 - Multi-bitwidth AND gate by changing the **BitWidth** property parameter in the **PROPERTIES** panel. You can verify the behavior of a multi-bitwidth **AND gate** in the live circuit embedded below:
 
 <iframe
-  width="300px"
-  height="200px"
+  width="600px"
+  height="400px"
   src="https://circuitverse.org/simulator/embed/736"
   id="projectPreview"
   scrolling="no"
@@ -69,8 +69,8 @@ Table 2.5: Two-input AND gate truth table
 You can verify the behavior of the **AND gate** circuit element in the live circuit of a two-input AND gate embedded below:
 
 <iframe
-  width="300px"
-  height="200px"
+  width="600px"
+  height="400px"
   src="https://circuitverse.org/simulator/embed/734"
   id="projectPreview"
   scrolling="no"
@@ -97,8 +97,8 @@ Table 2.6: Two-input OR gate truth table
 You can verify the behavior of an **OR gate** circuit element in the live circuit embedded below:
 
 <iframe
-  width="300px"
-  height="200px"
+  width="600px"
+  height="400px"
   src="https://circuitverse.org/simulator/embed/737"
   id="projectPreview"
   scrolling="no"
@@ -123,8 +123,8 @@ Table 4.27: NOT gate truth table
 You can verify the behavior of an **NOT gate** circuit element in the live circuit embedded below:
 
 <iframe
-  width="300px"
-  height="200px"
+  width="600px"
+  height="400px"
   src="https://circuitverse.org/simulator/embed/738"
   id="projectPreview"
   scrolling="no"
@@ -151,8 +151,8 @@ Table 4.28: Two-input XOR gate truth table
 You can verify the behavior of an **XOR gate** circuit element in the live circuit embedded below:
 
 <iframe
-  width="300px"
-  height="200px"
+  width="600px"
+  height="400px"
   src="https://circuitverse.org/simulator/embed/740"
   id="projectPreview"
   scrolling="no"
@@ -177,8 +177,8 @@ Table 4.29: Two-input NAND gate truth table
 You can verify the behavior of an **NAND gate** circuit element in the live circuit embedded below:
 
 <iframe
-  width="300px"
-  height="200px"
+  width="600px"
+  height="400px"
   src="https://circuitverse.org/simulator/embed/simple-nand-gate"
   id="projectPreview"
   scrolling="no"
@@ -205,8 +205,8 @@ Table 4.30: Two-input NOR gate truth table
 You can verify the behavior of an **NOR gate** circuit element in the live circuit embedded below:
 
 <iframe
-  width="300px"
-  height="200px"
+  width="600px"
+  height="400px"
   src="https://circuitverse.org/simulator/embed/742"
   id="projectPreview"
   scrolling="no"
@@ -233,8 +233,8 @@ Table 4.31: Two-input XNOR gate truth table
 You can verify the behavior of an **XNOR gate** circuit element in the live circuit embedded below:
 
 <iframe
-  width="300px"
-  height="200px"
+  width="600px"
+  height="400px"
   src="https://circuitverse.org/simulator/embed/743"
   id="projectPreview"
   scrolling="no"
