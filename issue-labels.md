@@ -125,7 +125,7 @@ These are targeted for documentation.
 
 - Multiple labels may be applied when appropriate, but over-labeling should be avoided.
 - Workflow and scope labels should be updated as issues progress.
-- Resolution-related labels such as `Invalid` or `Duplicate` should be applied before closing issues.
+- Resolution-related labels such as `invalid` or `duplicate` should be applied before closing issues.
 - Consistent label usage improves discoverability and contributor experience.
 
 ---
