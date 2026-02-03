@@ -28,10 +28,10 @@ These labels describe the current status of an issue.
 
 | Label | Description |
 |------|------------|
-| `Pending` | Issue has been reported but not yet reviewed or categorized. |
-| `In progress` | Someone is actively working on resolving the issue. |
-| `Blocked` | Progress is blocked due to missing information, decisions, or dependencies. |
-| `Duplicate` | Issue already exists and is tracked elsewhere. |
+| `pending` | Issue has been reported but not yet reviewed or categorized. |
+| `in progress` | Someone is actively working on resolving the issue. |
+| `blocked` | Progress is blocked due to missing information, decisions, or dependencies. |
+| `duplicate` | Issue already exists and is tracked elsewhere. |
 
 ---
 
@@ -41,15 +41,16 @@ These labels describe the nature of the documentation issue or change.
 
 | Label | Description |
 |------|------------|
-| `Missing content` | Required documentation pages, sections, or explanations are missing. |
-| `Incorrect content` | Information is inaccurate, outdated, or misleading. |
-| `Documentation` | General documentation-related updates or fixes. |
-| `Enhancement` | Improvements to clarity, structure, or examples. |
-| `UI/UX` | Layout, readability, navigation, or visual issues on the docs site. |
-| `Formatting` | Markdown, styling, or layout inconsistencies. |
-| `Broken link` | Links that are broken, outdated, or redirect incorrectly. |
-| `Accessibility` | Issues affecting usability for all users, including screen readers. |
-| `Invalid` | Issue is not applicable, unclear, or outside the documentation scope. |
+| `missing content` | Required documentation pages, sections, or explanations are missing. |
+| `incorrect content` | Information is inaccurate, outdated, or misleading. |
+| `documentation` | General documentation-related updates or fixes. |
+| `feature` | Request for new functionality or capability. |
+| `enhancement` | Improvements to clarity, structure, or examples. |
+| `ui/ux` | Layout, readability, navigation, or visual issues on the docs site. |
+| `formatting` | Markdown, styling, or layout inconsistencies. |
+| `broken link` | Links that are broken, outdated, or redirect incorrectly. |
+| `accessibility` | Issues affecting usability for all users, including screen readers. |
+| `invalid` | Issue is not applicable, unclear, or outside the documentation scope. |
 
 ---
 
@@ -59,10 +60,10 @@ These labels indicate which part of the documentation site is affected.
 
 | Label | Description |
 |------|------------|
-| `Docs website` | Global site layout, navigation, or theme-related issues. |
-| `Guides` | Tutorials, walkthroughs, or learning-oriented content. |
-| `Reference` | Feature references, explanations, or technical documentation. |
-| `Getting started` | Beginner onboarding and introductory documentation. |
+| `docs website` | Global site layout, navigation, or theme-related issues. |
+| `guides` | Tutorials, walkthroughs, or learning-oriented content. |
+| `reference` | Feature references, explanations, or technical documentation. |
+| `getting started` | Beginner onboarding and introductory documentation. |
 
 ---
 
@@ -73,7 +74,7 @@ These labels help contributors identify suitable issues.
 | Label | Description |
 |------|------------|
 | `good first issue` | Simple, well-defined issues suitable for first-time contributors. |
-| `Needs help` | Maintainers are actively seeking community contributions. |
+| `needs help` | Maintainers are actively seeking community contributions. |
 
 ---
 
@@ -83,9 +84,9 @@ These labels indicate the approximate level of effort required.
 
 | Label | Description |
 |------|------------|
-| `Small` | Minor edits or straightforward fixes. |
-| `Medium` | Moderate work such as adding sections or restructuring content. |
-| `Large` | Major documentation additions or multi-page updates. |
+| `small` | Minor edits or straightforward fixes. |
+| `medium` | Moderate work such as adding sections or restructuring content. |
+| `large` | Major documentation additions or multi-page updates. |
 
 ---
 
@@ -95,8 +96,8 @@ These labels indicate the approximate level of effort required.
 
 | Label | Description |
 |------|------------|
-| `Review-ready` | Pull request is complete and ready for review. |
-| `Approved` | Pull request has been reviewed and approved. |
+| `review-ready` | Pull request is complete and ready for review. |
+| `approved` | Pull request has been reviewed and approved. |
 
 ---
 
