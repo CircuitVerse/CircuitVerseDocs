@@ -16,6 +16,7 @@ description: "Misc page in Chapter4 of CircuitVerse documentation."
 8. [Unequal Split](#unequal-split)
 9. [Flag](#flag)
 10. [Two's Complement](#twos-complement)
+11. [Comparator](#comparator)
 
 ## ALU
 
@@ -519,3 +520,53 @@ You can verify the behavior of the **Two’s Complement** circuit element in the
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+
+
+## Comparator
+
+A **Comparator** is a combinational digital circuit element that compares two binary inputs (**A** and **B**) and determines their logical relationship — whether A is **greater than**, **equal to**, or **less than** B.
+
+This component is commonly used in control logic, decision-making circuits, and arithmetic subsystems.
+
+> Properties that can be customized in the **PROPERTIES** panel include: `BitWidth`, `Direction`
+
+---
+
+### Comparator Ports
+
+| **Name** | **Description** |
+|----------|-----------------|
+| `A`      | Receives the first input operand for comparison |
+| `B`      | Receives the second input operand for comparison |
+| `A > B`  | Output is `1` if A is greater than B, else `0` |
+| `A = B`  | Output is `1` if A is equal to B, else `0` |
+| `A < B`  | Output is `1` if A is less than B, else `0` |
+
+---
+
+![Comparator Circuit](/img/img_chapter4/4.25.png)  
+*Figure 4.25: Relevant attributes for the Comparator circuit element*
+
+---
+
+Users can change the **Direction** of the component via the **PROPERTIES** panel or by using the arrow keys on their keyboard.
+
+Additionally, the **BitWidth** property can be modified to set the number of bits for inputs A and B. Both operands must use the same bit width for comparison to function correctly.
+
+---
+
+### Example
+
+If `A = 0101` (decimal 5) and `B = 0011` (decimal 3):
+
+- `A > B` = 1  
+- `A = B` = 0  
+- `A < B` = 0
+
+---
+
+<!-- ### Embedded Circuit -->
+
+<!-- An example project demonstrating the Comparator can be viewed using the link below: -->
+
+<!-- **[Comparator Simulation](https://circuitverse.org/simulator/embed/TODO)** -->
