@@ -378,6 +378,7 @@ If required, a user can change the orientation of the circuit element using the 
 
 > Properties that can be customized in the **PROPERTIES** panel include: **Direction, BitWidth**
 
+![drawing](/img/img_chapter4/4.19.png)
 
 <div align="center">
   <em>Figure 4.19: Relevant attributes for the TriState circuit element</em>
