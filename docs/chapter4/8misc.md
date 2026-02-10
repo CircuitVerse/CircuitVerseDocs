@@ -365,7 +365,7 @@ Table 4.24: Truth table for a Controlled Inverter gate
 
 You can verify the behavior of the **Controlled Inverter** circuit element in the live circuit embedded below:
 
-<iframe src="https://circuitverse.org/simulator/embed/controlled-inverter-192f44be-551e-4204-b495-ef7234705575?theme=&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true" style="border-width:; border-style: ; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+<iframe src="https://circuitverse.org/simulator/embed/controlled-inverter-192f44be-551e-4204-b495-ef7234705575?theme=&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true" title="Controlled Inverter live circuit" style="border-width:; border-style: ; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
 
 ## TriState Buffer
 
