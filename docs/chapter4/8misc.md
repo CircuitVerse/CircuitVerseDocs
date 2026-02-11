@@ -9,13 +9,14 @@ description: "Misc page in Chapter4 of CircuitVerse documentation."
 1. [ALU](#alu)
 2. [Adder](#adder)
 3. [Buffer](#buffer)
-4. [TriState Buffer](#tristate-buffer)
-5. [Tunnel](#tunnel)
-6. [Splitter](#splitter)
-7. [Equal Split](#equal-split)
-8. [Unequal Split](#unequal-split)
-9. [Flag](#flag)
-10. [Two's Complement](#twos-complement)
+4. [Controlled Inverter](#controlled-inverter)
+5. [TriState Buffer](#tristate-buffer)
+6. [Tunnel](#tunnel)
+7. [Splitter](#splitter)
+8. [Equal Split](#equal-split)
+9. [Unequal Split](#unequal-split)
+10. [Flag](#flag)
+11. [Two's Complement](#twos-complement)
 
 ## ALU
 
@@ -315,6 +316,57 @@ You can verify the behavior of the **Buffer** circuit element in the live circui
   {" "}
 </iframe>
 
+## Controlled Inverter
+
+The **Controlled Inverter** circuit element is a controlled gate that inverts the input signal when enabled. As illustrated in the circuit, this element includes an **Enable** input that controls whether the input is inverted at the output or the output is disconnected from the circuit.
+
+- If the **Enable** input signal is HIGH, the controlled inverter gate inverts the input signal (behaves like a NOT gate).
+- If the **Enable** input signal is LOW, the controlled inverter gate passes a high impedance signal which effectively disconnects its output from the circuit.
+
+If required, a user can change the orientation of the circuit element using the arrow keys on the keyboard or editing the value of the **Direction** attribute available in the **PROPERTIES** panel for the **Controlled Inverter** circuit element.
+
+> Properties that can be customized in the **PROPERTIES** panel include: **Direction, BitWidth**
+
+Table 4.24: Truth table for a Controlled Inverter gate
+
+<table>
+  <tr>
+    <td>
+      <strong>Enable</strong>
+    </td>
+    <td>
+      <strong>Input</strong>
+    </td>
+    <td>
+      <strong>Output</strong>
+    </td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>0</td>
+    <td>Z</td>
+  </tr>
+  <tr>
+    <td>0</td>
+    <td>1</td>
+    <td>Z</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>0</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>1</td>
+    <td>0</td>
+  </tr>
+</table>
+
+You can verify the behavior of the **Controlled Inverter** circuit element in the live circuit embedded below:
+
+<iframe src="https://circuitverse.org/simulator/embed/controlled-inverter-192f44be-551e-4204-b495-ef7234705575?theme=&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true" title="Controlled Inverter live circuit" style="border-width:; border-style: ; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
+
 ## TriState Buffer
 
 The **TriState** buffer circuit element behaves similar to a buffer. As Figure 4.17 illustrates, this circuit element includes an additional **Enable** input that controls whether the primary input is passed to its output or not.
@@ -332,7 +384,7 @@ If required, a user can change the orientation of the circuit element using the 
   <em>Figure 4.19: Relevant attributes for the TriState circuit element</em>
 </div>
 
-Table 4.24: Truth table for a TriState buffer
+Table 4.25: Truth table for a TriState buffer
 
 <table>
   <tr>
