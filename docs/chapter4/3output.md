@@ -16,7 +16,7 @@ CircuitVerse features different output elements listed below:
 6. [HexDisplay](#hexdisplay)
 7. [SevenSegDisplay](#sevensegdisplay)
 8. [SixteenSegDisplay](#sixteensegdisplay)
-9. [RGB Led Matrix](#rgb-led-matrix)
+9. [RGB LED Matrix](#rgb-led-matrix)
 
 ## Output
 
