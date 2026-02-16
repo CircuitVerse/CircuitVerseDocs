@@ -156,7 +156,12 @@ You can verify the behavior of the **HexDisplay** circuit element in the live ci
 
 The **SevenSegDisplay** behaves similar to a **HexDisplay**, but it takes an 8-bit input rather than a 4-bit input––making it more customizable. It takes in eight inputs and displays an output, an integer from 1 to 9. As Figure 4.2 elucidates, the top four inputs correspond to the middle, top left, top, and top right segments from left to right respectively. The bottom four inputs correspond to the bottom left, bottom, bottom right, and decimal segments from left to right respectively.
 
-![](/img/img_chapter4/4.2.png)
+<img 
+  src="/img/img_chapter4/4.2.png" 
+  alt="Pin description of SevenSegDisplay"
+  style="max-height: 80vh; width: auto; display: block; margin: 0;"
+/>
+
 
 <div align="center">
   <em>Figure 4.2: Pin description of SevenSegDisplay</em>
