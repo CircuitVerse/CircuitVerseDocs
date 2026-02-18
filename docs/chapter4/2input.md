@@ -30,6 +30,7 @@ You can verify the behavior of the **Input** circuit element (by clicking on the
   src="https://circuitverse.org/simulator/embed/11920"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -44,22 +45,17 @@ The **Button** circuit element is a simple push button mechanism for controlling
 
 You can verify the behavior of the **Button** circuit element in the live circuit embedded below:
 
-<div>
-  <iframe
-    src="https://circuitverse.org/simulator/embed/untitled-184db5e7-689f-4ce3-9221-467d1830bf16?theme=default&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true"
-    style={{
-      borderWidth: "1px",
-      borderStyle: "solid",
-      borderColor: "#000",
-    }}
-    id="projectPreview"
-    scrolling="no"
-    frameborder="1"
-    height="500"
-    width="500"
-    allowFullScreen
-  ></iframe>
-</div>
+<iframe
+  width="500px"
+  height="500px"
+  src="https://circuitverse.org/simulator/embed/untitled-184db5e7-689f-4ce3-9221-467d1830bf16?theme=default&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true"
+  id="projectPreview"
+  scrolling="no"
+  loading="lazy"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+></iframe>
 
 ## Power
 
@@ -73,6 +69,7 @@ In the live circuit embedded below, multiple LEDs are arranged in the form of "H
   src="https://circuitverse.org/simulator/embed/9554"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -82,7 +79,7 @@ In the live circuit embedded below, multiple LEDs are arranged in the form of "H
 
 The **Ground** circuit element in the circuit design is always in a LOW state.
 
-While in AC power distribution and some radio antenna systems the “ground” implies a connection to the earth, in digital logic design "ground" is a point in the circuit that the user calls as zero volts. The ground in the circuit is used as a reference for measuring voltages across different points in the circuit.
+While in AC power distribution and some radio antenna systems the "ground" implies a connection to the earth, in digital logic design "ground" is a point in the circuit that the user calls as zero volts. The ground in the circuit is used as a reference for measuring voltages across different points in the circuit.
 
 ## ConstantVal
 
@@ -91,9 +88,10 @@ The **ConstantVal** circuit element allows the user to input a constant value (i
 <iframe
   width="500px"
   height="400px"
-  src="https://www.youtube.com/embed/DON063zxYmcc"
+  src="https://www.youtube.com/embed/DON063zxYmc"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -113,6 +111,7 @@ You can verify the behavior of the **Stepper** circuit element in the live circu
   src="https://circuitverse.org/simulator/embed/107525"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -136,6 +135,7 @@ You can verify the behavior of the **Random** circuit element in the live circui
   src="https://circuitverse.org/simulator/embed/12041"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
@@ -161,6 +161,7 @@ You can verify the behavior of the Counter circuit element in the live circuit e
   src="https://circuitverse.org/simulator/embed/12036"
   id="projectPreview"
   scrolling="no"
+  loading="lazy"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen

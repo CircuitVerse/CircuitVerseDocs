@@ -122,7 +122,18 @@ const config = {
 	},
 	markdown: {
 		format: 'md'
-	}
+	},
+	
+	// Placeholder for future plugin extensions
+	plugins: [],
+	
+	// Client-side performance optimizations - lazy load iframes
+	scripts: [
+		{
+			src: '/js/lazy-load-iframes.js',
+			defer: true,
+		},
+	],
 };
 
 export default config;
