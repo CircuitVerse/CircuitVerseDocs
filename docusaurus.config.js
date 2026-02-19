@@ -95,7 +95,7 @@ const config = {
 						{ label: 'GitHub', href: 'https://github.com/CircuitVerse' },
 						{
 							label: 'YouTube',
-							href: 'https://www.youtube.com/channel/UCAK48dCPc_QON6Y5QqqRLOg',
+							href: 'https://www.youtube.com/@circuitverse-official',
 						},
 					],
 				},
