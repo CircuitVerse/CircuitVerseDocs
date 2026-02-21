@@ -254,7 +254,7 @@ Table 4.5: Truth table of a four-bit bit selector
 
 ## Most Significant Bit (MSB) Detector
 
-The **Most Significant Bit (MSB)** detector circuit element outputs the bit position of the most significant bit of the input. In other words, it outputs the bit position of the rightmost bit. An enable output is also provided to show if the MSB detector is active. The bit position of the MSB is also shown in decimal form within the body of the MSB detector.
+The **Most Significant Bit (MSB)** detector circuit element outputs the bit position of the most significant bit of the input. In other words, it outputs the bit position of the leftmost bit. An enable output is also provided to show if the MSB detector is active. The bit position of the MSB is also shown in decimal form within the body of the MSB detector.
 
 You can verify the behavior of the **Most Significant Bit (MSB)** detector circuit element with a four-bit input in the live circuit embedded below:
 
@@ -273,7 +273,7 @@ You can verify the behavior of the **Most Significant Bit (MSB)** detector circu
 
 ## Least Significant Bit (LSB) Detector
 
-The **Least Significant Bit (LSB)** detector circuit element outputs the bit position of the least significant bit of the input. In other words, it outputs the bit position of the leftmost bit. An enable output is also provided to show if the LSB detector is active. The bit position of the LSB is also shown in decimal form within the body of the LSB detector.
+The **Least Significant Bit (LSB)** detector circuit element outputs the bit position of the least significant bit of the input. In other words, it outputs the bit position of the rightmost bit. An enable output is also provided to show if the LSB detector is active. The bit position of the LSB is also shown in decimal form within the body of the LSB detector.
 
 You can verify the behavior of the **Least Significant Bit (LSB)** detector circuit element with a four-bit input in the live circuit embedded below:
 
