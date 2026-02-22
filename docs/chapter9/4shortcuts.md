@@ -10,8 +10,8 @@
 | Delete Object(s) | Delete |
 | Select All | Ctrl + a |
 | De-select | ESC |
-| Deattach objects before placing | Backspace |
-| Multi-object Select | Ctrl + scoll using mouse |
+| Detach objects before placing | Backspace |
+| Multi-object Select | Ctrl + scroll using mouse |
 | Save Project Online | Ctrl + s |
 | Save Project Offline | Ctrl + Shift + s |
 | Open Project | Ctrl + o |
