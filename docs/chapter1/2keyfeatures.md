@@ -22,11 +22,11 @@ This section shares key features of the CircuitVerse simulator.
    - **Customize input attributes of circuit components**: CircuitVerse includes a vast library of circuit elements that range from basic gates to register transfer level design, and from basic input/output to system level components. Most of the CircuitVerse components include customizable attributes for building complex designs within the simulator.
    - **Design supports multibit wires (buses)**: Every input and output circuit element has a bit width associated with it. Most of the CircuitVerse components include attributes allowing you to customize the bit widths of their inputs and outputs. CircuitVerse supports multibit wires across two components demanding multi-bit widths. As needed, splitters can also be used to direct bits in different directions.
 
-3. **Insert subcircuits**: Hierarchical circuits can be created by nesting and reusing smaller circuits in larger circuits (something like this). No need to mention verilog here.
+3. **Insert subcircuits**: Hierarchical circuits can be created by nesting and reusing smaller circuits in larger circuits.
 
 4. **Export images in multiple formats**: High-resolution CircuitVerse images can be exported in multiple formats for different views and background options.
 
-5. **Visualize circuit simulations using timing diagram**: Timing diagrams can be used to analyze and debug the behavior of circuits for different input sequences. Debug logical mistakes and race conditions. Timing diagrams can be paired with the Flag circuit element to explain different concepts such as propagation delay, stable state and race conditions.
+5. **Visualize circuit simulations using timing diagrams**: Timing diagrams can be used to analyze and debug the behavior of circuits for different input sequences. Debug logical mistakes and race conditions. Timing diagrams can be paired with the Flag circuit element to explain different concepts such as propagation delay, stable state and race conditions.
 
 6. **Embed simulations across webpages and presentations**: Since the CircuitVerse webpages are structured using HTML5, an iframe can be generated for embedding each CircuitVerse simulation within web pages. Alternatively, users can download the CircuitVerse Chrome extension for embedding live CircuitVerse circuits within a Google Slides presentation.
 
