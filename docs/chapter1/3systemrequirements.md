@@ -10,4 +10,4 @@ In order to access CircuitVerse simulations on a Mac or a PC, you will need a br
 
 > NOTE: Since CircuitVerse is built in HTML5, browsers do not require Flash Player or JavaScript to load the CircuitVerse simulator.
 
-Additionally, CircuitVerse does not support touch screen devices or mobile browsers for any device.
+Additionally, CircuitVerse does not support touchscreen devices or mobile browsers for any device.
