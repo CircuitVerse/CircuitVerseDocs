@@ -6,7 +6,7 @@ description: "Properties page in Chapter3 of CircuitVerse documentation."
 
 # Properties Panel
 
-Each circuit element has some properties associated with itself which are displayed in the **PROPERTIES **panel. Besides including different parameters for creating multi-bit circuits, it also includes parameters for annotation. the circuit schematic can be annotated by:
+Each circuit element has some properties associated with itself which are displayed in the **PROPERTIES** panel. Besides including different parameters for creating multi-bit circuits, it also includes parameters for annotation. the circuit schematic can be annotated by:
 
 - Adding labels across different nodes.
 - Including text boxes for displaying the version number, date, amendments and different group members involved.
@@ -130,7 +130,7 @@ Table 3.7: Brief description of the different properties available for different
 
 ## Edit Circuit Layout
 
-As shown in Figure 3.14, the **Edit Layout **button available on the **PROPERTIES **panel converts the circuit into a black box. The circuit elements and the relevant connections are hidden whereas the input and output pins are displayed (in the same order as displayed in the main circuit ).
+As shown in Figure 3.14, the **Edit Layout** button available on the **PROPERTIES** panel converts the circuit into a black box. The circuit elements and the relevant connections are hidden whereas the input and output pins are displayed (in the same order as displayed in the main circuit ).
 
 ![drawing](/img/img_chapter3/3.14.png)
 
