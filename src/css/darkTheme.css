@@ -1,3 +1,8 @@
 .markdown-section td {
     background: #3F3F3F;
 }
+
+/* Fix image visibility in dark mode */
+[data-theme='dark'] .theme-doc-markdown img {
+    background-color: #ffffff;
+}
