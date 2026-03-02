@@ -112,23 +112,52 @@ You can verify the behavior of the **RGBLED** circuit element in the live circui
 
 ## SquareRGBLED
 
-While the **SquareRGBLED** works similarly to the **RGBLED**, the **SquareRGBLED** differs in its shape and includes pin lengths that can be customized in the **PROPERTIES** panel. These additional features make **SquareRGBLEDs** ideal for simulating arrays of pixels.
+The **Square RGB LED** circuit element is a visual output component that displays different colors based on three digital input signals: Red, Green, and Blue.
 
-> Properties that can be customized in the **PROPERTIES** panel include: **Pin Length**
+This element is commonly used to represent multi-signal outputs in a compact and intuitive way.
 
-The live circuit embedded below illustrates how an array of pixels may be programmed to display an image. The circuit design includes a LED buffer subcircuit that manages the circuitry controlling the LEDs. The ability to vary the pin length of the square RGB LED element makes the design clean and easy to read. To make the design more comprehensible, the pins for different square LEDs must remain in the same vertical order as the LEDs themselves (i.e. the top pins must correspond to the top LED).
+### Ports
+
+The Square RGB LED has three input ports:
+
+- **R (Red)** – Controls the red channel.
+- **G (Green)** – Controls the green channel.
+- **B (Blue)** – Controls the blue channel.
+
+### Behavior
+
+Each input controls one color channel. When multiple inputs are HIGH, the colors combine to form secondary colors:
+
+| R | G | B | Output Color |
+|---|---|---|--------------|
+| 1 | 0 | 0 | Red          |
+| 0 | 1 | 0 | Green        |
+| 0 | 0 | 1 | Blue         |
+| 1 | 1 | 0 | Yellow       |
+| 1 | 0 | 1 | Magenta      |
+| 0 | 1 | 1 | Cyan         |
+| 1 | 1 | 1 | White        |
+
+The LED changes color instantly during simulation depending on the input combination.
+
+### Applications
+
+- Displaying status signals
+- Visual debugging of logic circuits
+- Representing multi-bit outputs in an intuitive format
+
+You can verify the behavior of the **Square RGB LED** circuit element in the live circuit embedded below:
 
 <iframe
   width="600px"
   height="400px"
-  src="https://circuitverse.org/simulator/embed/11345"
+  src="https://circuitverse.org/simulator/embed/REPLACE_WITH_PROJECT_ID"
   id="projectPreview"
   scrolling="no"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
 >
-  {" "}
 </iframe>
 
 ## HexDisplay
@@ -201,6 +230,37 @@ You can verify the behavior of the **SixteenSegDisplay** circuit element in the 
 As opposed to the **HexDisplay** and **SevenSegDisplay** circuit elements, the main advantage of using a **SixteenSegDisplay** is that multiple segments can be used to create numbers and letters. However, it requires double the input of the **SevenSegDisplay** and quadruple the input of the **HexDisplay**.
 
 ## RGB Led Matrix
+
+The **RGB LED Matrix** circuit element consists of multiple RGB LEDs arranged in a grid structure. Each LED (pixel) contains Red, Green, and Blue channels that can be controlled individually.
+
+This allows the matrix to display structured patterns and graphical outputs.
+
+### Behavior
+
+- Each pixel contains three color channels (R, G, B).
+- Different combinations of inputs produce different colors.
+- Multiple pixels together allow pattern and visual display generation.
+- Updates dynamically during simulation.
+
+### Applications
+
+- Displaying patterns and symbols
+- Creating graphical simulations
+- Demonstrating matrix addressing concepts
+- Educational visualization of digital outputs
+
+You can verify the behavior of the **RGB LED Matrix** circuit element in the live circuit embedded below:
+
+<iframe
+  width="600px"
+  height="400px"
+  src="https://circuitverse.org/simulator/embed/REPLACE_WITH_PROJECT_ID"
+  id="projectPreview"
+  scrolling="no"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+></iframe>
 
 The **RGB Led Matrix** element represents a rectangular array of RGB pixels and is ideal for simulating programmable LED matrices and pixel displays. Each pixel stores a 24-bit color (8 bits per red, green and blue channels).
 

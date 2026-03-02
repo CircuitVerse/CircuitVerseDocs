@@ -118,28 +118,56 @@ You can verify the behavior of the **Stepper** circuit element in the live circu
   allowFullScreen
 ></iframe>
 
+
+
 ## Random
 
-The **Random** circuit element generates a random value in the range (0, maxvalue) every time it receives a HIGH signal from the clock. It has 3 ports in total:
+The **Random** circuit element is used to generate pseudo-random numerical values during simulation. It produces a new random value in the range **0 to MaxValue** whenever it receives a HIGH signal from the clock input.
 
-- **Max Value**: input, maximum value generated.
-- **Clock**: input clock element. Every time the clock receives a HIGH input, the random element generates a number.
-- **Random Value**: output, the number generated.
+This element is useful for simulating unpredictable inputs, modeling random events, and testing circuits under varying input conditions.
 
-The value is also displayed in decimal notation on the random element.
+### Ports
+
+The Random element has three ports:
+
+- **Max Value**:  
+  An input port that defines the upper bound of the generated random number. The output value will always lie between `0` and `MaxValue`.
+
+- **Clock**:  
+  An input port that triggers value generation. Each time the clock transitions to HIGH, the Random element generates a new random number.
+
+- **Random Value**:  
+  An output port that provides the generated random number to the connected circuit components.
+
+### Behavior
+
+- A new value is generated only when the **Clock** receives a HIGH signal.
+- The generated value is displayed directly on the element in **decimal notation**.
+- The output respects the specified **BitWidth** of the circuit.
+- If the Max Value is changed during simulation, subsequent outputs follow the updated range.
+
+### Applications
+
+The Random element can be used to:
+
+- Simulate sensor noise or unpredictable signals  
+- Test combinational and sequential logic circuits  
+- Demonstrate probability-based digital systems  
+- Create randomized test patterns  
 
 You can verify the behavior of the **Random** circuit element in the live circuit embedded below:
 
 <iframe
   width="600px"
   height="400px"
-  src="https://circuitverse.org/simulator/embed/12041"
+  src="https://circuitverse.org/simulator/embed/REPLACE_WITH_PROJECT_ID"
   id="projectPreview"
   scrolling="no"
   webkitAllowFullScreen
   mozAllowFullScreen
   allowFullScreen
 ></iframe>
+
 
 ## Counter
 

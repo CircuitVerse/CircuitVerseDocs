@@ -17,7 +17,9 @@ description: "Misc page in Chapter4 of CircuitVerse documentation."
 9. [Unequal Split](#unequal-split)
 10. [Flag](#flag)
 11. [Two's Complement](#twos-complement)
-
+12. [Force gate](#force-gate)
+13. [TB Input](#tb-input)
+14. [TB Output](#tb-output)
 ## ALU
 
 An **Arithmetic Logic Unit** (ALU) circuit element is a combinational digital electronic circuit that performs arithmetic and bitwise operations on integer binary numbers. Figure 4.15 highlights the different ports in the ALU circuit element available within CircuitVerse and Table 4.19 provides a brief description of the different ports.
@@ -565,6 +567,106 @@ You can verify the behavior of the **Two’s Complement** circuit element in the
   width="600px"
   height="400px"
   src="https://circuitverse.org/simulator/embed/110615"
+  id="projectPreview"
+  scrolling="no"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+></iframe>
+
+## Force Gate
+
+The **Force Gate** circuit element is used to override an incoming signal and force the output to a fixed logic value.
+
+It is mainly used during debugging and testing to maintain a specific logic state in the circuit.
+
+### Behavior
+
+- Forces output to either `HIGH (1)` or `LOW (0)`.
+- Ignores the actual incoming signal when active.
+- Useful for maintaining constant states in complex designs.
+
+### Applications
+
+- Debugging large circuits
+- Forcing reset or control conditions
+- Testing specific signal paths
+
+You can verify the behavior of the **Force Gate** circuit element in the live circuit embedded below:
+
+<iframe
+  width="600px"
+  height="400px"
+  src="https://circuitverse.org/simulator/embed/REPLACE_WITH_PROJECT_ID"
+  id="projectPreview"
+  scrolling="no"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+></iframe>
+
+---
+
+## TB Input
+
+The **TB Input** circuit element represents the input side of a Tri-State Buffer. It is used in circuits where multiple devices share a common communication line.
+
+### Ports
+
+- **Data Input**
+- **Enable**
+
+### Behavior
+
+- When **Enable = HIGH**, the input signal is passed forward.
+- When **Enable = LOW**, the output enters a High-Impedance (Z) state.
+- High-Impedance disconnects the element from the shared line, preventing interference.
+
+### Applications
+
+- Shared bus systems
+- Memory and processor communication
+- Preventing signal conflicts
+
+You can verify the behavior of the **TB Input** circuit element in the live circuit embedded below:
+
+<iframe
+  width="600px"
+  height="400px"
+  src="https://circuitverse.org/simulator/embed/REPLACE_WITH_PROJECT_ID"
+  id="projectPreview"
+  scrolling="no"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+></iframe>
+
+---
+
+## TB Output
+
+The **TB Output** circuit element represents the output side of a Tri-State Buffer.
+
+It allows a signal to either drive a shared line or remain electrically disconnected.
+
+### Behavior
+
+- Outputs the signal when enabled.
+- Outputs High-Impedance (Z) when disabled.
+- Prevents bus contention when multiple outputs are connected to the same wire.
+
+### Applications
+
+- Bidirectional communication lines
+- Bus architectures
+- Peripheral interfacing
+
+You can verify the behavior of the **TB Output** circuit element in the live circuit embedded below:
+
+<iframe
+  width="600px"
+  height="400px"
+  src="https://circuitverse.org/simulator/embed/REPLACE_WITH_PROJECT_ID"
   id="projectPreview"
   scrolling="no"
   webkitAllowFullScreen
