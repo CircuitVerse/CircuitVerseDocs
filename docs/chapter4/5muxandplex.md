@@ -254,7 +254,7 @@ Table 4.5: Truth table of a four-bit bit selector
 
 ## Most Significant Bit (MSB) Detector
 
-The **Most Significant Bit (MSB)** detector circuit element outputs the bit position of the most significant bit of the input. In other words, it outputs the bit position of the rightmost bit. An enable output is also provided to show if the MSB detector is active. The bit position of the MSB is also shown in decimal form within the body of the MSB detector.
+The **Most Significant Bit (MSB)** detector circuit element outputs the position of the most significant bit (the **leftmost `1`**) in the input. An enable output is also provided to indicate whether the MSB detector is active. The position of the detected MSB is displayed in decimal form within the body of the MSB detector.
 
 You can verify the behavior of the **Most Significant Bit (MSB)** detector circuit element with a four-bit input in the live circuit embedded below:
 
@@ -273,7 +273,7 @@ You can verify the behavior of the **Most Significant Bit (MSB)** detector circu
 
 ## Least Significant Bit (LSB) Detector
 
-The **Least Significant Bit (LSB)** detector circuit element outputs the bit position of the least significant bit of the input. In other words, it outputs the bit position of the leftmost bit. An enable output is also provided to show if the LSB detector is active. The bit position of the LSB is also shown in decimal form within the body of the LSB detector.
+The **Least Significant Bit (LSB)** detector circuit element outputs the position of the least significant bit (the **rightmost `1`**) in the input. An enable output is also provided to indicate whether the LSB detector is active. The position of the detected LSB is displayed in decimal form within the body of the LSB detector.
 
 You can verify the behavior of the **Least Significant Bit (LSB)** detector circuit element with a four-bit input in the live circuit embedded below:
 
@@ -358,7 +358,7 @@ Table 4.6: Truth table of a four-input priority encoder
 
 ## Decoder
 
-The **Decoder** circuit element includes N input bits and has 2^N output lines.
+The **Decoder** circuit element takes **N input bits** and activates exactly **one of the 2^N output lines** corresponding to the binary value of the input.
 
 In the live circuit embedded below, a **Decoder** with a single two-bit input (T1 and T0 from most to least-significant bit) and four single-bit output lines (O4, O3, O2, and O1 from most to least-significant bit). For the input values set in T1 and T0, the corresponding output line (O4, O3, O2, and O1) is HIGH. Table 4.7 displays the truth table for a two-bit decoder.
 
