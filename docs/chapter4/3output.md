@@ -16,6 +16,7 @@ CircuitVerse features different output elements listed below:
 6. [HexDisplay](#hexdisplay)
 7. [SevenSegDisplay](#sevensegdisplay)
 8. [SixteenSegDisplay](#sixteensegdisplay)
+9. [RGB LED Matrix](#rgb-led-matrix)
 
 ## Output
 
@@ -198,3 +199,34 @@ You can verify the behavior of the **SixteenSegDisplay** circuit element in the 
 </iframe>
 
 As opposed to the **HexDisplay** and **SevenSegDisplay** circuit elements, the main advantage of using a **SixteenSegDisplay** is that multiple segments can be used to create numbers and letters. However, it requires double the input of the **SevenSegDisplay** and quadruple the input of the **HexDisplay**.
+
+## RGB Led Matrix
+
+The **RGB Led Matrix** element represents a rectangular array of RGB pixels and is ideal for simulating programmable LED matrices and pixel displays. Each pixel stores a 24-bit color (8 bits per red, green and blue channels).
+
+Key ways to set pixels:
+
+- Method 1 — Column color pins: drive a 24-bit color into a column's `columnColor` pin while enabling one or more rows with the left-side `rowEnable` pins to fill that color across the selected rows for that column.
+- Method 2 — Row/Column enable + color pin: enable a row (left-side `rowEnable`) and a column (bottom `columnEnable`) and provide a 24-bit color on the element's `COLOR` input to write that color to the intersection pixel(s).
+- Method 3 — Single-pixel write: supply a 24-bit color to the `COLOR` input and provide the target coordinates via the `ROW` and `COLUMN` index inputs (these are integer values encoded as binary on the node). When `ROW` and `COLUMN` are present and valid, the matrix writes the color to that single pixel.
+
+Color format and examples:
+
+- Colors are packed as a single 24-bit unsigned integer where red occupies the top 8 bits, green the middle 8 bits and blue the low 8 bits. In code/pseudocode: `color = (R << 16) | (G << 8) | B`.
+- Example: pure red `R=255,G=0,B=0` → hex `0xFF0000` → decimal `16711680`.
+- Example: orange `R=255,G=128,B=0` → hex `0xFF8000` → decimal `16744448`.
+
+Mutable properties (in the PROPERTIES panel):
+
+- **Rows:** number of rows in the matrix.
+- **Columns:** number of columns in the matrix.
+- **LED Size:** choose the relative pixel size (small / medium / large) used for layout.
+- **Toggle Grid:** show or hide a grid around pixels for easier debugging.
+
+Tips:
+
+- Use the column color pins to quickly paint whole columns by driving a 24-bit value to each column.
+- To program images or animations, combine counters (for row/column indices), a clock, and a constant or register that provides the 24-bit color values (packed as explained above).
+- When saving a circuit, the current color of every pixel is persisted, so previewing saved designs will display the saved image.
+
+<iframe src="https://circuitverse.org/simulator/embed/rgbled-ad6e513a-6174-4d30-bd4b-a97b8934950b?theme=&display_title=false&clock_time=true&fullscreen=true&zoom_in_out=true" style="border-width:; border-style: ; border-color:;" name="myiframe" id="projectPreview" scrolling="no" frameborder="1" marginheight="0px" marginwidth="0px" height="500" width="500" allowFullScreen></iframe>
