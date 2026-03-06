@@ -121,7 +121,7 @@ You can configure CircuitVerse as an external app for Canvas. For more informati
 2. Select **Site Info** from the left sidebar.
 3. Click on **External Tools** tab.
 4. Click on **Install LTI 1.x Tool** link on the right of that page.
-5. Enter the following informations :
+5. Enter the following information :
 
 | Field in Sakai | Value or setting                                          |
 | -------------- | --------------------------------------------------------- |
