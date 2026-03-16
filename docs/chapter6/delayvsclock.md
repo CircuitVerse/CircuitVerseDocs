@@ -35,3 +35,28 @@ The below design restrictions have been implemented in the CV simulator to ease 
 2. Similarly, circuits go into a stable state before processing input signals from different input elements like buttons and stepper.
 3. Contamination delay = Propagation delay
 4. Hold time = 0
+
+### Practical Usage in the Simulator
+
+The Delay property controls *when* a signal transition appears at the
+output of a component, not *what* value is produced.
+
+When a Delay is applied:
+- An input transition occurs immediately
+- The corresponding output transition is scheduled after the specified delay
+
+This behavior becomes clearly visible when using the **Timing Diagram**
+or when Delay is applied to output components such as LEDs.
+
+#### Example
+
+- Input changes from `0` to `1` at time `t`
+- Output updates at time `t + Delay`
+
+The logical value remains unchanged; only the timing of the update is
+affected.
+
+#### Notes
+
+- Delay does not modify the logic of the circuit
+- Delay only affects signal propagation time
