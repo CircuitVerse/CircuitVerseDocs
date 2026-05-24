@@ -6,7 +6,7 @@ description: "Properties page in Chapter3 of CircuitVerse documentation."
 
 # Properties Panel
 
-Each circuit element has some properties associated with itself which are displayed in the **PROPERTIES** panel. Besides including different parameters for creating multi-bit circuits, it also includes parameters for annotation. the circuit schematic can be annotated by:
+Each circuit element has some properties associated with itself which are displayed in the **PROPERTIES** panel. Besides including different parameters for creating multi-bit circuits, it also includes parameters for annotation. The circuit schematic can be annotated by:
 
 - Adding labels across different nodes.
 - Including text boxes for displaying the version number, date, amendments and different group members involved.
@@ -130,7 +130,7 @@ Table 3.7: Brief description of the different properties available for different
 
 ## Edit Circuit Layout
 
-As shown in Figure 3.14, the **Edit Layout** button available on the **PROPERTIES** panel converts the circuit into a black box. The circuit elements and the relevant connections are hidden whereas the input and output pins are displayed (in the same order as displayed in the main circuit ).
+As shown in Figure 3.14, the **Edit Layout** button available on the **PROPERTIES** panel converts the circuit into a black box. The circuit elements and the relevant connections are hidden whereas the input and output pins are displayed (in the same order as displayed in the main circuit).
 
 ![drawing](/img/img_chapter3/3.14.png)
 
@@ -140,7 +140,8 @@ As shown in Figure 3.14, the **Edit Layout** button available on the **PROPERTIE
 
 As required, a user can use the **LAYOUT ELEMENTS** panel to add any circuit elements inside the subcircuit (black box), and the **LAYOUT** panel to edit the layout of the circuit. Refer Figure 3.15. Table 8 provides a brief description of the different settings available on the **LAYOUT** panel.
 
-> NOTE: Circuit layout must be edited before inserting a circuit or completing the wiring connections. If the node positions within the circuit layout are edited after making the wiring connections, then some of the wiring connections across different nodes or ports in the integrated circuit schematic may be lost.
+> NOTE: Circuit layout must 
+be edited before inserting a circuit or completing the wiring connections. If the node positions within the circuit layout are edited after making the wiring connections, then some of the wiring connections across different nodes or ports in the integrated circuit schematic may be lost.
 
 > TIP: Make all the necessary changes within the circuit layout prior to the wiring connections.
 
