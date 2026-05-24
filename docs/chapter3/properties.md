@@ -140,8 +140,7 @@ As shown in Figure 3.14, the **Edit Layout** button available on the **PROPERTIE
 
 As required, a user can use the **LAYOUT ELEMENTS** panel to add any circuit elements inside the subcircuit (black box), and the **LAYOUT** panel to edit the layout of the circuit. Refer Figure 3.15. Table 8 provides a brief description of the different settings available on the **LAYOUT** panel.
 
-> NOTE: Circuit layout must 
-be edited before inserting a circuit or completing the wiring connections. If the node positions within the circuit layout are edited after making the wiring connections, then some of the wiring connections across different nodes or ports in the integrated circuit schematic may be lost.
+> NOTE: Circuit layout must be edited before inserting a circuit or completing the wiring connections. If the node positions within the circuit layout are edited after making the wiring connections, then some of the wiring connections across different nodes or ports in the integrated circuit schematic may be lost.
 
 > TIP: Make all the necessary changes within the circuit layout prior to the wiring connections.
 
