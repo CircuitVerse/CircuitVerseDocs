@@ -1,8 +1,5 @@
 [build]
   #Directory to publish
   publish = "build/"
-  command = "npm ci && npm run build"
-
-[build.environment]
-  NODE_VERSION = "18"
+  command = "npm run build"
 
