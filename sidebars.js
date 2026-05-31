@@ -16,7 +16,7 @@ const sidebars = {
       type: 'category',
       label: 'Chapter 1: Introduction',
       items: [
-        { type: 'doc', id: 'chapter1/chapter1-introduction', label: 'Introduction' },
+        { type: 'doc', id: 'chapter1/1introduction', label: 'Introduction' },
         { type: 'doc', id: 'chapter1/chapter1-keyfeatures', label: 'Key Features' },
         { type: 'doc', id: 'chapter1/chapter1-systemrequirements', label: 'System Requirements' },
       ],

@@ -7,7 +7,7 @@ const config = {
 	tagline: 'Explore Digital Circuits Online',
 	favicon: 'img/favicon.ico',
 
-	url: 'https://circuitverse-docs.netlify.app/', // Netlify production URL
+	url: 'https://circuitverse-docs.netlify.app/',
 	baseUrl: '/',
 
 	organizationName: 'CircuitVerse',
@@ -27,10 +27,11 @@ const config = {
 			{
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
-					editUrl: 'https://github.com/CircuitVerse/CircuitVerseDocs/edit/master/',
+					editUrl:
+						'https://github.com/CircuitVerse/CircuitVerseDocs/edit/master/',
 					routeBasePath: '/',
 				},
-				blog: false, // Disable blog
+				blog: false,
 				theme: {
 					customCss: [
 						require.resolve('./src/css/theme.css'),
@@ -44,6 +45,7 @@ const config = {
 
 	themeConfig: {
 		image: 'img/favicon.ico',
+
 		navbar: {
 			title: 'CircuitVerse Docs',
 			logo: {
@@ -53,7 +55,7 @@ const config = {
 			items: [
 				{
 					type: 'doc',
-					docId: 'chapter1/chapter1-introduction', // Points to Introduction as root
+					docId: 'chapter1/1introduction',
 					position: 'left',
 					label: 'Documentation',
 				},
@@ -69,20 +71,30 @@ const config = {
 				},
 			],
 		},
+
 		footer: {
 			style: 'dark',
 			links: [
 				{
 					title: 'Docs',
 					items: [
-						{ label: 'Introduction', to: '/' },
-						{ label: 'Getting Started', to: '/chapter2/chapter2-gettingstarted' },
+						{
+							label: 'Introduction',
+							to: '/',
+						},
+						{
+							label: 'Getting Started',
+							to: '/chapter2/chapter2-gettingstarted',
+						},
 					],
 				},
 				{
 					title: 'Community',
 					items: [
-						{ label: 'CircuitVerse Forum', href: 'https://circuitverse.org/forum' },
+						{
+							label: 'CircuitVerse Forum',
+							href: 'https://circuitverse.org/forum',
+						},
 						{
 							label: 'GitHub Discussions',
 							href: 'https://github.com/orgs/CircuitVerse/discussions',
@@ -92,7 +104,10 @@ const config = {
 				{
 					title: 'More',
 					items: [
-						{ label: 'GitHub', href: 'https://github.com/CircuitVerse' },
+						{
+							label: 'GitHub',
+							href: 'https://github.com/CircuitVerse',
+						},
 						{
 							label: 'YouTube',
 							href: 'https://www.youtube.com/@circuitverse-official',
@@ -100,29 +115,36 @@ const config = {
 					],
 				},
 			],
+
 			copyright: `Copyright © ${new Date().getFullYear()} CircuitVerse. Built with Docusaurus.`,
 		},
+
 		prism: {
 			theme: prismThemes.github,
 			darkTheme: prismThemes.dracula,
 			additionalLanguages: ['javascript', 'python', 'css'],
 		},
+
 		colorMode: {
 			defaultMode: 'light',
 			disableSwitch: false,
 			respectPrefersColorScheme: true,
 		},
+
 		algolia: {
 			appId: 'DM4KWCC17E',
 			apiKey: '39b1e358bb863804871f81fba53b8f1d',
 			indexName: 'circuitverse-netlify',
 			contextualSearch: true,
-			searchParameters: {}, // Optional: Additional Algolia search parameters
+			searchParameters: {},
 		},
 	},
+
 	markdown: {
-		format: 'md'
-	}
+		format: 'detect',
+	},
 };
 
 export default config;
+
+
