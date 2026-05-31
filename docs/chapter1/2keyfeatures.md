@@ -19,7 +19,7 @@ This section shares key features of the CircuitVerse simulator.
 2. **Transform your ideas using a powerful, intuitive and interactive schematic editor**:
 
    - **Design using an easy-to-use interactive schematic editor**: As users drag and drop circuit elements on the canvas, horizontal and vertical wires can be drawn to complete the circuit connections. The wires are color-coded to test and analyze the circuit simulations with ease.
-   - **Customize input attributes of circuit components**: CircuitVerse includes a vast library of circuit elements that range from basic gates to register transfer level design, and from basic input/output to system level components. Most of the CircuitVerse components include customizable attributes for building complex designs within the simulator.
+   - **Customize input attributes of circuit components**: CircuitVerse includes a vast library of circuit elements that range from basic gates to register transfer level design, and from basic input/output to system-level components. Most of the CircuitVerse components include customizable attributes for building complex designs within the simulator.
    - **Design supports multibit wires (buses)**: Every input and output circuit element has a bit width associated with it. Most of the CircuitVerse components include attributes allowing you to customize the bit widths of their inputs and outputs. CircuitVerse supports multibit wires across two components demanding multi-bit widths. As needed, splitters can also be used to direct bits in different directions.
 
 3. **Insert subcircuits**: Hierarchical circuits can be created by nesting and reusing smaller circuits in larger circuits.
