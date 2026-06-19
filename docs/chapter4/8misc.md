@@ -17,6 +17,7 @@ description: "Misc page in Chapter4 of CircuitVerse documentation."
 9. [Unequal Split](#unequal-split)
 10. [Flag](#flag)
 11. [Two's Complement](#twos-complement)
+12. [Force Gate](#force-gate)
 
 ## ALU
 
@@ -565,6 +566,76 @@ You can verify the behavior of the **Two’s Complement** circuit element in the
   width="600px"
   height="400px"
   src="https://circuitverse.org/simulator/embed/110615"
+  id="projectPreview"
+  scrolling="no"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+></iframe>
+
+## Force Gate
+
+The **Force Gate** is a logical circuit element used to override and control binary values in a connected circuit. It allows users to force specific logic values during simulation, enabling effective testing, debugging, and custom behavior analysis.
+
+Unlike standard logic gates, the Force Gate does not compute outputs based on logical operations. Instead, it directly applies a user-defined value to the connected input. 
+
+>Properties that can be customized in the **PROPERTIES** panel include: **Direction, BitWidth, Delay, Label**
+
+![drawing](/img/img_chapter4/4.25.png)
+
+<div align="center"><em>Figure 4.25: Relevant attributes for the Force Gate element</em></div>
+
+Table 4.26: Truth table for a Force Gate
+<table>
+  <tr>
+   <td><strong>Enable</strong>
+   </td>
+   <td><strong>Input</strong>
+   </td>
+   <td><strong>Output</strong>
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>0
+   </td>
+   <td>0
+   </td>
+  </tr>
+  <tr>
+   <td>0
+   </td>
+   <td>1
+   </td>
+   <td>0
+   </td>
+  </tr>
+  <tr>
+   <td>1
+   </td>
+   <td>0
+   </td>
+   <td>1
+   </td>
+  </tr>
+  <tr>
+   <td>1
+   </td>
+   <td>1
+   </td>
+   <td>1
+   </td>
+  </tr>
+</table>
+
+>- When Enable is HIGH, the output is forced HIGH regardless of the input value.
+>- When Enable is LOW, the output is forced LOW regardless of the input value.
+
+<iframe
+  width="600px"
+  height="400px"
+  src="https://circuitverse.org/simulator/embed/force-gate-94a2948e-0478-4d9e-993a-496f8b00784c"
   id="projectPreview"
   scrolling="no"
   webkitAllowFullScreen
