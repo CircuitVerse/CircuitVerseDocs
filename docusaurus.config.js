@@ -82,7 +82,7 @@ const config = {
 				{
 					title: 'Community',
 					items: [
-						{ label: 'CircuitVerse Forum', href: 'https://circuitverse.org/forum' },
+						{ label: 'CircuitVerse Forum', href: 'https://circuitverse.discourse.group' },
 						{
 							label: 'GitHub Discussions',
 							href: 'https://github.com/orgs/CircuitVerse/discussions',

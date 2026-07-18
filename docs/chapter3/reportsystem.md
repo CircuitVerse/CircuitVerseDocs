@@ -21,4 +21,4 @@ A user can report an unexpected behavior frequently using **Report an issue** bu
 
 Alternatively, any ideas, feature requests or bug fixes can be submitted on GitHub at https://github.com/CircuitVerse/CircuitVerse/issues/new/choose.
 
-> TIP: Before reporting an issue, submit a query on the CircuitVerse Forum (https://circuitverse.org/forum) to learn more about similar experiences or known workarounds.
+> TIP: Before reporting an issue, submit a query on the CircuitVerse Forum (https://circuitverse.discourse.group) to learn more about similar experiences or known workarounds.
