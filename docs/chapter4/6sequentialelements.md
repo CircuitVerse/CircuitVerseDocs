@@ -498,6 +498,18 @@ The **Clock **circuit element toggles its output at regular time intervals.
 > NOTE: All clocks enabled within a circuit toggle at the same rate.
 
 You can verify the behavior of the **Clock** circuit element in the live circuit embedded below:
+<iframe
+  width="600px"
+  height="400px"
+  src="https://circuitverse.org/simulator/embed/Vaishali171"
+  id="projectPreview"
+  scrolling="no"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+>
+  {" "}
+</iframe>
 
 ## ROM
 
