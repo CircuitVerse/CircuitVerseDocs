@@ -501,7 +501,7 @@ You can verify the behavior of the **Clock** circuit element in the live circuit
 <iframe
   width="600px"
   height="400px"
-  src="https://circuitverse.org/simulator/embed/Vaishali171"
+src="https://circuitverse.org/simulator/embed/clock-demo-273a4bbd-2311-495e-b4cb-279d740ecf41"
   id="projectPreview"
   scrolling="no"
   webkitAllowFullScreen
