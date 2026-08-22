@@ -205,6 +205,7 @@ You can verify the behavior of the **T Flip Flop **circuit element in the live c
   width="600px"
   height="400px"
   src="https://circuitverse.org/simulator/embed/12258"
+  title="Clock circuit element demo"
   id="projectPreview"
   scrolling="no"
   webkitAllowFullScreen
