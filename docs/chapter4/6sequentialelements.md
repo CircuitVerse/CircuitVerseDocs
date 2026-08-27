@@ -205,6 +205,7 @@ You can verify the behavior of the **T Flip Flop **circuit element in the live c
   width="600px"
   height="400px"
   src="https://circuitverse.org/simulator/embed/12258"
+    title="T Flip Flop circuit element demo"
   id="projectPreview"
   scrolling="no"
   webkitAllowFullScreen
@@ -498,6 +499,19 @@ The **Clock **circuit element toggles its output at regular time intervals.
 > NOTE: All clocks enabled within a circuit toggle at the same rate.
 
 You can verify the behavior of the **Clock** circuit element in the live circuit embedded below:
+<iframe
+  width="600px"
+  height="400px"
+src="https://circuitverse.org/simulator/embed/clock-demo-273a4bbd-2311-495e-b4cb-279d740ecf41"
+    title="Clock circuit element demo"
+ id="projectPreview"
+  scrolling="no"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+>
+  {" "}
+</iframe>
 
 ## ROM
 
