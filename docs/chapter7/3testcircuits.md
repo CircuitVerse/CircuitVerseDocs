@@ -48,22 +48,26 @@ And get detailed results!
 ![drawing](../images/img_chapter7/detailed.png)
 ### TB Input and TB Output
 
-Once a test is attached to a circuit, CircuitVerse automatically generates **TB Input** and **TB Output** blocks on the canvas for each labeled Input/Output element used in the test. These blocks let you visually track the test's live state.
+Once a test is attached to a circuit, CircuitVerse automatically generates **TB Input** and **TB Output** blocks on the canvas for each labelled Input/Output element used in the test.
 
-Each block displays:
+**TB Input** displays:
 - The TestBench name
 - Whether the test is actively running
 - The current test case number
 
-> Properties that can be customized in the **PROPERTIES** panel include: **BitWidth, Delay, Label, Label Direction, Direction**
+**TB Output** displays:
+- The TestBench name
+- Whether it is Paired or Unpaired
 
-When a TB_Output block is correctly matched (by label) to a real Output element in your circuit, it displays **"Paired"**. Selecting either block highlights it in yellow, same as any other circuit element.
+> Properties that can be customized in the **PROPERTIES** panel include: **TestBench Name, Reset Iterations, Toggle State** (for TB Input) and **TestBench Name** (for TB Output)
+
+A TB_Output block shows **"Paired"** when it finds a matching TB_Input with the same identifier — this is separate from whether your test's output label actually matches a real Output element in your circuit. Use the **Validate** button to confirm your circuit elements are correctly matched, since TB_Output can show "Paired" even when circuit validation reports a mismatch. Selecting either block highlights it in yellow, same as any other circuit element.
 
 You can verify this behavior in the live circuit embedded below:
 
 <iframe
-  width="600px"
-  height="400px"
+  width="600"
+  height="400"
   src="https://circuitverse.org/simulator/embed/tb-input-output-demo"
   title="TB Input and TB Output demo"
   id="projectPreview"
