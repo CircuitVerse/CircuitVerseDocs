@@ -46,3 +46,31 @@ Click `Run All` to run all the tests in an instant
 And get detailed results!
 
 ![drawing](../images/img_chapter7/detailed.png)
+### TB Input and TB Output
+
+Once a test is attached to a circuit, CircuitVerse automatically generates **TB Input** and **TB Output** blocks on the canvas for each labeled Input/Output element used in the test. These blocks let you visually track the test's live state.
+
+Each block displays:
+- The TestBench name
+- Whether the test is actively running
+- The current test case number
+
+> Properties that can be customized in the **PROPERTIES** panel include: **BitWidth, Delay, Label, Label Direction, Direction**
+
+When a TB_Output block is correctly matched (by label) to a real Output element in your circuit, it displays **"Paired"**. Selecting either block highlights it in yellow, same as any other circuit element.
+
+You can verify this behavior in the live circuit embedded below:
+
+<iframe
+  width="600px"
+  height="400px"
+  src="https://circuitverse.org/simulator/embed/tb-input-output-demo"
+  title="TB Input and TB Output demo"
+  id="projectPreview"
+  scrolling="no"
+  webkitAllowFullScreen
+  mozAllowFullScreen
+  allowFullScreen
+>
+  {" "}
+</iframe>
