@@ -358,7 +358,7 @@ Table 4.6: Truth table of a four-input priority encoder
 
 ## Decoder
 
-The **Decoder** circuit element converts an **N-bit** binary input into up to **2<sup>N</sup>** output lines, activating exactly **one** output line corresponding to the binary value of the input.
+The **Decoder** circuit element converts an **N-bit** binary input into **2<sup>N</sup>** output lines, activating exactly **one** output line corresponding to the binary value of the input.
 
 In the live circuit embedded below, a **Decoder** with a single two-bit input (T1 and T0 from most to least-significant bit) and four single-bit output lines (O4, O3, O2, and O1 from most to least-significant bit). For the input values set in T1 and T0, the corresponding output line (O4, O3, O2, and O1) is HIGH. Table 4.7 displays the truth table for a two-bit decoder.
 
