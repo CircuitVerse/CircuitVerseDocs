@@ -1,6 +1,6 @@
 # Verilog Code to Circuit
 
-CircuitVerse allows you to convert Verilog code into a circuit. This feature is useful for those who prefer writing hardware descriptions in Verilog and want to visualize the corresponding circuit by simulating it in CircuitVerse Simulator.
+CircuitVerse allows you to convert Verilog code into a circuit. This feature is useful for those who prefer writing hardware descriptions in Verilog and want to visualise the corresponding circuit by simulating it in CircuitVerse Simulator.
 
 ## Steps to Convert Verilog Code to Circuit
 
@@ -75,9 +75,9 @@ After compiling and generating the circuit, you should see a circuit with two in
 
 ## Tips and Warning
 
-- The V2C Generator does not support all the Verilog Constructs, so it might fail to generate circuit for some verilog code.
+- The V2C Generator does not support all the Verilog Constructs, so it might fail to generate circuit for some Verilog code.
 - Ensure that your Verilog code is well-commented to make it easier to understand and debug.
 - Use meaningful names for inputs, outputs, and internal signals and use proper data-types to avoid mistakes.
-- Avoid using verilog constructs like file I/O.
+- Avoid using Verilog constructs like file I/O.
 
 By following these steps, you can easily convert Verilog code into a digital circuit using CircuitVerse, allowing for better visualization and testing of your hardware designs.

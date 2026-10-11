@@ -1,6 +1,6 @@
 # Verilog support in CircuitVerse
 
-CircuitVerse together with providing a graphical interface for designing circuits, it also supports Verilog which is a popular hardware description languages which allows the users to simulate hardware and test them. CircuitVerse provides two types of verilog features:
+CircuitVerse together with providing a graphical interface for designing circuits, it also supports Verilog which is a popular Hardware Description Language (HDL) that allows the users to model hardware and test them. CircuitVerse provides two types of Verilog features:
 
   - [Circuit to Verilog code](#Circuit-to-Verilog-code)
     - [Steps to Convert Circuit to Verilog Code](#Steps-to-Convert-Circuit-to-Verilog-Code)
@@ -9,7 +9,7 @@ CircuitVerse together with providing a graphical interface for designing circuit
   - [Verilog code to Circuit](2verilogtocircuit.md)
 
 ## Circuit to Verilog code
-CircuitVerse allows users to convert graphical circuits into Verilog code and export them to be run by different verilog simulators like EDA playground and reconfigurable integrated circuits like FPGAs (NOTE: CV doesn't generate bitstreams for hardware).
+CircuitVerse allows users to convert graphical circuits into Verilog code and export them to be run by different Verilog simulators like EDA Playground or synthesis tools for target devices like FPGAs (NOTE: CircuitVerse exorts gate-level/structural Verilog code and does not generate bitstreams directly).
 
 ## Steps to Convert Circuit to Verilog Code
 
@@ -42,14 +42,14 @@ CircuitVerse allows users to convert graphical circuits into Verilog code and ex
     - EDA playground is suggested as simulator to run the generated verilog module (Icarus verilog is the supported version).
 
 6. **Testbench code generated**:
-    - The verilog window also contains testbench for the generated verilog module generated but is commented out, it is not filled with the sample values and the user need to enter it manually.
+    - The verilog window also contains a commented-out testbench template for the generated module. Sample test vectors are not pre-filled, so users must enter test inputs manually.
 
 ## Features and Verilog construct provided by Circuitverse
 CircuitVerse supports a variety of Verilog constructs, including:
 
 - **Primitive Gates**: Basic logic gates like AND, OR, NOT, NAND, NOR, XOR, and XNOR can be defined using Verilog.
-- **Sequential elements**: Sequential elements like flip-flops, latches, RAM, ROM, ALU etc can be defined using Verilog.
-- **Gate-Level and Behavioral Code**: CV supports generating Verilog code at both gate and behavioral levels, depending on circuit complexity .
+- **Sequential elements**: Sequential elements like flip-flops, latches, RAM, ROM, etc can be defined using Verilog.
+- **Gate-Level and Behavioral Code**: CircuitVerse primarily generates structural/gate-level Verilog code based on the underlying circuit design and subcircuit hierarchy.
 - **Verilog Module Instantiations and Subcircuits**: Each subcircuit in CircuitVerse is converted into a separate Verilog module which is then instantiated in the main module.
 
 ## Example
@@ -73,4 +73,4 @@ endmodule
 ```
 
 
-> TIP: By following these steps, you can efficiently convert your CircuitVerse designs into Verilog code, integrate it into your verilog project and do further simulation and integration into your digital design workflow. The generated verilog code can be also used in reconfigured circuit boards like FPGAs to simulate the hardware.
+> TIP: By following these steps, you can efficiently convert your CircuitVerse designs into Verilog code, integrate it into your verilog project, and use it for further simulation or synthesis. The generated Verilog code can be also be imported into hardware synthesis toolchains for FPGA implementation.
