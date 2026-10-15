@@ -8,18 +8,17 @@ description: "Sequentialelements page in Chapter4 of CircuitVerse documentation.
 
 CircuitVerse features the following circuit elements in this category:
 
-- [Sequential Elements](#sequential-elements)
-  - [D Flip Flop](#d-flip-flop)
-  - [D Latch](#d-latch)
-  - [T Flip Flop](#t-flip-flop)
-  - [SR Flip Flop](#sr-flip-flop)
-  - [JK Flip Flop](#jk-flip-flop)
-  - [TTY](#tty)
-  - [Keyboard](#keyboard)
-  - [Clock](#clock)
-  - [ROM](#rom)
-  - [RAM](#ram)
-  - [EEPROM](#eeprom)
+- [D Flip Flop](#d-flip-flop)
+- [D Latch](#d-latch)
+- [T Flip Flop](#t-flip-flop)
+- [SR Flip Flop](#sr-flip-flop)
+- [JK Flip Flop](#jk-flip-flop)
+- [TTY](#tty)
+- [Keyboard](#keyboard)
+- [Clock](#clock)
+- [ROM](#rom)
+- [RAM](#ram)
+- [EEPROM](#eeprom)
 
 ## D Flip Flop
 

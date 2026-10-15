@@ -18,7 +18,7 @@ CircuitVerse features different output elements listed below:
 8. [SixteenSegDisplay](#sixteensegdisplay)
 9. [RGB LED Matrix](#rgb-led-matrix)
 
-## Output
+## Output {#output}
 
 When the **Output** circuit element is connected to another circuit element, it displays the relevant output in binary form.
 

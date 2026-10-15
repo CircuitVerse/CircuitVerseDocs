@@ -16,7 +16,7 @@ CircuitVerse features different input elements listed below:
 6. [Stepper](#stepper)
 7. [Counter](#counter)
 
-## Input
+## Input {#input}
 
 The **Input** circuit element can have two input states - HIGH or LOW.
 
