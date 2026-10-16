@@ -49,7 +49,7 @@ CircuitVerse supports a variety of Verilog constructs for digital design, includ
 
 - **Primitive Logic Gates**: Basic logic gates like AND, OR, NOT, NAND, NOR, XOR, and XNOR are mapped directly to Verilog gate primitives or continuous assignments.
 - **Combinational Components**: Multi-bit combinational circuits, such as Multiplexers, Decoders, and Arithmetic Logic Units (ALUs), can be defined and exported using continuous assignments and behavioral logic.
-- **Sequential Elements**: State-holding and memory elements like Flip-Flops, Latches, RAM, and ROM are modeled using clock-edge triggered procedural blocks (`always @(posedge clk)`).
+- **Sequential Elements and Memory**: Edge-triggered elements like Flip-Flops (D, T, JK, SR) and synchronous registers are modeled using clock-edge triggered procedural blocks (`always @(posedge clk)`), while level-sensitive latches and memory lookups (such as ROM) are modeled using corresponding level-sensitive procedural blocks or combinational array assignments.
 - **Structural and Behavioral Modeling**: CircuitVerse primarily produces structural Verilog consisting of module instantiations and wire interconnects, complemented by behavioral procedural blocks where needed for complex elements.
 - **Module Instantiations and Subcircuits**: Each subcircuit in CircuitVerse is converted into a separate Verilog module which is then instantiated in the top-level module.
 
