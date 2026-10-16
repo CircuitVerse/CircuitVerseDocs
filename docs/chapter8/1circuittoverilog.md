@@ -2,10 +2,10 @@
 
 CircuitVerse together with providing a graphical interface for designing circuits, it also supports Verilog which is a popular hardware description languages which allows the users to simulate hardware and test them. CircuitVerse provides two types of verilog features:
 
-  - [Circuit to Verilog code](#Circuit-to-Verilog-code)
-    - [Steps to Convert Circuit to Verilog Code](#Steps-to-Convert-Circuit-to-Verilog-Code)
-    - [Features and Verilog construct provided by Circuitverse](#Features-and-Verilog-construct-provided-by-Circuitverse)
-    - [Example](#Example)
+  - [Circuit to Verilog code](#circuit-to-verilog-code)
+    - [Steps to Convert Circuit to Verilog Code](#steps-to-convert-circuit-to-verilog-code)
+    - [Features and Verilog construct provided by Circuitverse](#features-and-verilog-construct-provided-by-circuitverse)
+    - [Example](#example)
   - [Verilog code to Circuit](2verilogtocircuit.md)
 
 ## Circuit to Verilog code

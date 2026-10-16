@@ -8,14 +8,13 @@ description: "Gates page in Chapter4 of CircuitVerse documentation."
 
 CircuitVerse features the following gates in the circuit elements library:
 
-- [Gates](#gates)
-  - [AND Gate](#and-gate)
-  - [OR Gate](#or-gate)
-  - [NOT Gate](#not-gate)
-  - [XOR Gate](#xor-gate)
-  - [NAND Gate](#nand-gate)
-  - [NOR Gate](#nor-gate)
-  - [XNOR Gate](#xnor-gate)
+- [AND Gate](#and-gate)
+- [OR Gate](#or-gate)
+- [NOT Gate](#not-gate)
+- [XOR Gate](#xor-gate)
+- [NAND Gate](#nand-gate)
+- [NOR Gate](#nor-gate)
+- [XNOR Gate](#xnor-gate)
 
 > Properties that can be customized in the **PROPERTIES** panel include: **Bit Width, Input Size, Direction**
 

@@ -8,7 +8,7 @@ description: "Input page in Chapter4 of CircuitVerse documentation."
 
 CircuitVerse features different input elements listed below:
 
-1. [Input](#input)
+1. [Input](#input-element)
 2. [Button](#button)
 3. [Power](#power)
 4. [Ground](#ground)
@@ -16,7 +16,7 @@ CircuitVerse features different input elements listed below:
 6. [Stepper](#stepper)
 7. [Counter](#counter)
 
-## Input
+## Input {#input-element}
 
 The **Input** circuit element can have two input states - HIGH or LOW.
 
