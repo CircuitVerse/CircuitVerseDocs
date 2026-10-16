@@ -8,7 +8,7 @@ description: "Output page in Chapter4 of CircuitVerse documentation."
 
 CircuitVerse features different output elements listed below:
 
-1. [Output](#output)
+1. [Output](#output-element)
 2. [Digital LED](#digital-led)
 3. [VariableLED](#variableled)
 4. [RGBLED](#rgbled)
@@ -18,7 +18,7 @@ CircuitVerse features different output elements listed below:
 8. [SixteenSegDisplay](#sixteensegdisplay)
 9. [RGB LED Matrix](#rgb-led-matrix)
 
-## Output {#output}
+## Output {#output-element}
 
 When the **Output** circuit element is connected to another circuit element, it displays the relevant output in binary form.
 
