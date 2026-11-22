@@ -2,7 +2,7 @@
 id: chapter1-introduction
 title: "Introduction"
 description: "Introduction page in Chapter1 of CircuitVerse documentation."
-slug : /
+slug: /
 ---
 
 # Introduction
@@ -12,6 +12,7 @@ slug : /
   height="330px"
   src="https://circuitverse.org/simulator/embed/701"
   id="projectPreview"
+  title="Ripple carry adder circuit simulation"
   scrolling="no"
   webkitAllowFullScreen
   mozAllowFullScreen
@@ -20,45 +21,42 @@ slug : /
   {" "}
 </iframe>
 
-Inspired by Logisim, CircuitVerse is an open-source educational tool for designing and visualizing digital logic circuit simulations in the cloud. Users, including educators, students, electronic engineers, and hobbyists, can play with digital circuit simulations from their browsers for exploring different “what-if” scenarios. As required, a user can share their creations using unique circuit URLs, or fork different contributions of the CircuitVerse community to yield their curiosity. Figure 1 shares a screenshot of a ripple carry adder simulation built using CircuitVerse.
+Inspired by Logisim, CircuitVerse is an open-source educational tool for designing and visualizing digital logic circuits through simulations in the cloud. Educators, students, electronics engineers, and hobbyists can use it directly in their browsers to explore different circuit designs and experiment with various scenarios.
 
-![](/img/img_chapter1/1.1.png)
+Users can share their creations through unique circuit URLs or fork circuits contributed by the CircuitVerse community to explore and build upon existing designs. Figure 1.1 shows a ripple carry adder simulation created using CircuitVerse.
+
+![Ripple carry adder simulation built using CircuitVerse](/img/img_chapter1/1.1.png)
 
 <div align="center">
   <em>Figure 1.1: Ripple Carry Adder simulation built using CircuitVerse</em>
 </div>
 
-Developed for educators by educators, the CircuitVerse platform delivers a high-quality learning experience in a scalable way. Educators can manage, track, and achieve their classroom learning goals in a single, powerful solution. They can create and manage different student groups, post different assignments, define submission deadlines and add or export grades (refer Figure 2). Using the CircuitVerse Chrome extension, educators can embed live circuits in their Google Slides and demonstrate concepts without navigating across different tabs. Alternatively, they can also export images or embed iframes within their webpages.
+CircuitVerse was developed by educators for educators to provide a high-quality and scalable learning experience. The platform helps educators manage classrooms, track student progress, and organize learning activities in one place.
 
-![](/img/img_chapter1/1.2.png)
+Educators can create student groups, assign tasks, set submission deadlines, and add or export grades (see Figure 1.2). The CircuitVerse Chrome extension also allows educators to embed live circuits in Google Slides, making it easier to demonstrate concepts without switching between tabs. Circuits can also be exported as images or embedded into webpages using iframes.
 
-<div align="center">
-  <em>
-    Figure 1.2: Educators can manage, track, and achieve their classroom
-    learning goals using CircuitVerse platform
-  </em>
-</div>
-
-As the CircuitVerse community grows, educators and students can join the online forums to share ideas, questions, and resources related to teaching and learning digital logic design using CircuitVerse.
-
-![](/img/img_chapter1/1.3.png)
+![Classroom management features in CircuitVerse](/img/img_chapter1/1.2.png)
 
 <div align="center">
-  <em>
-    Figure 1.3: Connect and collaborate on CircuitVerse Forum for sharing ideas,
-    questions, and resources related to teaching and learning digital logic
-    design
-  </em>
+  <em>Figure 1.2: Educators can manage classroom learning activities using CircuitVerse</em>
 </div>
 
-Watch the video below for a quick demonstration of the CircuitVerse platform.
+CircuitVerse also provides an online forum where educators and students can connect, share ideas, ask questions, and exchange resources about teaching and learning digital logic design.
+
+![CircuitVerse community forum](/img/img_chapter1/1.3.png)
+
+<div align="center">
+  <em>Figure 1.3: CircuitVerse forum for sharing ideas, questions, and resources about digital logic design</em>
+</div>
+
+Watch the video below for a quick overview of the CircuitVerse platform.
 
 <div>
   <iframe
     width="500px"
     height="400px"
     src="https://www.youtube.com/embed/3Df-2Cn_80A"
-    frameborder="0"
+    title="CircuitVerse platform demonstration"
     scrolling="no"
     webkitAllowFullScreen
     mozAllowFullScreen
