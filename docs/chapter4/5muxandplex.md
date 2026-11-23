@@ -19,7 +19,7 @@ CircuitVerse features the following circuit elements in this category:
 
 ## Multiplexer
 
-A **Multiplexer** selectively passes only one of the inputs provided to it using a control signal. The number of inputs is always a power of 2. If there are N control bits, then there can be a maximum of 2^N inputs.
+A **Multiplexer (MUX)** selects one of its inputs and forwards it to the output using a control signal. The number of inputs is a power of 2. With N control bits, a multiplexer can select from up to 2^N inputs.
 
 > Properties that can be customized in the **PROPERTIES** panel include: **BitWidth, Control Signal Size**
 
@@ -45,8 +45,8 @@ Table 4.1: Truth table of a 2 to 1 multiplexer
 <iframe
   width="600px"
   height="400px"
-  src="https://circuitverse.org/simulator/embed/746"
-  id="projectPreview"
+  src="https://circuitverse.org/simulator/embed/746"\n  title="2-to-1 multiplexer circuit"
+  id="projectPreview746"
   scrolling="no"
   webkitAllowFullScreen
   mozAllowFullScreen
@@ -90,8 +90,8 @@ Table 4.2: Truth table of a 4 to 1 multiplexer
 <iframe
   width="600px"
   height="400px"
-  src="https://circuitverse.org/simulator/embed/747"
-  id="projectPreview"
+  src="https://circuitverse.org/simulator/embed/747"\n  title="4-to-1 multiplexer circuit"
+  id="projectPreview747"
   scrolling="no"
   webkitAllowFullScreen
   mozAllowFullScreen
@@ -102,7 +102,7 @@ Table 4.2: Truth table of a 4 to 1 multiplexer
 
 ## Demultiplexer
 
-A **Demultiplexer** takes an input and passes it to only one of outputs using a control signal. The number of outputs is always a power of 2. If there are N control bits, we can choose to pass the output to any one of the 2^N output lines.
+A **Demultiplexer (DEMUX)** takes a single input and routes it to one of its outputs using a control signal. The number of outputs is a power of 2. With N control bits, it can route the input to any one of 2^N output lines.
 
 > Properties that can be customized in the **PROPERTIES** panel include: **BitWidth, Control Signal Size**
 
@@ -131,8 +131,8 @@ Table 4.3: Truth table of a 1 to 2 demultiplexer
 <iframe
   width="600px"
   height="400px"
-  src="https://circuitverse.org/simulator/embed/756"
-  id="projectPreview"
+  src="https://circuitverse.org/simulator/embed/756"\n  title="1-to-2 demultiplexer circuit"
+  id="projectPreview756"
   scrolling="no"
   webkitAllowFullScreen
   mozAllowFullScreen
@@ -141,7 +141,7 @@ Table 4.3: Truth table of a 1 to 2 demultiplexer
   {" "}
 </iframe>
 
-In another example of a live circuit embedded below, a 1 to 4 demultiplexer takes in a three-bit input and a two-bit control signal. Table 4.4 displays the truth table of a 1 to 4 demultiplexer.
+In another example of a live circuit embedded below, a 1 to 4 demultiplexer takes a single-bit input and a two-bit control signal. Table 4.4 displays the truth table of a 1 to 4 demultiplexer.
 
 Table 4.4: Truth table of a 1 to 4 demultiplexer
 
@@ -191,8 +191,8 @@ Table 4.4: Truth table of a 1 to 4 demultiplexer
 <iframe
   width="600px"
   height="400px"
-  src="https://circuitverse.org/simulator/embed/757"
-  id="projectPreview"
+  src="https://circuitverse.org/simulator/embed/757"\n  title="1-to-4 demultiplexer circuit"
+  id="projectPreview757"
   scrolling="no"
   webkitAllowFullScreen
   mozAllowFullScreen
